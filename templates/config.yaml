@@ -1,0 +1,29 @@
+name: "{{NAME}}"
+slug: "{{SLUG}}"
+created: "{{DATE}}"
+methodology_version: "0.1.0"   # METHODOLOGY.md version this atlas was built with
+atlas_version: "0.0.0"          # bump on each reviewed release; tag the commit atlas/<slug>/v<version>
+
+scope:
+  definition: ""                # what is inside the industry; filled in Phase 0
+  exclusions: ""                # what is deliberately outside
+  geography: ""                 # e.g. global, with regional breakdowns
+  time_horizon: ""              # e.g. history from 1947, current state as of research date
+  audience: "Beginner with no industry background; must also be auditable by an experienced operator."
+
+stale_after_days: 365           # claims older than this are flagged for re-verification
+
+research:
+  researchers_per_wave: 6       # parallel researcher agents per wave
+  fact_check: "all"             # all | sample. 'all' = every fact/estimate/reported_claim is re-checked
+  stop_when_duplicate_share_above: 0.6   # saturation threshold over the last 10 batches (see `irs saturation`)
+
+scoring:                        # used only in the opportunity phase, after the quality audit passes
+  criteria:
+    - {id: pain_severity,      name: "Pain severity (evidenced)",          weight: 3, direction: higher_is_better}
+    - {id: pain_frequency,     name: "How many participants have it",      weight: 2, direction: higher_is_better}
+    - {id: willingness_to_pay, name: "Evidence of budget / spend",         weight: 3, direction: higher_is_better}
+    - {id: incumbent_gap,      name: "Gap left by existing solutions",     weight: 2, direction: higher_is_better}
+    - {id: regulatory_barrier, name: "Regulatory barrier to entry",        weight: 2, direction: lower_is_better}
+    - {id: capital_intensity,  name: "Capital needed to reach first revenue", weight: 2, direction: lower_is_better}
+    - {id: founder_fit,        name: "Fit with founder's skills and access", weight: 2, direction: higher_is_better}

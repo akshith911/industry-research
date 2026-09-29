@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source",
+  "description": "One document or page consulted. Tier is derived from source_type (see irs/rules.py) and validated, never chosen freely.",
+  "type": "object",
+  "required": ["id", "url", "title", "publisher", "publication_date", "access_date", "source_type", "tier"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+    "url": {"type": "string", "pattern": "^https?://"},
+    "title": {"type": "string", "minLength": 1},
+    "publisher": {"type": "string", "minLength": 1},
+    "publication_date": {"$ref": "#/$defs/fuzzy_date"},
+    "access_date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "source_type": {"enum": [
+      "government", "regulator", "legislation", "official_statistics", "court_record",
+      "company_filing", "annual_report", "investor_presentation", "company_documentation", "industry_body",
+      "research_firm", "academic", "financial_press", "industry_press", "standards_body",
+      "news", "blog", "startup_database", "forum", "social", "aggregator", "encyclopedia", "other"
+    ]},
+    "tier": {"enum": [1, 2, 3]},
+    "paywalled": {"type": "boolean"},
+    "key_document": {"type": "boolean", "description": "true = include in the Document Database"},
+    "doc_type": {"type": "string"},
+    "why_important": {"type": "string"},
+    "research_units": {"type": "array", "items": {"type": "string", "pattern": "^RU-[0-9]{4,}$"}},
+    "notes": {"type": "string"}
+  },
+  "$defs": {
+    "fuzzy_date": {"type": "string", "pattern": "^([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?|unknown)$"}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contradiction",
+  "type": "object",
+  "required": ["id", "topic", "claim_ids", "disagreement", "possible_reasons", "remaining_uncertainty", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^CON-[0-9]{4,}$"},
+    "topic": {"type": "string"},
+    "claim_ids": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string", "pattern": "^CLM-[0-9]{4,}$"}},
+    "disagreement": {"type": "string"},
+    "possible_reasons": {"type": "array", "items": {"type": "string"}, "description": "e.g. different definitions, periods, currencies, populations, methodologies"},
+    "comparable": {"type": "boolean", "description": "false if the numbers measure different things (then it is a definitional difference, not a true conflict)"},
+    "more_defensible": {"type": ["string", "null"], "pattern": "^CLM-[0-9]{4,}$"},
+    "rationale": {"type": "string"},
+    "remaining_uncertainty": {"type": "string"},
+    "status": {"enum": ["open", "resolved", "definitional"]},
+    "recorded_by": {"type": "string"}
+  }
+}

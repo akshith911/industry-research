@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResearchUnit",
+  "type": "object",
+  "required": ["id", "title", "dimension", "why_it_matters", "questions", "expected_outputs", "depends_on", "wave", "priority", "status", "origin"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^RU-[0-9]{4,}$"},
+    "title": {"type": "string"},
+    "dimension": {"type": "string", "description": "a dimension id from ontology.yaml"},
+    "parent_id": {"type": "string", "pattern": "^RU-[0-9]{4,}$"},
+    "why_it_matters": {"type": "string"},
+    "questions": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "subquestions": {"type": "array", "items": {"type": "string"}},
+    "entities": {"type": "array", "items": {"type": "string"}, "description": "names or ids of entities involved"},
+    "primary_sources": {"type": "array", "items": {"type": "string"}, "description": "specific tier-1 places to search"},
+    "secondary_sources": {"type": "array", "items": {"type": "string"}},
+    "expected_outputs": {"type": "array", "minItems": 1, "items": {"enum": ["claims", "sources", "companies", "regulations", "entities", "relations", "glossary", "workflows", "metrics", "contradictions", "interview_queue", "narrative"]}},
+    "depends_on": {"type": "array", "items": {"type": "string", "pattern": "^RU-[0-9]{4,}$"}},
+    "open_questions": {"type": "array", "items": {"type": "string"}},
+    "wave": {"type": "integer", "minimum": 0},
+    "priority": {"enum": ["P0", "P1", "P2"]},
+    "status": {"enum": ["queued", "in_progress", "researched", "fact_checked", "done", "blocked", "dropped"]},
+    "origin": {"enum": ["planner", "gap_finder", "researcher_discovery", "user"]},
+    "origin_ref": {"type": "string", "description": "RU or report that caused this unit to be created"},
+    "status_note": {"type": "string"},
+    "created_at": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+  }
+}

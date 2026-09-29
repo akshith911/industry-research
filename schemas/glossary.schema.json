@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GlossaryTerm",
+  "type": "object",
+  "required": ["id", "term", "simple_definition", "technical_definition"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^TRM-[0-9]{4,}$"},
+    "term": {"type": "string"},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "simple_definition": {"type": "string", "description": "plain language, no jargon"},
+    "technical_definition": {"type": "string"},
+    "where_used": {"type": "string"},
+    "used_by": {"type": "array", "items": {"type": "string"}},
+    "related_terms": {"type": "array", "items": {"type": "string"}},
+    "example": {"type": "string"},
+    "source_ids": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"}},
+    "research_units": {"type": "array", "items": {"type": "string", "pattern": "^RU-[0-9]{4,}$"}}
+  }
+}

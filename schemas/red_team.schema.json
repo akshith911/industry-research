@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RedTeamReview",
+  "type": "object",
+  "required": ["id", "target_id", "reviewer", "challenges", "weakest_assumption", "kill_conditions", "falsifiers", "verdict"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^RT-[0-9]{4,}$"},
+    "target_id": {"type": "string", "description": "OPP-, CLM- or an atlas page path"},
+    "reviewer": {"type": "string"},
+    "challenges": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["question", "finding"], "additionalProperties": false,
+      "properties": {"question": {"type": "string"}, "finding": {"type": "string"}, "claim_ids": {"type": "array", "items": {"type": "string", "pattern": "^CLM-[0-9]{4,}$"}}}
+    }},
+    "weakest_assumption": {"type": "string"},
+    "kill_conditions": {"type": "array", "items": {"type": "string"}},
+    "existing_solutions": {"type": "array", "items": {"type": "string"}},
+    "falsifiers": {"type": "array", "items": {"type": "string"}, "description": "evidence that would disprove the conclusion"},
+    "verdict": {"enum": ["survives", "weakened", "refuted", "insufficient_evidence"]}
+  }
+}

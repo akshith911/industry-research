@@ -1,0 +1,51 @@
+# Industry ontology. Phase 0 REPLACES the entity_types below with the industry's
+# discovered categories (with evidence), and may add predicates/dimensions.
+# Every entity, company role, regulation participant and relation is validated against this file.
+industry: "{{INDUSTRY_NAME}}"
+version: 1
+
+dimensions:   # research dimensions every unit belongs to (from METHODOLOGY.md section 4)
+  - {id: definition,        name: "Industry definition and boundaries"}
+  - {id: history,           name: "Historical evolution"}
+  - {id: market_size,       name: "Market size"}
+  - {id: segmentation,      name: "Segmentation"}
+  - {id: participants,      name: "Participants"}
+  - {id: value_chain,       name: "Value chain"}
+  - {id: money_flows,       name: "Money flows"}
+  - {id: information_flows, name: "Information flows"}
+  - {id: workflows,         name: "Operational workflows"}
+  - {id: business_models,   name: "Business models"}
+  - {id: unit_economics,    name: "Unit economics"}
+  - {id: competition,       name: "Competitive landscape"}
+  - {id: companies,         name: "Company discovery"}
+  - {id: regulation,        name: "Regulation and policy"}
+  - {id: technology,        name: "Technology"}
+  - {id: geography,         name: "Geography"}
+  - {id: dynamics,          name: "Market dynamics and trends"}
+  - {id: problems,          name: "Problems and failures"}
+  - {id: risks,             name: "Risks"}
+  - {id: adjacent,          name: "Adjacent industries"}
+
+entity_types: []   # filled in Phase 0: [{id, name, description, parent, evidence_claim_ids}]
+
+predicates:        # generic relation types; Phase 0 may add industry-specific ones
+  - {id: supplies,        description: "subject sells inputs/components/services to object"}
+  - {id: buys_from,       description: "subject purchases from object"}
+  - {id: produces,        description: "subject makes product/output object"}
+  - {id: uses,            description: "subject uses technology/input object"}
+  - {id: regulates,       description: "authority subject has jurisdiction over object"}
+  - {id: subject_to,      description: "subject must comply with regulation object"}
+  - {id: licenses,        description: "subject licenses IP/technology to object"}
+  - {id: owns,            description: "subject holds controlling equity in object"}
+  - {id: invests_in,      description: "subject holds non-controlling investment in object"}
+  - {id: finances,        description: "subject provides capital/credit/subsidy to object"}
+  - {id: competes_with,   description: "subject and object sell substitutable offerings"}
+  - {id: partners_with,   description: "formal partnership or joint venture"}
+  - {id: depends_on,      description: "subject cannot operate without object"}
+  - {id: part_of,         description: "subject is a component/sub-segment of object"}
+  - {id: instance_of,     description: "subject is an example of category object"}
+  - {id: sends_data_to,   description: "information flows from subject to object"}
+  - {id: pays,            description: "money flows from subject to object"}
+  - {id: certifies,       description: "subject certifies/qualifies object"}
+  - {id: sets_standard_for, description: "subject defines standards used by object"}
+  - {id: located_in,      description: "subject operates in geography object"}

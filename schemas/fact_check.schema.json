@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FactCheck",
+  "type": "object",
+  "required": ["id", "claim_id", "checker", "checked_at", "original_interpretation", "evidence_found", "verdict"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^FC-[0-9]{4,}$"},
+    "claim_id": {"type": "string", "pattern": "^CLM-[0-9]{4,}$"},
+    "checker": {"type": "string", "description": "agent run id; must differ from the claim's recorded_by"},
+    "checked_at": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "source_ids_checked": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"}},
+    "original_interpretation": {"type": "string"},
+    "evidence_found": {"type": "string", "description": "what the checker actually found when re-opening the source"},
+    "verdict": {"enum": ["verified", "partially_verified", "unsupported", "refuted", "outdated", "out_of_context", "source_unavailable"]},
+    "correction": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

@@ -1,0 +1,35 @@
+# Industry run configuration. Created by `python -m irs init`.
+name: "{{INDUSTRY_NAME}}"
+slug: "{{SLUG}}"
+created: "{{DATE}}"
+methodology_version: "{{METHODOLOGY_VERSION}}"
+atlas_version: "0.0.0"          # bump on every merged wave (semver: major = restructure, minor = wave, patch = fixes)
+
+scope:
+  definition: "TBD in Phase 0 (RU on industry definition and boundaries)"
+  geography: "TBD"
+  time_horizon: "history to present; outlook clearly labelled as projection"
+  exclusions: []
+
+stale_after_days: 365            # claims older than this since last_verified are flagged for re-checking
+
+# Research-loop budget and stop condition (METHODOLOGY.md section 9)
+loop:
+  max_parallel_researchers: 6
+  fact_check_sample: all_p0_and_all_metrics   # which claims get independent fact-checks
+  saturation_duplicate_rate: 0.6               # stop signal: >=60% of new claims duplicate existing ones...
+  saturation_new_nodes: 3                      # ...and fewer than 3 new entities/companies/terms/regulations per batch
+  saturation_consecutive_batches: 3            # ...for this many consecutive batches
+
+# Opportunity scoring (only used after the quality audit passes). Inputs are 0-5 ratings with evidence.
+scoring:
+  criteria:
+    - {id: problem_severity,    name: "Problem severity (evidenced)",     weight: 3, direction: higher_is_better}
+    - {id: evidence_strength,   name: "Strength of evidence for the problem", weight: 2, direction: higher_is_better}
+    - {id: willingness_to_pay,  name: "Buyer budget / willingness to pay", weight: 3, direction: higher_is_better}
+    - {id: market_size,         name: "Addressable market size",          weight: 2, direction: higher_is_better}
+    - {id: competition,         name: "Strength of existing solutions",   weight: 2, direction: lower_is_better}
+    - {id: regulatory_barrier,  name: "Regulatory barrier",               weight: 1, direction: lower_is_better}
+    - {id: capital_intensity,   name: "Capital intensity",                weight: 2, direction: lower_is_better}
+    - {id: time_to_revenue,     name: "Time to first revenue",            weight: 1, direction: lower_is_better}
+    - {id: founder_fit,         name: "Founder fit",                      weight: 2, direction: higher_is_better}

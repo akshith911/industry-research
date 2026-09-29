@@ -1,0 +1,56 @@
+# Ontology for this industry. Entity types are DISCOVERED in Phase 0 from evidence,
+# not assumed; leave entity_types empty until the discovery pass proposes them.
+# Every entity, company role, regulation participant and relation predicate must
+# use an id from this file (enforced by `irs validate`). Grow it as research finds new things.
+
+entity_types: []
+#  - {id: foundry, name: "Foundry", description: "...", parent: manufacturer, evidence: [SRC-0001]}
+
+# Generic starter predicates; add industry-specific ones as needed.
+predicates:
+  - {id: supplies, description: "subject sells inputs/products to object"}
+  - {id: buys_from, description: "subject purchases from object"}
+  - {id: pays, description: "subject pays money to object"}
+  - {id: provides_service_to, description: "subject performs services for object"}
+  - {id: produces, description: "subject makes product/output object"}
+  - {id: uses, description: "subject uses technology/input object"}
+  - {id: part_of, description: "subject is a component/stage/subsidiary of object"}
+  - {id: owns, description: "subject holds equity control of object"}
+  - {id: invests_in, description: "subject funds object"}
+  - {id: competes_with, description: "subject competes with object"}
+  - {id: partners_with, description: "subject has a commercial alliance with object"}
+  - {id: licenses_to, description: "subject licenses IP to object"}
+  - {id: distributes, description: "subject distributes object's products"}
+  - {id: regulates, description: "subject has legal authority over object"}
+  - {id: subject_to, description: "subject must comply with regulation object"}
+  - {id: sets_standard_for, description: "subject defines a standard used by object"}
+  - {id: subsidizes, description: "subject gives grants/incentives to object"}
+  - {id: restricts, description: "subject limits trade/activity of object"}
+  - {id: depends_on, description: "subject cannot operate without object"}
+  - {id: located_in, description: "subject is geographically in object"}
+  - {id: sends_information_to, description: "subject transmits data/documents to object"}
+
+# Research dimensions. Every research unit belongs to exactly one.
+dimensions:
+  - {id: definition, name: "Industry definition & boundaries"}
+  - {id: history, name: "Historical evolution"}
+  - {id: market_size, name: "Market size"}
+  - {id: segmentation, name: "Segmentation"}
+  - {id: participants, name: "Participants"}
+  - {id: value_chain, name: "Value chain"}
+  - {id: money_flows, name: "Money flows"}
+  - {id: information_flows, name: "Information flows"}
+  - {id: workflows, name: "Operational workflows"}
+  - {id: business_models, name: "Business models"}
+  - {id: unit_economics, name: "Unit economics"}
+  - {id: competition, name: "Competitive landscape & companies"}
+  - {id: regulation, name: "Regulation & policy"}
+  - {id: technology, name: "Technology"}
+  - {id: geography, name: "Geography"}
+  - {id: capital, name: "Capital, investment & financing"}
+  - {id: labor, name: "Labor & talent"}
+  - {id: dynamics, name: "Market dynamics & trends"}
+  - {id: problems, name: "Problems & failure points"}
+  - {id: risks, name: "Risks"}
+  - {id: adjacent, name: "Adjacent industries"}
+  - {id: data, name: "Datasets & information sources"}

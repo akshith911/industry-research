@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Relation",
+  "description": "Knowledge-graph edge: subject --predicate--> object. predicate must exist in ontology.yaml. Evidence is claim ids.",
+  "type": "object",
+  "required": ["id", "subject_id", "predicate", "object_id"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^REL-[0-9]{4,}$"},
+    "subject_id": {"type": "string", "pattern": "^(ENT|CO|REG)-[0-9]{4,}$"},
+    "predicate": {"type": "string"},
+    "object_id": {"type": "string", "pattern": "^(ENT|CO|REG)-[0-9]{4,}$"},
+    "claim_ids": {"type": "array", "items": {"type": "string", "pattern": "^CLM-[0-9]{4,}$"}},
+    "notes": {"type": "string"}
+  }
+}

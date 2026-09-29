@@ -35,3 +35,321 @@
 
 | Unit | Question |
 |---|---|
+| RU-0002 | Output feeds 'Global chip market time series 1986-2026' and every competition unit. |
+| RU-0002 | [from RU-0215] End-use splits are in RU-0008; do not duplicate. |
+| RU-0002 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0003 | Foundry business model and transfer pricing are RU-0091; this unit is size and shares. |
+| RU-0006 | Seat and bundle pricing is not public (INT-0009); money side sits in RU-0024 and a business-model unit. |
+| RU-0007 | Foundry vs OSAT split of advanced packaging is unknown (CLM-0539); RU-0036 covers the advanced side. |
+| RU-0007 | Pricing is in RU-0022 and INT-0008, not here. |
+| RU-0008 | Deep dives by end market sit in separate dynamics units (automotive/industrial, consumer, AI). |
+| RU-0008 | [from RU-0217] End-use (demand) segmentation is RU-0008; capacity by node is RU-0062. This unit is the product/supply-side taxonomy. |
+| RU-0008 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0008 | Scope split (gap-plan-6a1d): AI/HBM demand mechanics are owned by RU-0016; end-market demand detail by RU-0188 and RU-0189. |
+| RU-0009 | [from RU-0214] Keep statistical codes (NAICS/HS) out of scope: RU-0009 covers them. |
+| RU-0009 | [from RU-0214] Output: one comparison table of definitions with claim ids, feeding every market-size and regulation unit. |
+| RU-0009 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0010 | Overlaps RU-0009 (official classifications): this unit decides scope; RU-0009 maps codes. |
+| RU-0011 | Rising capital intensity and exits from the leading edge are in RU-0116; technology history in RU-0079; pre-2018 policy in RU-0151. |
+| RU-0012 | Current price mechanics and HBM contracting are in RU-0018; keep this unit historical. |
+| RU-0014 | Is there any public source that reports disbursed amounts on a consistent basis across countries? (OECD may be the only one; to verify) |
+| RU-0014 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0016 | Overbuild risk is handled in the risks unit on cyclical and demand risk. |
+| RU-0017 | Questions on prepayments and LTA renegotiation moved to new unit 'Foundry capacity reservation, prepayments and shortfall enforcement across the 2021-2024 cycle'. |
+| RU-0017 | Link to INT-0005. |
+| RU-0018 | Keep historical cycle narrative in RU-0012. |
+| RU-0018 | [from RU-0012] Current price mechanics and HBM contracting are in RU-0018; keep this unit historical. |
+| RU-0018 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0019 | RU-0043 (value_chain) covers channel structure; this unit covers economics only. |
+| RU-0019 | Links: INT-0007, INT-0018, CLM-0277, CLM-0570. |
+| RU-0019 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0019 | Scope split (gap-plan-6a1d): channel share and distributor enumeration are owned by RU-0043; this unit owns channel economics, accounting and problems. |
+| RU-0020 | Scope narrowed: China -> new unit 'China's state and quasi-state capital'; EU/Israel -> 'European and Israeli public money for fabs'; India/SEA -> 'India and Southeast Asia public money'. US federal remains RU-0026. |
+| RU-0020 | Link to CLM-0285. |
+| RU-0021 | RU-0042 (value_chain) covers segment map and supplier concentration; this unit covers commercial terms and service economics. |
+| RU-0021 | Link to CLM-0225. |
+| RU-0021 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0021 | Scope split (gap-plan-6a1d): segment sizes, billings by region and customer concentration are owned by RU-0042. |
+| RU-0022 | Link to INT-0008. |
+| RU-0022 | RU-0007/RU-0044 cover structure; this unit covers pricing and economics. |
+| RU-0022 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0023 | Sample should be reused by the working-capital unit and the wage/labour-cost unit. |
+| RU-0024 | [from RU-0095] Link to INT-0009. |
+| RU-0024 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0025 | Is the 2020 FDP rule change on Huawei cited correctly (85 FR 51596)? to verify |
+| RU-0025 | Which 2026 BIS rules on semiconductors, if any, were published after the discovery cut-off? |
+| RU-0025 | Absorbs the US part of dropped RU-0013. |
+| RU-0026 | INT-0011: were award terms renegotiated after 2025 and with what new conditions? |
+| RU-0026 | US state-level incentives and siting rules are covered in RU-0135. |
+| RU-0027 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0027 | Customs classification, rules of origin and the ITA folded in from RU-0136. |
+| RU-0028 | EU dual-use and FDI screening are covered in RU-0137. |
+| RU-0029 | Taiwan's controls moved to a separate Taiwan unit. |
+| RU-0029 | Absorbs the Dutch/Japanese part of dropped RU-0013. |
+| RU-0030 | Absorbs the China part of dropped RU-0013. |
+| RU-0030 | Big Fund and domestic-substitution policy are covered in RU-0138; CAC review and procurement levers in RU-0139. |
+| RU-0031 | Korea, Taiwan and India moved to their own units. |
+| RU-0031 | Japan FEFTA export controls sit in RU-0029. |
+| RU-0032 | INT-0012: which PFAS and gases fabs depend on and substitution timelines. |
+| RU-0032 | Conflict minerals and ESG disclosure moved to a separate unit; US fab permitting and water moved to 'US fab siting rules'. |
+| RU-0032 | [from RU-0211] INT-0012 relevant. |
+| RU-0032 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0034 | Operational sequence (design stages, tape-out gates, mask turnaround) is in the new design-to-tape-out and tape-out-to-first-silicon workflow units; keep this unit on information content and access. |
+| RU-0034 | MPW question moved to the tape-out-to-first-silicon workflow. |
+| RU-0035 | Cross-company data sharing moved to the new information-flows unit 'Cross-company yield and quality data exchange'. |
+| RU-0035 | [from RU-0078] RU-0035 covers the data flows; this unit covers the supplier landscape. |
+| RU-0035 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0036 | HBM stacking itself is split into a new HBM manufacturing unit; substrates into the IC-substrates unit. |
+| RU-0036 | Pricing belongs to RU-0022. |
+| RU-0037 | Photoresists moved to new unit on lithography materials; masks to the mask-making unit; export-control rules stay in RU-0013/RU-0025/RU-0029. |
+| RU-0038 | Execution risk of transitions is covered by the technology-execution risk unit. |
+| RU-0039 | Order-to-delivery workflow and allocation workflow are separate workflow units. |
+| RU-0040 | Export controls on EDA moved to RU-0025; trade-secret and IP enforcement moved to a separate unit. |
+| RU-0040 | How do contractors trace chip origin through distributors to certify 5949 compliance? (interview) |
+| RU-0041 | Contract terms for consumables are unknown (INT-0019); money-flow depth belongs to a money_flows unit. |
+| RU-0041 | Segment deep dives: wafers, gases/wet chemicals, litho materials, other consumables, IC substrates, critical minerals (new units). |
+| RU-0042 | Service/upgrade economics are in RU-0021; sub-tier suppliers in new unit 'Equipment sub-tier supply base'; lithography in RU-0037. |
+| RU-0042 | Scope split (gap-plan-6a1d): used/refurbished equipment is covered in RU-0050; commercial terms in RU-0021. |
+| RU-0043 | Margins, price protection and ship-and-debit are in RU-0019 (INT-0007); share of direct vs distribution is CLM-0570 / INT-0018. |
+| RU-0043 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0043 | Scope split (gap-plan-6a1d): margins, ship-and-debit and channel problems are owned by RU-0019; counterfeit depth by RU-0088. Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0045 | Business model and NRE economics are RU-0092; data-centre competitive shares are in the new 'Data-centre compute competition' unit. |
+| RU-0045 | [from RU-0092] Link to INT-0002 (are captive chips counted in market statistics). |
+| RU-0045 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0046 | Logistics and fab construction were split into their own new units. |
+| RU-0046 | prereq: Equipment sub-tier supply base |
+| RU-0047 | Country profiles (new geography units) depend on this unit's definitions. |
+| RU-0048 | Output: one table per chokepoint with metric, period, population and claim ids. |
+| RU-0048 | Scope split (gap-plan-6a1d): this w1 register inventories published chokepoint lists and fixes metric definitions; RU-0057 (w3) produces the scorecard and consequences/mitigation. |
+| RU-0049 | Neon and specialty gases are covered in the gases/wet chemicals unit; polysilicon in the wafers unit. |
+| RU-0049 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0050 | [from RU-0046] Logistics and fab construction were split into their own new units. |
+| RU-0050 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0051 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0051 | Taiwan split (gap-plan-6a1d): regulation in RU-0141, country profile in RU-0237; this unit owns concentration evidence, hazards and cross-Strait scenarios (folded from RU-0199). |
+| RU-0052 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0053 | Contradictions between Chinese broker and Western estimates should be recorded, not resolved by judgment. |
+| RU-0053 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0054 | INT-0019 asks the same question of practitioners; answers go there if not public. |
+| RU-0054 | [from RU-0170] INT-0019 relevant. |
+| RU-0054 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0056 | prereq: Chokepoint register; Critical minerals unit; Specialty gases unit. |
+| RU-0056 | Overlap risk with a risks-dimension unit: this unit records the evidence, risks units assess forward likelihood. |
+| RU-0057 | Arithmetic must be done in irs code, not by the researcher. |
+| RU-0057 | [from RU-0205] Coordinate with supply_chain_concentration units owned by another planner; this unit covers consequences and mitigation only. |
+| RU-0057 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0057 | Scope split (gap-plan-6a1d): reuses RU-0048 definitions; consequences of single-supplier outages folded in from RU-0205. |
+| RU-0058 | Overlaps RU-0014/RU-0020 on public money; this unit maps roles, not totals. |
+| RU-0058 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0059 | Design-data handoff is RU-0034; custom silicon is RU-0045. |
+| RU-0059 | The 2019-era 'US$1bn per leading SoC' figure (CLM-0413) needs a current source. |
+| RU-0060 | Royalty economics sit in RU-0024. |
+| RU-0060 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0060 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0061 | INT-0015 and INT-0020 remain open for practitioners. |
+| RU-0061 | [from RU-0100] Link to INT-0015, INT-0020. |
+| RU-0061 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0062 | RU-0047 reconciles regional shares; this unit supplies units and definitions. |
+| RU-0062 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0063 | Test data flows are in RU-0035. |
+| RU-0064 | Contract terms link to INT-0019. |
+| RU-0065 | Environmental compliance depth sits in RU-0032. |
+| RU-0066 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0068 | Chip buyers' sourcing behaviour (INT-0003) is also relevant to a participants unit. |
+| RU-0068 | [from RU-0233] EMS money path is RU-0085; this unit is who the buyers are and how concentrated. |
+| RU-0068 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0068 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0069 | Equipment post-sale service belongs to RU-0021. |
+| RU-0070 | INT-0021 remains open for practitioners. |
+| RU-0073 | Marketing claims must be recorded as reported_claim. |
+| RU-0073 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0074 | [from RU-0097] Link to INT-0017. |
+| RU-0074 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0075 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0076 | Israel (Tower) is covered here as a jurisdiction of specialty foundry capacity. |
+| RU-0076 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0078 | RU-0035 covers the data flows; this unit covers the supplier landscape. |
+| RU-0080 | Is value added (SIA/BCG) or revenue the right basis for a money-flow Sankey? Decide and document. |
+| RU-0081 | prereq: Foundry capacity reservation, prepayments and shortfall enforcement across the cycle |
+| RU-0081 | Does any public source quantify IDM outsourced share across the industry, or only company by company? |
+| RU-0082 | Link to INT-0019 (second-source qualification time). |
+| RU-0083 | Is the US$27bn NVIDIA cloud commitment for internal R&D compute or resale? (open unknown from money-flows.md) |
+| RU-0084 | Link to INT-0003 and INT-0018. |
+| RU-0084 | Mutual prereq resolved: RU-0172 (OEM/EMS sourcing incl. turnkey vs consigned) depends on this unit. |
+| RU-0085 | prereq: Buyer-to-chipmaker commercial terms |
+| RU-0086 | Choice of representative firms should reuse RU-0023's sample. |
+| RU-0087 | Link to INT-0006 (typical LTA terms). |
+| RU-0087 | Absorbs question 2-3 of RU-0017 (see its status_note). |
+| RU-0087 | [from RU-0081] Does any public source quantify IDM outsourced share across the industry, or only company by company? |
+| RU-0087 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0088 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0089 | Geographic statistics belong to planner owning 'geography'; this unit is about money/profit location only. |
+| RU-0090 | Output should become the business_models section of the atlas and feed a glossary of pricing units. |
+| RU-0092 | prereq: Business-model catalogue (planner C) |
+| RU-0092 | Link to INT-0002 (are captive chips counted in market statistics). |
+| RU-0093 | [from RU-0223] Business model of analog IDMs is RU-0093; this unit is market structure only. |
+| RU-0093 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0094 | prereq: Fab cost model by node and region |
+| RU-0095 | Link to INT-0009. |
+| RU-0097 | prereq: Business-model catalogue (planner C) |
+| RU-0097 | prereq: AI accelerator cost stack |
+| RU-0097 | Link to INT-0017. |
+| RU-0098 | Existing claim CLM-0481 (US$5-20bn per fab) should be tested here. |
+| RU-0098 | Wages prereq reversed (gap-plan-6a1d): RU-0129 now depends on this unit; record labour share of fab cost here if the fab cost studies publish it. |
+| RU-0099 | Link to INT-0005 (share of chip cost that is wafer). |
+| RU-0099 | [from RU-0104] Link to INT-0005. |
+| RU-0099 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0100 | Link to INT-0015, INT-0020. |
+| RU-0102 | prereq: Mature-node foundry economics and Chinese price competition |
+| RU-0104 | Link to INT-0005. |
+| RU-0105 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0105 | Mutual prereq resolved (gap-plan-6a1d): RU-0106 (fab pipeline) depends on this unit, not the reverse. |
+| RU-0106 | A companies/entities output is expected for each project owner. |
+| RU-0106 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0112 | Also provides systematic company discovery for fabless startups by region. |
+| RU-0113 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0114 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0116 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0117 | prereq: Fab cost model by node and region |
+| RU-0117 | prereq: Fab project pipeline |
+| RU-0117 | prereq: China's state and quasi-state capital |
+| RU-0117 | prereq: European and Israeli public money |
+| RU-0117 | prereq: India and Southeast Asia public money |
+| RU-0117 | prereq: US state and local incentives |
+| RU-0120 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0121 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0122 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0124 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0125 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0126 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0127 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0128 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0128 | prereq: country labour units (US, Taiwan, Korea, Japan, China, Europe, India, SEA) |
+| RU-0129 | Feeds: Fab cost model by node and region. |
+| RU-0129 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0130 | prereq: Semiconductor workforce: size, composition and data sources by jurisdiction |
+| RU-0132 | Were the revenue-share arrangements ever formalised in a legal instrument? (to verify) |
+| RU-0133 | INT-0010: licence decision times and approval rates |
+| RU-0133 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0135 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0137 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0137 | Nexperia owner (gap-plan-6a1d): the legal record of the 2025 Nexperia case (Goods Availability Act order, court measures, China's export ban, suspension) is recorded here; RU-0169, RU-0200, RU-0030 and RU-0052 cite it for allocation, weaponisation, retaliation and legacy-chip angles only. |
+| RU-0138 | Estimates of total Chinese support vary widely; plan a contradiction record. |
+| RU-0138 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0142 | Discovery evidence for Korea was tier-3 only; priority is primary texts. |
+| RU-0144 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0150 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0152 | INT-0010 |
+| RU-0152 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0153 | INT-0013 is the key interview item. |
+| RU-0153 | [from RU-0154] INT-0017 open. |
+| RU-0153 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0154 | INT-0017 open. |
+| RU-0154 | prereq: Cross-company yield and quality data exchange |
+| RU-0155 | [from RU-0174] INT-0011 relevant. |
+| RU-0155 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0156 | [from RU-0069] Equipment post-sale service belongs to RU-0021. |
+| RU-0156 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0157 | INT-0007 and INT-0018 relevant. |
+| RU-0160 | Design-cost figures from IBS are paywalled; use only publicly quoted figures with the population stated. |
+| RU-0160 | Mutual prereq resolved: RU-0162 (tape-out to production release) depends on this unit. |
+| RU-0161 | INT-0015, INT-0020 relevant. |
+| RU-0161 | prereq: Workflow: chip design from specification to tape-out |
+| RU-0162 | INT-0003 relevant. |
+| RU-0162 | [from RU-0161] INT-0015, INT-0020 relevant. |
+| RU-0162 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0163 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0164 | INT-0005, INT-0006, INT-0014 relevant. |
+| RU-0164 | [from RU-0165] INT-0008 relevant. |
+| RU-0164 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0165 | INT-0008 relevant. |
+| RU-0165 | prereq: Wafer order-to-delivery at a foundry |
+| RU-0167 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0168 | INT-0010 relevant. |
+| RU-0169 | INT-0003 relevant. |
+| RU-0169 | Nexperia legal facts come from RU-0137; this unit covers only how allocation and escalation worked. |
+| RU-0170 | INT-0019 relevant. |
+| RU-0172 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0173 | [from RU-0157] INT-0007 and INT-0018 relevant. |
+| RU-0173 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0174 | INT-0011 relevant. |
+| RU-0175 | prereq: The semiconductor business cycle |
+| RU-0176 | Supports company-discovery units owned by the participants/competition planners. |
+| RU-0177 | Extended by gap-plan-6a1d to cover country-pair trade flows (planner-flagged gap), not just datasets. |
+| RU-0181 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0182 | INT-0003 relevant. |
+| RU-0184 | prereq: China's semiconductor build-out |
+| RU-0186 | prereq: The semiconductor business cycle |
+| RU-0189 | [from RU-0218] AI accelerator cost stack is RU-0103; this unit focuses on device-level chip content, not accelerator internals. |
+| RU-0189 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0195 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0197 | prereq: Chip traceability and provenance |
+| RU-0200 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0200 | Nexperia legal facts come from RU-0137; this unit covers exposure and spread of damage. |
+| RU-0202 | [from RU-0056] Overlap risk with a risks-dimension unit: this unit records the evidence, risks units assess forward likelihood. |
+| RU-0202 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0205 | Coordinate with supply_chain_concentration units owned by another planner; this unit covers consequences and mitigation only. |
+| RU-0206 | INT-0004 relevant. |
+| RU-0211 | INT-0012 relevant. |
+| RU-0212 | INT-0003 relevant. |
+| RU-0212 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0213 | prereq: all risk units (Taiwan, weaponisation, natural hazard, operational, critical inputs, chokepoints, cyclical, technology, cyber, enforcement, company failure, resources) |
+| RU-0214 | Keep statistical codes (NAICS/HS) out of scope: RU-0009 covers them. |
+| RU-0214 | Output: one comparison table of definitions with claim ids, feeding every market-size and regulation unit. |
+| RU-0215 | prereq: RU-0002 methodology; record which WSTS vintage each figure comes from. |
+| RU-0215 | End-use splits are in RU-0008; do not duplicate. |
+| RU-0216 | Cycle drivers are RU-0181 and AI-capex sustainability is RU-0206; this unit only assesses forecasts and their accuracy. |
+| RU-0217 | End-use (demand) segmentation is RU-0008; capacity by node is RU-0062. This unit is the product/supply-side taxonomy. |
+| RU-0217 | prereq: Global chip market time series 1986-2026 (same batch). |
+| RU-0218 | prereq: Product taxonomy and segment sizes (same batch). |
+| RU-0218 | AI accelerator cost stack is RU-0103; this unit focuses on device-level chip content, not accelerator internals. |
+| RU-0219 | Leadership-by-country is in the geography unit on company headquarters. |
+| RU-0219 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0220 | Do not repeat memory pricing (RU-0018) or memory history (RU-0012); this unit is current structure and shares. |
+| RU-0220 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0221 | Unit economics of accelerators are RU-0103; business model of custom silicon is RU-0092. |
+| RU-0223 | prereq: Product taxonomy and segment sizes (same batch). |
+| RU-0223 | Business model of analog IDMs is RU-0093; this unit is market structure only. |
+| RU-0224 | prereq: Product taxonomy and segment sizes (same batch). |
+| RU-0226 | Output: a per-role table of enumeration sources with coverage, update frequency and access terms; each role unit below uses it. |
+| RU-0226 | [from RU-0176] Supports company-discovery units owned by the participants/competition planners. |
+| RU-0226 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0227 | Custom-silicon business model is RU-0092; this unit only enumerates. |
+| RU-0227 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0228 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0229 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0230 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0231 | prereq: Participant census method (same batch). |
+| RU-0232 | prereq: Participant census method (same batch). |
+| RU-0233 | prereq: Participant census method (same batch). |
+| RU-0233 | EMS money path is RU-0085; this unit is who the buyers are and how concentrated. |
+| RU-0234 | prereq: Global chip market time series 1986-2026 (same batch). |
+| RU-0235 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0236 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0237 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0237 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0237 | Synthesis profile: reuse claims from RU-0051 (concentration/risk) and RU-0141 (regulation); research only what they do not cover, plus workforce (folded from RU-0120). |
+| RU-0238 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0238 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0239 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0239 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0240 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0240 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0241 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0241 | [from RU-0242] Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0241 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0242 | prereq: Current value-added and capacity shares by stage and region (RU-0047). |
+| RU-0242 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0243 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0243 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0244 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0244 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0245 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
+| RU-0246 | Labour offshoring details are in RU-0131; technology history is RU-0079. This unit gives the industrial narrative with dated milestones. |
+| RU-0246 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0247 | Memory consolidation specifics are RU-0012; value-chain disaggregation is RU-0011. This unit is the national-development story. |
+| RU-0248 | Trade agreements are covered as policy in RU-0151; this unit covers industrial outcomes. |
+| RU-0248 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0249 | China 2014-2026 is RU-0183; this unit stops at 2014. |
+| RU-0249 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0250 | Planner-flagged gap (plan1-A-9d62, plan1-D-8e05); confirmed by gap-plan-6a1d search that US Commerce licensed GB300-class exports to G42 and Humain in Nov 2025 (to verify against commerce.gov). |

@@ -5,49 +5,252 @@
 | ID | Wave | Pri | Dimension | Title | Status | Depends on | Origin |
 |---|---|---|---|---|---|---|---|
 | RU-0001 | 0 | P0 | definition | Discovery: what is the semiconductor industry, who is in it, and how does it fit together | researched |  | user |
-| RU-0002 | 1 | P0 | market_size | Market-sizing methodology: WSTS vs Gartner vs other publishers | queued | RU-0001 | researcher_discovery |
-| RU-0003 | 1 | P1 | competition | Foundry market: definitions (pure-play vs Foundry 2.0), size and shares | queued | RU-0001 | researcher_discovery |
-| RU-0004 | 1 | P1 | value_chain | Semiconductor manufacturing equipment: segments, size and geography | queued | RU-0001 | researcher_discovery |
-| RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | queued | RU-0001 | researcher_discovery |
-| RU-0006 | 1 | P2 | value_chain | EDA and semiconductor IP market | queued | RU-0001 | researcher_discovery |
-| RU-0007 | 1 | P1 | value_chain | Assembly, test and advanced packaging (OSAT and in-house) | queued | RU-0001 | researcher_discovery |
-| RU-0008 | 1 | P0 | dynamics | End-market segmentation and the 2025-2026 AI/memory surge | queued | RU-0001 | researcher_discovery |
-| RU-0009 | 1 | P1 | data | Official statistics mapping: NAICS, ISIC/NACE, HS codes and their limits | queued | RU-0001 | researcher_discovery |
-| RU-0010 | 1 | P2 | adjacent | Boundary industries: displays, solar PV, passive components, PCBs and EMS | queued | RU-0001 | researcher_discovery |
+| RU-0002 | 1 | P0 | market_size | Market size: sizing methodology (WSTS vs Gartner vs others) and the 1986-2026 global time series by product and region | queued | RU-0001 | researcher_discovery |
+| RU-0003 | 1 | P1 | competition | Foundry market: definitions (pure-play vs Foundry 2.0), size and shares | queued | RU-0001, RU-0002 | researcher_discovery |
+| RU-0004 | 1 | P1 | value_chain | Semiconductor manufacturing equipment: segments, size and geography | dropped | RU-0001 | researcher_discovery |
+| RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | dropped | RU-0001 | researcher_discovery |
+| RU-0006 | 1 | P1 | value_chain | EDA software market: segments, vendors, concentration and China's domestic EDA | queued | RU-0001 | researcher_discovery |
+| RU-0007 | 1 | P0 | value_chain | Back-end stage map: assembly and test market, OSAT vs in-house vs foundry, leaders and geography | queued | RU-0001 | researcher_discovery |
+| RU-0008 | 1 | P0 | segmentation | Segmentation: product taxonomy and segment sizes (WSTS classes, ASSP/ASIC/general-purpose), end-market shares and 2025-2026 price vs volume | queued | RU-0001, RU-0002 | researcher_discovery |
+| RU-0009 | 1 | P1 | definition | Definitions and classification: legal and statistical meanings of 'semiconductor', leading-edge/mature/advanced, and NAICS/ISIC/NACE/HS codes | queued | RU-0001 | researcher_discovery |
+| RU-0010 | 2 | P2 | adjacent | Boundary industries: displays, solar PV, passive components, PCBs and EMS | queued | RU-0001 | researcher_discovery |
 | RU-0011 | 1 | P1 | history | History: the disaggregation of the value chain (IDM to fabless/foundry/OSAT/IP), 1980-2025 | queued | RU-0001 | researcher_discovery |
-| RU-0012 | 1 | P1 | dynamics | History: memory cycles and memory-maker consolidation (1970-2025) | queued | RU-0001 | researcher_discovery |
-| RU-0013 | 1 | P0 | regulation | Policy: evolution of semiconductor export controls 2018-2026 (US, Netherlands, Japan, China countermeasures) | queued | RU-0001 | researcher_discovery |
-| RU-0014 | 1 | P1 | regulation | Policy: comparison of chip industrial policies (US CHIPS, EU Chips Act, Japan, Korea, China, Taiwan, India) | queued | RU-0001 | researcher_discovery |
-| RU-0015 | 1 | P2 | history | History: Japan's rise and decline in semiconductors (1970s-2010s) | queued | RU-0001 | researcher_discovery |
+| RU-0012 | 1 | P1 | dynamics | History: memory cycles and memory-maker consolidation (1970-2025) | dropped | RU-0001 | researcher_discovery |
+| RU-0013 | 1 | P0 | regulation | Policy: evolution of semiconductor export controls 2018-2026 (US, Netherlands, Japan, China countermeasures) | dropped | RU-0001 | researcher_discovery |
+| RU-0014 | 3 | P1 | regulation | Cross-country comparison of chip industrial policy: design, money committed vs disbursed, and effectiveness (did subsidies change where fabs are built and what they cost?) | queued | RU-0020, RU-0026, RU-0028, RU-0031, RU-0098, RU-0106, RU-0108, RU-0109, RU-0135, RU-0138, RU-0141, RU-0142, RU-0143, RU-0144 | researcher_discovery |
+| RU-0015 | 2 | P2 | history | History: Japan's rise and decline in semiconductors (1970s-2010s) | dropped | RU-0001 | researcher_discovery |
 | RU-0016 | 1 | P0 | dynamics | Dynamics: the AI demand shift - accelerators, HBM and advanced packaging (2022-2026) | queued | RU-0001 | researcher_discovery |
-| RU-0017 | 1 | P0 | unit_economics | Foundry commercial terms: wafer pricing, LTAs and capacity prepayments | queued | RU-0001 | researcher_discovery |
-| RU-0018 | 1 | P0 | dynamics | Memory business model and price cycle | queued | RU-0001 | researcher_discovery |
-| RU-0019 | 1 | P1 | business_models | Distribution channel economics | queued | RU-0001 | researcher_discovery |
-| RU-0020 | 1 | P1 | capital | Government money flows into semiconductors by country | queued | RU-0001 | researcher_discovery |
-| RU-0021 | 1 | P1 | business_models | Equipment makers' commercial model: systems, services, down payments | queued | RU-0001 | researcher_discovery |
-| RU-0022 | 1 | P1 | unit_economics | Packaging and test value pool, incl. advanced packaging | queued | RU-0001 | researcher_discovery |
+| RU-0017 | 1 | P0 | unit_economics | Foundry wafer pricing: price by node, pricing unit, annual increases and pass-through | queued | RU-0001, RU-0003 | researcher_discovery |
+| RU-0018 | 1 | P0 | dynamics | Memory: business model, price cycle, and the history of memory cycles and consolidation (1970-2026) | queued | RU-0001 | researcher_discovery |
+| RU-0019 | 2 | P1 | business_models | Distribution channel economics and problems: margins, ship-and-debit, price protection, stock rotation, excess inventory and disintermediation | queued | RU-0001, RU-0043 | researcher_discovery |
+| RU-0020 | 2 | P1 | capital | Government money flows into semiconductors: Japan, South Korea and Taiwan (grants, tax credits, policy loans, state equity) | queued | RU-0001, RU-0031 | researcher_discovery |
+| RU-0021 | 2 | P1 | business_models | Equipment makers' commercial model and the purchase-to-production workflow: pricing, down payments, installation, acceptance, services and upgrades | queued | RU-0001, RU-0042 | researcher_discovery |
+| RU-0022 | 2 | P1 | unit_economics | Packaging and test unit economics and OSAT problems: pricing basis, utilisation, advanced-packaging capex, substrate shortages and the foundry-vs-OSAT split | queued | RU-0001, RU-0007, RU-0036 | researcher_discovery |
 | RU-0023 | 1 | P1 | unit_economics | Cross-model financial benchmark (margins, capex, R&D) on consistent periods | queued | RU-0001 | researcher_discovery |
-| RU-0024 | 1 | P2 | business_models | Design-IP and patent-licensing royalty economics | queued | RU-0001 | researcher_discovery |
-| RU-0025 | 1 | P0 | regulation | US export controls on semiconductors (EAR, Entity List, FDP rules) — full regime map and timeline | queued | RU-0001 | researcher_discovery |
-| RU-0026 | 1 | P0 | regulation | US semiconductor subsidies, tax credit and CHIPS award status (incl. Investment Accelerator and equity deals) | queued | RU-0001 | researcher_discovery |
-| RU-0027 | 1 | P1 | regulation | US tariffs and trade remedies on semiconductors (Section 232, Section 301, reciprocal tariffs) | queued | RU-0001 | researcher_discovery |
-| RU-0028 | 1 | P1 | regulation | EU semiconductor regime: Chips Act, Chips Act 2.0, State aid, dual-use controls and FDI screening | queued | RU-0001 | researcher_discovery |
-| RU-0029 | 1 | P1 | regulation | Allied export controls: Netherlands, Japan, Taiwan, South Korea and the Wassenaar Arrangement | queued | RU-0001 | researcher_discovery |
-| RU-0030 | 1 | P0 | regulation | China's semiconductor policy toolkit: Big Fund, critical-mineral export controls, Unreliable Entity List, trade remedies, cybersecurity review | queued | RU-0001 | researcher_discovery |
-| RU-0031 | 1 | P1 | regulation | Asian industrial policy: Japan, South Korea, Taiwan and India incentive programmes | queued | RU-0001 | researcher_discovery |
-| RU-0032 | 1 | P2 | regulation | Environmental, chemical and disclosure rules affecting fabs (PFAS, F-gases, water, conflict minerals, RoHS) | queued | RU-0001 | researcher_discovery |
-| RU-0033 | 1 | P2 | regulation | Technical standards bodies for semiconductors (SEMI, JEDEC, IEC TC47, AEC, ISO/IEEE) | queued | RU-0001 | researcher_discovery |
+| RU-0024 | 2 | P2 | business_models | Design-enablement business models: EDA licensing (time-based, emulation, cloud) and IP/patent royalty economics | queued | RU-0001, RU-0006, RU-0034 | researcher_discovery |
+| RU-0025 | 1 | P0 | regulation | US export controls on semiconductors and tools, 2018-2026: EAR rules, ECCNs, FDP rules and timeline | queued | RU-0001 | researcher_discovery |
+| RU-0026 | 1 | P0 | regulation | US CHIPS Act grants, 48D tax credit and award status (incl. Investment Accelerator and equity conversions) | queued | RU-0001 | researcher_discovery |
+| RU-0027 | 1 | P1 | regulation | US tariffs on semiconductors (Section 232, 301, reciprocal) plus customs classification, rules of origin and the WTO ITA | queued | RU-0001, RU-0009 | researcher_discovery |
+| RU-0028 | 1 | P1 | regulation | EU Chips Act, Chips Act 2.0, IPCEI and member-state State aid (Germany, France, Italy, Netherlands, Ireland, Austria) | queued | RU-0001 | researcher_discovery |
+| RU-0029 | 2 | P1 | regulation | Allied export controls on chipmaking tools: Netherlands, Japan, South Korea, Wassenaar and plurilateral coordination | queued | RU-0025 | researcher_discovery |
+| RU-0030 | 1 | P0 | regulation | China's export controls and retaliation tools: Export Control Law, critical-mineral controls, Unreliable Entity List, anti-sanctions and trade remedies | queued | RU-0001 | researcher_discovery |
+| RU-0031 | 2 | P1 | regulation | Japan semiconductor industrial policy and economic security: Post-5G fund, Rapidus support law, TSMC/JASM subsidies, Economic Security Promotion Act | queued | RU-0001 | researcher_discovery |
+| RU-0032 | 2 | P2 | regulation | Environmental, chemical and resource constraints on fabs: PFAS, F-gas, RoHS/REACH, water, power and emissions | queued | RU-0041 | researcher_discovery |
+| RU-0033 | 2 | P2 | regulation | Technical standards and de facto mandatory qualifications (SEMI, JEDEC, IEC TC47, AEC-Q, ISO 26262, IPC/JEDEC J-STD) | queued | RU-0001, RU-0035 | researcher_discovery |
 | RU-0034 | 1 | P0 | information_flows | Design enablement and design-data handoff: EDA, IP, PDKs, tape-out and mask data | queued |  | researcher_discovery |
-| RU-0035 | 1 | P1 | data | Manufacturing and test data: MES, FDC, yield management, test data standards and cross-company sharing | queued |  | researcher_discovery |
-| RU-0036 | 1 | P0 | technology | Advanced packaging and HBM supply chain: CoWoS-class 2.5D, hybrid bonding, substrates and OSAT roles | queued |  | researcher_discovery |
-| RU-0037 | 1 | P1 | technology | Lithography and critical equipment dependencies: EUV/High-NA, masks, resists and the equipment supplier base | queued |  | researcher_discovery |
+| RU-0035 | 1 | P1 | data | Manufacturing and test data systems and their vendors: MES, FDC/APC, SPC, yield management, AMHS and test data standards | queued |  | researcher_discovery |
+| RU-0036 | 1 | P0 | technology | Advanced packaging technology and capacity: 2.5D interposers (CoWoS-class), fan-out, 3D stacking and hybrid bonding | queued | RU-0001 | researcher_discovery |
+| RU-0037 | 1 | P0 | technology | Lithography tools and the EUV subsystem supply base: ASML, Zeiss, Cymer/Trumpf, Nikon/Canon, High-NA adoption | queued | RU-0001 | researcher_discovery |
 | RU-0038 | 1 | P1 | dynamics | Process technology roadmap and transitions: GAA, backside power, 3D DRAM/NAND, wide-bandgap (SiC/GaN) | queued |  | researcher_discovery |
-| RU-0039 | 1 | P1 | information_flows | Demand forecasting, allocation and supply-chain visibility between chip suppliers and customers | queued |  | researcher_discovery |
-| RU-0040 | 1 | P2 | regulation | Security, IP protection and trusted supply chain: design-data confidentiality, trusted suppliers and export controls on design tools | queued |  | researcher_discovery |
-| RU-0041 | 1 | P1 | value_chain | Materials and chemicals sub-chain: wafers, photoresist, gases, wet chemicals, substrates and their supplier concentration | queued | RU-0001 | researcher_discovery |
-| RU-0042 | 1 | P1 | value_chain | Equipment segment map: tool categories, supplier concentration, and post-sale service economics | queued | RU-0001 | researcher_discovery |
-| RU-0043 | 1 | P1 | value_chain | Distribution channel: authorized distributors, brokers, e-commerce, and the direct vs distribution split | queued | RU-0001 | researcher_discovery |
-| RU-0044 | 1 | P1 | technology | Advanced packaging, substrates and test: who does it (foundries vs OSATs) and where | queued | RU-0001 | researcher_discovery |
-| RU-0045 | 1 | P1 | participants | Custom silicon: hyperscaler/OEM in-house chip design, ASIC design-service houses and their relationship to foundries | queued | RU-0001 | researcher_discovery |
-| RU-0046 | 2 | P2 | value_chain | Hidden intermediaries and support services: specialised logistics, fab construction, cleanroom, gas/chemical purification, reclaim wafers, probe cards | queued | RU-0001 | researcher_discovery |
-| RU-0047 | 1 | P1 | geography | Current value-added and capacity shares by stage and region (post-2022), reconciling SIA/BCG and CSET | queued | RU-0001 | researcher_discovery |
+| RU-0039 | 1 | P1 | information_flows | Demand forecasting, allocation and supply-chain visibility between chip suppliers and customers | queued | RU-0001 | researcher_discovery |
+| RU-0040 | 2 | P1 | regulation | US government procurement and trusted-supply rules for chips: NDAA Section 5949, DMEA Trusted Foundry/Supplier, DFARS counterfeit rules, ITAR | queued | RU-0043 | researcher_discovery |
+| RU-0041 | 1 | P0 | value_chain | Materials segment map: SEMI fab and packaging materials categories, sizes, supplier concentration and production geography | queued | RU-0001 | researcher_discovery |
+| RU-0042 | 1 | P0 | value_chain | Equipment segment map: SEMI segments, sizes, billings by region, leading vendors per tool category | queued | RU-0001 | researcher_discovery |
+| RU-0043 | 1 | P1 | value_chain | Distribution channel structure and enumeration: authorised distributors, catalogue houses, independent distributors and brokers, and the direct vs distribution split | queued | RU-0001 | researcher_discovery |
+| RU-0044 | 1 | P1 | technology | Advanced packaging, substrates and test: who does it (foundries vs OSATs) and where | dropped | RU-0001 | researcher_discovery |
+| RU-0045 | 2 | P1 | participants | Custom silicon: hyperscaler/OEM in-house chip design, ASIC design-service houses, their business model (NRE, turnkey) and relationship to foundries | queued | RU-0001, RU-0016, RU-0090 | researcher_discovery |
+| RU-0046 | 2 | P2 | value_chain | Fab-support services: parts cleaning and coating, wafer reclaim and test wafers, used-equipment brokers and spare parts | dropped | RU-0042 | researcher_discovery |
+| RU-0047 | 1 | P1 | geography | Current value-added and capacity shares by stage and region (post-2022), reconciling SIA/BCG and CSET | queued | RU-0001, RU-0002 | researcher_discovery |
+| RU-0048 | 1 | P0 | supply_chain_concentration | Chokepoint register: concentration metrics and the inventory of single-supplier and single-region points | queued | RU-0001, RU-0047 | planner |
+| RU-0049 | 2 | P0 | supply_chain_concentration | Critical minerals and inputs for chips: gallium, germanium, rare earths, tungsten, antimony, helium, neon, quartz, fluorspar; supply risk and exposure | queued | RU-0001, RU-0030, RU-0041 | planner |
+| RU-0050 | 2 | P1 | supply_chain_concentration | Equipment sub-tier supply base and fab-support services: optics, lasers, RF power, vacuum, ceramics, parts cleaning, wafer reclaim, used equipment and spares | queued | RU-0042 | planner |
+| RU-0051 | 2 | P0 | supply_chain_concentration | Taiwan concentration and cross-Strait risk: share of leading-edge logic, physical hazards, conflict scenarios, exposure and capacity outside Taiwan | queued | RU-0047, RU-0048 | planner |
+| RU-0052 | 2 | P1 | supply_chain_concentration | Mature-node (28nm and above) capacity concentration and dynamics: China's buildout, supply-demand, pricing and dependence on Chinese legacy chips | queued | RU-0003, RU-0047, RU-0062 | planner |
+| RU-0053 | 2 | P0 | supply_chain_concentration | China's build-out and localisation by value-chain stage (2014-2026): domestic share of equipment, materials, EDA, IP, foundry, packaging, and global effects | queued | RU-0006, RU-0025, RU-0030, RU-0041, RU-0042, RU-0060 | planner |
+| RU-0054 | 2 | P1 | supply_chain_concentration | Supplier qualification, second-sourcing and switching costs: copy-exactly, PCNs, automotive requalification and why concentration persists | queued | RU-0041, RU-0048 | planner |
+| RU-0055 | 2 | P1 | supply_chain_concentration | IC substrates and packaging materials: ABF and BT substrates, glass cores, leadframes, bonding wire, mold compounds and build-up film | queued | RU-0007, RU-0036, RU-0041 | planner |
+| RU-0056 | 3 | P1 | supply_chain_concentration | Disruption case studies 2011-2025: how chokepoints behaved in real shocks | dropped | RU-0013, RU-0030, RU-0041 | planner |
+| RU-0057 | 3 | P1 | supply_chain_concentration | Chokepoint scorecard synthesis: consistent concentration metrics per stage, and consequences and mitigation of single-supplier chokepoints | queued | RU-0006, RU-0007, RU-0036, RU-0037, RU-0041, RU-0042, RU-0047, RU-0048, RU-0049, RU-0050, RU-0051, RU-0052, RU-0053, RU-0054, RU-0055, RU-0061, RU-0063, RU-0064, RU-0065, RU-0066 | planner |
+| RU-0058 | 2 | P2 | value_chain | Pre-competitive research: consortia, national labs, university programmes and public/consortium R&D funding flows | queued | RU-0001, RU-0026 | planner |
+| RU-0059 | 1 | P1 | value_chain | Chip design stage map: who designs chips, where design happens, and what a design costs | queued | RU-0001 | planner |
+| RU-0060 | 2 | P1 | value_chain | Semiconductor IP market and design-enablement enumeration: processor, interface and foundation IP vendors, RISC-V, design-service houses | queued | RU-0006, RU-0045 | planner |
+| RU-0061 | 2 | P1 | value_chain | Mask-making stage and photomask economics: captive vs merchant shops, mask blanks, pellicles, writers, inspection, and mask-set cost by node | queued | RU-0034, RU-0037 | planner |
+| RU-0062 | 1 | P1 | value_chain | Fab capacity structure and fab datasets: wafer sizes, node bands, product mix, fab counts, the 200mm ecosystem and reliability of fab-level databases | queued | RU-0001, RU-0047 | planner |
+| RU-0063 | 2 | P1 | value_chain | Test stage: wafer probe, final test, burn-in and system-level test; ATE, probe cards and independent test houses | queued | RU-0007 | planner |
+| RU-0064 | 2 | P1 | value_chain | Silicon wafers and polysilicon: suppliers, shares, 300mm capacity and SOI/epi wafers | queued | RU-0041 | planner |
+| RU-0065 | 2 | P1 | value_chain | Specialty gases and wet chemicals: electronic gases, neon and noble gases, fluorine chemistry, ultrapure acids and purifiers | queued | RU-0041 | planner |
+| RU-0066 | 2 | P1 | value_chain | Lithography materials and other fab consumables: photoresists, ancillaries, CMP slurries/pads, sputtering targets, precursors, quartz and ceramic parts | queued | RU-0037, RU-0041 | planner |
+| RU-0067 | 2 | P2 | value_chain | Other fab consumables: CMP slurries and pads, sputtering targets, deposition precursors, quartz and ceramic parts | dropped | RU-0041 | planner |
+| RU-0068 | 2 | P1 | value_chain | System integration and chip buyers: EMS/ODM board and AI-server assembly, OEMs, top chip purchasers and supplier customer concentration | queued | RU-0043, RU-0172, RU-0226 | planner |
+| RU-0069 | 2 | P2 | value_chain | Post-sale and end-of-life: product longevity, obsolescence and last-time buys, authorised aftermarket, reclaimed chips and e-waste | dropped | RU-0043 | planner |
+| RU-0070 | 2 | P2 | value_chain | Specialised logistics: moving wafers, masks, hazardous gases and chemicals, and fab tools | queued | RU-0001 | planner |
+| RU-0071 | 2 | P2 | value_chain | Fab construction and facility systems: EPC contractors, cleanrooms, ultrapure water, sub-fab, abatement and power | queued | RU-0001 | planner |
+| RU-0072 | 2 | P0 | technology | HBM manufacturing and supply chain: TSV stacking, base dies, bonding methods, yields and qualification | queued | RU-0018, RU-0036 | planner |
+| RU-0073 | 2 | P0 | technology | Leading-edge process capability and technology execution risk: 3nm/2nm-class nodes, yields, China's non-EUV path, node delays and failed bets | queued | RU-0038 | planner |
+| RU-0074 | 2 | P1 | technology | Chiplets and heterogeneous integration: die-to-die standards (UCIe, BoW), chiplet business models, prime-contractor and known-good-die liability | queued | RU-0022, RU-0036, RU-0090, RU-0103 | planner |
+| RU-0075 | 2 | P1 | technology | Wide-bandgap and compound semiconductors (SiC, GaN, GaAs, InP): value chains and unit economics, 200mm transition and the 2024-2025 shake-out | queued | RU-0038, RU-0049, RU-0101 | planner |
+| RU-0076 | 2 | P2 | technology | Specialty and mature process platforms (BCD, eNVM, RF-SOI, FD-SOI, CIS, MEMS) and competition in FPGAs, image sensors, optoelectronics, MEMS and RF | queued | RU-0003, RU-0077 | planner |
+| RU-0077 | 2 | P2 | technology | Silicon photonics and co-packaged optics: technology, suppliers and fit with the chip supply chain | queued | RU-0036 | planner |
+| RU-0078 | 2 | P2 | technology | Manufacturing software and fab automation suppliers: MES, APC/FDC, yield software and automated material handling | dropped | RU-0035 | planner |
+| RU-0079 | 2 | P2 | technology | Technology history: wafer-size transitions, lithography generations and packaging generations and how each reshaped the supplier base | dropped | RU-0011 | planner |
+| RU-0080 | 1 | P0 | money_flows | Value-pool decomposition: how a dollar of chip revenue flows upstream to foundries, OSATs, EDA, IP, equipment and materials | queued | RU-0002, RU-0047, RU-0090 | planner |
+| RU-0081 | 2 | P1 | money_flows | IDM-to-foundry outsourcing flows: how much IDMs buy from foundries, from whom, and on what terms | dropped | RU-0003, RU-0017 | planner |
+| RU-0082 | 2 | P1 | money_flows | Materials, wafer, gas and chemical supply contracts: pricing basis, LTAs, prepayments and qualification lock-in | queued | RU-0041, RU-0080 | planner |
+| RU-0083 | 2 | P0 | money_flows | Circular and vendor-financed flows in AI compute: chip-vendor investments in customers, cloud buy-backs and GPU-backed debt | queued | RU-0016 | planner |
+| RU-0084 | 2 | P1 | money_flows | Buyer-to-chipmaker commercial terms: direct accounts, NRE, customer prepayments and supply agreements from OEMs and hyperscalers | queued | RU-0039, RU-0045 | planner |
+| RU-0085 | 2 | P1 | money_flows | Who buys the chips: EMS/ODM turnkey versus OEM-consigned procurement and the money path to the board | dropped | RU-0039, RU-0010 | planner |
+| RU-0086 | 2 | P1 | money_flows | Working capital and inventory across the chain: who holds stock and cash through the cycle (2019-2026) | queued | RU-0018, RU-0023, RU-0080 | planner |
+| RU-0087 | 2 | P0 | money_flows | Foundry-customer money flows: IDM outsourcing to foundries, capacity reservation, prepayments and shortfall enforcement (2021-2026) | queued | RU-0003, RU-0017 | planner |
+| RU-0088 | 2 | P2 | business_models | Open-market brokers, grey market and counterfeit/recycled chips: shortage pricing, scale, entry points and consequences | queued | RU-0019, RU-0043 | planner |
+| RU-0089 | 2 | P2 | money_flows | Cross-border payment flows and where semiconductor profits are booked: trade data, re-exports, IP holding and tax structures | queued | RU-0009, RU-0047, RU-0080 | planner |
+| RU-0090 | 1 | P0 | business_models | Business-model catalogue: how each participant type earns revenue, what it sells and on what pricing unit | queued | RU-0001 | planner |
+| RU-0091 | 2 | P1 | business_models | Foundry 2.0 and IDM foundry businesses: internal transfer pricing, external customers and separation (Intel Foundry, Samsung Foundry) | queued | RU-0003, RU-0087 | planner |
+| RU-0092 | 2 | P1 | business_models | Custom-silicon and ASIC design-service business model: NRE, turnkey production and hyperscaler economics | dropped | RU-0045, RU-0016 | planner |
+| RU-0093 | 2 | P1 | business_models | Analog, power, MCU and discrete IDMs: business model (fab ownership, 300mm, long product lives, channel mix) and competition incl. Chinese entrants | queued | RU-0019, RU-0023, RU-0052, RU-0075, RU-0101 | planner |
+| RU-0094 | 2 | P1 | unit_economics | HBM commercial model and unit economics: annual volume-price contracts, die-size penalty, yields and the premium over DRAM | dropped | RU-0018, RU-0036, RU-0016 | planner |
+| RU-0095 | 2 | P2 | business_models | EDA commercial model: time-based licences, emulation hardware, cloud and token pricing, and customer concentration | dropped | RU-0006, RU-0034 | planner |
+| RU-0096 | 2 | P2 | business_models | Manufacturing-software, yield-analytics and automation vendors: how they sell to fabs and OSATs | queued | RU-0035 | planner |
+| RU-0097 | 3 | P2 | business_models | Chiplet and multi-die business models: who is the prime contractor, known-good-die liability and cost sharing | dropped | RU-0036, RU-0044, RU-0022 | planner |
+| RU-0098 | 1 | P0 | unit_economics | Fab cost model: capex and operating cost of a fab by node, product and region (US, Taiwan, Japan, Korea, China, Europe, India) | queued |  | planner |
+| RU-0099 | 2 | P1 | unit_economics | Chip cost stack: die cost per transistor, die size, yield, masks, design cost, packaging, test and royalties across nodes | queued | RU-0017, RU-0022, RU-0024, RU-0034, RU-0038, RU-0098 | planner |
+| RU-0100 | 2 | P2 | unit_economics | Photomask economics: mask-set cost by node, captive versus merchant mask shops, and who pays | dropped | RU-0034, RU-0037 | planner |
+| RU-0101 | 2 | P1 | unit_economics | Mature-node foundry economics and Chinese price competition (28nm and above) | queued | RU-0003, RU-0027, RU-0030, RU-0098 | planner |
+| RU-0102 | 2 | P2 | unit_economics | Wide-bandgap (SiC and GaN) unit economics: substrate cost, yields, 200mm transition and the 2024-2025 shake-out | dropped | RU-0038 | planner |
+| RU-0103 | 2 | P1 | unit_economics | AI accelerator cost stack and margin capture: die, HBM, CoWoS packaging, substrate, test and system | queued | RU-0016, RU-0036, RU-0099, RU-0220 | planner |
+| RU-0104 | 2 | P1 | unit_economics | Fabless chip cost-of-goods stack: wafer, packaging, test, royalties and yield loss as a share of chip cost | dropped | RU-0017, RU-0022, RU-0024 | planner |
+| RU-0105 | 1 | P0 | capital | Industry capital expenditure and the capacity investment cycle: totals by segment, company and region, fab lead times and utilisation (2000-2026) | queued | RU-0002, RU-0023, RU-0042 | planner |
+| RU-0106 | 2 | P0 | capital | Fab project pipeline and the reshoring wave: announced, under construction, delayed, cancelled and realised capacity (2020-2026) | queued | RU-0026, RU-0047, RU-0105 | planner |
+| RU-0107 | 2 | P0 | capital | China's state and quasi-state capital in semiconductors: Big Fund I-III, local government guidance funds, state banks and outcomes | dropped | RU-0030 | planner |
+| RU-0108 | 2 | P1 | capital | European and Israeli public money for fabs: Chips Act state-aid decisions, IPCEI, member-state budgets and grants | queued | RU-0028 | planner |
+| RU-0109 | 2 | P1 | capital | India and Southeast Asia public money for semiconductors: ISM approvals, state top-ups, Malaysia NSS, Singapore EDB, Vietnam | queued | RU-0031 | planner |
+| RU-0110 | 2 | P2 | capital | US state and local incentives for fabs: grants, tax abatements and infrastructure (Arizona, New York, Ohio, Texas, Idaho, Oregon) | dropped | RU-0026 | planner |
+| RU-0111 | 2 | P1 | capital | Private fab financing structures: co-investment partnerships, JV fabs, customer-funded capacity, leasing and debt | queued | RU-0020, RU-0026, RU-0106 | planner |
+| RU-0112 | 2 | P1 | capital | Venture and growth capital for semiconductor startups: funding by region and segment, AI-chip startups and exit paths | queued | RU-0045 | planner |
+| RU-0113 | 2 | P1 | capital | Mergers, acquisitions and consolidation: deal flow, valuations, blocked deals, merger-review patterns (2015-2026) | queued | RU-0011, RU-0023 | planner |
+| RU-0114 | 2 | P2 | capital | Public markets, cost of capital and financial distress: listings, valuations, debt, bankruptcies and distressed exits | queued | RU-0018, RU-0023 | planner |
+| RU-0115 | 2 | P2 | capital | Public and consortium R&D funding flows: imec, NSTC/Natcast, Leti, ITRI, LSTC, KIST and national R&D budgets | dropped | RU-0014, RU-0026 | planner |
+| RU-0116 | 2 | P2 | capital | History: technology generations (wafer size, lithography, packaging), rising capital intensity and exits from the leading edge (1985-2025) | queued | RU-0011, RU-0018, RU-0105 | planner |
+| RU-0117 | 3 | P1 | capital | Subsidy effectiveness: did public money change where fabs are built and what they cost? (cross-country synthesis) | dropped | RU-0020, RU-0026, RU-0014 | planner |
+| RU-0118 | 1 | P0 | labor | Semiconductor workforce: size, composition and data sources by jurisdiction | queued | RU-0009 | planner |
+| RU-0119 | 2 | P0 | labor | United States semiconductor workforce: shortage projections, fab construction labour, CHIPS workforce programmes and unions | queued | RU-0026, RU-0118 | planner |
+| RU-0120 | 2 | P1 | labor | Taiwan semiconductor workforce: talent shortage, demographics, overseas assignments and anti-poaching rules | dropped |  | planner |
+| RU-0121 | 2 | P1 | labor | South Korea semiconductor workforce: shortage estimates, working-hours debate and the chaebol-university pipeline | dropped |  | planner |
+| RU-0122 | 2 | P1 | labor | Japan semiconductor workforce: rebuilding talent for JASM, Rapidus and Kioxia; regional consortia and wages | dropped |  | planner |
+| RU-0123 | 2 | P1 | labor | China semiconductor workforce: talent gap, graduate pipeline, overseas recruitment and effects of US-persons restrictions | queued | RU-0025, RU-0030, RU-0118 | planner |
+| RU-0124 | 2 | P1 | labor | European semiconductor workforce: shortage estimates, the European Chips Skills Academy, and national cases (Netherlands, Germany, Ireland, France, Italy) | dropped | RU-0028 | planner |
+| RU-0125 | 2 | P1 | labor | India semiconductor workforce: design-engineer base, ISM/C2S training targets and fab/OSAT labour needs | dropped | RU-0031 | planner |
+| RU-0126 | 2 | P1 | labor | Southeast Asia semiconductor workforce: Malaysia NSS 60,000-engineer target, Singapore, Vietnam and the Philippines | dropped | RU-0031 | planner |
+| RU-0127 | 2 | P1 | labor | Talent supply: skills pipeline (degrees, technicians, apprenticeships) and immigration/mobility rules for chip workers | queued | RU-0025, RU-0118, RU-0119, RU-0123 | planner |
+| RU-0128 | 3 | P1 | labor | Skills pipeline: degrees, technician training, apprenticeships and industry-academia programmes across major jurisdictions | dropped |  | planner |
+| RU-0129 | 2 | P1 | labor | Wages, labour cost, working conditions and labour relations in fabs, OSATs and design | queued | RU-0023, RU-0098, RU-0118 | planner |
+| RU-0130 | 2 | P2 | labor | Labour relations and working conditions: unions, strikes, working hours, safety and occupational health in fabs and OSATs | dropped |  | planner |
+| RU-0131 | 2 | P2 | labor | History: labour and the offshoring of assembly to East and Southeast Asia (1960s-2000s) | dropped | RU-0011 | planner |
+| RU-0132 | 2 | P0 | regulation | US AI-chip export policy: AI Diffusion Rule, H20/H200 licensing, revenue-share conditions and chip-location legislation | queued | RU-0016, RU-0025 | planner |
+| RU-0133 | 2 | P0 | regulation | US Entity List, end-user controls, VEU revocations, export-control enforcement and AI-chip diversion/smuggling cases | queued | RU-0025 | planner |
+| RU-0134 | 2 | P1 | regulation | US inbound and outbound investment screening in semiconductors: CFIUS, the Outbound Investment Security Program and related legislation | queued | RU-0001 | planner |
+| RU-0135 | 2 | P2 | regulation | US fab siting: federal environmental permitting, water, and state and local incentives (AZ, NY, OH, TX, ID, OR) | queued | RU-0026 | planner |
+| RU-0136 | 2 | P1 | regulation | Customs classification, rules of origin and the WTO Information Technology Agreement for semiconductors | dropped | RU-0009, RU-0027 | planner |
+| RU-0137 | 2 | P1 | regulation | European export control and investment screening (EU, member states, UK NSI Act and UK strategy), incl. the Nexperia intervention | queued | RU-0001, RU-0028 | planner |
+| RU-0138 | 2 | P0 | regulation | China industrial policy and state capital: State Council IC policies, Big Fund I-III, local guidance funds, state banks, tax incentives and outcomes | queued | RU-0020, RU-0030 | planner |
+| RU-0139 | 2 | P1 | regulation | China's market-access levers against foreign chips: cybersecurity review, procurement exclusion, customs and energy-efficiency rules | queued | RU-0030 | planner |
+| RU-0140 | 2 | P1 | regulation | Competition law and merger control in semiconductors: SAMR, FTC/DOJ, European Commission, KFTC, JFTC, CMA | queued | RU-0001 | planner |
+| RU-0141 | 2 | P0 | regulation | Taiwan semiconductor regime: tax incentives, N-1 overseas technology rule, core key technologies, export controls and outbound investment review | queued | RU-0001 | planner |
+| RU-0142 | 2 | P1 | regulation | South Korea semiconductor regime: K-Chips Act credits, Semiconductor Special Act, national core technology protection and export controls | queued | RU-0001 | planner |
+| RU-0143 | 2 | P1 | regulation | India semiconductor regime: India Semiconductor Mission schemes, ISM 2.0, state policies, customs and SCOMET controls | queued | RU-0020 | planner |
+| RU-0144 | 2 | P1 | regulation | Southeast Asia industrial policy and talent targets: Malaysia NSS (incl. 60,000-engineer target), Singapore EDB, Vietnam, Thailand BOI, Philippines | queued | RU-0020, RU-0031 | planner |
+| RU-0145 | 2 | P1 | regulation | Southeast Asia export controls and transshipment enforcement: Malaysia STA permits, Singapore Strategic Goods Control Act, diversion cases | queued | RU-0025, RU-0132 | planner |
+| RU-0146 | 2 | P2 | regulation | Israel semiconductor regime: Innovation Authority, Capital Investment Law grants to fabs, and defence/dual-use export controls | dropped | RU-0001 | planner |
+| RU-0147 | 2 | P2 | regulation | United Kingdom semiconductor regime: National Semiconductor Strategy, National Security and Investment Act interventions, export controls | dropped | RU-0001 | planner |
+| RU-0148 | 2 | P1 | regulation | Allied critical-minerals policy for chip inputs: EU CRMA, US Section 232 and DPA measures, Japan and Korea stockpiling | queued | RU-0030, RU-0041 | planner |
+| RU-0149 | 2 | P2 | regulation | Supply-chain due diligence and disclosure rules for chipmakers: conflict minerals, forced labour, CSRD/CSDDD | queued | RU-0001 | planner |
+| RU-0150 | 2 | P1 | regulation | IP theft, trade secrets, cyber and insider risk, and IP enforcement (ITC Section 337, criminal tech-leak cases, patent courts) | queued | RU-0024, RU-0040 | planner |
+| RU-0151 | 2 | P2 | regulation | Semiconductor trade and industrial policy before 2018: COCOM to Wassenaar, US-Japan agreements, the ITA, and early Asian and Chinese policies | dropped | RU-0011, RU-0015 | planner |
+| RU-0152 | 3 | P1 | regulation | Effectiveness and cost of export controls, and the datasets that track controls, entity lists, subsidies and trade remedies | queued | RU-0025, RU-0030, RU-0132, RU-0133, RU-0138 | planner |
+| RU-0153 | 2 | P1 | information_flows | Cross-company yield, quality and test-data exchange: foundry/OSAT to designers, and known-good-die/HBM/chiplet test data | queued | RU-0035, RU-0036, RU-0164 | planner |
+| RU-0154 | 2 | P1 | information_flows | Known-good-die, HBM and chiplet test-data exchange across memory makers, foundries and OSATs | dropped | RU-0036, RU-0035 | planner |
+| RU-0155 | 2 | P2 | information_flows | Information flows between chip companies and governments, incl. the incentive application-to-disbursement workflow | queued | RU-0020, RU-0025, RU-0026, RU-0028 | planner |
+| RU-0156 | 2 | P1 | information_flows | Post-sale and end-of-life: PCN/PDN, material declarations, obsolescence, last-time buys, authorised aftermarket and e-waste | queued | RU-0033, RU-0043, RU-0162 | planner |
+| RU-0157 | 2 | P2 | information_flows | Distribution-channel information flows: design registration, point-of-sale reporting, ship-and-debit claims and inventory data | dropped | RU-0019, RU-0043 | planner |
+| RU-0158 | 2 | P2 | information_flows | Equipment-to-fab information flows: tool data access, remote diagnostics and service data, and how export controls restrict them | dropped | RU-0035, RU-0042 | planner |
+| RU-0159 | 2 | P2 | information_flows | Chip traceability and provenance: lot and die IDs, anti-counterfeit tracking and proposed location verification for AI chips | queued | RU-0025, RU-0040, RU-0088 | planner |
+| RU-0160 | 2 | P0 | workflows | Workflow: chip design from specification to tape-out (fabless SoC at an advanced node) | queued | RU-0034 | planner |
+| RU-0161 | 2 | P1 | workflows | Workflow: tape-out to first silicon and bring-up (mask making, MPW shuttles, first wafers, debug) | dropped | RU-0034 | planner |
+| RU-0162 | 2 | P0 | workflows | Workflow: tape-out to production release (mask making, MPW shuttles, first silicon, bring-up, reliability and customer qualification, PPAP) | queued | RU-0033, RU-0034, RU-0160 | planner |
+| RU-0163 | 2 | P1 | workflows | Workflow and problems: new fab and new process ramp, incl. cost, delays, permits and workforce outside East Asia | queued | RU-0026, RU-0028, RU-0071 | planner |
+| RU-0164 | 2 | P0 | workflows | Workflow: wafer order-to-delivery at a foundry through back-end order flow at an OSAT (forecast, booking, wafer start, consigned assembly/test, shipment) | queued | RU-0007, RU-0017, RU-0022, RU-0039 | planner |
+| RU-0165 | 2 | P1 | workflows | Workflow: back-end order flow at an OSAT (consigned wafers, assembly, final test, drop shipment) | dropped | RU-0007, RU-0022 | planner |
+| RU-0166 | 2 | P1 | workflows | Workflow: yield excursion handling in a fab (detection, lot hold, disposition, root cause, customer notification) | queued | RU-0035 | planner |
+| RU-0167 | 2 | P1 | workflows | Workflow: customer returns (RMA) and failure analysis, incl. automotive 8D, multi-die attribution and silent data corruption in compute fleets | queued | RU-0035, RU-0153 | planner |
+| RU-0168 | 2 | P0 | workflows | Workflow: export-licence application and compliance (classification, screening, licence application, conditions, recordkeeping) in the US, Netherlands, Japan, Taiwan and China | queued | RU-0025, RU-0029 | planner |
+| RU-0169 | 2 | P0 | workflows | Workflow: allocation during shortages (how suppliers ration supply, how customers escalate, broker buying and government intervention) | queued | RU-0039, RU-0137, RU-0182 | planner |
+| RU-0170 | 2 | P2 | workflows | Workflow: qualifying a second source for materials, chemicals, gases and components at a fab | dropped | RU-0041 | planner |
+| RU-0171 | 2 | P2 | workflows | Workflow: equipment purchase to production (order, down payment, delivery, installation, acceptance, qualification, service contract) | dropped | RU-0021, RU-0042 | planner |
+| RU-0172 | 2 | P1 | workflows | Workflow: OEM and EMS chip sourcing and the money path to the board (design-in, AVL, turnkey vs consigned, distributors, allocation, LTBs) | queued | RU-0010, RU-0039, RU-0043, RU-0084, RU-0156 | planner |
+| RU-0173 | 2 | P2 | workflows | Workflow: design-win sales cycle and distribution-channel data (design registration, POS reporting, ship-and-debit claims) | queued | RU-0019, RU-0043 | planner |
+| RU-0174 | 2 | P2 | workflows | Workflow: government incentive application to disbursement (US CHIPS, EU Chips Act state aid, Japan, Korea, India ISM) | dropped | RU-0014, RU-0020, RU-0026 | planner |
+| RU-0175 | 1 | P1 | data | Leading indicators and high-frequency datasets for the semiconductor cycle | dropped | RU-0002, RU-0009 | planner |
+| RU-0176 | 1 | P1 | data | Company disclosure systems by jurisdiction: what chip companies must publish and where (EDGAR, MOPS, DART, EDINET/TDnet, HKEX, SSE/SZSE, Euronext, TASE, NSE/BSE) | dropped |  | planner |
+| RU-0177 | 2 | P1 | geography | Trade flows of chips and chipmaking tools by country pair: values, shifts since 2018, datasets, mirror discrepancies and transshipment | queued | RU-0009, RU-0027 | planner |
+| RU-0178 | 2 | P2 | data | Fab and capacity datasets: coverage and reliability of fab-level databases | dropped | RU-0047 | planner |
+| RU-0179 | 2 | P2 | data | Patent, publication and R&D datasets for semiconductor technology | queued |  | planner |
+| RU-0180 | 2 | P2 | data | Policy and enforcement datasets: tracking controls, entity lists, subsidies and trade remedies | dropped | RU-0013, RU-0025 | planner |
+| RU-0181 | 1 | P0 | dynamics | The semiconductor business cycle: drivers, inventory dynamics, turning points (1985-2026) and leading indicators | queued | RU-0002, RU-0009 | planner |
+| RU-0182 | 1 | P0 | dynamics | The 2020-2023 chip shortage and glut: causes, timeline, who was hit, and how it ended | queued | RU-0039, RU-0181 | planner |
+| RU-0183 | 2 | P0 | dynamics | China's semiconductor build-out: localisation, self-sufficiency progress and effects on global markets (2014-2026) | dropped | RU-0030, RU-0013 | planner |
+| RU-0184 | 2 | P1 | dynamics | Mature-node (28nm and above) supply, demand and pricing dynamics, including Chinese capacity additions | dropped | RU-0003 | planner |
+| RU-0185 | 2 | P1 | dynamics | Reshoring and the global fab-building wave: announced vs realised capacity since 2020 | dropped | RU-0026, RU-0047 | planner |
+| RU-0186 | 2 | P1 | dynamics | Capacity investment cycle: capex decisions, fab lead times and utilisation | dropped | RU-0023 | planner |
+| RU-0187 | 2 | P2 | dynamics | Consolidation and M&A dynamics: major deals, blocked deals and merger-review patterns | dropped | RU-0023 | planner |
+| RU-0188 | 2 | P1 | dynamics | Automotive and industrial semiconductor demand dynamics (EVs, SiC/GaN power, content per vehicle, 2024-2026 correction) | queued | RU-0008 | planner |
+| RU-0189 | 2 | P2 | dynamics | Consumer and device demand dynamics and chip content per device: smartphones, PCs, servers, AI systems and the 'AI PC/phone' refresh | queued | RU-0008, RU-0016 | planner |
+| RU-0190 | 2 | P1 | problems | Problems of chip designers (fabless, system companies, start-ups): design cost, respins, access to capacity and tools | queued | RU-0034, RU-0045, RU-0160 | planner |
+| RU-0191 | 2 | P0 | problems | Problems of chip buyers (OEMs, automotive Tier-1s, EMS): shortages, lead times, obsolescence, qualification lock-in and price volatility | queued | RU-0039, RU-0169 | planner |
+| RU-0192 | 2 | P1 | problems | Problems of fab operators (foundries, IDMs, memory makers): yield ramps, utilisation swings, costs, water/power and customer concentration | queued | RU-0023, RU-0163 | planner |
+| RU-0193 | 2 | P1 | problems | Fab construction and ramp problems outside East Asia: cost, delays, permits, workforce and supply ecosystem | dropped | RU-0026, RU-0028 | planner |
+| RU-0194 | 2 | P1 | problems | Problems of OSATs and advanced-packaging providers: capacity bottlenecks, substrate shortages, known-good-die and thin margins | dropped | RU-0036, RU-0044 | planner |
+| RU-0195 | 2 | P2 | problems | Problems of equipment and materials suppliers: export-control revenue loss, lead times, restricted tool data/remote service, customer concentration | queued | RU-0021, RU-0035, RU-0042 | planner |
+| RU-0196 | 2 | P2 | problems | Problems in the distribution channel: excess inventory, price erosion, counterfeit exposure and disintermediation | dropped | RU-0019, RU-0043 | planner |
+| RU-0197 | 2 | P2 | problems | Counterfeit, recycled and grey-market chips: scale, where they enter, and consequences | dropped |  | planner |
+| RU-0198 | 2 | P2 | problems | Silent data corruption and reliability problems in large compute fleets | dropped | RU-0035 | planner |
+| RU-0199 | 2 | P0 | risks | Taiwan concentration and cross-Strait conflict risk: scenarios, exposure and mitigation | dropped | RU-0047 | planner |
+| RU-0200 | 2 | P0 | risks | Geopolitical risk: weaponisation of chip supply chains (2019-2026) and conflict risks beyond Taiwan (Korea, Israel, Russia-Ukraine, Middle East shipping) | queued | RU-0025, RU-0030, RU-0137 | planner |
+| RU-0201 | 2 | P2 | risks | Geopolitical and conflict risks beyond Taiwan: Korean peninsula, Israel, Russia-Ukraine and Middle East shipping | dropped |  | planner |
+| RU-0202 | 2 | P1 | risks | Physical disruption risk: natural hazards, operational incidents (fires, contamination, outages, lockdowns) and 2011-2025 case studies | queued | RU-0025, RU-0030, RU-0041, RU-0048, RU-0049, RU-0065 | planner |
+| RU-0203 | 2 | P1 | risks | Operational disruption risk: fab fires, contamination, power outages, gas leaks and pandemic lockdowns | dropped |  | planner |
+| RU-0204 | 2 | P0 | risks | Critical-input supply risk: gases, minerals, chemicals and quartz (neon, helium, gallium, germanium, rare earths, fluorochemicals, high-purity quartz) | dropped | RU-0041 | planner |
+| RU-0205 | 3 | P1 | risks | Single-supplier chokepoint risk: consequences and mitigation where one firm supplies a critical tool, material or service | dropped | RU-0037, RU-0041, RU-0042 | planner |
+| RU-0206 | 3 | P0 | risks | Cyclical and demand risk: AI capex sustainability, customer concentration and overbuild indicators | queued | RU-0016, RU-0018, RU-0181 | planner |
+| RU-0207 | 2 | P1 | risks | Technology execution risk: node delays, yield failures and technology bets that failed | dropped | RU-0038 | planner |
+| RU-0208 | 2 | P1 | risks | Cybersecurity, IP theft and insider risk in the semiconductor supply chain | dropped | RU-0040 | planner |
+| RU-0209 | 2 | P1 | risks | Regulatory enforcement and compliance risk: export-control penalties, diversion and smuggling of controlled chips | dropped | RU-0025 | planner |
+| RU-0210 | 2 | P2 | risks | Company-failure and financial risk: bankruptcies and distressed exits in semiconductors | dropped | RU-0012 | planner |
+| RU-0211 | 2 | P2 | risks | Resource and environmental constraint risk: water, power, emissions and chemicals regulation for fabs | dropped | RU-0032 | planner |
+| RU-0212 | 3 | P1 | risks | Business continuity and resilience practices, and the risk exposure matrix by participant type and region (synthesis) | queued | RU-0032, RU-0039, RU-0047, RU-0049, RU-0051, RU-0057, RU-0073, RU-0114, RU-0133, RU-0150, RU-0200, RU-0202, RU-0206 | planner |
+| RU-0213 | 3 | P2 | risks | Risk exposure matrix by participant type and region (synthesis) | dropped | RU-0047 | planner |
+| RU-0214 | 1 | P1 | definition | Definitions register: legal and statistical meanings of 'semiconductor', 'leading-edge', 'mature/legacy' and 'advanced' chips across jurisdictions | dropped | RU-0001, RU-0009 | planner |
+| RU-0215 | 1 | P0 | market_size | Global chip market time series 1986-2026: WSTS totals by product category and by region of sale | dropped | RU-0002 | planner |
+| RU-0216 | 2 | P1 | market_size | Market forecasts and their track record: 2026-2030 outlooks (incl. the 'US$1 trillion by 2030' claim) versus actual outcomes | queued | RU-0002, RU-0181 | planner |
+| RU-0217 | 1 | P0 | segmentation | Product taxonomy and segment sizes: WSTS product classes and sub-classes, ASSP vs ASIC vs general-purpose, and how publishers map to each other | dropped | RU-0002, RU-0008 | planner |
+| RU-0218 | 2 | P2 | segmentation | Chip content per device: semiconductor bill-of-materials share in smartphones, PCs, servers and AI systems | dropped | RU-0008, RU-0016 | planner |
+| RU-0219 | 1 | P0 | competition | Company rankings and concentration: top chip vendors' shares (2000-2025) and share by headquarters country vs production location | queued | RU-0002, RU-0047 | planner |
+| RU-0220 | 2 | P0 | competition | Memory market structure and HBM commercial model: DRAM/NAND/HBM shares by firm and country, volume-price contracts and HBM premium | queued | RU-0016, RU-0018, RU-0036, RU-0072, RU-0098, RU-0219 | planner |
+| RU-0221 | 2 | P0 | competition | Data-centre compute competition: AI accelerators (GPU vs custom ASIC), server CPUs (x86 vs Arm) and networking silicon | queued | RU-0008, RU-0016, RU-0045, RU-0132 | planner |
+| RU-0222 | 2 | P1 | competition | Client and mobile processor competition: smartphone application processors, modems, PC CPUs and the Arm vs x86 contest | queued | RU-0008, RU-0024, RU-0189 | planner |
+| RU-0223 | 2 | P1 | competition | Analog, power, microcontroller and discrete competition: shares, Chinese entrants and consolidation | dropped | RU-0093, RU-0075, RU-0184 | planner |
+| RU-0224 | 2 | P2 | competition | Other segment competition: FPGAs, image sensors, optoelectronics, MEMS and RF | dropped | RU-0076, RU-0077 | planner |
+| RU-0225 | 3 | P1 | competition | Sources of durable competitive advantage by segment: scale, process leadership, ecosystems, switching costs and what has overturned leaders | queued | RU-0003, RU-0006, RU-0007, RU-0042, RU-0054, RU-0076, RU-0093, RU-0140, RU-0219, RU-0220, RU-0221, RU-0222 | planner |
+| RU-0226 | 1 | P0 | participants | Participant census method and company disclosure systems (EDGAR, MOPS, DART, EDINET, HKEX, SSE/SZSE, etc.) | queued | RU-0001 | planner |
+| RU-0227 | 2 | P0 | participants | Enumerate chip companies: IDMs, memory makers, fabless firms and system companies designing chips, by country | queued | RU-0045, RU-0059, RU-0112, RU-0226 | planner |
+| RU-0228 | 2 | P1 | participants | Enumerate manufacturing-service providers: foundries, OSATs, photomask makers and independent test houses, by country | queued | RU-0003, RU-0007, RU-0061, RU-0063, RU-0226 | planner |
+| RU-0229 | 2 | P1 | participants | Enumerate equipment makers and manufacturing-software vendors, including sub-tier suppliers, by country | queued | RU-0035, RU-0042, RU-0050, RU-0226 | planner |
+| RU-0230 | 2 | P1 | participants | Enumerate materials suppliers and critical-mineral producers: wafers, chemicals, gases, substrates, packaging materials and raw minerals | queued | RU-0041, RU-0049, RU-0055, RU-0064, RU-0065, RU-0066, RU-0226 | planner |
+| RU-0231 | 2 | P2 | participants | Enumerate design-enablement providers: EDA vendors, IP licensors and design-service houses, incl. foundry ecosystem partner lists | dropped | RU-0006, RU-0060, RU-0045 | planner |
+| RU-0232 | 2 | P2 | participants | Enumerate channel intermediaries: authorised distributors, catalogue houses, independent distributors and brokers, by region | dropped | RU-0043, RU-0088 | planner |
+| RU-0233 | 2 | P1 | participants | Chip buyers: top purchasers by spend, OEM and EMS/ODM enumeration, and customer concentration of chip suppliers | dropped | RU-0068, RU-0085 | planner |
+| RU-0234 | 1 | P1 | geography | Market share by company headquarters country, 1985-2025, and how it differs from production location | dropped | RU-0047 | planner |
+| RU-0235 | 3 | P1 | geography | United States country profile: role in each value-chain stage, companies, fab and design clusters, and trade position | queued | RU-0026, RU-0047, RU-0119, RU-0135 | planner |
+| RU-0236 | 3 | P0 | geography | China country profile: stage-by-stage position, domestic production vs consumption, companies, clusters and import dependence | queued | RU-0047, RU-0053, RU-0138, RU-0139 | planner |
+| RU-0237 | 3 | P0 | geography | Taiwan country profile incl. workforce: foundry, OSAT, IC design and supply clusters, output, export dependence and talent | queued | RU-0047, RU-0051, RU-0118, RU-0141 | planner |
+| RU-0238 | 3 | P1 | geography | South Korea country profile incl. workforce: memory, foundry, Yongin/Pyeongtaek cluster, supply base, exports and talent | queued | RU-0047, RU-0118, RU-0142 | planner |
+| RU-0239 | 3 | P1 | geography | Japan country profile incl. workforce: equipment and materials strength, device makers, new fabs (JASM, Rapidus, Kioxia) and talent | queued | RU-0020, RU-0031, RU-0047, RU-0118, RU-0248 | planner |
+| RU-0240 | 3 | P1 | geography | Europe country profile incl. workforce: EU and UK strengths, Silicon Saxony, Netherlands, Ireland, France, Italy, Austria; Chips Skills Academy | queued | RU-0028, RU-0047, RU-0108, RU-0118, RU-0137 | planner |
+| RU-0241 | 3 | P1 | geography | Southeast Asia profile: Malaysia, Singapore, Vietnam, the Philippines and Thailand (back-end hub, specialty fabs, equipment and chemical bases) | queued | RU-0007, RU-0047, RU-0109, RU-0118, RU-0144, RU-0145, RU-0246 | planner |
+| RU-0242 | 2 | P2 | geography | Southeast Asia profile II: Vietnam, the Philippines and Thailand - assembly and test, and emerging design and front-end ambitions | dropped | RU-0109, RU-0126, RU-0144, RU-0131 | planner |
+| RU-0243 | 3 | P1 | geography | India country profile incl. workforce: design centres, first fabs and OSATs, chip imports, ISM progress and talent | queued | RU-0031, RU-0047, RU-0109, RU-0118, RU-0143 | planner |
+| RU-0244 | 3 | P2 | geography | Israel profile and policy regime: design/R&D centres, Intel and Tower fabs, start-ups, Innovation Authority and grants, conflict exposure | queued | RU-0001, RU-0047, RU-0108, RU-0200 | planner |
+| RU-0245 | 3 | P2 | geography | Emerging and secondary chip locations: Mexico and Costa Rica, Central and Eastern Europe, and Russia (Gulf states in the Middle East unit) | queued | RU-0047, RU-0132, RU-0200 | planner |
+| RU-0246 | 2 | P2 | history | History: origins of the industry 1947-1980 and the offshoring of assembly to East and Southeast Asia (1960s-2000s) | queued | RU-0001, RU-0011 | planner |
+| RU-0247 | 2 | P1 | history | History: the rise of South Korea and Taiwan (1970s-2010s) - Samsung's memory entry, ITRI, TSMC and UMC, and the state's role | queued | RU-0011, RU-0018 | planner |
+| RU-0248 | 2 | P1 | history | History: Japan's rise and decline and the US response 1970s-2010s (SEMATECH, US-Japan agreements, Intel, US manufacturing share) | queued | RU-0001, RU-0011, RU-0116 | planner |
+| RU-0249 | 2 | P2 | history | History: Europe's and China's paths before 2014, and trade/industrial policy before 2018 (COCOM to Wassenaar, the ITA) | queued | RU-0011, RU-0053, RU-0248 | planner |
+| RU-0250 | 2 | P1 | regulation | Middle East (UAE, Saudi Arabia) AI-chip imports and fab ambitions: US licensing conditions, sovereign AI data-centre deals and local industrial policy | queued | RU-0132 | gap_finder |

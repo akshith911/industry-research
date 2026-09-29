@@ -7,3 +7,10 @@
 {"added": {"claims": 105, "contradictions": 4, "glossary": 6, "interview_queue": 4, "research_units": 7, "sources": 24}, "agent": "disc-vc-b7e2", "batch": "RU-0001-disc-vc-b7e2", "date": "2026-09-29", "near_duplicate_claims": 2, "research_unit": "RU-0001", "reused": {"glossary": 20, "sources": 6}}
 {"added": {"entities": 138, "regulations": 39, "relations": 138}, "agent": "plan0-9c2e", "batch": "PLAN0-plan0-9c2e", "date": "2026-09-29", "near_duplicate_claims": 0, "research_unit": "RU-0001", "reused": {}}
 {"added": {"updates": 24}, "agent": "orchestrator", "batch": "FIX-unknown-status", "date": "2026-09-29", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"research_units": 32, "updates": 12}, "agent": "plan1-B-7c3a", "batch": "PLAN1-plan1-B-7c3a", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"research_units": 52, "updates": 7}, "agent": "plan1-C-2d9f", "batch": "PLAN1-plan1-C-2d9f", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": "RU-0001", "reused": {}}
+{"added": {"updates": 1}, "agent": "orchestrator", "batch": "FIX-ru0020-cycle", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"research_units": 21, "updates": 12}, "agent": "plan1-D-8e05", "batch": "PLAN1-plan1-D-8e05", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": "RU-0001", "reused": {}}
+{"added": {"research_units": 61, "updates": 9}, "agent": "plan1-E-51c7", "batch": "PLAN1-plan1-E-51c7", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": "RU-0001", "reused": {}}
+{"added": {"research_units": 36, "updates": 6}, "agent": "plan1-A-9d62", "batch": "PLAN1-plan1-A-9d62", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"research_units": 1, "updates": 207}, "agent": "gap-plan-6a1d", "batch": "PLAN1-gap-plan-6a1d", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}

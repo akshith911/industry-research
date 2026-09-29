@@ -16,8 +16,8 @@ For your dimensions:
    - `secondary_sources`, `expected_outputs`, `depends_on`, `open_questions`, `wave`, `priority` (P0/P1/P2).
    - `origin` "planner", `status` "queued".
 5. **Do not pad and do not compress.** Units should be researchable by one agent in one sitting (roughly 40–60 searches). Split anything bigger.
-6. **Do NOT use WebSearch** (the session budget is exhausted). Work from the databases, the phase0 maps and your knowledge of where primary sources live.
-7. **Validate** with `cd /home/claude/industry-research && python3 -m irs merge semiconductors <your batch> --dry-run` and fix all errors. Do not run a real merge.
+6. **Use WebSearch sparingly** (at most ~10 searches per planner, only to confirm that a named primary source exists). Work mainly from the databases, the phase0 maps and your knowledge of where primary sources live.
+7. **Validate** with `cd /Users/akshith/Work/Factory/Biz/industry-research && python -m irs merge semiconductors <your batch> --dry-run` and fix all errors. Do not run a real merge.
 
 Reply briefly:
 - active unit counts by wave and priority

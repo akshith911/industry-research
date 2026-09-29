@@ -65,7 +65,7 @@ def build(ind: Path) -> list:
 
     pages["regulations"] = ("Regulatory database", _table(
         ["ID", "Regulation", "Authority", "Jurisdiction", "Type", "Effective", "Status", "Affects", "Requirement", "Operational impact", "Penalties", "Sources"],
-        [[r["id"], r["name"], r["authority"], r["jurisdiction"], r["instrument_type"], r.get("effective_date"), r["status"],
+        [[r["id"], r["name"], r["authority"], r["jurisdiction"], r["instrument_type"], r.get("effective_date"), f"{r['status']} (as of {r['status_as_of']})",
           r["affected_participants"], r["requirements"], r.get("operational_impact"), r.get("penalties"),
           _links(r["source_ids"], S)] for r in dbs["regulations"]]))
 

@@ -117,7 +117,7 @@ def merge_batch(ind: Path, batch_dir: Path, dry_run: bool = False) -> dict:
             if name == "claims":
                 rec.setdefault("recorded_by", agent)
                 rec.setdefault("recorded_at", today)
-                rec.setdefault("status", "unverified")
+                rec.setdefault("status", "unknown" if rec.get("claim_type") == "unknown" else "unverified")
                 if ru:
                     rec.setdefault("research_unit", ru)
                 rec.setdefault("confidence", "low")

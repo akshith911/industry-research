@@ -29,6 +29,10 @@ Give every spawned agent a unique **run id** (`<role>-<RU or wave>-<4 random hex
 
 After agents finish: `python -m irs merge <slug>` (merges every pending batch; a rejected batch prints errors and stays in staging, so send the errors back to a fresh agent of the same role to fix, max 2 tries, then set the unit `blocked` with a note).
 
+## Search budget and browsers
+
+Web search can be capped per session (cloud sessions: 200 searches, shared by all agents). Before a research wave, check how much budget the wave needs (~40–60 searches per unit). Run waves in Claude Code on the user's machine with `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` raised, or one wave per session. When WebSearch is exhausted or WebFetch cannot read a page (JavaScript pages, PDFs that come back empty, robots-blocked sites the user can open), agents may use the Chrome extension (`mcp__claude-in-chrome__*`): each agent opens its own tab, reads with `get_page_text`, closes its tab, and never solves CAPTCHAs, signs in or submits forms. Record the page URL as the source either way.
+
 ## Phase 0: Scope and discovery (evidence before structure)
 
 1. Derive a slug (lowercase-hyphens). `python -m irs init <slug> --name "<name>"`. Fill `config.yaml` scope (definition, exclusions, geography, time horizon) from the request; if geography is unstated, choose global with regional breakdowns and say so.
@@ -38,8 +42,8 @@ After agents finish: `python -m irs merge <slug>` (merges every pending batch; a
 
 ## Phase 1: Research tree
 
-5. Spawn the **planner** (Phase 1 mode) to write the research tree as a `research_units` batch: 40–150 units covering every ontology dimension that applies, each with questions, subquestions, entities, named primary sources to try, dependencies and wave (wave 1 = foundations everything else depends on). Merge, validate.
-6. Spawn one **gap-finder** (plan-review mode) to critique the tree before any research budget is spent; merge its added units.
+5. Spawn **planners** (Phase 1 mode) to write the research tree as `research_units` batches: 40–150 units covering every ontology dimension that applies, each with questions, subquestions, entities, named primary sources to try, dependencies and wave (wave 1 = foundations everything else depends on). For a large industry, run 4–6 planners **in parallel**, each owning a disjoint group of dimensions, with a shared brief in `phase0/phase1-brief.md`. Parallel planners may only depend on existing units. Merge, validate.
+6. Spawn one **gap-finder** (plan-review mode) to critique the whole tree before any research budget is spent: it dedupes across planners, adds dependencies between new units, adds missing units, and writes `phase0/research-plan.md` (counts by wave/dimension/priority, search-volume estimate). Merge.
 7. `python -m irs build <slug>`, commit (`research(<slug>): phase 0-1 plan`), and **stop for user review** of `atlas/databases/research-tree.md` and `phase0/` unless the user said to run unattended.
 
 ## Phase 2: Research waves (loop)

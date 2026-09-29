@@ -1,0 +1,138 @@
+{"subject_id": "@cat_pure_play_foundry", "predicate": "part_of", "object_id": "@cat_foundry", "claim_ids": ["CLM-0106", "CLM-0490"]}
+{"subject_id": "@cat_idm_foundry_business", "predicate": "part_of", "object_id": "@cat_idm", "claim_ids": ["CLM-0113", "CLM-0258"], "notes": "An IDM can also run a foundry business (role overlap)."}
+{"subject_id": "@cat_fabless_company", "predicate": "buys_from", "object_id": "@cat_foundry", "claim_ids": ["CLM-0485", "CLM-0486", "CLM-0187"]}
+{"subject_id": "@cat_idm", "predicate": "buys_from", "object_id": "@cat_foundry", "claim_ids": ["CLM-0486"], "notes": "IDMs lacking in-house capacity also use foundries."}
+{"subject_id": "@cat_fabless_company", "predicate": "buys_from", "object_id": "@cat_osat", "claim_ids": ["CLM-0488", "CLM-0198"]}
+{"subject_id": "@cat_osat", "predicate": "tests_for", "object_id": "@cat_fabless_company", "claim_ids": ["CLM-0488"]}
+{"subject_id": "@cat_osat", "predicate": "provides_service_to", "object_id": "@cat_idm", "claim_ids": ["CLM-0488"]}
+{"subject_id": "@cat_fabless_company", "predicate": "pays", "object_id": "@cat_foundry", "claim_ids": ["CLM-0169", "CLM-0188"], "notes": "Prepayments/deposits to reserve capacity; per-wafer price basis unknown [CLM-0174]."}
+{"subject_id": "@cat_fabless_company", "predicate": "hands_off_design_to", "object_id": "@cat_foundry", "claim_ids": ["CLM-0457", "CLM-0161"]}
+{"subject_id": "@cat_fabless_company", "predicate": "hands_off_design_to", "object_id": "@cat_mask_maker", "claim_ids": ["CLM-0425", "CLM-0529"]}
+{"subject_id": "@cat_mask_maker", "predicate": "supplies", "object_id": "@cat_foundry", "claim_ids": ["CLM-0527", "CLM-0424"]}
+{"subject_id": "@cat_eda_vendor", "predicate": "licenses_to", "object_id": "@cat_chip_company", "claim_ids": ["CLM-0495", "CLM-0199"]}
+{"subject_id": "@cat_ip_licensor", "predicate": "licenses_to", "object_id": "@cat_chip_company", "claim_ids": ["CLM-0213", "CLM-0200", "CLM-0475"]}
+{"subject_id": "@cat_ip_licensor", "predicate": "licenses_to", "object_id": "@cat_custom_silicon_system_company", "claim_ids": ["CLM-0502"]}
+{"subject_id": "@cat_design_service_provider", "predicate": "provides_service_to", "object_id": "@cat_fabless_company", "claim_ids": ["CLM-0504"], "notes": "Evidence is one firm's self-description (GUC)."}
+{"subject_id": "@cat_design_service_provider", "predicate": "depends_on", "object_id": "@cat_foundry", "claim_ids": ["CLM-0505"], "notes": "GUC's sole foundry is TSMC, which owns 35%."}
+{"subject_id": "@cat_foundry", "predicate": "certifies_flow_for", "object_id": "@cat_eda_vendor", "claim_ids": ["CLM-0420"]}
+{"subject_id": "@cat_foundry", "predicate": "sends_information_to", "object_id": "@cat_fabless_company", "claim_ids": ["CLM-0419", "CLM-0455", "CLM-0456", "CLM-0451"], "notes": "PDKs, WAT/PCM, yield and lot status; defect/metrology data usually withheld."}
+{"subject_id": "@cat_patent_licensor", "predicate": "licenses_to", "object_id": "@cat_oem", "claim_ids": ["CLM-0196", "CLM-0197"]}
+{"subject_id": "@cat_wafer_fab_equipment_maker", "predicate": "supplies", "object_id": "@cat_foundry", "claim_ids": ["CLM-0472", "CLM-0511", "CLM-0229"]}
+{"subject_id": "@cat_wafer_fab_equipment_maker", "predicate": "supplies", "object_id": "@cat_idm", "claim_ids": ["CLM-0472", "CLM-0511"]}
+{"subject_id": "@cat_test_equipment_maker", "predicate": "supplies", "object_id": "@cat_osat", "claim_ids": ["CLM-0513", "CLM-0444"]}
+{"subject_id": "@cat_test_equipment_maker", "predicate": "supplies", "object_id": "@cat_foundry", "claim_ids": ["CLM-0513"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "provides_service_to", "object_id": "@cat_foundry", "claim_ids": ["CLM-0511", "CLM-0509", "CLM-0230"], "notes": "Installed-base service and upgrades."}
+{"subject_id": "@cat_materials_supplier", "predicate": "supplies", "object_id": "@cat_foundry", "claim_ids": ["CLM-0473", "CLM-0061"]}
+{"subject_id": "@cat_wafer_supplier", "predicate": "supplies", "object_id": "@cat_idm", "claim_ids": ["CLM-0474", "CLM-0522"]}
+{"subject_id": "@cat_packaging_materials_supplier", "predicate": "supplies", "object_id": "@cat_osat", "claim_ids": ["CLM-0540", "CLM-0520"]}
+{"subject_id": "@cat_specialty_gas_supplier", "predicate": "supplies", "object_id": "@cat_foundry", "claim_ids": ["CLM-0530", "CLM-0533"]}
+{"subject_id": "@cat_critical_mineral_producer", "predicate": "supplies", "object_id": "@cat_materials_supplier", "claim_ids": ["CLM-0344", "CLM-0345"]}
+{"subject_id": "@cat_manufacturing_software_vendor", "predicate": "supplies", "object_id": "@cat_foundry", "claim_ids": ["CLM-0449", "CLM-0448"]}
+{"subject_id": "@tech_duv", "predicate": "depends_on", "object_id": "@cat_specialty_gas_supplier", "claim_ids": ["CLM-0530", "CLM-0533"], "notes": "Neon for DUV excimer lasers."}
+{"subject_id": "@cat_financial_co_investor", "predicate": "invests_in", "object_id": "@cat_idm", "claim_ids": ["CLM-0257"], "notes": "Intel SCIP partner contributions."}
+{"subject_id": "@cat_authorized_distributor", "predicate": "distributes", "object_id": "@cat_idm", "claim_ids": ["CLM-0541", "CLM-0274", "CLM-0245"]}
+{"subject_id": "@cat_authorized_distributor", "predicate": "supplies", "object_id": "@cat_oem", "claim_ids": ["CLM-0541"]}
+{"subject_id": "@cat_open_market_broker", "predicate": "supplies", "object_id": "@cat_oem", "claim_ids": ["CLM-0544"]}
+{"subject_id": "@cat_oem", "predicate": "buys_from", "object_id": "@cat_idm", "claim_ids": ["CLM-0245"]}
+{"subject_id": "@cat_ems_provider", "predicate": "provides_service_to", "object_id": "@cat_oem", "claim_ids": ["CLM-0534"]}
+{"subject_id": "@cat_computing_end_market", "predicate": "uses", "object_id": "@cat_logic_ic", "claim_ids": ["CLM-0072", "CLM-0560", "CLM-0146"]}
+{"subject_id": "@cat_automotive_end_market", "predicate": "uses", "object_id": "@cat_analog_ic", "claim_ids": ["CLM-0463"]}
+{"subject_id": "@cat_computing_end_market", "predicate": "uses", "object_id": "@cat_hbm", "claim_ids": ["CLM-0055", "CLM-0056"]}
+{"subject_id": "@tech_euv", "predicate": "enables", "object_id": "@tech_process_node", "claim_ids": ["CLM-0399"], "notes": "EUV required at 7 nm and below."}
+{"subject_id": "@tech_gaa", "predicate": "enables", "object_id": "@tech_process_node", "claim_ids": ["CLM-0408"], "notes": "GAA key to 3 nm and below."}
+{"subject_id": "@cat_foundry", "predicate": "uses", "object_id": "@tech_euv", "claim_ids": ["CLM-0399", "CLM-0070"]}
+{"subject_id": "@cat_hbm", "predicate": "uses", "object_id": "@tech_2_5d", "claim_ids": ["CLM-0435", "CLM-0439"]}
+{"subject_id": "@org_jedec", "predicate": "sets_standard_for", "object_id": "@cat_hbm", "claim_ids": ["CLM-0440", "CLM-0363"]}
+{"subject_id": "@org_ucie", "predicate": "sets_standard_for", "object_id": "@tech_chiplets", "claim_ids": ["CLM-0442"]}
+{"subject_id": "@org_semi", "predicate": "sets_standard_for", "object_id": "@cat_equipment_maker", "claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453"]}
+{"subject_id": "@sys_mes", "predicate": "uses", "object_id": "@std_secs_gem", "claim_ids": ["CLM-0453", "CLM-0449"]}
+{"subject_id": "@std_e142", "predicate": "part_of", "object_id": "@info_wafer_map", "claim_ids": ["CLM-0454"]}
+{"subject_id": "@org_wsts", "predicate": "measures", "object_id": "@cat_integrated_circuit", "claim_ids": ["CLM-0003", "CLM-0013"]}
+{"subject_id": "@cat_chip_company", "predicate": "sends_information_to", "object_id": "@org_wsts", "claim_ids": ["CLM-0002"], "notes": "Only members that design and sell under own trade name."}
+{"subject_id": "@org_semi", "predicate": "measures", "object_id": "@cat_equipment_maker", "claim_ids": ["CLM-0058", "CLM-0057"]}
+{"subject_id": "@org_esd", "predicate": "measures", "object_id": "@cat_eda_vendor", "claim_ids": ["CLM-0062"]}
+{"subject_id": "@reg_bis", "predicate": "restricts", "object_id": "@cat_wafer_fab_equipment_maker", "claim_ids": ["CLM-0301", "CLM-0304"]}
+{"subject_id": "@reg_bis", "predicate": "restricts", "object_id": "@cat_ai_accelerator", "claim_ids": ["CLM-0301", "CLM-0307"]}
+{"subject_id": "@reg_bis", "predicate": "restricts", "object_id": "@cat_hbm", "claim_ids": ["CLM-0304"]}
+{"subject_id": "@reg_bis", "predicate": "restricts", "object_id": "@cat_eda_vendor", "claim_ids": ["CLM-0409"]}
+{"subject_id": "@reg_nl_mfa", "predicate": "restricts", "object_id": "@cat_wafer_fab_equipment_maker", "claim_ids": ["CLM-0336", "CLM-0338"]}
+{"subject_id": "@reg_meti", "predicate": "restricts", "object_id": "@cat_wafer_fab_equipment_maker", "claim_ids": ["CLM-0339"]}
+{"subject_id": "@reg_mofcom", "predicate": "restricts", "object_id": "@cat_critical_mineral_producer", "claim_ids": ["CLM-0344", "CLM-0346"]}
+{"subject_id": "@reg_chips_office", "predicate": "subsidizes", "object_id": "@cat_foundry", "claim_ids": ["CLM-0171", "CLM-0183"]}
+{"subject_id": "@reg_chips_office", "predicate": "subsidizes", "object_id": "@cat_idm", "claim_ids": ["CLM-0252", "CLM-0268"]}
+{"subject_id": "@reg_chips_office", "predicate": "invests_in", "object_id": "@cat_idm", "claim_ids": ["CLM-0259", "CLM-0317"], "notes": "US government 9.9% Intel stake funded from unpaid CHIPS grants."}
+{"subject_id": "@reg_ec", "predicate": "subsidizes", "object_id": "@cat_foundry", "claim_ids": ["CLM-0172", "CLM-0329"], "notes": "State aid approvals under the Chips Act (e.g. ESMC)."}
+{"subject_id": "@reg_india_ism", "predicate": "subsidizes", "object_id": "@cat_osat", "claim_ids": ["CLM-0358"]}
+{"subject_id": "@reg_india_ism", "predicate": "subsidizes", "object_id": "@cat_foundry", "claim_ids": ["CLM-0358"]}
+{"subject_id": "@reg_big_fund", "predicate": "invests_in", "object_id": "@cat_chip_company", "claim_ids": ["CLM-0131", "CLM-0350"], "notes": "Portfolio not evidenced."}
+{"subject_id": "@reg_dmea", "predicate": "accredits", "object_id": "@cat_foundry", "claim_ids": ["CLM-0458"]}
+{"subject_id": "@reg_dmea", "predicate": "accredits", "object_id": "@cat_osat", "claim_ids": ["CLM-0458"]}
+{"subject_id": "@reg_dmea", "predicate": "accredits", "object_id": "@cat_mask_maker", "claim_ids": ["CLM-0458"]}
+{"subject_id": "@reg_cac", "predicate": "restricts", "object_id": "@cat_memory_maker", "claim_ids": ["CLM-0353"]}
+{"subject_id": "@reg_ftc", "predicate": "regulates", "object_id": "@cat_ip_licensor", "claim_ids": ["CLM-0120"]}
+{"subject_id": "@reg_wassenaar", "predicate": "sets_standard_for", "object_id": "@reg_bis", "claim_ids": ["CLM-0342"], "notes": "Shared dual-use list implemented nationally."}
+{"subject_id": "@cat_wafer_fab_equipment_maker", "predicate": "subject_to", "object_id": "@r_ear_2022", "claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"]}
+{"subject_id": "@cat_fabless_company", "predicate": "subject_to", "object_id": "@r_ear_2022", "claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_ear_2022", "claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_ear_2022", "claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"]}
+{"subject_id": "@cat_wafer_fab_equipment_maker", "predicate": "subject_to", "object_id": "@r_ear_2024", "claim_ids": ["CLM-0304"]}
+{"subject_id": "@cat_memory_maker", "predicate": "subject_to", "object_id": "@r_ear_2024", "claim_ids": ["CLM-0304"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_ear_2024", "claim_ids": ["CLM-0304"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_affiliates", "claim_ids": ["CLM-0305", "CLM-0306"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "subject_to", "object_id": "@r_affiliates", "claim_ids": ["CLM-0305", "CLM-0306"]}
+{"subject_id": "@cat_authorized_distributor", "predicate": "subject_to", "object_id": "@r_affiliates", "claim_ids": ["CLM-0305", "CLM-0306"]}
+{"subject_id": "@cat_fabless_company", "predicate": "subject_to", "object_id": "@r_h200", "claim_ids": ["CLM-0307", "CLM-0308"]}
+{"subject_id": "@cat_fabless_company", "predicate": "subject_to", "object_id": "@r_ai_diffusion", "claim_ids": ["CLM-0309", "CLM-0310"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_ai_diffusion", "claim_ids": ["CLM-0309", "CLM-0310"]}
+{"subject_id": "@cat_eda_vendor", "predicate": "subject_to", "object_id": "@r_eda_gaafet", "claim_ids": ["CLM-0409", "CLM-0408"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_entity_huawei", "claim_ids": ["CLM-0135"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "subject_to", "object_id": "@r_entity_huawei", "claim_ids": ["CLM-0135"]}
+{"subject_id": "@cat_eda_vendor", "predicate": "subject_to", "object_id": "@r_entity_huawei", "claim_ids": ["CLM-0135"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_entity_huawei", "claim_ids": ["CLM-0135"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_guardrails", "claim_ids": ["CLM-0313", "CLM-0028", "CLM-0029"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_guardrails", "claim_ids": ["CLM-0313", "CLM-0028", "CLM-0029"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_48d", "claim_ids": ["CLM-0278", "CLM-0279", "CLM-0280", "CLM-0281"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_48d", "claim_ids": ["CLM-0278", "CLM-0279", "CLM-0280", "CLM-0281"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "subject_to", "object_id": "@r_48d", "claim_ids": ["CLM-0278", "CLM-0279", "CLM-0280", "CLM-0281"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_232", "claim_ids": ["CLM-0319", "CLM-0320", "CLM-0321", "CLM-0322"]}
+{"subject_id": "@cat_oem", "predicate": "subject_to", "object_id": "@r_232", "claim_ids": ["CLM-0319", "CLM-0320", "CLM-0321", "CLM-0322"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_301", "claim_ids": ["CLM-0323", "CLM-0324"]}
+{"subject_id": "@cat_oem", "predicate": "subject_to", "object_id": "@r_301", "claim_ids": ["CLM-0323", "CLM-0324"]}
+{"subject_id": "@cat_capital_provider", "predicate": "subject_to", "object_id": "@r_oisp", "claim_ids": ["CLM-0325"]}
+{"subject_id": "@cat_financial_co_investor", "predicate": "subject_to", "object_id": "@r_oisp", "claim_ids": ["CLM-0325"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_oisp", "claim_ids": ["CLM-0325"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_conflict_minerals", "claim_ids": ["CLM-0326"]}
+{"subject_id": "@cat_oem", "predicate": "subject_to", "object_id": "@r_conflict_minerals", "claim_ids": ["CLM-0326"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_eu_chips", "claim_ids": ["CLM-0327", "CLM-0328", "CLM-0329", "CLM-0141"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_eu_chips", "claim_ids": ["CLM-0327", "CLM-0328", "CLM-0329", "CLM-0141"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_eu_fgas", "claim_ids": ["CLM-0334"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_eu_fgas", "claim_ids": ["CLM-0334"]}
+{"subject_id": "@cat_specialty_gas_supplier", "predicate": "subject_to", "object_id": "@r_eu_fgas", "claim_ids": ["CLM-0334"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_eu_pfas", "claim_ids": ["CLM-0335"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_eu_pfas", "claim_ids": ["CLM-0335"]}
+{"subject_id": "@cat_process_chemical_supplier", "predicate": "subject_to", "object_id": "@r_eu_pfas", "claim_ids": ["CLM-0335"]}
+{"subject_id": "@cat_wafer_fab_equipment_maker", "predicate": "subject_to", "object_id": "@r_nl_sme", "claim_ids": ["CLM-0336", "CLM-0337", "CLM-0338", "CLM-0140"]}
+{"subject_id": "@cat_wafer_fab_equipment_maker", "predicate": "subject_to", "object_id": "@r_jp_fefta", "claim_ids": ["CLM-0339"]}
+{"subject_id": "@cat_critical_mineral_producer", "predicate": "subject_to", "object_id": "@r_cn_gage", "claim_ids": ["CLM-0344", "CLM-0345"]}
+{"subject_id": "@cat_materials_supplier", "predicate": "subject_to", "object_id": "@r_cn_gage", "claim_ids": ["CLM-0344", "CLM-0345"]}
+{"subject_id": "@cat_critical_mineral_producer", "predicate": "subject_to", "object_id": "@r_cn_46", "claim_ids": ["CLM-0346", "CLM-0347"]}
+{"subject_id": "@cat_critical_mineral_producer", "predicate": "subject_to", "object_id": "@r_cn_61", "claim_ids": ["CLM-0348", "CLM-0349"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "subject_to", "object_id": "@r_cn_61", "claim_ids": ["CLM-0348", "CLM-0349"]}
+{"subject_id": "@cat_oem", "predicate": "subject_to", "object_id": "@r_cn_61", "claim_ids": ["CLM-0348", "CLM-0349"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_kr_kchips", "claim_ids": ["CLM-0354"]}
+{"subject_id": "@cat_memory_maker", "predicate": "subject_to", "object_id": "@r_kr_kchips", "claim_ids": ["CLM-0354"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_kr_kchips", "claim_ids": ["CLM-0354"]}
+{"subject_id": "@cat_idm", "predicate": "subject_to", "object_id": "@r_kr_special", "claim_ids": ["CLM-0355"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_kr_special", "claim_ids": ["CLM-0355"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_tw_102", "claim_ids": ["CLM-0356"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_tw_102", "claim_ids": ["CLM-0356"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_tw_entity", "claim_ids": ["CLM-0357"]}
+{"subject_id": "@cat_chip_company", "predicate": "subject_to", "object_id": "@r_tw_entity", "claim_ids": ["CLM-0357"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "subject_to", "object_id": "@r_tw_entity", "claim_ids": ["CLM-0357"]}
+{"subject_id": "@cat_equipment_maker", "predicate": "subject_to", "object_id": "@r_semi_std", "claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"]}
+{"subject_id": "@cat_materials_supplier", "predicate": "subject_to", "object_id": "@r_semi_std", "claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"]}
+{"subject_id": "@cat_osat", "predicate": "subject_to", "object_id": "@r_semi_std", "claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"]}
+{"subject_id": "@cat_foundry", "predicate": "subject_to", "object_id": "@r_semi_std", "claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"]}
+{"subject_id": "@cat_memory_maker", "predicate": "subject_to", "object_id": "@r_jedec_std", "claim_ids": ["CLM-0363", "CLM-0440"]}
+{"subject_id": "@cat_osat", "predicate": "subject_to", "object_id": "@r_jedec_std", "claim_ids": ["CLM-0363", "CLM-0440"]}
+{"subject_id": "@cat_oem", "predicate": "subject_to", "object_id": "@r_jedec_std", "claim_ids": ["CLM-0363", "CLM-0440"]}

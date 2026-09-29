@@ -2,26 +2,129 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Regulation",
   "type": "object",
-  "required": ["id", "name", "authority", "jurisdiction", "instrument_type", "status", "affected_participants", "requirements", "source_ids", "last_verified"],
+  "required": [
+    "id",
+    "name",
+    "authority",
+    "jurisdiction",
+    "instrument_type",
+    "status",
+    "affected_participants",
+    "requirements",
+    "source_ids",
+    "status_as_of"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "pattern": "^REG-[0-9]{4,}$"},
-    "name": {"type": "string"},
-    "short_name": {"type": "string"},
-    "authority": {"type": "string", "description": "issuing body, e.g. US BIS, EU Commission, MeitY"},
-    "authority_entity_id": {"type": "string", "pattern": "^(ENT|CO)-[0-9]{4,}$"},
-    "jurisdiction": {"type": "string"},
-    "instrument_type": {"enum": ["act", "rule", "regulation", "directive", "notification", "circular", "guidance", "standard", "export_control", "sanction", "subsidy_program", "treaty", "tariff", "other"]},
-    "effective_date": {"type": "string", "pattern": "^([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?|unknown)$"},
-    "status": {"enum": ["in_force", "proposed", "amended", "repealed", "expired", "unknown"]},
-    "affected_participants": {"type": "array", "minItems": 1, "items": {"type": "string"}, "description": "ontology entity_type ids"},
-    "requirements": {"type": "string"},
-    "operational_impact": {"type": "string"},
-    "financial_impact_claim_ids": {"type": "array", "items": {"type": "string", "pattern": "^CLM-[0-9]{4,}$"}},
-    "penalties": {"type": "string"},
-    "related_regulation_ids": {"type": "array", "items": {"type": "string", "pattern": "^REG-[0-9]{4,}$"}},
-    "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"}},
-    "last_verified": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
-    "research_units": {"type": "array", "items": {"type": "string", "pattern": "^RU-[0-9]{4,}$"}}
+    "id": {
+      "type": "string",
+      "pattern": "^REG-[0-9]{4,}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string",
+      "description": "issuing body, e.g. US BIS, EU Commission, MeitY"
+    },
+    "authority_entity_id": {
+      "type": "string",
+      "pattern": "^(ENT|CO)-[0-9]{4,}$"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "instrument_type": {
+      "enum": [
+        "act",
+        "rule",
+        "regulation",
+        "directive",
+        "notification",
+        "circular",
+        "guidance",
+        "standard",
+        "export_control",
+        "sanction",
+        "subsidy_program",
+        "treaty",
+        "tariff",
+        "other"
+      ]
+    },
+    "effective_date": {
+      "type": "string",
+      "pattern": "^([0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?|unknown)$"
+    },
+    "status": {
+      "enum": [
+        "in_force",
+        "proposed",
+        "suspended",
+        "amended",
+        "repealed",
+        "expired",
+        "unknown"
+      ]
+    },
+    "affected_participants": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "description": "ontology entity_type ids"
+    },
+    "requirements": {
+      "type": "string"
+    },
+    "operational_impact": {
+      "type": "string"
+    },
+    "financial_impact_claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^CLM-[0-9]{4,}$"
+      }
+    },
+    "penalties": {
+      "type": "string"
+    },
+    "related_regulation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^REG-[0-9]{4,}$"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^SRC-[0-9]{4,}$"
+      }
+    },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "set only after an independent fact-check of the regulation's status"
+    },
+    "research_units": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^RU-[0-9]{4,}$"
+      }
+    },
+    "status_as_of": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "date of the newest source used to establish status; not a verification date"
+    }
   }
 }

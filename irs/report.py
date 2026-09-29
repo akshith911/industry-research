@@ -87,8 +87,9 @@ def coverage(ind: Path) -> str:
     used = Counter(e["entity_type"] for e in dbs["entities"])
     for c in dbs["companies"]:
         used.update(c["roles"])
-    empty = [t["id"] for t in onto.get("entity_types", []) if not used[t["id"]]]
-    out.append(f"Ontology types with no entities/companies yet ({len(empty)}): {', '.join(empty) or 'none'}")
+    parents = {t.get("parent") for t in onto.get("entity_types", [])}
+    empty = [t["id"] for t in onto.get("entity_types", []) if not used[t["id"]] and t["id"] not in parents]
+    out.append(f"Leaf ontology types with no entities/companies yet ({len(empty)}): {', '.join(empty) or 'none'}")
     linked = {r["subject_id"] for r in dbs["relations"]} | {r["object_id"] for r in dbs["relations"]}
     orphans = [e["id"] for e in dbs["entities"] + dbs["companies"] if e["id"] not in linked]
     out.append(f"Entities/companies with no graph relations: {len(orphans)}")

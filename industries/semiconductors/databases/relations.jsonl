@@ -1,0 +1,138 @@
+{"claim_ids": ["CLM-0106", "CLM-0490"], "id": "REL-0001", "object_id": "ENT-0012", "predicate": "part_of", "subject_id": "ENT-0013"}
+{"claim_ids": ["CLM-0113", "CLM-0258"], "id": "REL-0002", "notes": "An IDM can also run a foundry business (role overlap).", "object_id": "ENT-0002", "predicate": "part_of", "subject_id": "ENT-0014"}
+{"claim_ids": ["CLM-0485", "CLM-0486", "CLM-0187"], "id": "REL-0003", "object_id": "ENT-0012", "predicate": "buys_from", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0486"], "id": "REL-0004", "notes": "IDMs lacking in-house capacity also use foundries.", "object_id": "ENT-0012", "predicate": "buys_from", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0488", "CLM-0198"], "id": "REL-0005", "object_id": "ENT-0015", "predicate": "buys_from", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0488"], "id": "REL-0006", "object_id": "ENT-0004", "predicate": "tests_for", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-0488"], "id": "REL-0007", "object_id": "ENT-0002", "predicate": "provides_service_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-0169", "CLM-0188"], "id": "REL-0008", "notes": "Prepayments/deposits to reserve capacity; per-wafer price basis unknown [CLM-0174].", "object_id": "ENT-0012", "predicate": "pays", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0457", "CLM-0161"], "id": "REL-0009", "object_id": "ENT-0012", "predicate": "hands_off_design_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0425", "CLM-0529"], "id": "REL-0010", "object_id": "ENT-0016", "predicate": "hands_off_design_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0527", "CLM-0424"], "id": "REL-0011", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "ENT-0016"}
+{"claim_ids": ["CLM-0495", "CLM-0199"], "id": "REL-0012", "object_id": "ENT-0001", "predicate": "licenses_to", "subject_id": "ENT-0007"}
+{"claim_ids": ["CLM-0213", "CLM-0200", "CLM-0475"], "id": "REL-0013", "object_id": "ENT-0001", "predicate": "licenses_to", "subject_id": "ENT-0008"}
+{"claim_ids": ["CLM-0502"], "id": "REL-0014", "object_id": "ENT-0005", "predicate": "licenses_to", "subject_id": "ENT-0008"}
+{"claim_ids": ["CLM-0504"], "id": "REL-0015", "notes": "Evidence is one firm's self-description (GUC).", "object_id": "ENT-0004", "predicate": "provides_service_to", "subject_id": "ENT-0009"}
+{"claim_ids": ["CLM-0505"], "id": "REL-0016", "notes": "GUC's sole foundry is TSMC, which owns 35%.", "object_id": "ENT-0012", "predicate": "depends_on", "subject_id": "ENT-0009"}
+{"claim_ids": ["CLM-0420"], "id": "REL-0017", "object_id": "ENT-0007", "predicate": "certifies_flow_for", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0419", "CLM-0455", "CLM-0456", "CLM-0451"], "id": "REL-0018", "notes": "PDKs, WAT/PCM, yield and lot status; defect/metrology data usually withheld.", "object_id": "ENT-0004", "predicate": "sends_information_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0196", "CLM-0197"], "id": "REL-0019", "object_id": "ENT-0032", "predicate": "licenses_to", "subject_id": "ENT-0010"}
+{"claim_ids": ["CLM-0472", "CLM-0511", "CLM-0229"], "id": "REL-0020", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0472", "CLM-0511"], "id": "REL-0021", "object_id": "ENT-0002", "predicate": "supplies", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0513", "CLM-0444"], "id": "REL-0022", "object_id": "ENT-0015", "predicate": "supplies", "subject_id": "ENT-0020"}
+{"claim_ids": ["CLM-0513"], "id": "REL-0023", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "ENT-0020"}
+{"claim_ids": ["CLM-0511", "CLM-0509", "CLM-0230"], "id": "REL-0024", "notes": "Installed-base service and upgrades.", "object_id": "ENT-0012", "predicate": "provides_service_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0473", "CLM-0061"], "id": "REL-0025", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "ENT-0021"}
+{"claim_ids": ["CLM-0474", "CLM-0522"], "id": "REL-0026", "object_id": "ENT-0002", "predicate": "supplies", "subject_id": "ENT-0022"}
+{"claim_ids": ["CLM-0540", "CLM-0520"], "id": "REL-0027", "object_id": "ENT-0015", "predicate": "supplies", "subject_id": "ENT-0025"}
+{"claim_ids": ["CLM-0530", "CLM-0533"], "id": "REL-0028", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "ENT-0024"}
+{"claim_ids": ["CLM-0344", "CLM-0345"], "id": "REL-0029", "object_id": "ENT-0021", "predicate": "supplies", "subject_id": "ENT-0026"}
+{"claim_ids": ["CLM-0449", "CLM-0448"], "id": "REL-0030", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "ENT-0027"}
+{"claim_ids": ["CLM-0530", "CLM-0533"], "id": "REL-0031", "notes": "Neon for DUV excimer lasers.", "object_id": "ENT-0024", "predicate": "depends_on", "subject_id": "ENT-0062"}
+{"claim_ids": ["CLM-0257"], "id": "REL-0032", "notes": "Intel SCIP partner contributions.", "object_id": "ENT-0002", "predicate": "invests_in", "subject_id": "ENT-0035"}
+{"claim_ids": ["CLM-0541", "CLM-0274", "CLM-0245"], "id": "REL-0033", "object_id": "ENT-0002", "predicate": "distributes", "subject_id": "ENT-0029"}
+{"claim_ids": ["CLM-0541"], "id": "REL-0034", "object_id": "ENT-0032", "predicate": "supplies", "subject_id": "ENT-0029"}
+{"claim_ids": ["CLM-0544"], "id": "REL-0035", "object_id": "ENT-0032", "predicate": "supplies", "subject_id": "ENT-0030"}
+{"claim_ids": ["CLM-0245"], "id": "REL-0036", "object_id": "ENT-0002", "predicate": "buys_from", "subject_id": "ENT-0032"}
+{"claim_ids": ["CLM-0534"], "id": "REL-0037", "object_id": "ENT-0032", "predicate": "provides_service_to", "subject_id": "ENT-0033"}
+{"claim_ids": ["CLM-0072", "CLM-0560", "CLM-0146"], "id": "REL-0038", "object_id": "ENT-0037", "predicate": "uses", "subject_id": "ENT-0048"}
+{"claim_ids": ["CLM-0463"], "id": "REL-0039", "object_id": "ENT-0043", "predicate": "uses", "subject_id": "ENT-0051"}
+{"claim_ids": ["CLM-0055", "CLM-0056"], "id": "REL-0040", "object_id": "ENT-0041", "predicate": "uses", "subject_id": "ENT-0048"}
+{"claim_ids": ["CLM-0399"], "id": "REL-0041", "notes": "EUV required at 7 nm and below.", "object_id": "ENT-0074", "predicate": "enables", "subject_id": "ENT-0063"}
+{"claim_ids": ["CLM-0408"], "id": "REL-0042", "notes": "GAA key to 3 nm and below.", "object_id": "ENT-0074", "predicate": "enables", "subject_id": "ENT-0066"}
+{"claim_ids": ["CLM-0399", "CLM-0070"], "id": "REL-0043", "object_id": "ENT-0063", "predicate": "uses", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0435", "CLM-0439"], "id": "REL-0044", "object_id": "ENT-0068", "predicate": "uses", "subject_id": "ENT-0041"}
+{"claim_ids": ["CLM-0440", "CLM-0363"], "id": "REL-0045", "object_id": "ENT-0041", "predicate": "sets_standard_for", "subject_id": "ENT-0134"}
+{"claim_ids": ["CLM-0442"], "id": "REL-0046", "object_id": "ENT-0070", "predicate": "sets_standard_for", "subject_id": "ENT-0135"}
+{"claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453"], "id": "REL-0047", "object_id": "ENT-0018", "predicate": "sets_standard_for", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-0453", "CLM-0449"], "id": "REL-0048", "object_id": "ENT-0086", "predicate": "uses", "subject_id": "ENT-0083"}
+{"claim_ids": ["CLM-0454"], "id": "REL-0049", "object_id": "ENT-0079", "predicate": "part_of", "subject_id": "ENT-0087"}
+{"claim_ids": ["CLM-0003", "CLM-0013"], "id": "REL-0050", "object_id": "ENT-0036", "predicate": "measures", "subject_id": "ENT-0128"}
+{"claim_ids": ["CLM-0002"], "id": "REL-0051", "notes": "Only members that design and sell under own trade name.", "object_id": "ENT-0128", "predicate": "sends_information_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0058", "CLM-0057"], "id": "REL-0052", "object_id": "ENT-0018", "predicate": "measures", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-0062"], "id": "REL-0053", "object_id": "ENT-0007", "predicate": "measures", "subject_id": "ENT-0132"}
+{"claim_ids": ["CLM-0301", "CLM-0304"], "id": "REL-0054", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0301", "CLM-0307"], "id": "REL-0055", "object_id": "ENT-0038", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0304"], "id": "REL-0056", "object_id": "ENT-0041", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0409"], "id": "REL-0057", "object_id": "ENT-0007", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0336", "CLM-0338"], "id": "REL-0058", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0118"}
+{"claim_ids": ["CLM-0339"], "id": "REL-0059", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0119"}
+{"claim_ids": ["CLM-0344", "CLM-0346"], "id": "REL-0060", "object_id": "ENT-0026", "predicate": "restricts", "subject_id": "ENT-0120"}
+{"claim_ids": ["CLM-0171", "CLM-0183"], "id": "REL-0061", "object_id": "ENT-0012", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0252", "CLM-0268"], "id": "REL-0062", "object_id": "ENT-0002", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0259", "CLM-0317"], "id": "REL-0063", "notes": "US government 9.9% Intel stake funded from unpaid CHIPS grants.", "object_id": "ENT-0002", "predicate": "invests_in", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0172", "CLM-0329"], "id": "REL-0064", "notes": "State aid approvals under the Chips Act (e.g. ESMC).", "object_id": "ENT-0012", "predicate": "subsidizes", "subject_id": "ENT-0116"}
+{"claim_ids": ["CLM-0358"], "id": "REL-0065", "object_id": "ENT-0015", "predicate": "subsidizes", "subject_id": "ENT-0125"}
+{"claim_ids": ["CLM-0358"], "id": "REL-0066", "object_id": "ENT-0012", "predicate": "subsidizes", "subject_id": "ENT-0125"}
+{"claim_ids": ["CLM-0131", "CLM-0350"], "id": "REL-0067", "notes": "Portfolio not evidenced.", "object_id": "ENT-0001", "predicate": "invests_in", "subject_id": "ENT-0122"}
+{"claim_ids": ["CLM-0458"], "id": "REL-0068", "object_id": "ENT-0012", "predicate": "accredits", "subject_id": "ENT-0115"}
+{"claim_ids": ["CLM-0458"], "id": "REL-0069", "object_id": "ENT-0015", "predicate": "accredits", "subject_id": "ENT-0115"}
+{"claim_ids": ["CLM-0458"], "id": "REL-0070", "object_id": "ENT-0016", "predicate": "accredits", "subject_id": "ENT-0115"}
+{"claim_ids": ["CLM-0353"], "id": "REL-0071", "object_id": "ENT-0003", "predicate": "restricts", "subject_id": "ENT-0121"}
+{"claim_ids": ["CLM-0120"], "id": "REL-0072", "object_id": "ENT-0008", "predicate": "regulates", "subject_id": "ENT-0114"}
+{"claim_ids": ["CLM-0342"], "id": "REL-0073", "notes": "Shared dual-use list implemented nationally.", "object_id": "ENT-0108", "predicate": "sets_standard_for", "subject_id": "ENT-0126"}
+{"claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"], "id": "REL-0074", "object_id": "REG-0001", "predicate": "subject_to", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"], "id": "REL-0075", "object_id": "REG-0001", "predicate": "subject_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"], "id": "REL-0076", "object_id": "REG-0001", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0301", "CLM-0302", "CLM-0303", "CLM-0139"], "id": "REL-0077", "object_id": "REG-0001", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0304"], "id": "REL-0078", "object_id": "REG-0007", "predicate": "subject_to", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0304"], "id": "REL-0079", "object_id": "REG-0007", "predicate": "subject_to", "subject_id": "ENT-0003"}
+{"claim_ids": ["CLM-0304"], "id": "REL-0080", "object_id": "REG-0007", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0305", "CLM-0306"], "id": "REL-0081", "object_id": "REG-0008", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0305", "CLM-0306"], "id": "REL-0082", "object_id": "REG-0008", "predicate": "subject_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0305", "CLM-0306"], "id": "REL-0083", "object_id": "REG-0008", "predicate": "subject_to", "subject_id": "ENT-0029"}
+{"claim_ids": ["CLM-0307", "CLM-0308"], "id": "REL-0084", "object_id": "REG-0009", "predicate": "subject_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0309", "CLM-0310"], "id": "REL-0085", "object_id": "REG-0010", "predicate": "subject_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0309", "CLM-0310"], "id": "REL-0086", "object_id": "REG-0010", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0409", "CLM-0408"], "id": "REL-0087", "object_id": "REG-0011", "predicate": "subject_to", "subject_id": "ENT-0007"}
+{"claim_ids": ["CLM-0135"], "id": "REL-0088", "object_id": "REG-0012", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0135"], "id": "REL-0089", "object_id": "REG-0012", "predicate": "subject_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0135"], "id": "REL-0090", "object_id": "REG-0012", "predicate": "subject_to", "subject_id": "ENT-0007"}
+{"claim_ids": ["CLM-0135"], "id": "REL-0091", "object_id": "REG-0012", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0313", "CLM-0028", "CLM-0029"], "id": "REL-0092", "object_id": "REG-0013", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0313", "CLM-0028", "CLM-0029"], "id": "REL-0093", "object_id": "REG-0013", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0278", "CLM-0279", "CLM-0280", "CLM-0281"], "id": "REL-0094", "object_id": "REG-0014", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0278", "CLM-0279", "CLM-0280", "CLM-0281"], "id": "REL-0095", "object_id": "REG-0014", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0278", "CLM-0279", "CLM-0280", "CLM-0281"], "id": "REL-0096", "object_id": "REG-0014", "predicate": "subject_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0319", "CLM-0320", "CLM-0321", "CLM-0322"], "id": "REL-0097", "object_id": "REG-0015", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0319", "CLM-0320", "CLM-0321", "CLM-0322"], "id": "REL-0098", "object_id": "REG-0015", "predicate": "subject_to", "subject_id": "ENT-0032"}
+{"claim_ids": ["CLM-0323", "CLM-0324"], "id": "REL-0099", "object_id": "REG-0016", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0323", "CLM-0324"], "id": "REL-0100", "object_id": "REG-0016", "predicate": "subject_to", "subject_id": "ENT-0032"}
+{"claim_ids": ["CLM-0325"], "id": "REL-0101", "object_id": "REG-0017", "predicate": "subject_to", "subject_id": "ENT-0034"}
+{"claim_ids": ["CLM-0325"], "id": "REL-0102", "object_id": "REG-0017", "predicate": "subject_to", "subject_id": "ENT-0035"}
+{"claim_ids": ["CLM-0325"], "id": "REL-0103", "object_id": "REG-0017", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0326"], "id": "REL-0104", "object_id": "REG-0018", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0326"], "id": "REL-0105", "object_id": "REG-0018", "predicate": "subject_to", "subject_id": "ENT-0032"}
+{"claim_ids": ["CLM-0327", "CLM-0328", "CLM-0329", "CLM-0141"], "id": "REL-0106", "object_id": "REG-0003", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0327", "CLM-0328", "CLM-0329", "CLM-0141"], "id": "REL-0107", "object_id": "REG-0003", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0334"], "id": "REL-0108", "object_id": "REG-0023", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0334"], "id": "REL-0109", "object_id": "REG-0023", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0334"], "id": "REL-0110", "object_id": "REG-0023", "predicate": "subject_to", "subject_id": "ENT-0024"}
+{"claim_ids": ["CLM-0335"], "id": "REL-0111", "object_id": "REG-0024", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0335"], "id": "REL-0112", "object_id": "REG-0024", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0335"], "id": "REL-0113", "object_id": "REG-0024", "predicate": "subject_to", "subject_id": "ENT-0023"}
+{"claim_ids": ["CLM-0336", "CLM-0337", "CLM-0338", "CLM-0140"], "id": "REL-0114", "object_id": "REG-0025", "predicate": "subject_to", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0339"], "id": "REL-0115", "object_id": "REG-0026", "predicate": "subject_to", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0344", "CLM-0345"], "id": "REL-0116", "object_id": "REG-0005", "predicate": "subject_to", "subject_id": "ENT-0026"}
+{"claim_ids": ["CLM-0344", "CLM-0345"], "id": "REL-0117", "object_id": "REG-0005", "predicate": "subject_to", "subject_id": "ENT-0021"}
+{"claim_ids": ["CLM-0346", "CLM-0347"], "id": "REL-0118", "object_id": "REG-0028", "predicate": "subject_to", "subject_id": "ENT-0026"}
+{"claim_ids": ["CLM-0348", "CLM-0349"], "id": "REL-0119", "object_id": "REG-0029", "predicate": "subject_to", "subject_id": "ENT-0026"}
+{"claim_ids": ["CLM-0348", "CLM-0349"], "id": "REL-0120", "object_id": "REG-0029", "predicate": "subject_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0348", "CLM-0349"], "id": "REL-0121", "object_id": "REG-0029", "predicate": "subject_to", "subject_id": "ENT-0032"}
+{"claim_ids": ["CLM-0354"], "id": "REL-0122", "object_id": "REG-0033", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0354"], "id": "REL-0123", "object_id": "REG-0033", "predicate": "subject_to", "subject_id": "ENT-0003"}
+{"claim_ids": ["CLM-0354"], "id": "REL-0124", "object_id": "REG-0033", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0355"], "id": "REL-0125", "object_id": "REG-0034", "predicate": "subject_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-0355"], "id": "REL-0126", "object_id": "REG-0034", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0356"], "id": "REL-0127", "object_id": "REG-0035", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0356"], "id": "REL-0128", "object_id": "REG-0035", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0357"], "id": "REL-0129", "object_id": "REG-0036", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0357"], "id": "REL-0130", "object_id": "REG-0036", "predicate": "subject_to", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-0357"], "id": "REL-0131", "object_id": "REG-0036", "predicate": "subject_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"], "id": "REL-0132", "object_id": "REG-0038", "predicate": "subject_to", "subject_id": "ENT-0018"}
+{"claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"], "id": "REL-0133", "object_id": "REG-0038", "predicate": "subject_to", "subject_id": "ENT-0021"}
+{"claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"], "id": "REL-0134", "object_id": "REG-0038", "predicate": "subject_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-0361", "CLM-0362", "CLM-0453", "CLM-0454"], "id": "REL-0135", "object_id": "REG-0038", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0363", "CLM-0440"], "id": "REL-0136", "object_id": "REG-0039", "predicate": "subject_to", "subject_id": "ENT-0003"}
+{"claim_ids": ["CLM-0363", "CLM-0440"], "id": "REL-0137", "object_id": "REG-0039", "predicate": "subject_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-0363", "CLM-0440"], "id": "REL-0138", "object_id": "REG-0039", "predicate": "subject_to", "subject_id": "ENT-0032"}

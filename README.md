@@ -6,7 +6,7 @@ A reusable system for building **evidence-linked Industry Knowledge Atlases**: s
 
 | Industry | Folder | Status |
 |---|---|---|
-| Global semiconductor industry | [`industries/semiconductors`](industries/semiconductors) | Phase 0–1: ontology and research plan |
+| Global semiconductor industry | [`industries/semiconductors`](industries/semiconductors) | Phase 0 done (ontology, maps); Phase 1 (research tree) next |
 
 ## How it works
 
@@ -19,6 +19,7 @@ Read [`METHODOLOGY.md`](METHODOLOGY.md) for the method and [`CLAUDE.md`](CLAUDE.
 ## Quick start
 
 ```bash
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m unittest discover -s tests -t .
 python -m irs status semiconductors
@@ -26,3 +27,14 @@ python -m irs next semiconductors
 ```
 
 Then in Claude Code, in this folder: `/research-industry continue semiconductors`.
+
+## Running research locally (recommended for research waves)
+
+Research waves need hundreds of web searches, so run them in Claude Code on your machine with the search cap raised and Chrome connected:
+
+```bash
+cd ~/Work/Factory/Biz/industry-research && git pull
+source .venv/bin/activate
+CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION=3000 claude --chrome
+```
+then type: `/research-industry continue semiconductors`

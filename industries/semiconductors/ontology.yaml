@@ -1,12 +1,121 @@
-# Ontology for this industry. Entity types are DISCOVERED in Phase 0 from evidence,
-# not assumed; leave entity_types empty until the discovery pass proposes them.
+# Ontology for the global semiconductor industry.
+# Entity types were DISCOVERED in Phase 0 (run plan0-9c2e, 2026-09-29) by reconciling the six
+# discovery lenses in phase0/discovery-*.md. Every type cites the claims that show it exists.
+# All cited claims were still UNVERIFIED (low confidence) when this was written; see phase0/ontology.md.
 # Every entity, company role, regulation participant and relation predicate must
 # use an id from this file (enforced by `irs validate`). Grow it as research finds new things.
 
-entity_types: []
-#  - {id: foundry, name: "Foundry", description: "...", parent: manufacturer, evidence: [SRC-0001]}
+entity_types:
+  # ---- Market participant
+  - {id: participant, name: "Market participant", description: "Any organisation role that makes, designs, sells, moves or buys something in the semiconductor value chain. One company can hold several roles at once (e.g. IDM and foundry), so roles are kept as separate types.", evidence: [CLM-0085, CLM-0467, CLM-0468, CLM-0566]}
+  - {id: chip_company, name: "Chip company", parent: participant, description: "A company that designs chips and sells them under its own name, or designs them for its own products. It is the 'seller' counted in the headline chip-market statistics.", evidence: [CLM-0002, CLM-0085, CLM-0483, CLM-0485]}
+  - {id: idm, name: "Integrated device manufacturer (IDM)", parent: chip_company, description: "A chip company that designs its chips and also makes, packages and tests them in its own factories.", evidence: [CLM-0155, CLM-0483, CLM-0484, CLM-0244]}
+  - {id: memory_maker, name: "Memory chip maker", parent: idm, description: "An IDM that makes commodity-like memory chips (DRAM, NAND flash, HBM); prices swing hard with the cycle and are set in periodically renegotiated agreements.", evidence: [CLM-0266, CLM-0267, CLM-0554, CLM-0555, CLM-0556]}
+  - {id: fabless_company, name: "Fabless chip company", parent: chip_company, description: "A chip company that designs and sells chips but owns no fab; it pays foundries to make wafers and OSATs to package and test them.", evidence: [CLM-0156, CLM-0485, CLM-0186, CLM-0198, CLM-0109]}
+  - {id: custom_silicon_system_company, name: "System company designing its own chips", parent: chip_company, description: "A cloud provider or device maker that designs custom chips for its own products or data centres (e.g. hyperscaler CPUs and AI chips) rather than for sale on the open market.", evidence: [CLM-0502, CLM-0503]}
+  - {id: design_enablement_provider, name: "Design-enablement provider", parent: participant, description: "A company that supplies what chip designers need to design: software, licensed design blocks or design services.", evidence: [CLM-0475, CLM-0414]}
+  - {id: eda_vendor, name: "EDA vendor", parent: design_enablement_provider, description: "Sells electronic design automation (EDA) software used to design and verify chips, mostly as time-based licences.", evidence: [CLM-0475, CLM-0493, CLM-0494, CLM-0199, CLM-0415, CLM-0062]}
+  - {id: ip_licensor, name: "Semiconductor IP licensor", parent: design_enablement_provider, description: "Licenses reusable, pre-designed chip blocks (e.g. processor cores, interfaces) for a licence fee and often a royalty on every chip shipped.", evidence: [CLM-0475, CLM-0213, CLM-0200, CLM-0499, CLM-0110, CLM-0063]}
+  - {id: design_service_provider, name: "Design-service / ASIC house", parent: design_enablement_provider, description: "Takes a customer's chip from specification to finished product, doing design work and managing the foundry and packaging steps (also called a design house or turnkey ASIC provider).", evidence: [CLM-0504, CLM-0505, CLM-0085]}
+  - {id: patent_licensor, name: "Device-level patent licensor", parent: participant, description: "Licenses patents to device makers (not design blocks to chip designers) for a royalty based on the device's selling price.", evidence: [CLM-0196, CLM-0197]}
+  - {id: manufacturing_service_provider, name: "Contract manufacturing-service provider", parent: participant, description: "A company that manufactures, packages, tests or makes masks for chips designed by others.", evidence: [CLM-0489, CLM-0486, CLM-0488]}
+  - {id: foundry, name: "Foundry", parent: manufacturing_service_provider, description: "A contract chip manufacturer: it makes wafers to its customers' designs using its own processes.", evidence: [CLM-0157, CLM-0161, CLM-0486, CLM-0487, CLM-0064]}
+  - {id: pure_play_foundry, name: "Pure-play foundry", parent: foundry, description: "A foundry that only manufactures for customers and does not sell chips of its own design.", evidence: [CLM-0106, CLM-0105, CLM-0490]}
+  - {id: idm_foundry_business, name: "IDM foundry business", parent: foundry, description: "A foundry business run inside a company that also designs and sells its own chips (an IDM offering spare or dedicated capacity to outside customers).", evidence: [CLM-0113, CLM-0258, CLM-0553]}
+  - {id: osat, name: "OSAT (outsourced assembly and test)", parent: manufacturing_service_provider, description: "A contractor that cuts, packages and tests chips for IDMs and fabless companies; the customer usually keeps title to the wafers.", evidence: [CLM-0158, CLM-0488, CLM-0232, CLM-0235, CLM-0538]}
+  - {id: mask_maker, name: "Photomask maker", parent: manufacturing_service_provider, description: "Makes photomasks (the patterned plates used in lithography) from each customer's design, either as an independent 'merchant' shop or a 'captive' shop inside a chipmaker.", evidence: [CLM-0527, CLM-0528, CLM-0427, CLM-0425]}
+  - {id: upstream_supplier, name: "Upstream supplier to fabs", parent: participant, description: "A supplier of the tools, materials, chemicals, gases and software that fabs and packaging plants consume.", evidence: [CLM-0473, CLM-0472]}
+  - {id: equipment_maker, name: "Semiconductor equipment maker", parent: upstream_supplier, description: "Builds the machines used to make and test chips, and earns a large share of revenue from servicing and upgrading its installed base.", evidence: [CLM-0472, CLM-0057, CLM-0059, CLM-0511, CLM-0229]}
+  - {id: wafer_fab_equipment_maker, name: "Wafer-fab (front-end) equipment maker", parent: equipment_maker, description: "Makes front-end tools: lithography, deposition, etch, implant, polishing (CMP), metrology and inspection.", evidence: [CLM-0506, CLM-0507, CLM-0059, CLM-0472]}
+  - {id: test_equipment_maker, name: "Test-equipment maker", parent: equipment_maker, description: "Makes automatic test equipment used at wafer probe, final test and system-level test; sells to IDMs, fabless firms, foundries and OSATs.", evidence: [CLM-0513, CLM-0514, CLM-0444]}
+  - {id: materials_supplier, name: "Semiconductor materials supplier", parent: upstream_supplier, description: "Supplies the consumable materials of chipmaking: wafers, photoresists, chemicals, gases, photomask blanks and packaging materials.", evidence: [CLM-0061, CLM-0473, CLM-0519, CLM-0520]}
+  - {id: wafer_supplier, name: "Silicon wafer / polysilicon supplier", parent: materials_supplier, description: "Grows ultra-pure silicon and slices and polishes it into the wafers that chips are built on.", evidence: [CLM-0474, CLM-0522, CLM-0525, CLM-0523]}
+  - {id: process_chemical_supplier, name: "Process-chemical / photoresist supplier", parent: materials_supplier, description: "Supplies photoresists, wet chemicals and etchants used in the fab.", evidence: [CLM-0524, CLM-0137]}
+  - {id: specialty_gas_supplier, name: "Specialty-gas producer and purifier", parent: materials_supplier, description: "Produces and purifies gases such as neon used in lithography lasers and other process steps.", evidence: [CLM-0530, CLM-0533]}
+  - {id: packaging_materials_supplier, name: "Packaging-materials / IC-substrate supplier", parent: materials_supplier, description: "Makes the substrates (e.g. ABF), lead frames, bonding wire and other materials that chips are packaged with.", evidence: [CLM-0540, CLM-0520]}
+  - {id: critical_mineral_producer, name: "Critical-mineral producer", parent: materials_supplier, description: "Produces raw minerals such as gallium, germanium or rare earths that are refined into chip materials; production is geographically concentrated.", evidence: [CLM-0344, CLM-0345]}
+  - {id: manufacturing_software_vendor, name: "Manufacturing-software vendor", parent: upstream_supplier, description: "Sells factory software such as manufacturing execution systems (MES), fault detection and yield management to fabs and packaging plants.", evidence: [CLM-0448, CLM-0449]}
+  - {id: channel_intermediary, name: "Channel intermediary", parent: participant, description: "A company that resells chips between chipmakers and buyers.", evidence: [CLM-0541, CLM-0544]}
+  - {id: authorized_distributor, name: "Authorized (franchised) distributor", parent: channel_intermediary, description: "Buys chips from chipmakers under franchise agreements and resells them to device makers, adding design support, programming and logistics.", evidence: [CLM-0541, CLM-0542, CLM-0270, CLM-0274, CLM-0545]}
+  - {id: open_market_broker, name: "Independent distributor / broker", parent: channel_intermediary, description: "Resells chips outside the chipmakers' authorized channels (the 'open market'), where provenance is not assured and counterfeits can enter.", evidence: [CLM-0544, CLM-0545]}
+  - {id: chip_buyer, name: "Chip buyer", parent: participant, description: "A company that buys chips to build into products.", evidence: [CLM-0072, CLM-0495, CLM-0541]}
+  - {id: oem, name: "OEM / device maker", parent: chip_buyer, description: "An original equipment manufacturer that designs and sells end products (computers, phones, cars, industrial equipment) containing chips.", evidence: [CLM-0196, CLM-0541, CLM-0560]}
+  - {id: ems_provider, name: "EMS provider", parent: chip_buyer, description: "An electronics manufacturing services contractor that assembles chips onto boards and systems for OEMs.", evidence: [CLM-0534, CLM-0535]}
+  - {id: capital_provider, name: "Capital provider", parent: participant, description: "A party that finances chip companies or fabs (equity, co-investment, loans).", evidence: [CLM-0257, CLM-0131]}
+  - {id: financial_co_investor, name: "Financial co-investor in fabs", parent: capital_provider, description: "A financial partner that co-funds a chipmaker's fab construction in exchange for a minority stake in the fab or its output.", evidence: [CLM-0257]}
+  # ---- Institution
+  - {id: institution, name: "Institution", description: "A non-commercial body that sets rules, funds, measures, standardises or researches for the industry.", evidence: [CLM-0364, CLM-0001, CLM-0361]}
+  - {id: government_body, name: "Government body", parent: institution, description: "A public authority that regulates, taxes, subsidises, screens investment in or trades with the industry.", evidence: [CLM-0316, CLM-0364]}
+  - {id: export_control_authority, name: "Export-control authority", parent: government_body, description: "A government body that licenses or bans exports of chips, chipmaking equipment, design software or raw materials.", evidence: [CLM-0301, CLM-0336, CLM-0339, CLM-0357, CLM-0344]}
+  - {id: industrial_policy_agency, name: "Industrial-policy / incentive agency", parent: government_body, description: "A government body that pays grants, loans or tax credits (or takes equity) to attract or support chip investment.", evidence: [CLM-0312, CLM-0283, CLM-0284, CLM-0358, CLM-0340, CLM-0329]}
+  - {id: trade_remedy_authority, name: "Tariff / trade-remedy authority", parent: government_body, description: "A government body that imposes tariffs or runs anti-dumping and similar trade investigations on chips.", evidence: [CLM-0319, CLM-0323, CLM-0351]}
+  - {id: investment_screening_authority, name: "Investment-screening authority", parent: government_body, description: "A government body that reviews or prohibits inbound or outbound investments in chip companies.", evidence: [CLM-0325, CLM-0333]}
+  - {id: state_investment_fund, name: "State investment fund", parent: government_body, description: "A government-backed fund, or government acting as shareholder, that takes equity in chip companies.", evidence: [CLM-0131, CLM-0132, CLM-0350, CLM-0259]}
+  - {id: security_review_authority, name: "Security / trust authority", parent: government_body, description: "A government body that reviews chip suppliers on security grounds or accredits trusted suppliers for sensitive work.", evidence: [CLM-0353, CLM-0458, CLM-0459]}
+  - {id: competition_authority, name: "Competition authority", parent: government_body, description: "A government body that can block or condition mergers and acquisitions in the industry.", evidence: [CLM-0120]}
+  - {id: environmental_chemical_regulator, name: "Environmental / chemical regulator", parent: government_body, description: "A government body that restricts chemicals and gases (e.g. PFAS, fluorinated gases) that fabs use. Evidence on how it affects fabs is still thin.", evidence: [CLM-0334, CLM-0335]}
+  - {id: securities_disclosure_regulator, name: "Securities / disclosure regulator", parent: government_body, description: "A securities regulator that requires listed companies to disclose supply-chain facts (e.g. conflict minerals).", evidence: [CLM-0326]}
+  - {id: statistical_classification_authority, name: "Statistical-classification authority", parent: government_body, description: "A body that maintains the official industry and customs codes (ISIC, NAICS, HS) under which chips are counted in official statistics.", evidence: [CLM-0017, CLM-0019, CLM-0021]}
+  - {id: multilateral_regime, name: "Multilateral control regime", parent: institution, description: "An agreement among states that keeps a shared control list which each member writes into its own law.", evidence: [CLM-0342, CLM-0343]}
+  - {id: industry_association, name: "Industry association", parent: institution, description: "A trade body that represents companies, lobbies and publishes reference statistics.", evidence: [CLM-0007, CLM-0109, CLM-0058]}
+  - {id: statistics_body, name: "Industry statistics body", parent: institution, description: "An organisation that collects member sales data and publishes the reference market statistic.", evidence: [CLM-0001, CLM-0002, CLM-0006]}
+  - {id: market_research_firm, name: "Market-research firm", parent: institution, description: "A commercial analyst firm that publishes independent market-size and market-share estimates.", evidence: [CLM-0052, CLM-0068, CLM-0554]}
+  - {id: standards_body, name: "Standards body", parent: institution, description: "An organisation that develops voluntary technical standards (equipment communication, memory interfaces, chiplet links, data formats).", evidence: [CLM-0361, CLM-0363, CLM-0442]}
+  - {id: research_organisation, name: "Research institute / consortium", parent: institution, description: "A public or shared research body doing pre-competitive R&D (e.g. state institutes, industry consortia).", evidence: [CLM-0467, CLM-0102, CLM-0104, CLM-0438]}
+  # ---- Semiconductor product category
+  - {id: semiconductor_product, name: "Semiconductor product category", description: "A class of finished chips as counted by the industry statistic (WSTS) and customs codes.", evidence: [CLM-0011, CLM-0013, CLM-0021]}
+  - {id: integrated_circuit, name: "Integrated circuit (IC)", parent: semiconductor_product, description: "Many transistors and other components built on one piece of semiconductor; about 88% of chip sales.", evidence: [CLM-0013, CLM-0022, CLM-0034]}
+  - {id: logic_ic, name: "Logic IC", parent: integrated_circuit, description: "Chips that compute or control (processors, accelerators, custom logic); the largest WSTS category.", evidence: [CLM-0035, CLM-0050]}
+  - {id: ai_accelerator, name: "AI accelerator / advanced computing chip", parent: logic_ic, description: "Processors built for AI training and inference in data centres; the target of US export controls and the Section 232 tariff.", evidence: [CLM-0055, CLM-0307, CLM-0145, CLM-0301]}
+  - {id: memory_ic, name: "Memory IC", parent: integrated_circuit, description: "Chips that store data (DRAM, NAND flash, HBM and others).", evidence: [CLM-0014, CLM-0036]}
+  - {id: dram, name: "DRAM", parent: memory_ic, description: "Dynamic random-access memory: fast working memory, made by a handful of IDMs.", evidence: [CLM-0014, CLM-0554, CLM-0266]}
+  - {id: hbm, name: "High-bandwidth memory (HBM)", parent: memory_ic, description: "Stacks of DRAM dies joined by through-silicon vias, packaged next to AI processors.", evidence: [CLM-0439, CLM-0056, CLM-0440, CLM-0304]}
+  - {id: nand_flash, name: "NAND flash", parent: memory_ic, description: "Non-volatile storage memory, now built in 3D stacks of hundreds of layers.", evidence: [CLM-0014, CLM-0410]}
+  - {id: analog_ic, name: "Analog IC", parent: integrated_circuit, description: "Chips that handle real-world signals and power (amplifiers, converters, drivers).", evidence: [CLM-0037, CLM-0351]}
+  - {id: micro_ic, name: "Micro IC (MPU/MCU/DSP)", parent: integrated_circuit, description: "Microprocessors, microcontrollers and digital signal processors, as grouped by WSTS.", evidence: [CLM-0014, CLM-0038]}
+  - {id: discrete_semiconductor, name: "Discrete semiconductor", parent: semiconductor_product, description: "Single-function devices such as transistors, diodes and thyristors.", evidence: [CLM-0013, CLM-0040]}
+  - {id: optoelectronics, name: "Optoelectronics", parent: semiconductor_product, description: "Devices that emit or detect light (LEDs, image sensors, laser diodes); excludes LCD panels.", evidence: [CLM-0013, CLM-0039, CLM-0015, CLM-0023]}
+  - {id: sensor_actuator, name: "Sensors and actuators", parent: semiconductor_product, description: "Semiconductor sensors (pressure, motion, magnetic etc.) and actuators.", evidence: [CLM-0013, CLM-0041]}
+  # ---- Technology
+  - {id: technology, name: "Technology", description: "A named way of building, patterning, packaging or powering chips.", evidence: [CLM-0466]}
+  - {id: process_technology, name: "Process technology (node)", parent: technology, description: "A manufacturer's named recipe for making chips (e.g. '3 nm'); node names are generation labels, not measurements.", evidence: [CLM-0378, CLM-0379, CLM-0084, CLM-0028]}
+  - {id: transistor_architecture, name: "Transistor architecture", parent: technology, description: "The physical shape of the transistor: planar, FinFET or gate-all-around (nanosheet).", evidence: [CLM-0401, CLM-0403, CLM-0406, CLM-0408, CLM-0029]}
+  - {id: lithography_technology, name: "Lithography technology", parent: technology, description: "The light-based printing method used to pattern wafers: DUV (incl. immersion), EUV and High-NA EUV.", evidence: [CLM-0384, CLM-0386, CLM-0389, CLM-0390, CLM-0400, CLM-0399]}
+  - {id: packaging_technology, name: "Packaging technology", parent: technology, description: "Ways of enclosing and connecting chips, including advanced 2.5D/3D packaging, chiplets and hybrid bonding.", evidence: [CLM-0429, CLM-0539, CLM-0435, CLM-0437, CLM-0432]}
+  - {id: power_delivery_technology, name: "Power-delivery technology", parent: technology, description: "How power is routed to transistors, e.g. backside power delivery.", evidence: [CLM-0405, CLM-0407]}
+  - {id: substrate_technology, name: "Wafer substrate technology", parent: technology, description: "The base material and size of the wafer: 200/300 mm silicon, silicon carbide, gallium nitride.", evidence: [CLM-0381, CLM-0411, CLM-0026]}
+  # ---- Production stage or step
+  - {id: production_process, name: "Production stage or step", description: "A stage of the value chain or a step inside it.", evidence: [CLM-0467, CLM-0468, CLM-0027, CLM-0368]}
+  - {id: value_chain_stage, name: "Value-chain stage", parent: production_process, description: "A major stage of making chips: research, design, wafer production, fabrication (front end), assembly/packaging/test (back end), distribution.", evidence: [CLM-0467, CLM-0468, CLM-0027, CLM-0368]}
+  - {id: process_step, name: "Fab process step", parent: production_process, description: "A repeated operation inside the fab: deposition, lithography, etch, ion implantation, polishing, metrology.", evidence: [CLM-0376, CLM-0371, CLM-0471]}
+  - {id: test_insertion, name: "Test insertion", parent: production_process, description: "A point where chips are tested: wafer sort, final test, burn-in, system-level test.", evidence: [CLM-0444, CLM-0513, CLM-0445]}
+  # ---- Information artefact or system
+  - {id: information_artefact, name: "Information artefact or system", description: "Data, documents, formats and software systems that carry information between participants.", evidence: [CLM-0457, CLM-0451]}
+  - {id: design_artifact, name: "Design artefact", parent: information_artefact, description: "A design file or kit that moves between designers, foundries and mask shops: RTL, PDK, layout (GDSII/OASIS), mask data.", evidence: [CLM-0417, CLM-0421, CLM-0419, CLM-0424, CLM-0425]}
+  - {id: manufacturing_data, name: "Manufacturing / test data", parent: information_artefact, description: "Data generated in production: equipment sensor data, WAT/PCM results, wafer maps, test results, genealogy.", evidence: [CLM-0451, CLM-0454, CLM-0447, CLM-0455, CLM-0450]}
+  - {id: information_system, name: "Information system", parent: information_artefact, description: "Software that holds or moves the data: MES, FDC, yield management, test data systems, foundry customer portals.", evidence: [CLM-0448, CLM-0449, CLM-0457]}
+  - {id: technical_standard, name: "Technical standard", parent: information_artefact, description: "A published specification (e.g. SEMI E30/E142/P39, STDF, JEDEC HBM4, UCIe) that participants follow to interoperate.", evidence: [CLM-0361, CLM-0453, CLM-0454, CLM-0440, CLM-0442, CLM-0447]}
+  - {id: market_statistic, name: "Market statistic / data series", parent: information_artefact, description: "A published industry data series (WSTS chip sales, SEMI equipment and materials, ESD Alliance design revenue).", evidence: [CLM-0003, CLM-0006, CLM-0058, CLM-0062]}
+  - {id: industry_classification, name: "Industry / trade classification code", parent: information_artefact, description: "Official codes (ISIC 2610, NAICS 334410/334413, HS 8541/8542) under which chips appear in government statistics.", evidence: [CLM-0017, CLM-0019, CLM-0021, CLM-0022]}
+  # ---- End market
+  - {id: end_market, name: "End market", description: "A group of final uses of chips, as segmented by the WSTS End Use Survey.", evidence: [CLM-0072, CLM-0074, CLM-0075, CLM-0560]}
+  - {id: computing_end_market, name: "Computing / AI end market", parent: end_market, description: "PCs, servers and data-centre/AI systems; the largest end use.", evidence: [CLM-0072, CLM-0560, CLM-0071]}
+  - {id: communications_end_market, name: "Communications end market", parent: end_market, description: "Phones and network equipment.", evidence: [CLM-0075, CLM-0073]}
+  - {id: consumer_end_market, name: "Consumer end market", parent: end_market, description: "Consumer electronics other than PCs and phones.", evidence: [CLM-0073, CLM-0071]}
+  - {id: automotive_end_market, name: "Automotive end market", parent: end_market, description: "Chips in cars and vehicles.", evidence: [CLM-0561, CLM-0075, CLM-0463]}
+  - {id: industrial_end_market, name: "Industrial end market", parent: end_market, description: "Factory, energy, medical and other industrial equipment.", evidence: [CLM-0073, CLM-0463]}
+  - {id: government_military_end_market, name: "Government / military end market", parent: end_market, description: "Public-sector and defence uses; WSTS groups military inside Government.", evidence: [CLM-0074, CLM-0458]}
+  # ---- Commercial arrangement
+  - {id: commercial_arrangement, name: "Commercial arrangement", description: "A recurring contract form that governs how money, capacity and risk move between participants.", evidence: [CLM-0300]}
+  - {id: long_term_supply_agreement, name: "Long-term agreement (LTA)", parent: commercial_arrangement, description: "A multi-year supply or capacity agreement with volume commitments, sometimes with penalties or periodic price renegotiation.", evidence: [CLM-0175, CLM-0176, CLM-0267, CLM-0188]}
+  - {id: capacity_prepayment, name: "Capacity prepayment / deposit", parent: commercial_arrangement, description: "Cash paid in advance by a customer to reserve manufacturing capacity or secure supply.", evidence: [CLM-0169, CLM-0188, CLM-0189]}
+  - {id: consignment_service_agreement, name: "Consigned-wafer service agreement", parent: commercial_arrangement, description: "An assembly/test contract in which the customer keeps title to its wafers and bears the cost of materials bought to its forecast.", evidence: [CLM-0232, CLM-0233, CLM-0234]}
+  - {id: ip_licence_and_royalty, name: "IP licence and royalty", parent: commercial_arrangement, description: "Up-front licence fees plus per-chip or per-device royalties for design IP or patents.", evidence: [CLM-0213, CLM-0200, CLM-0196, CLM-0197]}
+  - {id: software_licence, name: "Software licence / subscription", parent: commercial_arrangement, description: "Time-based or perpetual licences for design software, usually bundled with maintenance.", evidence: [CLM-0199, CLM-0210]}
+  - {id: franchised_distribution_agreement, name: "Franchised distribution agreement", parent: commercial_arrangement, description: "The contract between a chipmaker and an authorized distributor, typically with price-protection, obsolescence and return rights.", evidence: [CLM-0270, CLM-0543]}
+  - {id: equipment_service_subscription, name: "Equipment service / upgrade contract", parent: commercial_arrangement, description: "Service, spares and upgrade contracts on installed tools, often sold as subscriptions.", evidence: [CLM-0230, CLM-0509, CLM-0219]}
+  - {id: government_incentive, name: "Government incentive", parent: commercial_arrangement, description: "Grants, loans, tax credits or state equity paid to chip investments, usually on milestones and with conditions.", evidence: [CLM-0283, CLM-0281, CLM-0259, CLM-0358]}
 
-# Generic starter predicates; add industry-specific ones as needed.
 predicates:
   - {id: supplies, description: "subject sells inputs/products to object"}
   - {id: buys_from, description: "subject purchases from object"}
@@ -29,6 +138,13 @@ predicates:
   - {id: depends_on, description: "subject cannot operate without object"}
   - {id: located_in, description: "subject is geographically in object"}
   - {id: sends_information_to, description: "subject transmits data/documents to object"}
+  # Industry-specific predicates proposed in phase0/discovery-technology.md and discovery-regulation.md
+  - {id: hands_off_design_to, description: "subject delivers finished design data (tape-out) to object for mask making or fabrication", evidence: [CLM-0457, CLM-0425]}
+  - {id: certifies_flow_for, description: "subject (e.g. a foundry) certifies object's design software or IP for use on its process", evidence: [CLM-0420]}
+  - {id: tests_for, description: "subject tests wafers or packaged chips on behalf of object", evidence: [CLM-0488, CLM-0513]}
+  - {id: enables, description: "technology subject is required for, or makes possible, object", evidence: [CLM-0399, CLM-0408]}
+  - {id: accredits, description: "subject formally accredits object as a qualified or trusted supplier", evidence: [CLM-0458]}
+  - {id: measures, description: "subject compiles statistics that count object", evidence: [CLM-0003, CLM-0058]}
 
 # Research dimensions. Every research unit belongs to exactly one.
 dimensions:
@@ -54,3 +170,5 @@ dimensions:
   - {id: risks, name: "Risks"}
   - {id: adjacent, name: "Adjacent industries"}
   - {id: data, name: "Datasets & information sources"}
+  # Industry-specific (see phase0/ontology.md)
+  - {id: supply_chain_concentration, name: "Supply-chain concentration & chokepoints"}

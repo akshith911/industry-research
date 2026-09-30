@@ -191,6 +191,19 @@
 | CHIPS Research and Development Office (NIST) (ENT-0146) | subsidizes | Natcast (National Center for the Advancement of Semiconductor Technology) (ENT-0147) | CLM-0925, CLM-0950 |
 | Natcast (National Center for the Advancement of Semiconductor Technology) (ENT-0147) | provides_service_to | National Semiconductor Technology Center (NSTC) (ENT-0148) | CLM-0925, CLM-0950 |
 | US Government Accountability Office (GAO) (ENT-0149) | measures | CHIPS Program Office (US Commerce / NIST) (ENT-0109) | CLM-0981, CLM-0987 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | subsidizes | Amkor Technology (CO-0012) | CLM-1061 |
+| India Semiconductor Mission (MeitY) (ENT-0125) | subsidizes | Tata Semiconductor Assembly and Test (CO-0018) | CLM-1068 |
+| China Resources Group (CO-0019) | owns | JCET Group (CO-0013) | CLM-1100 |
+| TrendForce (ENT-0150) | measures | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-1017 |
+| DIGITIMES Research (ENT-0152) | measures | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-1026 |
+| Yole Group (ENT-0151) | measures | Assembly, packaging and test (back end) (ENT-0059) | CLM-1029, CLM-1034 |
+| SEMI (ENT-0130) | measures | Assembly, packaging and test (back end) (ENT-0059) | CLM-1051 |
+| TechSearch International (ENT-0153) | measures | Assembly, packaging and test (back end) (ENT-0059) | CLM-1051 |
+| Semiconductor Industry Association (SIA) (ENT-0129) | measures | Assembly, packaging and test (back end) (ENT-0059) | CLM-1076, CLM-1078 |
+| Amkor Technology (CO-0012) | competes_with | ASE Technology Holding (CO-0011) | CLM-1018, CLM-1019 |
+| JCET Group (CO-0013) | competes_with | ASE Technology Holding (CO-0011) | CLM-1018, CLM-1020 |
+| OSAT (outsourced assembly and test) (category) (ENT-0015) | provides_service_to | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-1102, CLM-0488 |
+| Foundry (category) (ENT-0012) | competes_with | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-1091, CLM-1095 |
 
 ## Entities
 
@@ -345,3 +358,11 @@
 | ENT-0147 | Natcast (National Center for the Advancement of Semiconductor Technology) | research_organisation | Nonprofit incorporated in October 2023 to operate the National Semiconductor Technology Center; received about US$6.3 billion of CHIPS R&D awards by January 2025, but Commerce declared its up-to-US$7.4 billion agreement void in August 2025 and NIST took over the NSTC. |
 | ENT-0148 | National Semiconductor Technology Center (NSTC) | research_organisation | US public-private semiconductor R&D consortium created under the CHIPS Act; operated by Natcast until August 2025 and then brought under direct NIST control, with its three planned facilities (Albany EUV Accelerator, California design facility, Arizona packaging pilot) cancelled. |
 | ENT-0149 | US Government Accountability Office (GAO) | government_body | Congressional audit agency required by the FY21 NDAA to report periodically on the CHIPS incentives programme; its December 2025 and August 2026 reports give award, disbursement and cancellation figures. |
+| ENT-0150 | TrendForce | market_research_firm | Taiwan-based market research firm that publishes quarterly foundry and annual OSAT revenue rankings. |
+| ENT-0151 | Yole Group | market_research_firm | French market research firm whose advanced-packaging market sizes and wafer splits are the most cited reference for packaging; full reports are paywalled. |
+| ENT-0152 | DIGITIMES Research | market_research_firm | Taiwan-based technology publisher and research unit that estimates global OSAT revenue. |
+| ENT-0153 | TechSearch International | market_research_firm | US packaging-focused research firm that co-produces the Worldwide Assembly & Test Facility Database with SEMI. |
+| ENT-0154 | Malaysian Investment Development Authority (MIDA) | industrial_policy_agency | Malaysia's government investment-promotion agency for manufacturing, including the semiconductor back end. |
+| ENT-0155 | Conventional (wire-bond/leadframe) packaging | packaging_technology | Wire-bonded chips in leadframe or laminate packages; lower value, labour-intensive, mostly in China and Southeast Asia. |
+| ENT-0156 | Flip-chip packaging | packaging_technology | Bumped die attached face-down to a substrate; the largest advanced-packaging platform by revenue and the base for 2.5D packages. |
+| ENT-0157 | Wafer-level packaging (fan-in and fan-out) | packaging_technology | Packaging done on the whole wafer before dicing; fan-in keeps connections within the die, fan-out spreads them into mould compound. |

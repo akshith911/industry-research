@@ -47,6 +47,9 @@
 | CLM-1007 | The amount of CHIPS direct funding actually received by Micron cannot be isolated from its 10-K, which combines federal grants, tax credits and state and non-US incentives. | RU-0026 |
 | CLM-1014 | No amendment to the CHIPS guardrails rule (15 CFR Part 231) after its 2023 publication was found; the Federal Register/eCFR amendment history could not be read directly. | RU-0026 |
 | CLM-1016 | Whether Congress extended the 48D construction-start deadline beyond 31 December 2026 could not be established as of September 2026; no enacted extension was found. | RU-0026 |
+| CLM-1089 | Per-country ATP capacity shares for 2022 and 2032 (US, Japan, Korea, China, Taiwan, EU, Malaysia, Philippines, Singapore, Thailand, Mexico) could not be reliably extracted: the SIA/BCG 2024 Exhibit 13 is a chart whose value-to-label mapping is not recoverable from the PDF text layer. | RU-0007 |
+| CLM-1111 | No public 2025 top-10 OSAT ranking (TrendForce or similar) was found as of September 2026; the latest public ranking with company revenues is for 2024. | RU-0007 |
+| CLM-1112 | No public estimate of in-house (IDM and foundry) assembly and test value after 2019 was found, so the current outsourced share of the back end cannot be computed on a consistent basis. | RU-0007 |
 
 ## Open questions from research units
 

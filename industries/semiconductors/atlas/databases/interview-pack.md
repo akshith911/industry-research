@@ -34,11 +34,23 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0025 | How are HBM3E/HBM4 volumes and prices fixed for the following year, and roughly what premium per bit does HBM command over server DDR5? | Determines how much of AI value memory makers capture and how fast it can erode when Samsung and Micron add share. | Contract structure description and an order-of-magnitude premium from a buyer or seller | open |
 
+## Interview guide: India Semiconductor Mission officials
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0034 | What unit volumes are the approved Indian ATMP plants actually shipping in 2026, for which customers, and what share of approved capacity is that? | Approvals and capacity claims (e.g. 48 million chips/day) say little about real output; India's back-end-led strategy depends on customer qualification and volume. | Company disclosures of shipped units or ISM progress data by plant. | open |
+
 ## Interview guide: OSAT sales director
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0008 | How are packaging and test services priced and how has advanced packaging (e.g. 2.5D) pricing differed from conventional? | Advanced packaging is a fast-growing value pool; pricing basis not disclosed in filings read. | Interview; OSAT investor presentations. | open |
+
+## Interview guide: OSAT strategy or investor-relations staff (ASE, Amkor, JCET)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0032 | Roughly what share of global packaging and test value is outsourced today, and how has that moved since 2019 once TSMC's CoWoS/InFO and memory makers' HBM stacking are counted? | Determines how large the addressable outsourced back end is and whether outsourcing is growing or being reversed by foundry advanced packaging (TSMC) and memory makers' in-house HBM stacking. | A consistent-basis estimate (same year, same definition) of OSAT revenue versus in-house back-end value, or a sourced split from a paid Yole/Gartner report summary. | open |
 
 ## Interview guide: TSMC advanced packaging planners
 
@@ -51,6 +63,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0031 | How much 48D credit (and elective payment) has been claimed so far, and how are future claims projected under the 35% rate and a possible extension? | The tax credit may now exceed grants as the main federal subsidy to fabs (Wolfspeed alone accrued about US$1bn), but no aggregate figure is public. | Treasury tax expenditure tables, JCT JCX estimates, IRS SOI data | open |
+
+## Interview guide: TrendForce OSAT analyst
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0033 | Does your OSAT ranking use ASE's consolidated revenue including USI (EMS), and what is the top-10 total on an assembly-and-test-only basis? | Headline OSAT rankings appear to include ASE's EMS revenue, overstating the size of the OSAT market by several billion dollars. | Publisher methodology note or re-stated ranking on ATM-only revenue. | open |
 
 ## Interview guide: WSTS Administrator
 

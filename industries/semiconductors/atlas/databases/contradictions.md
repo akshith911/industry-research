@@ -402,3 +402,56 @@ Announcements give US$20.47 per share for 433.3m shares; the 8-K gives US$20.74 
 **More defensible:** CLM-0964. Blended arithmetic reconciles both (see @intc_blend); the 8-K gives the per-tranche terms.
 **Remaining uncertainty:** None.
 
+## CON-0031: Size of the OSAT market in 2024 (definitional)
+
+TrendForce's top-10 OSAT revenue (US$41.56bn) is larger than DIGITIMES Research's whole-market OSAT revenue (US$41.2bn) for the same year.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1017 | TrendForce estimated the combined 2024 revenue of the world's top 10 OSAT companies at US$41.56 billion, up 3% year on year. | [SRC-0331](https://www.trendforce.com/presscenter/news/20250513-12577.html) | low |
+| CLM-1026 | DIGITIMES Research estimated global OSAT revenue at US$41.2 billion in 2024, up 5% from 2023. | [SRC-0332](https://www.digitimes.com/news/a20250807RS401.html?chid=2) | low |
+
+**Possible reasons:** population: TrendForce appears to use ASE's consolidated revenue including ~40% EMS (see @inf_ase_ems); DIGITIMES may count only assembly/test revenue; definition: treatment of test-only houses, memory back-end and foundry packaging differs and is undisclosed; currency: conversion rates to USD not disclosed by either
+**More defensible:** not determinable. Neither publisher discloses its population; a top-10 subset cannot exceed a whole market on the same basis, so the bases differ.
+**Remaining uncertainty:** Whole-market OSAT revenue on a pure assembly-and-test basis (excluding EMS) for 2024-2025 is not publicly established; plausibly in the high US$30bn range if ASE EMS (~US$7bn) is removed from TrendForce's total.
+
+## CON-0032: Yole's 2024 advanced packaging market size across report vintages (resolved)
+
+Yole forecast about US$42.5bn for 2024 in mid-2024, but reported US$46bn for 2024 in September 2025.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1035 | In mid-2024 Yole Group forecast the advanced packaging market at about US$42.5 billion for 2024 and US$47.5 billion for 2025, reaching about US$69.5 billion in 2029 (11% CAGR 2023-2029). | [SRC-0335](https://www.eenewseurope.com/en/advanced-packaging-market-growing-at-pace-says-yole) | low |
+| CLM-1029 | Yole Group estimated the advanced packaging market at US$46 billion in 2024, up 19% year on year after the 2023 downturn. | [SRC-0333](https://www.edge-ai-vision.com/?p=55059) | low |
+
+**Possible reasons:** vintage: forecast versus later estimate of actuals; method: AI-driven 2.5D/3D demand exceeded forecasts; possible scope changes between annual reports
+**More defensible:** CLM-1029. The later report estimates the completed year rather than forecasting it.
+**Remaining uncertainty:** Whether Yole also changed the scope of 'advanced packaging' between the 2024 and 2025 editions is not visible in public releases.
+
+## CON-0033: Share of the back end that is 'advanced packaging' (definitional)
+
+Yole put advanced packaging at 44% of IC packaging in 2023; SIA/BCG said the term covers about 46% of the ATP market; a 2021 Yole projection cited by CSET expected 50% by 2024.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1034 | Yole Group estimated that in 2023 the advanced packaging market was worth about US$38 billion, 44% of the total IC packaging market. | [SRC-0335](https://www.eenewseurope.com/en/advanced-packaging-market-growing-at-pace-says-yole) | low |
+| CLM-1077 | SIA/BCG estimated conventional packaging at US$51 billion of the US$95 billion ATP market, and said the term 'advanced packaging' describes about 46% of the ATP market. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | low |
+| CLM-1045 | CSET, citing Yole, reported the overall packaging market at US$53.2 billion in 2014 with advanced packaging US$20.2 billion (38%), and projected US$96.1 billion in 2024 with advanced packaging US$48.2 billion (50%). | [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) | low |
+
+**Possible reasons:** definition: SIA/BCG's denominator is ATP (includes test), Yole's is IC packaging; vintage: the 50% figure is a 2021 forecast; population: which platforms (flip chip, WLCSP, SiP) count as 'advanced' differs between publishers
+**More defensible:** not determinable. All three are close (44-50%); differences are within definitional noise, and none is an actual measured 2024 share on a common basis.
+**Remaining uncertainty:** A 2024-2025 share of advanced vs conventional packaging on a single consistent definition is not publicly available.
+
+## CON-0034: ATP share of chip value (definitional)
+
+CSET estimated back-end ATP at about 10% of a finished chip's value; SIA/BCG put ATP at about 6% of industry value added.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1040 | CSET estimated back-end ATP at about 10% of the value of a finished chip, while SIA/BCG estimated 6% of value added, 3% of industry R&D and 13% of industry capital expenditure. | [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) | low |
+| CLM-1086 | SIA/BCG estimated ATP at about 6% of semiconductor industry value added in 2022, with ATP value added measured by installed capacity at facility location. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | low |
+
+**Possible reasons:** definition: value of a finished chip vs value added across the industry; period: CSET 2019 data vs SIA/BCG 2019 and 2022; method: CSET's value-chain accounting vs BCG's capacity-based allocation
+**More defensible:** not determinable. Different measures; both indicate the back end is a small share of value.
+**Remaining uncertainty:** No publisher reports ATP value share on a transparent basis.
+

@@ -10,7 +10,7 @@
 | RU-0004 | 1 | P1 | value_chain | Semiconductor manufacturing equipment: segments, size and geography | dropped | RU-0001 | researcher_discovery |
 | RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | dropped | RU-0001 | researcher_discovery |
 | RU-0006 | 1 | P1 | value_chain | EDA software market: segments, vendors, concentration and China's domestic EDA | queued | RU-0001 | researcher_discovery |
-| RU-0007 | 1 | P0 | value_chain | Back-end stage map: assembly and test market, OSAT vs in-house vs foundry, leaders and geography | in_progress | RU-0001 | researcher_discovery |
+| RU-0007 | 1 | P0 | value_chain | Back-end stage map: assembly and test market, OSAT vs in-house vs foundry, leaders and geography | researched | RU-0001 | researcher_discovery |
 | RU-0008 | 1 | P0 | segmentation | Segmentation: product taxonomy and segment sizes (WSTS classes, ASSP/ASIC/general-purpose), end-market shares and 2025-2026 price vs volume | queued | RU-0001, RU-0002 | researcher_discovery |
 | RU-0009 | 1 | P1 | definition | Definitions and classification: legal and statistical meanings of 'semiconductor', leading-edge/mature/advanced, and NAICS/ISIC/NACE/HS codes | queued | RU-0001 | researcher_discovery |
 | RU-0010 | 2 | P2 | adjacent | Boundary industries: displays, solar PV, passive components, PCBs and EMS | queued | RU-0001 | researcher_discovery |
@@ -261,3 +261,5 @@
 | RU-0255 | 2 | P2 | regulation | US Section 232 action on polysilicon (Proclamation 11052, August 2026) and BIS anti-stockpiling rule: scope, duties and effects on wafer supply | queued | RU-0027, RU-0064 | researcher_discovery |
 | RU-0256 | 2 | P1 | capital | US government equity stakes in chip and chip-supply companies (Intel, xLight, SandboxAQ, I-Pulse, USA Rare Earth, quantum awards): terms, governance and returns | queued | RU-0026 | researcher_discovery |
 | RU-0257 | 2 | P1 | regulation | Section 48D in practice: credits claimed, elective payments, who benefits and the extension fight after 2026 | queued | RU-0026 | researcher_discovery |
+| RU-0258 | 2 | P1 | capital | Ownership and state capital in Chinese and Singaporean OSATs: JCET (China Resources), Tongfu (AMD JV), Huatian, WiseRoad/UTAC and their customer ties | queued | RU-0007 | researcher_discovery |
+| RU-0259 | 2 | P2 | geography | Americas back-end build-out: US CHIPS ITSI Fund partner countries (Costa Rica, Panama, Mexico) and US advanced packaging plants (Amkor Arizona, SK hynix Indiana, Intel New Mexico) | queued | RU-0007 | researcher_discovery |

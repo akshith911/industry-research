@@ -185,3 +185,16 @@
 {"claim_ids": ["CLM-0925", "CLM-0950"], "id": "REL-0185", "notes": "Historical: about US$6.3bn awarded by Jan 2025; agreement declared void Aug 2025.", "object_id": "ENT-0147", "predicate": "subsidizes", "subject_id": "ENT-0146"}
 {"claim_ids": ["CLM-0925", "CLM-0950"], "id": "REL-0186", "notes": "Operator of the NSTC Nov 2023 - Aug 2025; NIST took over thereafter.", "object_id": "ENT-0148", "predicate": "provides_service_to", "subject_id": "ENT-0147"}
 {"claim_ids": ["CLM-0981", "CLM-0987"], "id": "REL-0187", "notes": "Statutory reporting on the CHIPS incentives programme.", "object_id": "ENT-0109", "predicate": "measures", "subject_id": "ENT-0149"}
+{"claim_ids": ["CLM-1061"], "id": "REL-0188", "object_id": "CO-0012", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-1068"], "id": "REL-0189", "notes": "ISM fiscal support of up to 50% (CLM-0358); approval, not a disbursement record.", "object_id": "CO-0018", "predicate": "subsidizes", "subject_id": "ENT-0125"}
+{"claim_ids": ["CLM-1100"], "id": "REL-0190", "notes": "22.5% controlling stake acquired 2024 from the Big Fund and SMIC.", "object_id": "CO-0013", "predicate": "owns", "subject_id": "CO-0019"}
+{"claim_ids": ["CLM-1017"], "id": "REL-0191", "object_id": "ENT-0015", "predicate": "measures", "subject_id": "ENT-0150"}
+{"claim_ids": ["CLM-1026"], "id": "REL-0192", "object_id": "ENT-0015", "predicate": "measures", "subject_id": "ENT-0152"}
+{"claim_ids": ["CLM-1029", "CLM-1034"], "id": "REL-0193", "notes": "Yole measures advanced packaging including in-house IDM and foundry work.", "object_id": "ENT-0059", "predicate": "measures", "subject_id": "ENT-0151"}
+{"claim_ids": ["CLM-1051"], "id": "REL-0194", "notes": "Facility database co-produced with TechSearch International.", "object_id": "ENT-0059", "predicate": "measures", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-1051"], "id": "REL-0195", "object_id": "ENT-0059", "predicate": "measures", "subject_id": "ENT-0153"}
+{"claim_ids": ["CLM-1076", "CLM-1078"], "id": "REL-0196", "object_id": "ENT-0059", "predicate": "measures", "subject_id": "ENT-0129"}
+{"claim_ids": ["CLM-1018", "CLM-1019"], "id": "REL-0197", "object_id": "CO-0011", "predicate": "competes_with", "subject_id": "CO-0012"}
+{"claim_ids": ["CLM-1018", "CLM-1020"], "id": "REL-0198", "object_id": "CO-0011", "predicate": "competes_with", "subject_id": "CO-0013"}
+{"claim_ids": ["CLM-1102", "CLM-0488"], "id": "REL-0199", "notes": "IDMs with in-house back end still outsource part of their packaging.", "object_id": "ENT-0002", "predicate": "provides_service_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-1091", "CLM-1095"], "id": "REL-0200", "notes": "Foundries (TSMC) sell back-end advanced packaging, overlapping OSAT services.", "object_id": "ENT-0015", "predicate": "competes_with", "subject_id": "ENT-0012"}

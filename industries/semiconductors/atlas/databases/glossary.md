@@ -60,9 +60,9 @@
 
 **In plain words:** Newer ways of putting chips together in one package (e.g. stacking) so they work like one bigger chip.
 
-**Technically:** Named in 15 USC 4651 covered-facility scope; 3D integration packaging excludes a product from 'legacy' status (15 CFR 231.107).
+**Technically:** No single definition: publishers draw the line differently. Yole counts flip chip, fan-in and fan-out wafer-level packaging, SiP, embedded die and 2.5D/3D stacking (incl. IDM in-house work such as hybrid-bonded NAND and image sensors); Amkor's 'advanced products' are flip chip, memory, wafer-level and related test; SIA/BCG say the term covers ~46% of the ATP market. Named in 15 USC 4651 covered-facility scope; 3D integration packaging excludes a product from 'legacy' status (15 CFR 231.107).
 
-**Sources:** [SRC-0018](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A4651+edition%3Aprelim%29) [SRC-0019](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-II/subchapter-C/part-231/subpart-A)
+**Sources:** [SRC-0018](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A4651+edition%3Aprelim%29) [SRC-0019](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-II/subchapter-C/part-231/subpart-A) [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm) [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf)
 
 ### Advanced-node IC
 
@@ -208,6 +208,16 @@
 
 **Sources:** [SRC-0224](https://wsts.org/67/Historical-Billings-Report) [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf)
 
+### Bumping
+
+**In plain words:** Putting tiny solder or copper balls on the surface of a wafer so its chips can later be connected face-down to a package.
+
+**Technically:** Wafer-level deposition of solder or Cu-pillar bumps (with under-bump metallisation) required for flip-chip and many wafer-level packages; the SEMI/TechSearch database counted 85-plus bumping facilities in 2024.
+
+**Related:** Flip chip
+
+**Sources:** [SRC-0336](https://www.3dincites.com/2024/03/expanded-semiconductor-assembly-and-test-facility-database-tracks-osats-and-idms-in-670-facilities/) [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
+
 ### Bureau of Industry and Security
 
 **In plain words:** The US Commerce Department office that decides which technology exports need a licence.
@@ -311,6 +321,16 @@
 **Technically:** Material supplied by the customer to a service provider where title and risk of loss remain with the customer.
 
 **Sources:** [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm)
+
+### Conventional packaging
+
+**In plain words:** The older, labour-heavy, low-margin ways of packaging chips (mostly wire-bonded chips in plastic packages on metal frames), as opposed to advanced packaging.
+
+**Technically:** Non-advanced ATP: leadframe and laminate wire-bond packages (QFN, QFP, SOIC, TSOP, wire-bond BGA) and discrete/power packages. SIA/BCG sized it at US$51bn of a US$95bn ATP market (2024 report). The boundary with 'advanced' differs by publisher.
+
+**Related:** Wire bonding, Advanced packaging
+
+**Sources:** [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm)
 
 ### Country Group D:5
 
@@ -628,6 +648,16 @@
 
 **Sources:** [SRC-0028](https://semiconductor.samsung.com/news-events/tech-blog/from-foundry-to-fabless-an-overview-of-the-semiconductor-ecosystem/)
 
+### Fan-out packaging
+
+**In plain words:** A wafer-level package where the chip is embedded in a larger moulded area so wiring can spread out beyond the chip's edges, allowing more connections without a traditional substrate.
+
+**Technically:** Die are reconstituted in mould compound on a wafer (FO-WLP) or panel (FO-PLP) and redistribution layers route I/O outside the die footprint (e.g. TSMC InFO).
+
+**Related:** Wafer-level packaging, Advanced packaging
+
+**Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
+
 ### Fault detection and classification
 
 **In plain words:** Software that watches sensor readings from factory machines to spot problems early.
@@ -665,6 +695,16 @@
 **Technically:** Chips Act concept for integrated production facilities or open EU foundries not yet substantially present in the Union; basis for State aid approvals.
 
 **Sources:** [SRC-0125](https://digital-strategy.ec.europa.eu/en/policies/european-chips-act)
+
+### Flip chip
+
+**In plain words:** A way of attaching a chip upside down so that small solder bumps across its whole face connect directly to the package, giving more and shorter connections than wires.
+
+**Technically:** Interconnect in which bumped die are flipped and joined face-down to a substrate (FC-CSP for small packages, FC-BGA for large ones on ABF substrates). Yole and Amkor count flip chip as advanced packaging.
+
+**Related:** Wire bonding, Bumping, Advanced packaging
+
+**Sources:** [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm) [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
 
 ### Foreign Direct Product Rule
 
@@ -825,6 +865,16 @@
 **Technically:** Integrated device manufacturer: owns design, wafer processing, packaging and test.
 
 **Sources:** [SRC-0028](https://semiconductor.samsung.com/news-events/tech-blog/from-foundry-to-fabless-an-overview-of-the-semiconductor-ecosystem/)
+
+### In-house ATP
+
+**In plain words:** Packaging and testing that a chip company does in its own factories rather than paying a contractor.
+
+**Technically:** Assembly, test and packaging performed by IDMs (Intel, Micron, TI, Infineon) and foundries (TSMC) for their own or their wafer customers' products; valued by CSET at US$25bn in 2019 vs US$28bn OSAT.
+
+**Related:** OSAT, Back-end (assembly, test and packaging)
+
+**Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) [SRC-0346](https://semiengineering.com/osat-biz-growth-and-challenges/)
 
 ### Industrial policy
 
@@ -1324,6 +1374,16 @@
 
 **Sources:** [SRC-0027](https://spectrum.ieee.org/amp/the-status-of-moores-law-its-complicated-2650270098) [SRC-0024](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf)
 
+### QFN
+
+**In plain words:** A small, flat, cheap chip package with metal contacts on its underside edges instead of legs.
+
+**Technically:** Leadframe-based, wire-bonded, moulded package with exposed pads on the bottom perimeter; widely used for analog, power and automotive chips. 100-plus facilities offered QFN per the 2024 SEMI/TechSearch database.
+
+**Related:** Conventional packaging, Wire bonding
+
+**Sources:** [SRC-0336](https://www.3dincites.com/2024/03/expanded-semiconductor-assembly-and-test-facility-database-tracks-osats-and-idms-in-670-facilities/)
+
 ### R&D intensity
 
 **In plain words:** How much a company spends on research and new product development compared with what it sells.
@@ -1744,6 +1804,26 @@
 
 **Sources:** [SRC-0186](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/ter-20241231.htm) [SRC-0189](https://www.pdf.com/semiconductor-manufacturing-data-101-an-introduction/) [SRC-0187](https://www.semiconductors.org/wp-content/uploads/2018/06/0_2015-ITRS-2.0-Test-.pdf)
 
+### Wafer split (packaging)
+
+**In plain words:** The share of all finished wafers that go to advanced packaging versus conventional packaging.
+
+**Technically:** Yole metric: 300mm-equivalent wafers entering advanced vs conventional packaging (19%/81% in 2014; 35%/65% expected by 2026).
+
+**Related:** Advanced packaging
+
+**Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
+
+### Wafer-level packaging
+
+**In plain words:** Packaging the chips while they are still on the wafer, so the finished package is barely bigger than the chip itself.
+
+**Technically:** Packaging operations (redistribution layers, bumps) done at wafer level before dicing; fan-in WLCSP keeps I/O within the die footprint. Fan-in WLP was 48% of Yole's 2020 advanced-packaging wafer count.
+
+**Related:** Fan-out packaging, Flip chip
+
+**Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) [SRC-0336](https://www.3dincites.com/2024/03/expanded-semiconductor-assembly-and-test-facility-database-tracks-osats-and-idms-in-670-facilities/)
+
 ### Wassenaar Arrangement
 
 **In plain words:** A club of 42 countries that agree on lists of sensitive technologies to control when exporting.
@@ -1751,6 +1831,16 @@
 **Technically:** Multilateral export control regime (since 1996) maintaining the Munitions List and the List of Dual-Use Goods and Technologies, implemented nationally by consensus.
 
 **Sources:** [SRC-0136](https://www.wassenaar.org/about-us/)
+
+### Wire bonding
+
+**In plain words:** The older, cheaper way of connecting a chip to its package: tiny gold or copper wires are stitched from pads on the chip's edge to the package leads.
+
+**Technically:** Interconnect method in which fine Au/Cu/Ag wires connect die bond pads to a leadframe or substrate; the basis of most 'conventional' or 'mainstream' packages (e.g. QFN, SOIC). Amkor classes wirebond packaging as 'mainstream products'.
+
+**Related:** Flip chip, Conventional packaging
+
+**Sources:** [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm) [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
 
 ### WSTS
 

@@ -1,0 +1,13 @@
+{"subject_id": "ENT-0109", "predicate": "subsidizes", "object_id": "@amkor", "claim_ids": ["@nist_award"]}
+{"subject_id": "ENT-0125", "predicate": "subsidizes", "object_id": "@tsat", "claim_ids": ["@in_tsat"], "notes": "ISM fiscal support of up to 50% (CLM-0358); approval, not a disbursement record."}
+{"subject_id": "@chinares", "predicate": "owns", "object_id": "@jcet", "claim_ids": ["@jcet_cr"], "notes": "22.5% controlling stake acquired 2024 from the Big Fund and SMIC."}
+{"subject_id": "@trendforce", "predicate": "measures", "object_id": "ENT-0015", "claim_ids": ["@tf_tot"]}
+{"subject_id": "@digitimes", "predicate": "measures", "object_id": "ENT-0015", "claim_ids": ["@dt_tot"]}
+{"subject_id": "@yole", "predicate": "measures", "object_id": "ENT-0059", "claim_ids": ["@y25_ap", "@y24_share"], "notes": "Yole measures advanced packaging including in-house IDM and foundry work."}
+{"subject_id": "ENT-0130", "predicate": "measures", "object_id": "ENT-0059", "claim_ids": ["@sd_tot"], "notes": "Facility database co-produced with TechSearch International."}
+{"subject_id": "@techsearch", "predicate": "measures", "object_id": "ENT-0059", "claim_ids": ["@sd_tot"]}
+{"subject_id": "ENT-0129", "predicate": "measures", "object_id": "ENT-0059", "claim_ids": ["@sia_atp95", "@sia_cntw"]}
+{"subject_id": "@amkor", "predicate": "competes_with", "object_id": "@ase", "claim_ids": ["@tf_ase", "@tf_amk"]}
+{"subject_id": "@jcet", "predicate": "competes_with", "object_id": "@ase", "claim_ids": ["@tf_ase", "@tf_jcet"]}
+{"subject_id": "ENT-0015", "predicate": "provides_service_to", "object_id": "ENT-0002", "claim_ids": ["@g17_out", "CLM-0488"], "notes": "IDMs with in-house back end still outsource part of their packaging."}
+{"subject_id": "ENT-0012", "predicate": "competes_with", "object_id": "ENT-0015", "claim_ids": ["@tsmc_ap25", "@inf_f2"], "notes": "Foundries (TSMC) sell back-end advanced packaging, overlapping OSAT services."}

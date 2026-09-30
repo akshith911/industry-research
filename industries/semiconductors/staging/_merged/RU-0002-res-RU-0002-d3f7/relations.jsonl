@@ -1,0 +1,7 @@
+{"subject_id": "ENT-0128", "predicate": "measures", "object_id": "ENT-0092", "claim_ids": ["@m_billings", "@m_est"]}
+{"subject_id": "@gartner", "predicate": "measures", "object_id": "ENT-0092", "claim_ids": ["@g25f", "@g_apple"], "notes": "Gartner measures a differently defined population (includes captive chips)."}
+{"subject_id": "@idc", "predicate": "measures", "object_id": "ENT-0092", "claim_ids": ["@idc_tot"]}
+{"subject_id": "@omdia", "predicate": "measures", "object_id": "ENT-0092", "claim_ids": ["@omd25"]}
+{"subject_id": "ENT-0129", "predicate": "distributes", "object_id": "ENT-0092", "claim_ids": ["@m_contacts", "@sia21tot"], "notes": "SIA publishes WSTS data for the Americas, Taiwan and China."}
+{"subject_id": "@esia", "predicate": "distributes", "object_id": "ENT-0092", "claim_ids": ["@m_contacts"]}
+{"subject_id": "@ksia", "predicate": "distributes", "object_id": "ENT-0092", "claim_ids": ["@m_contacts"]}

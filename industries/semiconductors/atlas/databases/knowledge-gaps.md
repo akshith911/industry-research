@@ -30,6 +30,12 @@
 | CLM-0569 | Firm-level market shares of silicon wafer suppliers (Shin-Etsu, SUMCO, GlobalWafers, Siltronic, SK Siltron) could not be established from a primary source. | RU-0001 |
 | CLM-0570 | The share of semiconductor sales that flows through distributors versus direct sales to OEMs could not be established. | RU-0001 |
 | CLM-0571 | Updated (post-2019) value-added shares by value-chain stage and region could not be extracted: the 2024 SIA/BCG briefing deck is chart-only and the full 2024 report was not opened. | RU-0001 |
+| CLM-0715 | Gartner's definitions of its semiconductor market (treatment of captive chips, Nvidia systems revenue, foundry, calendarisation) are in client-only 'Market Definitions and Methodology' documents; no public methodology text was found. | RU-0002 |
+| CLM-0725 | TechInsights' annual semiconductor market totals and its definition of the market are not publicly available; its forecast reports (history from 1984, device-type splits, quarterly updates) sit behind its platform registration. | RU-0002 |
+| CLM-0726 | Omdia and IDC do not publish how they define the semiconductor market (captive chips, systems revenue, foundry revenue); their press releases give totals without scope notes. | RU-0002 |
+| CLM-0727 | Whether WSTS captures the value of hyperscaler custom AI chips (e.g. Google TPUs) could not be established: they are counted when sold by a WSTS-reporting design partner such as Broadcom, but chips a cloud company buys directly from a foundry for its own use would fall outside WSTS's non-captive population. | RU-0002 |
+| CLM-0728 | The share of the WSTS world total that is estimated by WSTS for non-participants (rather than reported by members) is not published. | RU-0002 |
+| CLM-0735 | A 2025 dollar value for semiconductor sales into China (WSTS region) was not found in public SIA or WSTS releases; SIA's February 2026 release gives only China's growth rate (+17.3%). | RU-0002 |
 
 ## Open questions from research units
 

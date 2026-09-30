@@ -144,6 +144,16 @@
 
 **Sources:** [SRC-0068](https://english.www.gov.cn/news/202405/29/content_WS66569746c6d0868f4e8e7987.html) [SRC-0067](https://www.usitc.gov/publications/332/journals/chinese_semiconductor_industrial_policy_past_and_present_jice_july_2019.pdf)
 
+### Blue Book (WSTS)
+
+**In plain words:** WSTS's detailed monthly statistics report for members and subscribers, the source of the official chip-market history.
+
+**Technically:** WSTS monthly statistical report by product and region; the free Historical Billings Report republishes its regional totals from 1986. The Green Book contains graphs from the Blue Book.
+
+**Related:** WSTS, Historical Billings Report
+
+**Sources:** [SRC-0224](https://wsts.org/67/Historical-Billings-Report) [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf)
+
 ### Bureau of Industry and Security
 
 **In plain words:** The US Commerce Department office that decides which technology exports need a licence.
@@ -230,6 +240,16 @@
 
 **Sources:** [SRC-0150](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/conflict-minerals-disclosure)
 
+### Consensus forecast (WSTS)
+
+**In plain words:** WSTS's twice-yearly market forecast, built by pooling member companies' own outlooks and agreeing them at a meeting.
+
+**Technically:** Semi-annual (spring, autumn) forecast covering the current and following years quarterly and two further years annually, from member-submitted outlooks, statistical analysis and a members' forecast meeting.
+
+**Related:** WSTS
+
+**Sources:** [SRC-0228](https://wsts.org/65/DATA-RECIPROCITY) [SRC-0226](https://semiconductors.org/wp-content/uploads/2025/01/WSTS-Presentation-Subscription-Oct2024.pdf)
+
 ### Consigned wafer
 
 **In plain words:** A customer's wafer that is sent to a packaging company but still belongs to the customer.
@@ -258,6 +278,16 @@
 
 **Sources:** [SRC-0157](https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion) [SRC-0189](https://www.pdf.com/semiconductor-manufacturing-data-101-an-introduction/)
 
+### Currency effect (WSTS regional data)
+
+**In plain words:** Because WSTS counts everything in US dollars, a region's market can shrink in dollars while growing in its local currency when that currency weakens.
+
+**Technically:** E.g. Japan 2023: -2.9% in USD (Blue Book) but +3.8% in yen (WSTS Japan Council) with the yen at 140.4 per dollar.
+
+**Related:** Region of sale (WSTS)
+
+**Sources:** [SRC-0246](https://www.jeita.or.jp/japanese/stat/wsts/docs/20241203WSTS.pdf) [SRC-0223](https://www.wsts.org/esraCMS/extension/media/f/WST/7771/WSTS-Historical-Billings-Report-Jul_2026.xlsx)
+
 ### Cycle time
 
 **In plain words:** How long it takes for a wafer to go through the factory from start to finish.
@@ -275,6 +305,16 @@
 **Technically:** Discretes, analog, and optoelectronics & sensors (SIA/BCG usage).
 
 **Sources:** [SRC-0030](https://www.semiconductors.org/wp-content/uploads/2024/05/Emerging-Resilience-in-the-Semiconductor-Supply-Chain_BCG-Briefing.pdf)
+
+### Data collection agent (DCA)
+
+**In plain words:** An accounting firm that collects each chip company's confidential sales numbers for WSTS, checks them and adds them up anonymously.
+
+**Technically:** Regional DCAs (Moss Adams, topserve.ch, Grant Thornton Taiyo in 2019) compile member submissions, check completeness and plausibility, anonymise and pass them to a worldwide DCA; they tabulate without audit and impute missing reports from prior market share.
+
+**Related:** WSTS
+
+**Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf) [SRC-0226](https://semiconductors.org/wp-content/uploads/2025/01/WSTS-Presentation-Subscription-Oct2024.pdf)
 
 ### Deposition
 
@@ -650,6 +690,16 @@
 
 **Sources:** [SRC-0156](https://www.asml.com/en/news/stories/2024/5-things-high-na-euv) [SRC-0155](https://www.asml.com/en/products/euv-lithography-systems)
 
+### Historical Billings Report
+
+**In plain words:** A free WSTS spreadsheet with the world chip market by month and region since 1986.
+
+**Technically:** WSTS XLSX/PDF with monthly billings and three-month moving averages in thousand US$ for Americas, Europe, Japan, Asia Pacific and Worldwide from 1986 to the latest month.
+
+**Related:** Blue Book (WSTS), Three-month moving average
+
+**Sources:** [SRC-0224](https://wsts.org/67/Historical-Billings-Report) [SRC-0223](https://www.wsts.org/esraCMS/extension/media/f/WST/7771/WSTS-Historical-Billings-Report-Jul_2026.xlsx)
+
 ### Hybrid bonding
 
 **In plain words:** Joining two chips (or wafers) face to face so their copper contacts fuse directly, without solder bumps, giving extremely dense connections.
@@ -820,6 +870,16 @@
 
 **Sources:** [SRC-0183](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm)
 
+### Memflation
+
+**In plain words:** Gartner's term for the steep rise in memory-chip prices in 2025-2026.
+
+**Technically:** Memory price inflation; Gartner (April 2026) expects DRAM and NAND flash prices to rise 125% and 234% in 2026, tripling memory revenue.
+
+**Related:** Memory cycle, DRAM, NAND flash
+
+**Sources:** [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026)
+
 ### Memory
 
 **In plain words:** Chips that store data.
@@ -889,6 +949,26 @@
 **Technically:** Non-volatile flash memory in NAND architecture; layer count (e.g. <128 layers) is used by US regulation to separate legacy from advanced NAND.
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf) [SRC-0019](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-II/subchapter-C/part-231/subpart-A)
+
+### Net billings
+
+**In plain words:** The value of chips a chip company invoices its customers in a period, after returns and credits.
+
+**Technically:** WSTS reporting basis: monthly net billings (shipments) between semiconductor manufacturers and end customers, authorised distributors and divisions or subsidiaries that make end products, valued at actual sales price or comparable market price for internal transfers, including NRE.
+
+**Related:** Region of sale (WSTS), Non-recurring engineering (NRE)
+
+**Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf)
+
+### Non-captive manufacturer
+
+**In plain words:** A chip maker that sells chips to other companies; 'captive' chips are made only for the maker's own products and are left out of WSTS figures.
+
+**Technically:** WSTS statistics 'reflect worldwide statistics for all non-captive semiconductor manufacturers worldwide'; Gartner by contrast ranks system companies such as Apple on in-house chips.
+
+**Related:** WSTS
+
+**Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf) [SRC-0235](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025)
 
 ### Non-recurring engineering (NRE)
 
@@ -1018,6 +1098,16 @@
 
 **Sources:** [SRC-0038](https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/)
 
+### Preliminary vs final estimate (Gartner)
+
+**In plain words:** Gartner publishes a first estimate of last year's chip market in January and a revised one around April; the two can differ by several percent.
+
+**Technically:** Gartner vendor revenue: preliminary results in January, final market share results in April; e.g. 2024 revised from US$626bn to US$655.9bn largely via a ~US$30bn Nvidia upgrade.
+
+**Related:** Market share
+
+**Sources:** [SRC-0238](https://www.eenewseurope.com/en/gartner-upgrades-nvidia-drops-infineon)
+
 ### Presumption of denial
 
 **In plain words:** A licensing policy where the government expects to say no to an export application unless there is a strong reason.
@@ -1059,6 +1149,16 @@
 **Related:** Critical dimension, Numerical aperture
 
 **Sources:** [SRC-0157](https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion)
+
+### Region of sale (WSTS)
+
+**In plain words:** The region a chip sale is counted in: where the chips are shipped to the buyer, not where the seller is based or where the chip was made.
+
+**Technically:** WSTS 'Geographic Billing': dollar value of net billings into each region by ship-to location between non-captive semiconductor manufacturers and their end customers, authorised distributors and end-product divisions (Americas, Europe, Japan, China, Asia Pacific/All Other).
+
+**Related:** WSTS, Net billings
+
+**Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf)
 
 ### Royalty
 

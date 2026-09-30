@@ -22,17 +22,24 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0008 | How are packaging and test services priced and how has advanced packaging (e.g. 2.5D) pricing differed from conventional? | Advanced packaging is a fast-growing value pool; pricing basis not disclosed in filings read. | Interview; OSAT investor presentations. | open |
 
+## Interview guide: WSTS Administrator
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0022 | Roughly what percentage of WSTS worldwide billings is estimated for non-participating companies, and which sources are used for Chinese vendors? | Determines how much of the reference chip-market figure is modelled rather than reported; relevant for small, Chinese and captive-adjacent vendors. | WSTS Participant Manual or statement from WSTS Administrator | open |
+
 ## Interview guide: WSTS data collection agent / statistics committee member
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
-| INT-0001 | When a member reports a sale, which location determines its WSTS region, and how are non-member companies' sales estimated in the world total? | Regional market figures (e.g. China vs Americas) are widely used in policy debates; their meaning depends on this rule. | WSTS methodology document or member reporting instructions | open |
+| INT-0001 | When a member reports a sale, which location determines its WSTS region, and how are non-member companies' sales estimated in the world total? | Regional market figures (e.g. China vs Americas) are widely used in policy debates; their meaning depends on this rule. | WSTS methodology document or member reporting instructions | answered |
 
 ## Interview guide: WSTS statistics committee member
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0002 | Are chips designed by a system company for internal use (and manufactured by a foundry) counted in the world semiconductor market, and if so at what value? | Custom AI accelerators are a fast-growing share of logic; treatment could explain gaps between publishers. | Publisher methodology notes or analyst confirmation | open |
+| INT-0023 | When a cloud company buys wafers or finished custom chips directly from a foundry/OSAT for its own servers, is that value counted anywhere in WSTS or Gartner semiconductor revenue? | Custom accelerators are a fast-growing share of AI chip spend; if uncounted, WSTS understates the chip content of AI build-out. | WSTS Product Classification / Participant Manual; Gartner Market Definitions and Methodology document | open |
 
 ## Interview guide: advanced packaging program manager at a GPU/accelerator company
 

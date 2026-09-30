@@ -28,7 +28,7 @@
 
 **Possible reasons:** different populations (Gartner vendor revenue may include items WSTS excludes, e.g. non-member or captive devices); Gartner prelim-to-final revision of ~US$30bn; methodology undisclosed in public releases
 **More defensible:** not determinable. Publishers measure differently defined populations and do not publish reconciliations; neither is 'wrong'.
-**Remaining uncertainty:** Cause of the ~4% gap between WSTS and Gartner final, and of Gartner's large revision, unknown.
+**Remaining uncertainty:** Partly explained (res-RU-0002-d3f7): Gartner's prelim-to-final 2024 revision (+US$29.9bn) matches its ~US$30bn upgrade to Nvidia; the WSTS-Gartner gap is largely Gartner's inclusion of captive chips (Apple US$20.5bn) that WSTS excludes as captive. Residual allocation not public.
 
 ## CON-0003: WSTS 2026 forecast revision (resolved)
 
@@ -185,4 +185,97 @@ WSTS forecast USD 975bn for 2026 in December 2025 and USD 1.51 trillion in Sprin
 **Possible reasons:** Forecast revision between vintages driven by memory price surge (~250% memory growth)
 **More defensible:** CLM-0565. Same organisation, same definition; the later vintage incorporates more recent data.
 **Remaining uncertainty:** Both are forecasts; actual 2026 outcome unknown. The Spring 2026 release date was not visible on the page.
+
+## CON-0015: 2025 world semiconductor market size across publishers (latest vintages) (definitional)
+
+2025 market: WSTS US$795.6bn (June 2026), Gartner US$805.3bn (April 2026), Omdia above US$830bn (March 2026).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0030 | WSTS reported the 2025 world semiconductor market at US$795.6 billion, up 26.2% from 2024. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
+| CLM-0702 | Gartner's April 2026 forecast release put 2025 worldwide semiconductor revenue at US$805.3 billion (memory US$216.3bn, non-memory US$589.0bn), up from its preliminary US$793 billion. | [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026) | low |
+| CLM-0719 | Omdia estimated that the semiconductor market surpassed US$830 billion in 2025, the second consecutive year of more than 20% growth. | [SRC-0242](https://www.mactech.com/2026/03/24/omdia-semiconductor-market-surpasses-830-billion-in-2025) | low |
+
+**Possible reasons:** population: Gartner and probably Omdia include captive chips of system companies (e.g. Apple), which WSTS excludes; memory: Gartner's 2025 memory estimate (US$216.3bn) is below WSTS's (US$230.0bn), narrowing the Gartner-WSTS gap; vendor valuation: treatment of Nvidia and other data-centre suppliers (chips vs systems) differs and is undisclosed; method: WSTS aggregates member-reported billings by ship-to region plus estimates; research firms model vendor revenue
+**More defensible:** not determinable. Different populations; WSTS is the reference for the market of non-captive chip sales, research-firm totals for vendor revenue incl. captive chips.
+**Remaining uncertainty:** Omdia and IDC scope undisclosed; cannot allocate the gap between captive chips, Nvidia valuation and estimation.
+
+## CON-0016: 2024 world semiconductor market size: IDC vs Gartner vs WSTS (definitional)
+
+2024 market: IDC US$680bn, Gartner final US$655.9bn, WSTS US$630.5bn.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0716 | IDC (September 2025) expected 2025 worldwide semiconductor revenue of US$800 billion, up 17.6% from US$680 billion in 2024. | [SRC-0241](https://www.idc.com/resource-center/press-releases/investment-in-and-adoption-of-ai-infrastructure-drives-increase-in-worldwide-semiconductor-revenue-growth-rate-from-15-5-at-the-start-of-2025-to-17-6-now-according-to-idc/) | low |
+| CLM-0053 | Gartner's final estimate put 2024 worldwide semiconductor revenue at US$655.9 billion, up 21% from US$542.1 billion in 2023. | [SRC-0013](https://www.gartner.com/en/newsroom/press-releases/2025-04-10-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2024) | low |
+| CLM-0031 | WSTS reported the 2024 world semiconductor market at US$630.5 billion. | [SRC-0003](https://www.wsts.org/esraCMS/extension/media/f/WST/7057/WSTS_FC-Release-2025_05.pdf) | low |
+
+**Possible reasons:** population: IDC's scope appears widest (it expects one company above US$200bn in 2025, far above Gartner's largest vendor at US$125.7bn), suggesting systems revenue is included; Gartner includes captive chips (Apple US$20.5bn); WSTS excludes captive production
+**More defensible:** not determinable. Three different populations; none is wrong.
+**Remaining uncertainty:** IDC has not published its definition.
+
+## CON-0017: Gartner's Nvidia 2023 revenue: preliminary vs restated (open)
+
+Gartner's January 2024 preliminary put Nvidia's 2023 revenue at about US$24bn; its April 2025 table shows US$34.8bn for 2023.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0707 | Gartner's preliminary 2023 estimate (January 2024) put Nvidia's semiconductor revenue at about US$24 billion, ranking it fifth. | [SRC-0239](https://www.eenewseurope.com/en/gartner-differs-from-other-analysts-over-nvidia/) | low |
+| CLM-0708 | Gartner's April 2025 vendor table restated Nvidia's 2023 semiconductor revenue at US$34.8 billion. | [SRC-0237](https://us.design-reuse.com/news/57691/worldwide-semiconductor-revenue-2024.html) | low |
+
+**Possible reasons:** Gartner changed how it values Nvidia (e.g. counting more of data-centre product revenue as semiconductor); calendarisation of Nvidia's fiscal year
+**More defensible:** CLM-0708. The later restatement is Gartner's current view and matches the 2024 final methodology.
+**Remaining uncertainty:** Gartner did not explain the change (eeNews Europe noted no explanation).
+
+## CON-0018: Gartner's 2022 market: preliminary vs revised (resolved)
+
+Gartner put 2022 at US$601.7bn (Jan 2023) then US$599.6bn (Apr 2023).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0700 | Gartner's preliminary estimate (January 2023) put 2022 worldwide semiconductor revenue at US$601.7 billion, up 1.1% from US$595 billion in 2021. | [SRC-0240](https://www.electronicsonline.net.au/content/business/news/global-semiconductor-revenue-reached-600-billion-in-2022-327491672) | low |
+| CLM-0701 | Gartner's revised figure (April 2023) put 2022 worldwide semiconductor revenue at US$599.6 billion, growth of 0.2%. | [SRC-0234](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2023-04-26-gartner-forecasts-worldwide-semiconductor-revenue-to-decline-11-percent-in-2023) | low |
+
+**Possible reasons:** normal preliminary-to-final revision as vendor results are filed
+**More defensible:** CLM-0701. Later vintage.
+**Remaining uncertainty:** Small (0.3%).
+
+## CON-0019: Gartner's 2025 market: preliminary vs April 2026 (resolved)
+
+Gartner put 2025 at US$793bn (Jan 2026 preliminary) then US$805.3bn (April 2026 forecast release).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0052 | Gartner's preliminary estimate put 2025 worldwide semiconductor revenue at US$793 billion, up 21%. | [SRC-0012](https://www.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025) | low |
+| CLM-0702 | Gartner's April 2026 forecast release put 2025 worldwide semiconductor revenue at US$805.3 billion (memory US$216.3bn, non-memory US$589.0bn), up from its preliminary US$793 billion. | [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026) | low |
+
+**Possible reasons:** preliminary-to-final revision as Q4 vendor results arrived
+**More defensible:** CLM-0702. Later vintage.
+**Remaining uncertainty:** Whether US$805.3bn is Gartner's 'final' market share figure is not stated.
+
+## CON-0020: H1 2026 world semiconductor market: WSTS quarterly release vs Blue Book (resolved)
+
+WSTS's Q2 2026 news release gives H1 2026 at US$702bn; the July 2026 Blue Book data sum to US$718.6bn for January-June.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0731 | WSTS reported that the global semiconductor market reached US$702 billion in the first half of 2026, up 102% year on year, with memory up 305% and logic up 45%. | [SRC-0245](https://www.wsts.org/76/Global-Semiconductor-Market-records-exceptional-growth-in-Q2-2026) | low |
+| CLM-0732 | The July 2026 edition of the WSTS Blue Book data shows January-June 2026 billings of US$718.6 billion (Q1 US$304.9bn, Q2 US$413.7bn). | [SRC-0223](https://www.wsts.org/esraCMS/extension/media/f/WST/7771/WSTS-Historical-Billings-Report-Jul_2026.xlsx) | low |
+
+**Possible reasons:** data vintage: monthly data revised upward between the Q2 release and the July 2026 Blue Book; late or imputed member submissions replaced by actuals
+**More defensible:** CLM-0732. Later vintage of the same statistic.
+**Remaining uncertainty:** Size of routine WSTS monthly revisions in a fast-rising market is not documented; 2.4% here.
+
+## CON-0021: WSTS 2026 market outlook: Spring 2026 forecast vs Q2 2026 calculation (open)
+
+WSTS forecast 2026 at US$1.51tn (June 2026) and calculated US$1,655bn after Q2 data (July 2026).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0032 | In June 2026 WSTS forecast the world semiconductor market to grow 90% in 2026 to US$1.51 trillion. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
+| CLM-0733 | After incorporating actual Q2 2026 data, WSTS's calculation for the full-year 2026 market rose to US$1,655 billion (about +108%) and for 2027 to about US$2.1 trillion (+29%), with memory now expected to grow 302%. | [SRC-0245](https://www.wsts.org/76/Global-Semiconductor-Market-records-exceptional-growth-in-Q2-2026) | low |
+
+**Possible reasons:** forecast vintage: memory prices kept rising faster than the spring consensus assumed
+**More defensible:** CLM-0733. Incorporates actual Q2 2026 data.
+**Remaining uncertainty:** Still a projection; memory pricing extremely volatile.
 

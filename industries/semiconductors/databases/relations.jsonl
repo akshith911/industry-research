@@ -136,3 +136,10 @@
 {"claim_ids": ["CLM-0363", "CLM-0440"], "id": "REL-0136", "object_id": "REG-0039", "predicate": "subject_to", "subject_id": "ENT-0003"}
 {"claim_ids": ["CLM-0363", "CLM-0440"], "id": "REL-0137", "object_id": "REG-0039", "predicate": "subject_to", "subject_id": "ENT-0015"}
 {"claim_ids": ["CLM-0363", "CLM-0440"], "id": "REL-0138", "object_id": "REG-0039", "predicate": "subject_to", "subject_id": "ENT-0032"}
+{"claim_ids": ["CLM-0576", "CLM-0572"], "id": "REL-0139", "object_id": "ENT-0092", "predicate": "measures", "subject_id": "ENT-0128"}
+{"claim_ids": ["CLM-0702", "CLM-0704"], "id": "REL-0140", "notes": "Gartner measures a differently defined population (includes captive chips).", "object_id": "ENT-0092", "predicate": "measures", "subject_id": "ENT-0139"}
+{"claim_ids": ["CLM-0716"], "id": "REL-0141", "object_id": "ENT-0092", "predicate": "measures", "subject_id": "ENT-0140"}
+{"claim_ids": ["CLM-0719"], "id": "REL-0142", "object_id": "ENT-0092", "predicate": "measures", "subject_id": "ENT-0141"}
+{"claim_ids": ["CLM-0583", "CLM-0682"], "id": "REL-0143", "notes": "SIA publishes WSTS data for the Americas, Taiwan and China.", "object_id": "ENT-0092", "predicate": "distributes", "subject_id": "ENT-0129"}
+{"claim_ids": ["CLM-0583"], "id": "REL-0144", "object_id": "ENT-0092", "predicate": "distributes", "subject_id": "ENT-0143"}
+{"claim_ids": ["CLM-0583"], "id": "REL-0145", "object_id": "ENT-0092", "predicate": "distributes", "subject_id": "ENT-0144"}

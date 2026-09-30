@@ -142,6 +142,13 @@
 | Memory chip maker (category) (ENT-0003) | subject_to | JEDEC memory and packaging standards (incl. HBM4, JESD270-4) (REG-0039) | CLM-0363, CLM-0440 |
 | OSAT (outsourced assembly and test) (category) (ENT-0015) | subject_to | JEDEC memory and packaging standards (incl. HBM4, JESD270-4) (REG-0039) | CLM-0363, CLM-0440 |
 | OEM / device maker (category) (ENT-0032) | subject_to | JEDEC memory and packaging standards (incl. HBM4, JESD270-4) (REG-0039) | CLM-0363, CLM-0440 |
+| World Semiconductor Trade Statistics (WSTS) (ENT-0128) | measures | WSTS world semiconductor market statistics (ENT-0092) | CLM-0576, CLM-0572 |
+| Gartner, Inc. (ENT-0139) | measures | WSTS world semiconductor market statistics (ENT-0092) | CLM-0702, CLM-0704 |
+| IDC (International Data Corporation) (ENT-0140) | measures | WSTS world semiconductor market statistics (ENT-0092) | CLM-0716 |
+| Omdia (ENT-0141) | measures | WSTS world semiconductor market statistics (ENT-0092) | CLM-0719 |
+| Semiconductor Industry Association (SIA) (ENT-0129) | distributes | WSTS world semiconductor market statistics (ENT-0092) | CLM-0583, CLM-0682 |
+| European Semiconductor Industry Association (ESIA) (ENT-0143) | distributes | WSTS world semiconductor market statistics (ENT-0092) | CLM-0583 |
+| Korea Semiconductor Industry Association (KSIA) (ENT-0144) | distributes | WSTS world semiconductor market statistics (ENT-0092) | CLM-0583 |
 
 ## Entities
 
@@ -285,3 +292,9 @@
 | ENT-0136 | SEMATECH | research_organisation | US government-industry R&D consortium formed in 1987. |
 | ENT-0137 | Industrial Technology Research Institute (ITRI) | research_organisation | Taiwan's state research institute; spun off UMC (1980) and TSMC (1987). |
 | ENT-0138 | imec | research_organisation | Belgian research centre working on 3D integration, hybrid bonding and chiplets. |
+| ENT-0139 | Gartner, Inc. | market_research_firm | IT research firm that publishes vendor-level worldwide semiconductor revenue estimates (preliminary in January, final around April) that include in-house chips of system companies such as Apple. |
+| ENT-0140 | IDC (International Data Corporation) | market_research_firm | Market research firm whose semiconductor supply-chain service publishes worldwide semiconductor revenue estimates with a wider (undisclosed) scope than WSTS or Gartner. |
+| ENT-0141 | Omdia | market_research_firm | Research firm (part of Informa TechTarget) that tracks quarterly semiconductor vendor revenue since 2001. |
+| ENT-0142 | TechInsights | market_research_firm | Semiconductor analysis firm that publishes quarterly semiconductor market forecasts with history from 1984 behind platform registration. |
+| ENT-0143 | European Semiconductor Industry Association (ESIA) | industry_association | European chip industry body that distributes WSTS data and handles public WSTS inquiries in Europe. |
+| ENT-0144 | Korea Semiconductor Industry Association (KSIA) | industry_association | Korean chip industry body that handles public WSTS inquiries for Asia Pacific outside Taiwan and China. |

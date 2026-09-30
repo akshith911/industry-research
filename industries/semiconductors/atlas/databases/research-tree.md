@@ -5,7 +5,7 @@
 | ID | Wave | Pri | Dimension | Title | Status | Depends on | Origin |
 |---|---|---|---|---|---|---|---|
 | RU-0001 | 0 | P0 | definition | Discovery: what is the semiconductor industry, who is in it, and how does it fit together | researched |  | user |
-| RU-0002 | 1 | P0 | market_size | Market size: sizing methodology (WSTS vs Gartner vs others) and the 1986-2026 global time series by product and region | queued | RU-0001 | researcher_discovery |
+| RU-0002 | 1 | P0 | market_size | Market size: sizing methodology (WSTS vs Gartner vs others) and the 1986-2026 global time series by product and region | researched | RU-0001 | researcher_discovery |
 | RU-0003 | 1 | P1 | competition | Foundry market: definitions (pure-play vs Foundry 2.0), size and shares | queued | RU-0001, RU-0002 | researcher_discovery |
 | RU-0004 | 1 | P1 | value_chain | Semiconductor manufacturing equipment: segments, size and geography | dropped | RU-0001 | researcher_discovery |
 | RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | dropped | RU-0001 | researcher_discovery |
@@ -254,3 +254,5 @@
 | RU-0248 | 2 | P1 | history | History: Japan's rise and decline and the US response 1970s-2010s (SEMATECH, US-Japan agreements, Intel, US manufacturing share) | queued | RU-0001, RU-0011, RU-0116 | planner |
 | RU-0249 | 2 | P2 | history | History: Europe's and China's paths before 2014, and trade/industrial policy before 2018 (COCOM to Wassenaar, the ITA) | queued | RU-0011, RU-0053, RU-0248 | planner |
 | RU-0250 | 2 | P1 | regulation | Middle East (UAE, Saudi Arabia) AI-chip imports and fab ambitions: US licensing conditions, sovereign AI data-centre deals and local industrial policy | queued | RU-0132 | gap_finder |
+| RU-0251 | 2 | P1 | market_size | Captive and custom silicon outside the headline chip market: size of in-house chips (Apple, hyperscaler ASICs) and how each publisher counts them | queued | RU-0002 | researcher_discovery |
+| RU-0252 | 2 | P2 | market_size | WSTS product-category time series before 2020 (discretes, opto, sensors, analog, micro, logic, memory, 1986-2019) | queued | RU-0002 | researcher_discovery |

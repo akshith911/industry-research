@@ -116,9 +116,9 @@ NIST's CHIPS fact sheet says the investment tax credit is up to 25% of qualified
 |---|---|---|---|
 | CLM-0367 | NIST's CHIPS fact sheet describes the CHIPS investment tax credit as up to 25% of qualified capital expenditures. | [SRC-0116](https://www.nist.gov/document/chips-america-fact-sheet-federal-incentives) | low |
 | CLM-0315 | The section 48D credit rate is 35% of qualified investment following P.L. 119-21 section 70308, with 25% applying to facilities placed in service before 2026. | [SRC-0118](https://www.irs.gov/forms-pubs/correction-to-the-2025-instructions-for-form-3468-of-the-applicability-of-the-35-rate-on-line-1c-in-part-iv-advanced-manufacturing-investment-credit-under-section-48d) [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | low |
-| CLM-0974 | The IRS states the 48D credit is 25% of qualified investment for property placed in service through 31 December 2025 and 35% for qualified property placed in service thereafter. | [SRC-0319](https://www.irs.gov/credits-deductions/advanced-manufacturing-investment-credit) | low |
-| CLM-0959 | TSMC's FY2025 20-F notes that TSMC Arizona is also eligible to apply for a 25% investment grant for its qualified investments, a description that does not reflect the 35% rate enacted in 2025 for property placed in service after 2025. | [SRC-0077](https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf) | low |
-| CLM-0963 | In November 2024 Intel said it planned to claim the investment tax credit, expected to be up to 25% of qualified investments, on more than US$100 billion of planned US investment. | [SRC-0317](https://www.sec.gov/Archives/edgar/data/50863/000005086324000169/a11252024form8-kex991.htm) | low |
+| CLM-0974 | The IRS states the 48D credit is 25% of qualified investment for property placed in service through 31 December 2025 and 35% for qualified property placed in service thereafter. | [SRC-0319](https://www.irs.gov/credits-deductions/advanced-manufacturing-investment-credit) | high |
+| CLM-0959 | TSMC's FY2025 20-F notes that TSMC Arizona is also eligible to apply for a 25% investment grant for its qualified investments, a description that does not reflect the 35% rate enacted in 2025 for property placed in service after 2025. | [SRC-0077](https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf) | medium |
+| CLM-0963 | In November 2024 Intel said it planned to claim the investment tax credit, expected to be up to 25% of qualified investments, on more than US$100 billion of planned US investment. | [SRC-0317](https://www.sec.gov/Archives/edgar/data/50863/000005086324000169/a11252024form8-kex991.htm) | medium |
 
 **Possible reasons:** different period: the NIST fact sheet predates P.L. 119-21 (2025), which raised the rate; NIST text says 'expected to be up to 25%' — a pre-amendment description
 **More defensible:** CLM-0315. The statute (26 USC 48D) and IRS guidance citing P.L. 119-21 section 70308 are the controlling, more recent tier-1 sources; 25% still applies to facilities placed in service before 2026.
@@ -301,7 +301,7 @@ TSMC's chairman relayed (Jan 2026) that a cloud customer said TSMC silicon, not 
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0772 | TSMC's chairman reported that a cloud-provider customer told him TSMC silicon, not power supply, was the binding bottleneck for its AI data centres, because it had planned power 5-6 years earlier. | [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf) | low |
+| CLM-0772 | TSMC's chairman reported that a cloud-provider customer told him TSMC silicon, not power supply, was the binding bottleneck for its AI data centres, because it had planned power 5-6 years earlier. | [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf) | medium |
 | CLM-0808 | Amazon's CEO said AWS added more than 3.8 GW of power in the 12 months to Q3 2025, expected to double capacity again by 2027, and that across the industry 'maybe the bottleneck is power'. | [SRC-0264](https://www.fool.com/earnings/call-transcripts/2025/10/31/amazon-amzn-q3-2025-earnings-call-transcript/) | low |
 | CLM-0816 | The IEA warned that around 20% of planned data-centre projects could be delayed unless grid risks are addressed. | [SRC-0269](https://www.iea.org/reports/energy-and-ai/executive-summary) | low |
 
@@ -316,7 +316,7 @@ Existing claim (BIS press release, 12 Aug 2022) says the ECAD control was effect
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0409 | In August 2022 the US imposed export controls on electronic computer-aided design (ECAD/EDA) software specially designed for developing GAAFET integrated circuits, effective 15 August 2022. | [SRC-0184](https://www.bis.gov/media/documents/2022.08.12-bis-press-release-wa-2021-1758-technologies-controls-rule.pdf) | low |
-| CLM-0836 | The GAAFET ECAD software control in 87 FR 49979 (new ECCN 3D006) took effect on 14 October 2022, while the rest of the rule took effect on 15 August 2022. | [SRC-0291](https://www.federalregister.gov/documents/full_text/text/2022/08/15/2022-17125.txt) | low |
+| CLM-0836 | The GAAFET ECAD software control in 87 FR 49979 (new ECCN 3D006) took effect on 14 October 2022, while the rest of the rule took effect on 15 August 2022. | [SRC-0291](https://www.federalregister.gov/documents/full_text/text/2022/08/15/2022-17125.txt) | high |
 
 **Possible reasons:** press release gave the rule's general effective date and omitted the delayed date for 3D006; definition: 'rule effective' vs 'ECAD provision effective'
 **More defensible:** CLM-0836. The Federal Register DATES section is the legal text and explicitly carves out ECCN 3D006.
@@ -342,7 +342,7 @@ Existing claim dates the Huawei listing to 15 May 2019 (Commerce announcement); 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0135 | On May 15, 2019 the US Commerce Department added Huawei Technologies and affiliates to the Entity List, requiring a BIS licence for the sale or transfer of US technology to them. | [SRC-0052](https://2017-2021.commerce.gov/news/press-releases/2019/05/department-commerce-announces-addition-huawei-technologies-co-ltd.html) | low |
-| CLM-0820 | The May 2019 BIS rule adding Huawei Technologies Co., Ltd. to the Entity List was published at 84 FR 22961 on 21 May 2019, effective 16 May 2019. | [SRC-0270](https://www.federalregister.gov/api/v1/documents/2019-10616.json) | low |
+| CLM-0820 | The May 2019 BIS rule adding Huawei Technologies Co., Ltd. to the Entity List was published at 84 FR 22961 on 21 May 2019, effective 16 May 2019. | [SRC-0270](https://www.federalregister.gov/api/v1/documents/2019-10616.json) | high |
 
 **Possible reasons:** announcement date vs effective date vs publication date
 **More defensible:** not determinable. Both are correct for different events; atlas pages should state which date is used.
@@ -354,8 +354,8 @@ OIG: about US$6.3bn awarded to Natcast by Jan 2025 (plus ~US$1.1bn NAPPF); Comme
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0925 | As of 31 January 2025 NIST had awarded approximately US$6.3 billion to Natcast, the nonprofit incorporated on 19 October 2023 to operate the National Semiconductor Technology Center, using other transaction agreements. | [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) | low |
-| CLM-0950 | In late August 2025 the Commerce Department declared void the agreement granting Natcast up to US$7.4 billion of CHIPS R&D funding to operate the NSTC, and said NIST would assume operation of the NSTC. | [SRC-0311](https://www.manufacturingdive.com/news/commerce-department-cuts-7-4-billion-chips-act-funding-natcast-howard-lutnick/758561) [SRC-0312](https://www.aip.org/fyi/trump-administration-overhauls-chips-r-d-plans) | low |
+| CLM-0925 | As of 31 January 2025 NIST had awarded approximately US$6.3 billion to Natcast, the nonprofit incorporated on 19 October 2023 to operate the National Semiconductor Technology Center, using other transaction agreements. | [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) | high |
+| CLM-0950 | In late August 2025 the Commerce Department declared void the agreement granting Natcast up to US$7.4 billion of CHIPS R&D funding to operate the NSTC, and said NIST would assume operation of the NSTC. | [SRC-0311](https://www.manufacturingdive.com/news/commerce-department-cuts-7-4-billion-chips-act-funding-natcast-howard-lutnick/758561) [SRC-0312](https://www.aip.org/fyi/trump-administration-overhauls-chips-r-d-plans) | medium |
 | CLM-0997 | Commerce cancelled CHIPS R&D awards representing US$7.8 billion of the US$11 billion appropriated for advanced microelectronics R&D, including the Natcast NSTC award (August 2025) and SRC's Manufacturing USA institute award (terminated for convenience, December 2025), and paused or cancelled NAPMP awards. | [SRC-0324](https://files.gao.gov/reports/GAO-26-109121/index.html) | low |
 
 **Possible reasons:** population: GAO's US$7.8bn includes cancelled SRC Manufacturing USA and NAPMP awards, not only Natcast; definition: 'up to' ceilings of the final January 2025 Natcast agreements vs amounts awarded as of 31 Jan 2025; period: OIG snapshot at 31 Jan 2025; later January 2025 awards (NAPPF) added
@@ -369,7 +369,7 @@ GAO says awards cover 4.6% to 38.8% of projected capex (July 2025); CRS says TSM
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0985 | CHIPS incentive awards cover between 4.6 and 38.8 percent of projects' company-estimated capital expenditures, with a median of 14.2 percent (as of July 2025). | [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf) | low |
-| CLM-0939 | TSMC and Micron brought their CHIPS awards to under 4% of their total project investment by increasing their capital commitments; CRS found only 2 of the 40 funded projects had direct funding of 5% or less of projected capex. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | low |
+| CLM-0939 | TSMC and Micron brought their CHIPS awards to under 4% of their total project investment by increasing their capital commitments; CRS found only 2 of the 40 funded projects had direct funding of 5% or less of projected capex. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | medium |
 
 **Possible reasons:** period: CRS reflects capital-commitment increases by TSMC and Micron after the award documents GAO used; definition: CRS divides by company-announced total investment; GAO uses project capex in award documents and treats three projects of one company as one
 **More defensible:** not determinable. Different denominators and dates.
@@ -381,9 +381,9 @@ OMB's Federal Program Inventory says construction must commence by 31 Dec 2025; 
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0977 | OMB's Federal Program Inventory describes the 48D credit as 25% and states that construction on qualifying facilities must commence by 31 December 2025. | [SRC-0320](https://fpi.omb.gov/program/TC.087.html) | low |
+| CLM-0977 | OMB's Federal Program Inventory describes the 48D credit as 25% and states that construction on qualifying facilities must commence by 31 December 2025. | [SRC-0320](https://fpi.omb.gov/program/TC.087.html) | high |
 | CLM-0280 | The 48D credit does not apply to property whose construction begins after 31 December 2026. | [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | low |
-| CLM-0944 | CRS states the 35% semiconductor investment tax credit is available only to projects that begin fab construction before 31 December 2026. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | low |
+| CLM-0944 | CRS states the 35% semiconductor investment tax credit is available only to projects that begin fab construction before 31 December 2026. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | high |
 
 **Possible reasons:** error or outdated text in the OMB inventory entry; the OMB entry also omits the 2025 increase to 35%, suggesting it is not maintained
 **More defensible:** CLM-0280. 26 USC 48D (statute text) excludes property whose construction begins after 31 Dec 2026; CRS (July 2026) agrees.
@@ -396,7 +396,7 @@ Announcements give US$20.47 per share for 433.3m shares; the 8-K gives US$20.74 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0317 | In August 2025 the US government agreed to take a 9.9% equity stake in Intel (433.3 million shares at USD 20.47) funded by USD 5.7 billion of unpaid CHIPS Act grants and USD 3.2 billion of Secure Enclave awards. | [SRC-0098](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/a08222025form8-kex991.htm) | low |
-| CLM-0964 | Under the August 2025 agreement Intel issued 274,583,000 shares to Commerce at closing in exchange for US$5.695 billion of accelerated CHIPS direct-funding disbursements (US$20.74 per share), and 158,740,000 shares into escrow at US$20.00 per share to be released as US$3.1748 billion of Secure Enclave disbursements are paid. | [SRC-0315](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm) | low |
+| CLM-0964 | Under the August 2025 agreement Intel issued 274,583,000 shares to Commerce at closing in exchange for US$5.695 billion of accelerated CHIPS direct-funding disbursements (US$20.74 per share), and 158,740,000 shares into escrow at US$20.00 per share to be released as US$3.1748 billion of Secure Enclave disbursements are paid. | [SRC-0315](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm) | high |
 
 **Possible reasons:** definition: US$20.47 is the blended average of the two tranches
 **More defensible:** CLM-0964. Blended arithmetic reconciles both (see @intc_blend); the 8-K gives the per-tranche terms.
@@ -408,8 +408,8 @@ TrendForce's top-10 OSAT revenue (US$41.56bn) is larger than DIGITIMES Research'
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1017 | TrendForce estimated the combined 2024 revenue of the world's top 10 OSAT companies at US$41.56 billion, up 3% year on year. | [SRC-0331](https://www.trendforce.com/presscenter/news/20250513-12577.html) | low |
-| CLM-1026 | DIGITIMES Research estimated global OSAT revenue at US$41.2 billion in 2024, up 5% from 2023. | [SRC-0332](https://www.digitimes.com/news/a20250807RS401.html?chid=2) | low |
+| CLM-1017 | TrendForce estimated the combined 2024 revenue of the world's top 10 OSAT companies at US$41.56 billion, up 3% year on year. | [SRC-0331](https://www.trendforce.com/presscenter/news/20250513-12577.html) | medium |
+| CLM-1026 | DIGITIMES Research estimated global OSAT revenue at US$41.2 billion in 2024, up 5% from 2023. | [SRC-0332](https://www.digitimes.com/news/a20250807RS401.html?chid=2) | medium |
 
 **Possible reasons:** population: TrendForce appears to use ASE's consolidated revenue including ~40% EMS (see @inf_ase_ems); DIGITIMES may count only assembly/test revenue; definition: treatment of test-only houses, memory back-end and foundry packaging differs and is undisclosed; currency: conversion rates to USD not disclosed by either
 **More defensible:** not determinable. Neither publisher discloses its population; a top-10 subset cannot exceed a whole market on the same basis, so the bases differ.
@@ -422,7 +422,7 @@ Yole forecast about US$42.5bn for 2024 in mid-2024, but reported US$46bn for 202
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-1035 | In mid-2024 Yole Group forecast the advanced packaging market at about US$42.5 billion for 2024 and US$47.5 billion for 2025, reaching about US$69.5 billion in 2029 (11% CAGR 2023-2029). | [SRC-0335](https://www.eenewseurope.com/en/advanced-packaging-market-growing-at-pace-says-yole) | low |
-| CLM-1029 | Yole Group estimated the advanced packaging market at US$46 billion in 2024, up 19% year on year after the 2023 downturn. | [SRC-0333](https://www.edge-ai-vision.com/?p=55059) | low |
+| CLM-1029 | Yole Group estimated the advanced packaging market at US$46 billion in 2024, up 19% year on year after the 2023 downturn. | [SRC-0333](https://www.edge-ai-vision.com/?p=55059) | medium |
 
 **Possible reasons:** vintage: forecast versus later estimate of actuals; method: AI-driven 2.5D/3D demand exceeded forecasts; possible scope changes between annual reports
 **More defensible:** CLM-1029. The later report estimates the completed year rather than forecasting it.
@@ -434,8 +434,8 @@ Yole put advanced packaging at 44% of IC packaging in 2023; SIA/BCG said the ter
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1034 | Yole Group estimated that in 2023 the advanced packaging market was worth about US$38 billion, 44% of the total IC packaging market. | [SRC-0335](https://www.eenewseurope.com/en/advanced-packaging-market-growing-at-pace-says-yole) | low |
-| CLM-1077 | SIA/BCG estimated conventional packaging at US$51 billion of the US$95 billion ATP market, and said the term 'advanced packaging' describes about 46% of the ATP market. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | low |
+| CLM-1034 | Yole Group estimated that in 2023 the advanced packaging market was worth about US$38 billion, 44% of the total IC packaging market. | [SRC-0335](https://www.eenewseurope.com/en/advanced-packaging-market-growing-at-pace-says-yole) | medium |
+| CLM-1077 | SIA/BCG estimated conventional packaging at US$51 billion of the US$95 billion ATP market, and said the term 'advanced packaging' describes about 46% of the ATP market. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | high |
 | CLM-1045 | CSET, citing Yole, reported the overall packaging market at US$53.2 billion in 2014 with advanced packaging US$20.2 billion (38%), and projected US$96.1 billion in 2024 with advanced packaging US$48.2 billion (50%). | [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) | low |
 
 **Possible reasons:** definition: SIA/BCG's denominator is ATP (includes test), Yole's is IC packaging; vintage: the 50% figure is a 2021 forecast; population: which platforms (flip chip, WLCSP, SiP) count as 'advanced' differs between publishers
@@ -448,7 +448,7 @@ CSET estimated back-end ATP at about 10% of a finished chip's value; SIA/BCG put
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1040 | CSET estimated back-end ATP at about 10% of the value of a finished chip, while SIA/BCG estimated 6% of value added, 3% of industry R&D and 13% of industry capital expenditure. | [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) | low |
+| CLM-1040 | CSET estimated back-end ATP at about 10% of the value of a finished chip, while SIA/BCG estimated 6% of value added, 3% of industry R&D and 13% of industry capital expenditure. | [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) | medium |
 | CLM-1086 | SIA/BCG estimated ATP at about 6% of semiconductor industry value added in 2022, with ATP value added measured by installed capacity at facility location. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | low |
 
 **Possible reasons:** definition: value of a finished chip vs value added across the industry; period: CSET 2019 data vs SIA/BCG 2019 and 2022; method: CSET's value-chain accounting vs BCG's capacity-based allocation
@@ -475,9 +475,35 @@ Press reported in Nov 2022 that Micron's plan implied a near-50% capex cut; Micr
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-1125 | Blocks and Files reported that Micron's November 2022 plan implied a capex cut of close to 50% with further cuts being worked on. | [SRC-0355](https://blocksandfiles.com/2022/11/16/micron-cuts-dram-nand-production/) | low |
-| CLM-1123 | Micron's net investments in capital expenditures were US$7.01 billion in fiscal 2023. | [SRC-0354](https://www.sec.gov/Archives/edgar/data/723125/000072312523000051/a2023q4ex991-pressrelease.htm) | low |
+| CLM-1123 | Micron's net investments in capital expenditures were US$7.01 billion in fiscal 2023. | [SRC-0354](https://www.sec.gov/Archives/edgar/data/723125/000072312523000051/a2023q4ex991-pressrelease.htm) | high |
 
 **Possible reasons:** definition: the near-50% may refer to wafer-fab-equipment capex only, not total capex; plan vs outcome; net capex (after partner/government contributions) vs gross capex
 **More defensible:** CLM-1123. The actual reported figure is from Micron's 8-K earnings release; the press figure's base is unclear.
 **Remaining uncertainty:** FY2022 net capex and the WFE split were not retrieved in this run, so the actual percentage cut is not computed.
+
+## CON-0037: Marvell fiscal 2026 and 2025 data-center revenue (resolved)
+
+CLM-0765 gives US$6,179.1m (75%) FY2026 and US$4,357.9m (75%) FY2025; the 10-K gives US$6,100.3m (74%) and US$4,164.2m (72%).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0765 | Marvell's data-center end-market revenue was US$6.18 billion in fiscal 2026 (ended 31 January 2026), up from US$4.36 billion in fiscal 2025, both about 75% of total revenue. | [SRC-0255](https://www.sec.gov/Archives/edgar/data/1835632/000183563226000006/q426_8kx1312026ex-991.htm) | low |
+| CLM-1223 | Marvell's data-center end-market net revenue was US$6,100.3 million (74% of total) in fiscal 2026 (ended 31 January 2026), up from US$4,164.2 million (72% of total) in fiscal 2025. | [SRC-0392](https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm) | low |
+
+**Possible reasons:** CLM-0765 figures are not present in its cited source (quarterly-only end-market table); likely misread or mis-summed
+**More defensible:** CLM-1223. Audited 10-K table states the full-year figures verbatim; the cited press release has no full-year end-market data.
+**Remaining uncertainty:** None material for FY2026/FY2025; 10-K is the authoritative figure.
+
+## CON-0038: Nature of the HCL-Foxconn Jewar semiconductor unit (wafer fab vs OSAT) (open)
+
+CLM-1072 counts HCL-Foxconn Jewar as a pure wafer fab; TechCrunch reported at approval that it will initially be an OSAT packaging and testing chips made elsewhere.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1072 | Of India's first 10 ISM-approved projects, 8 are assembly/test (ATMP/OSAT) or include an ATMP line, and only 2 (Tata-PSMC Dholera and HCL-Foxconn Jewar) are pure wafer fabs, so India's entry is back-end-led. |  | low |
+| CLM-1234 | TechCrunch reported at approval (May 2025) that the HCL-Foxconn Jewar unit will initially operate as an OSAT, packaging and testing chips fabricated elsewhere, with capacity of 20,000 wafers per month and 36 million units per month. | [SRC-0398](https://techcrunch.com/2025/05/14/foxconn-gets-nod-for-435m-project-to-make-more-of-apple-chips-in-india-eventually) | low |
+
+**Possible reasons:** definition: PIB table gives capacity in wafers/month, which reads like a fab but is also how OSATs quote wafer-level throughput; population: initial phase vs later plans
+**More defensible:** CLM-1234. The researcher's classification was an inference from the PIB capacity unit; TechCrunch explicitly describes the initial scope as OSAT. The primary Cabinet release (PIB PRID 2128468) returned HTTP 403 and could not be checked.
+**Remaining uncertainty:** Primary Cabinet release not opened; whether a front-end line is planned later is unknown.
 

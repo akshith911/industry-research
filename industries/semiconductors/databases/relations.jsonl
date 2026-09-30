@@ -174,3 +174,14 @@
 {"claim_ids": ["CLM-0835", "CLM-0836", "CLM-0867"], "id": "REL-0174", "object_id": "REG-0011", "predicate": "subject_to", "subject_id": "ENT-0007"}
 {"claim_ids": ["CLM-0876", "CLM-0835"], "id": "REL-0175", "object_id": "ENT-0066", "predicate": "restricts", "subject_id": "ENT-0108"}
 {"claim_ids": ["CLM-0835"], "id": "REL-0176", "notes": "87 FR 49979 implemented December 2021 Wassenaar plenary decisions.", "object_id": "REG-0011", "predicate": "sets_standard_for", "subject_id": "ENT-0126"}
+{"claim_ids": ["CLM-0929", "CLM-0316"], "id": "REL-0177", "notes": "CHIPS Program Office placed under the US Investment Accelerator from 31 March 2025.", "object_id": "ENT-0145", "predicate": "part_of", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0910", "CLM-0915", "CLM-0981"], "id": "REL-0178", "notes": "Largest awards to foundries (TSMC Arizona, GlobalFoundries; Intel and Samsung foundry projects).", "object_id": "ENT-0012", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0911", "CLM-0912", "CLM-0913", "CLM-0914", "CLM-0916"], "id": "REL-0179", "notes": "IDMs incl. memory makers (Micron, SK hynix) and analog (TI).", "object_id": "ENT-0002", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0917"], "id": "REL-0180", "notes": "Amkor advanced packaging (US$407m).", "object_id": "ENT-0015", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0917", "CLM-0918"], "id": "REL-0181", "notes": "Wafer, materials and equipment awards (GlobalWafers, Hemlock, Entegris, Corning, Edwards) about US$1.5bn.", "object_id": "ENT-0021", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-0974", "CLM-1008"], "id": "REL-0182", "notes": "Via the 48D investment tax credit, payable as cash under elective payment.", "object_id": "ENT-0002", "predicate": "subsidizes", "subject_id": "ENT-0110"}
+{"claim_ids": ["CLM-1012", "CLM-1013"], "id": "REL-0183", "notes": "Guardrails bind every CHIPS recipient for 10 years.", "object_id": "ENT-0002", "predicate": "restricts", "subject_id": "REG-0013"}
+{"claim_ids": ["CLM-1012", "CLM-1013", "CLM-0960"], "id": "REL-0184", "object_id": "ENT-0012", "predicate": "restricts", "subject_id": "REG-0013"}
+{"claim_ids": ["CLM-0925", "CLM-0950"], "id": "REL-0185", "notes": "Historical: about US$6.3bn awarded by Jan 2025; agreement declared void Aug 2025.", "object_id": "ENT-0147", "predicate": "subsidizes", "subject_id": "ENT-0146"}
+{"claim_ids": ["CLM-0925", "CLM-0950"], "id": "REL-0186", "notes": "Operator of the NSTC Nov 2023 - Aug 2025; NIST took over thereafter.", "object_id": "ENT-0148", "predicate": "provides_service_to", "subject_id": "ENT-0147"}
+{"claim_ids": ["CLM-0981", "CLM-0987"], "id": "REL-0187", "notes": "Statutory reporting on the CHIPS incentives programme.", "object_id": "ENT-0109", "predicate": "measures", "subject_id": "ENT-0149"}

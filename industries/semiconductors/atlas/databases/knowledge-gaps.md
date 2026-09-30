@@ -41,6 +41,12 @@
 | CLM-0819 | A like-for-like comparison of the AI wave with the PC and smartphone waves by end-use segment (chip revenue attributable to PCs in the 1990s or smartphones in 2010-2015) could not be built from free data, because the WSTS End Use Survey history and product splits before 2020 are not public. | RU-0016 |
 | CLM-0890 | No BIS rule rescinding the AI Diffusion Rule appears in the Federal Register list of BIS rules published between 17 January 2025 and 30 September 2026. | RU-0025 |
 | CLM-0898 | No BIS proposed rule or notice mentioning 'semiconductor' was found in the Federal Register between 1 June 2025 and 30 September 2026. | RU-0025 |
+| CLM-0961 | The amount of CHIPS direct funding actually disbursed to TSMC Arizona as of 2025 year-end could not be established from TSMC's 20-F, which reports only total grants across four countries. | RU-0026 |
+| CLM-0970 | How much CHIPS direct funding Intel had received before the August 2025 conversion (the gap between the US$7.865 billion award and the US$5.695 billion accelerated payment is about US$2.17 billion) could not be confirmed from a primary source in this run. | RU-0026 |
+| CLM-0980 | No official (JCT, CBO or Treasury) estimate of the added cost of raising the 48D rate to 35% under P.L. 119-21, or of actual 48D claims to date, was obtained in this run. | RU-0026 |
+| CLM-1007 | The amount of CHIPS direct funding actually received by Micron cannot be isolated from its 10-K, which combines federal grants, tax credits and state and non-US incentives. | RU-0026 |
+| CLM-1014 | No amendment to the CHIPS guardrails rule (15 CFR Part 231) after its 2023 publication was found; the Federal Register/eCFR amendment history could not be read directly. | RU-0026 |
+| CLM-1016 | Whether Congress extended the 48D construction-start deadline beyond 31 December 2026 could not be established as of September 2026; no enacted extension was found. | RU-0026 |
 
 ## Open questions from research units
 

@@ -1,0 +1,11 @@
+{"subject_id": "ENT-0109", "predicate": "part_of", "object_id": "@accel", "claim_ids": ["@oig_accel", "CLM-0316"], "notes": "CHIPS Program Office placed under the US Investment Accelerator from 31 March 2025."}
+{"subject_id": "ENT-0109", "predicate": "subsidizes", "object_id": "ENT-0012", "claim_ids": ["@oig_tsmc", "@oig_gf", "@gao_awards"], "notes": "Largest awards to foundries (TSMC Arizona, GlobalFoundries; Intel and Samsung foundry projects)."}
+{"subject_id": "ENT-0109", "predicate": "subsidizes", "object_id": "ENT-0002", "claim_ids": ["@oig_intel", "@oig_micron", "@oig_samsung", "@oig_ti", "@oig_skh"], "notes": "IDMs incl. memory makers (Micron, SK hynix) and analog (TI)."}
+{"subject_id": "ENT-0109", "predicate": "subsidizes", "object_id": "ENT-0015", "claim_ids": ["@oig_small"], "notes": "Amkor advanced packaging (US$407m)."}
+{"subject_id": "ENT-0109", "predicate": "subsidizes", "object_id": "ENT-0021", "claim_ids": ["@oig_small", "@oig_category"], "notes": "Wafer, materials and equipment awards (GlobalWafers, Hemlock, Entegris, Corning, Edwards) about US$1.5bn."}
+{"subject_id": "ENT-0110", "predicate": "subsidizes", "object_id": "ENT-0002", "claim_ids": ["@irs_rates", "@wolf_refund"], "notes": "Via the 48D investment tax credit, payable as cash under elective payment."}
+{"subject_id": "REG-0013", "predicate": "restricts", "object_id": "ENT-0002", "claim_ids": ["@gr_material", "@gr_tech"], "notes": "Guardrails bind every CHIPS recipient for 10 years."}
+{"subject_id": "REG-0013", "predicate": "restricts", "object_id": "ENT-0012", "claim_ids": ["@gr_material", "@gr_tech", "@tsmc_risk"]}
+{"subject_id": "@crdo", "predicate": "subsidizes", "object_id": "@natcast", "claim_ids": ["@oig_natcast", "@natcast_void"], "notes": "Historical: about US$6.3bn awarded by Jan 2025; agreement declared void Aug 2025."}
+{"subject_id": "@natcast", "predicate": "provides_service_to", "object_id": "@nstc", "claim_ids": ["@oig_natcast", "@natcast_void"], "notes": "Operator of the NSTC Nov 2023 - Aug 2025; NIST took over thereafter."}
+{"subject_id": "@gao", "predicate": "measures", "object_id": "ENT-0109", "claim_ids": ["@gao_awards", "@gao_disbursed"], "notes": "Statutory reporting on the CHIPS incentives programme."}

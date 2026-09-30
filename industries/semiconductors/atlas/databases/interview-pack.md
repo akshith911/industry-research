@@ -4,6 +4,18 @@
 
 Answers from interviews are recorded as claims of type `reported_claim`, never as verified public evidence.
 
+## Interview guide: CHIPS Program Office / Investment Accelerator staff
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0029 | How much CHIPS direct funding has your company actually received to date, against which milestones, and are any disbursement requests pending? | Only the US$6bn total to July 2025 is public; without per-company payments the true public share of each fab's cost cannot be computed. | USAspending.gov outlays by award, company 10-K/20-F government-grant notes split by jurisdiction, or a future GAO report | open |
+
+## Interview guide: Commerce Investment Accelerator officials
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0030 | Was your CHIPS award amended after January 2025 to include a warrant or equity, or to remove upside sharing, and what did you receive in exchange? | Shows how far the equity-for-grants model has spread beyond Intel and what firms traded for it. | Awardee 8-K/10-Q disclosure or Commerce announcement | open |
+
 ## Interview guide: EDA vendor account executive
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -33,6 +45,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0024 | What was the effective CoWoS (all variants) output capacity per month at end-2024, end-2025 and planned end-2026, and what share came from OSAT partners? | CoWoS was the main AI accelerator bottleneck 2023-2026; public numbers are unofficial and vary by 15-20%. | A capacity figure from a TSMC or OSAT manager, or a customer allocation schedule | open |
+
+## Interview guide: Treasury Office of Tax Analysis
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0031 | How much 48D credit (and elective payment) has been claimed so far, and how are future claims projected under the 35% rate and a possible extension? | The tax credit may now exceed grants as the main federal subsidy to fabs (Wolfspeed alone accrued about US$1bn), but no aggregate figure is public. | Treasury tax expenditure tables, JCT JCX estimates, IRS SOI data | open |
 
 ## Interview guide: WSTS Administrator
 
@@ -141,7 +159,7 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
-| INT-0011 | Were your CHIPS award terms renegotiated after 2025, and did the government seek equity, revenue share or other new conditions? | Determines whether US subsidies still function as grants or as state investment, shaping the economics of new fabs. | Amended award agreements or company disclosures (8-K/10-Q) describing changed terms. | open |
+| INT-0011 | Were your CHIPS award terms renegotiated after 2025, and did the government seek equity, revenue share or other new conditions? | Determines whether US subsidies still function as grants or as state investment, shaping the economics of new fabs. | GAO-26-109121 confirms 14 awards amended Jan 2025-Apr 2026 (childcare removed, 2 equity deals incl. Intel, upside sharing removed for 2 projects); still needed: identity of the second equity/warrant awardee and per-award changes to milestones and amounts. | open |
 
 ## Interview guide: mask shop sales engineer
 

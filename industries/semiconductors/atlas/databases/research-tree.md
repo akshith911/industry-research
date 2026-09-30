@@ -29,7 +29,7 @@
 | RU-0023 | 1 | P1 | unit_economics | Cross-model financial benchmark (margins, capex, R&D) on consistent periods | queued | RU-0001 | researcher_discovery |
 | RU-0024 | 2 | P2 | business_models | Design-enablement business models: EDA licensing (time-based, emulation, cloud) and IP/patent royalty economics | queued | RU-0001, RU-0006, RU-0034 | researcher_discovery |
 | RU-0025 | 1 | P0 | regulation | US export controls on semiconductors and tools, 2018-2026: EAR rules, ECCNs, FDP rules and timeline | researched | RU-0001 | researcher_discovery |
-| RU-0026 | 1 | P0 | regulation | US CHIPS Act grants, 48D tax credit and award status (incl. Investment Accelerator and equity conversions) | in_progress | RU-0001 | researcher_discovery |
+| RU-0026 | 1 | P0 | regulation | US CHIPS Act grants, 48D tax credit and award status (incl. Investment Accelerator and equity conversions) | researched | RU-0001 | researcher_discovery |
 | RU-0027 | 1 | P1 | regulation | US tariffs on semiconductors (Section 232, 301, reciprocal) plus customs classification, rules of origin and the WTO ITA | queued | RU-0001, RU-0009 | researcher_discovery |
 | RU-0028 | 1 | P1 | regulation | EU Chips Act, Chips Act 2.0, IPCEI and member-state State aid (Germany, France, Italy, Netherlands, Ireland, Austria) | queued | RU-0001 | researcher_discovery |
 | RU-0029 | 2 | P1 | regulation | Allied export controls on chipmaking tools: Netherlands, Japan, South Korea, Wassenaar and plurilateral coordination | queued | RU-0025 | researcher_discovery |
@@ -259,3 +259,5 @@
 | RU-0253 | 2 | P1 | dynamics | AI accelerator supply constraints beyond CoWoS: IC substrates (ABF/BT, T-glass), rack-scale integration, optics and power equipment (2023-2027) | queued | RU-0016 | researcher_discovery |
 | RU-0254 | 2 | P1 | regulation | Foundry/OSAT due-diligence rule in practice (2025-2026): approved and authorised IC designers, KYC and reporting, and effect on Chinese fabless access to advanced foundry capacity | queued | RU-0025 | researcher_discovery |
 | RU-0255 | 2 | P2 | regulation | US Section 232 action on polysilicon (Proclamation 11052, August 2026) and BIS anti-stockpiling rule: scope, duties and effects on wafer supply | queued | RU-0027, RU-0064 | researcher_discovery |
+| RU-0256 | 2 | P1 | capital | US government equity stakes in chip and chip-supply companies (Intel, xLight, SandboxAQ, I-Pulse, USA Rare Earth, quantum awards): terms, governance and returns | queued | RU-0026 | researcher_discovery |
+| RU-0257 | 2 | P1 | regulation | Section 48D in practice: credits claimed, elective payments, who benefits and the extension fight after 2026 | queued | RU-0026 | researcher_discovery |

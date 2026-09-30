@@ -180,6 +180,17 @@
 | EDA vendor (category) (ENT-0007) | subject_to | Export controls on ECAD software for GAAFET integrated circuits (87 FR 49979, August 2022; ECCN 3D006) (REG-0011) | CLM-0835, CLM-0836, CLM-0867 |
 | US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Gate-all-around (nanosheet) transistor (ENT-0066) | CLM-0876, CLM-0835 |
 | Wassenaar Arrangement (ENT-0126) | sets_standard_for | Export controls on ECAD software for GAAFET integrated circuits (87 FR 49979, August 2022; ECCN 3D006) (REG-0011) | CLM-0835 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | part_of | US Investment Accelerator (Department of Commerce) (ENT-0145) | CLM-0929, CLM-0316 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | subsidizes | Foundry (category) (ENT-0012) | CLM-0910, CLM-0915, CLM-0981 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | subsidizes | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-0911, CLM-0912, CLM-0913, CLM-0914, CLM-0916 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | subsidizes | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-0917 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | subsidizes | Semiconductor materials supplier (category) (ENT-0021) | CLM-0917, CLM-0918 |
+| US Department of the Treasury (ENT-0110) | subsidizes | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-0974, CLM-1008 |
+| CHIPS 'guardrails': Preventing the improper use of CHIPS Act funding (15 CFR Part 231) (REG-0013) | restricts | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-1012, CLM-1013 |
+| CHIPS 'guardrails': Preventing the improper use of CHIPS Act funding (15 CFR Part 231) (REG-0013) | restricts | Foundry (category) (ENT-0012) | CLM-1012, CLM-1013, CLM-0960 |
+| CHIPS Research and Development Office (NIST) (ENT-0146) | subsidizes | Natcast (National Center for the Advancement of Semiconductor Technology) (ENT-0147) | CLM-0925, CLM-0950 |
+| Natcast (National Center for the Advancement of Semiconductor Technology) (ENT-0147) | provides_service_to | National Semiconductor Technology Center (NSTC) (ENT-0148) | CLM-0925, CLM-0950 |
+| US Government Accountability Office (GAO) (ENT-0149) | measures | CHIPS Program Office (US Commerce / NIST) (ENT-0109) | CLM-0981, CLM-0987 |
 
 ## Entities
 
@@ -329,3 +340,8 @@
 | ENT-0142 | TechInsights | market_research_firm | Semiconductor analysis firm that publishes quarterly semiconductor market forecasts with history from 1984 behind platform registration. |
 | ENT-0143 | European Semiconductor Industry Association (ESIA) | industry_association | European chip industry body that distributes WSTS data and handles public WSTS inquiries in Europe. |
 | ENT-0144 | Korea Semiconductor Industry Association (KSIA) | industry_association | Korean chip industry body that handles public WSTS inquiries for Asia Pacific outside Taiwan and China. |
+| ENT-0145 | US Investment Accelerator (Department of Commerce) | industrial_policy_agency | Office in the US Commerce Department created by executive order on 31 March 2025 to speed investments above US$1 billion; it took over the CHIPS Program Office and was tasked with negotiating 'better CHIPS Act deals'. |
+| ENT-0146 | CHIPS Research and Development Office (NIST) | industrial_policy_agency | NIST office that manages the US$11 billion CHIPS R&D appropriation (NSTC, advanced packaging programme, Manufacturing USA institute, metrology); since September 2025 it funds R&D mainly through a broad agency announcement that can require equity or royalties. |
+| ENT-0147 | Natcast (National Center for the Advancement of Semiconductor Technology) | research_organisation | Nonprofit incorporated in October 2023 to operate the National Semiconductor Technology Center; received about US$6.3 billion of CHIPS R&D awards by January 2025, but Commerce declared its up-to-US$7.4 billion agreement void in August 2025 and NIST took over the NSTC. |
+| ENT-0148 | National Semiconductor Technology Center (NSTC) | research_organisation | US public-private semiconductor R&D consortium created under the CHIPS Act; operated by Natcast until August 2025 and then brought under direct NIST control, with its three planned facilities (Albany EUV Accelerator, California design facility, Arizona packaging pilot) cancelled. |
+| ENT-0149 | US Government Accountability Office (GAO) | government_body | Congressional audit agency required by the FY21 NDAA to report periodically on the CHIPS incentives programme; its December 2025 and August 2026 reports give award, disbursement and cancellation figures. |

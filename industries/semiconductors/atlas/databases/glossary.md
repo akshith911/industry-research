@@ -180,6 +180,16 @@
 
 **Sources:** [SRC-0162](https://download.intel.com/newsroom/2021/client-computing/accelerating-process-innovation.pdf) [SRC-0167](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_A16) [SRC-0196](https://www.imec-int.com/en/expertise/cmos-advanced/connect/3d-integration)
 
+### Beginning of construction (48D)
+
+**In plain words:** The test for whether a factory project 'started' in time to qualify for the US chip-factory tax credit.
+
+**Technically:** Under T.D. 10009 construction begins either when physical work of a significant nature starts (physical work test) or when 5% of the facility's reasonably expected basis is paid or incurred (five percent safe harbor), with a continuity requirement; 48D does not apply to property whose construction begins after 31 December 2026.
+
+**Related:** Advanced manufacturing investment credit
+
+**Sources:** [SRC-0318](https://www.govinfo.gov/content/pkg/FR-2024-10-23/html/2024-23857.htm) [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29)
+
 ### Big Fund
 
 **In plain words:** China's state-backed investment fund for its chip industry.
@@ -415,6 +425,16 @@
 **Related:** Wafer, Chiplet, Yield
 
 **Sources:** [SRC-0163](https://newsroom.intel.com/tech101/explaining-common-chip-terms)
+
+### Direct funding agreement (CHIPS)
+
+**In plain words:** The signed, legally binding CHIPS grant contract that says how much a company can receive and what it must achieve to be paid.
+
+**Technically:** Final award agreement between Commerce and an awardee providing up-to amounts of direct funding (grants, cooperative agreements or other transactions), disbursed against project milestones and subject to clawback, guardrail and upside-sharing terms.
+
+**Related:** Preliminary memorandum of terms (PMT), Upside sharing, Expansion clawback
+
+**Sources:** [SRC-0077](https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf) [SRC-0315](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm) [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf)
 
 ### Direct pay
 
@@ -1056,6 +1076,18 @@
 
 **Sources:** [SRC-0035](https://www.computerhistory.org/siliconengine/microprocessor-integrates-cpu-function-onto-a-single-chip/)
 
+### Milestone-based disbursement
+
+**In plain words:** Grant money is paid only after the company proves it has finished agreed steps, such as building a cleanroom or starting production, so the company pays first and is reimbursed later.
+
+**Technically:** CHIPS award funds are disbursed after Commerce verifies completion of project milestones (construction, tool installation and qualification, minimum production); disbursements are in effect reimbursements and can be clawed back.
+
+**Example:** By July 2025 Commerce had verified 18 of 35 disbursement requests and paid US$6 billion.
+
+**Related:** Direct funding agreement (CHIPS)
+
+**Sources:** [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf)
+
 ### Military-civil fusion
 
 **In plain words:** China's policy of linking civilian companies and research to its military; the US cites it as a reason to restrict Chinese chip firms.
@@ -1152,6 +1184,14 @@
 
 **Sources:** [SRC-0028](https://semiconductor.samsung.com/news-events/tech-blog/from-foundry-to-fabless-an-overview-of-the-semiconductor-ecosystem/)
 
+### Other transaction agreement (OTA)
+
+**In plain words:** A flexible government funding contract that is not a normal grant or procurement contract, so the agency can set custom terms.
+
+**Technically:** Agreement under 15 U.S.C. 4659(a)(1) that is not a contract, grant or cooperative agreement and is subject to terms the Secretary considers appropriate; used to fund Natcast/NSTC and the 2025 CHIPS R&D broad agency announcement awards.
+
+**Sources:** [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) [SRC-0314](https://www.covingtonblogs.com/2025/11/05/u-s-department-of-commerce-opens-new-funding-opportunity-for-semiconductor-rd/)
+
 ### Outbound investment rules
 
 **In plain words:** US rules limiting how Americans can invest in Chinese companies in sensitive technologies such as chips.
@@ -1238,6 +1278,18 @@
 
 **Sources:** [SRC-0038](https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/)
 
+### Preliminary memorandum of terms (PMT)
+
+**In plain words:** A first, non-binding offer from the US government saying roughly how much CHIPS money a company might get and in what form, before checks and final negotiation.
+
+**Technically:** Nonbinding agreement issued by the CHIPS Program Office after merit review that outlines key terms (amount and form) of a potential CHIPS incentives award; followed by due diligence and a final award agreement.
+
+**Example:** Wolfspeed's US$750 million PMT (October 2024) was still not finalised in June 2026.
+
+**Related:** Direct funding agreement, CHIPS Act
+
+**Sources:** [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html)
+
 ### Preliminary vs final estimate (Gartner)
 
 **In plain words:** Gartner publishes a first estimate of last year's chip market in January and a revised one around April; the two can differ by several percent.
@@ -1289,6 +1341,16 @@
 **Related:** Critical dimension, Numerical aperture
 
 **Sources:** [SRC-0157](https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion)
+
+### Recapture (48D)
+
+**In plain words:** Having to pay back a tax credit already received because the company broke a condition within a set number of years.
+
+**Technically:** Under the 48D rules, a taxpayer that engages in a significant transaction materially expanding semiconductor capacity in a foreign country of concern within 10 years of placing credited property in service owes 100% of the credits previously allowed.
+
+**Related:** Expansion clawback, Advanced manufacturing investment credit
+
+**Sources:** [SRC-0318](https://www.govinfo.gov/content/pkg/FR-2024-10-23/html/2024-23857.htm)
 
 ### Region of sale (WSTS)
 
@@ -1355,6 +1417,16 @@
 **Technically:** Section 301 of the Trade Act of 1974; used in April 1987 to impose 100% tariffs on $300m of Japanese goods over the 1986 Semiconductor Arrangement.
 
 **Sources:** [SRC-0046](https://www.reaganlibrary.gov/archives/speech/memorandum-tariff-increases-japanese-semiconductor-products)
+
+### Secure Enclave
+
+**In plain words:** A US programme paying Intel to set up a trusted supply of leading-edge chips for the military and intelligence agencies, funded out of CHIPS money.
+
+**Technically:** National-security initiative for which Congress allocated up to US$3.5 billion of the US$39 billion CHIPS incentives appropriation; Intel was awarded up to US$3 billion on 16 September 2024, executed by the Department of Defense.
+
+**Related:** CHIPS Act
+
+**Sources:** [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) [SRC-0315](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm)
 
 ### SEMATECH
 
@@ -1504,6 +1576,16 @@
 
 **Sources:** [SRC-0170](https://www.tsmc.com/english/dedicatedFoundry/services/eFoundry) [SRC-0183](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm)
 
+### Technology clawback
+
+**In plain words:** A CHIPS rule that makes a company repay its whole grant if it does sensitive joint research or technology licensing with a company tied to China or another country of concern.
+
+**Technically:** Guardrail under 15 CFR Part 231 prohibiting a CHIPS recipient from knowingly engaging in joint research or technology licensing with a foreign entity of concern relating to technology or products raising national-security concerns; violation results in recovery of the full award.
+
+**Related:** Expansion clawback
+
+**Sources:** [SRC-0329](https://www.nist.gov/chips/frequently-asked-questions-preventing-improper-use-chips-act-funding) [SRC-0117](https://www.federalregister.gov/documents/2023/09/25/2023-20471/preventing-the-improper-use-of-chips-act-funding)
+
 ### Temporary receipts
 
 **In plain words:** Money a customer pays a chipmaker in advance to secure factory capacity, later refunded or offset.
@@ -1597,6 +1679,16 @@
 **Related:** Chiplet
 
 **Sources:** [SRC-0175](https://www.uciexpress.org/)
+
+### Upside sharing
+
+**In plain words:** A promise to hand part of any unexpectedly large profit from a subsidised project back to the government.
+
+**Technically:** CHIPS award term requiring recipients of more than US$150 million in direct funding (with limited exceptions) to share a portion of project cash flows above a threshold set relative to their application projections, capped at 75% of the award; GAO found thresholds from about US$3 million to US$29.2 billion and shares of 2-31%.
+
+**Related:** Direct funding agreement (CHIPS)
+
+**Sources:** [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf) [SRC-0325](https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/R27.htm)
 
 ### US person (EAR)
 

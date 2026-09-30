@@ -116,10 +116,13 @@ NIST's CHIPS fact sheet says the investment tax credit is up to 25% of qualified
 |---|---|---|---|
 | CLM-0367 | NIST's CHIPS fact sheet describes the CHIPS investment tax credit as up to 25% of qualified capital expenditures. | [SRC-0116](https://www.nist.gov/document/chips-america-fact-sheet-federal-incentives) | low |
 | CLM-0315 | The section 48D credit rate is 35% of qualified investment following P.L. 119-21 section 70308, with 25% applying to facilities placed in service before 2026. | [SRC-0118](https://www.irs.gov/forms-pubs/correction-to-the-2025-instructions-for-form-3468-of-the-applicability-of-the-35-rate-on-line-1c-in-part-iv-advanced-manufacturing-investment-credit-under-section-48d) [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | low |
+| CLM-0974 | The IRS states the 48D credit is 25% of qualified investment for property placed in service through 31 December 2025 and 35% for qualified property placed in service thereafter. | [SRC-0319](https://www.irs.gov/credits-deductions/advanced-manufacturing-investment-credit) | low |
+| CLM-0959 | TSMC's FY2025 20-F notes that TSMC Arizona is also eligible to apply for a 25% investment grant for its qualified investments, a description that does not reflect the 35% rate enacted in 2025 for property placed in service after 2025. | [SRC-0077](https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf) | low |
+| CLM-0963 | In November 2024 Intel said it planned to claim the investment tax credit, expected to be up to 25% of qualified investments, on more than US$100 billion of planned US investment. | [SRC-0317](https://www.sec.gov/Archives/edgar/data/50863/000005086324000169/a11252024form8-kex991.htm) | low |
 
 **Possible reasons:** different period: the NIST fact sheet predates P.L. 119-21 (2025), which raised the rate; NIST text says 'expected to be up to 25%' — a pre-amendment description
 **More defensible:** CLM-0315. The statute (26 USC 48D) and IRS guidance citing P.L. 119-21 section 70308 are the controlling, more recent tier-1 sources; 25% still applies to facilities placed in service before 2026.
-**Remaining uncertainty:** Whether the credit's 31 Dec 2026 construction-start deadline will be extended (proposals exist but were not verified).
+**Remaining uncertainty:** Rate question settled by IRS page (updated 27 Jul 2026): 25% for property placed in service through 2025, 35% thereafter. Company filings (TSMC 20-F FY2025, Intel Nov 2024) still describe 25%, probably reflecting pre-2026 assets or pre-amendment wording. Open: whether the 31 Dec 2026 construction deadline is extended (not enacted as of Sept 2026; see res-RU-0026-0f93).
 
 ## CON-0010: How long it takes to make a chip (definitional)
 
@@ -343,5 +346,59 @@ Existing claim dates the Huawei listing to 15 May 2019 (Commerce announcement); 
 
 **Possible reasons:** announcement date vs effective date vs publication date
 **More defensible:** not determinable. Both are correct for different events; atlas pages should state which date is used.
+**Remaining uncertainty:** None.
+
+## CON-0027: Size of CHIPS R&D money given to and taken back from Natcast (definitional)
+
+OIG: about US$6.3bn awarded to Natcast by Jan 2025 (plus ~US$1.1bn NAPPF); Commerce: up to US$7.4bn voided; GAO: US$7.8bn of R&D awards cancelled.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0925 | As of 31 January 2025 NIST had awarded approximately US$6.3 billion to Natcast, the nonprofit incorporated on 19 October 2023 to operate the National Semiconductor Technology Center, using other transaction agreements. | [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) | low |
+| CLM-0950 | In late August 2025 the Commerce Department declared void the agreement granting Natcast up to US$7.4 billion of CHIPS R&D funding to operate the NSTC, and said NIST would assume operation of the NSTC. | [SRC-0311](https://www.manufacturingdive.com/news/commerce-department-cuts-7-4-billion-chips-act-funding-natcast-howard-lutnick/758561) [SRC-0312](https://www.aip.org/fyi/trump-administration-overhauls-chips-r-d-plans) | low |
+| CLM-0997 | Commerce cancelled CHIPS R&D awards representing US$7.8 billion of the US$11 billion appropriated for advanced microelectronics R&D, including the Natcast NSTC award (August 2025) and SRC's Manufacturing USA institute award (terminated for convenience, December 2025), and paused or cancelled NAPMP awards. | [SRC-0324](https://files.gao.gov/reports/GAO-26-109121/index.html) | low |
+
+**Possible reasons:** population: GAO's US$7.8bn includes cancelled SRC Manufacturing USA and NAPMP awards, not only Natcast; definition: 'up to' ceilings of the final January 2025 Natcast agreements vs amounts awarded as of 31 Jan 2025; period: OIG snapshot at 31 Jan 2025; later January 2025 awards (NAPPF) added
+**More defensible:** not determinable. Each figure counts a different set of awards; none contradicts the others once scope is stated.
+**Remaining uncertainty:** How much cash Natcast actually received and spent before August 2025, and whether any was recovered, is not published.
+
+## CON-0028: Smallest CHIPS award as a share of project capex (definitional)
+
+GAO says awards cover 4.6% to 38.8% of projected capex (July 2025); CRS says TSMC and Micron brought their awards under 4% of total investment.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0985 | CHIPS incentive awards cover between 4.6 and 38.8 percent of projects' company-estimated capital expenditures, with a median of 14.2 percent (as of July 2025). | [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf) | low |
+| CLM-0939 | TSMC and Micron brought their CHIPS awards to under 4% of their total project investment by increasing their capital commitments; CRS found only 2 of the 40 funded projects had direct funding of 5% or less of projected capex. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | low |
+
+**Possible reasons:** period: CRS reflects capital-commitment increases by TSMC and Micron after the award documents GAO used; definition: CRS divides by company-announced total investment; GAO uses project capex in award documents and treats three projects of one company as one
+**More defensible:** not determinable. Different denominators and dates.
+**Remaining uncertainty:** Project-level capex denominators used by Commerce are not public.
+
+## CON-0029: 48D construction-start deadline (resolved)
+
+OMB's Federal Program Inventory says construction must commence by 31 Dec 2025; the statute and CRS say construction must begin before the end of 2026.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0977 | OMB's Federal Program Inventory describes the 48D credit as 25% and states that construction on qualifying facilities must commence by 31 December 2025. | [SRC-0320](https://fpi.omb.gov/program/TC.087.html) | low |
+| CLM-0280 | The 48D credit does not apply to property whose construction begins after 31 December 2026. | [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | low |
+| CLM-0944 | CRS states the 35% semiconductor investment tax credit is available only to projects that begin fab construction before 31 December 2026. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | low |
+
+**Possible reasons:** error or outdated text in the OMB inventory entry; the OMB entry also omits the 2025 increase to 35%, suggesting it is not maintained
+**More defensible:** CLM-0280. 26 USC 48D (statute text) excludes property whose construction begins after 31 Dec 2026; CRS (July 2026) agrees.
+**Remaining uncertainty:** None on current law; only whether Congress extends the deadline.
+
+## CON-0030: Price per share of the US government's Intel stake (resolved)
+
+Announcements give US$20.47 per share for 433.3m shares; the 8-K gives US$20.74 per share for the 274.6m shares bought with accelerated CHIPS funds and US$20.00 for 158.7m escrowed Secure Enclave shares.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0317 | In August 2025 the US government agreed to take a 9.9% equity stake in Intel (433.3 million shares at USD 20.47) funded by USD 5.7 billion of unpaid CHIPS Act grants and USD 3.2 billion of Secure Enclave awards. | [SRC-0098](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/a08222025form8-kex991.htm) | low |
+| CLM-0964 | Under the August 2025 agreement Intel issued 274,583,000 shares to Commerce at closing in exchange for US$5.695 billion of accelerated CHIPS direct-funding disbursements (US$20.74 per share), and 158,740,000 shares into escrow at US$20.00 per share to be released as US$3.1748 billion of Secure Enclave disbursements are paid. | [SRC-0315](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm) | low |
+
+**Possible reasons:** definition: US$20.47 is the blended average of the two tranches
+**More defensible:** CLM-0964. Blended arithmetic reconciles both (see @intc_blend); the 8-K gives the per-tranche terms.
 **Remaining uncertainty:** None.
 

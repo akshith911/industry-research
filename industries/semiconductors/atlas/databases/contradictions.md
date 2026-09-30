@@ -455,3 +455,29 @@ CSET estimated back-end ATP at about 10% of a finished chip's value; SIA/BCG put
 **More defensible:** not determinable. Different measures; both indicate the back end is a small share of value.
 **Remaining uncertainty:** No publisher reports ATP value share on a transparent basis.
 
+## CON-0035: HBM share of DRAM market value in 2025 (open)
+
+Gartner estimated HBM at 23% of DRAM market value in 2025 (after the fact); TrendForce had projected in May 2024 that HBM could exceed 30% of DRAM value in 2025.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0056 | Gartner estimated that high-bandwidth memory (HBM) represented 23% of the DRAM market in 2025 and surpassed US$30 billion in sales. | [SRC-0012](https://www.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025) | low |
+| CLM-1194 | TrendForce projected in May 2024 that HBM would exceed 20% of DRAM market value in 2024 and potentially 30% in 2025, while being about 5% of DRAM bit capacity in 2024. | [SRC-0385](https://Trendforce.com/presscenter/news/20240506-12125.html) | low |
+
+**Possible reasons:** forecast vs outcome: TrendForce figure is a 2024 projection, Gartner's a post-year estimate; conventional DRAM prices rose sharply in 2H25, enlarging the denominator; different DRAM revenue populations and HBM definitions (e.g. HBM counted at stack vs die level)
+**More defensible:** CLM-0056. Gartner's figure is a post-year estimate of the actual year; TrendForce's is an earlier projection. Neither is tier 1.
+**Remaining uncertainty:** No tier-1 statistic splits HBM from other DRAM; company disclosures (SK hynix, Micron) give only partial HBM revenue.
+
+## CON-0036: Size of Micron's FY2023 capex cut (open)
+
+Press reported in Nov 2022 that Micron's plan implied a near-50% capex cut; Micron's actual FY2023 net capex was US$7.01bn.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1125 | Blocks and Files reported that Micron's November 2022 plan implied a capex cut of close to 50% with further cuts being worked on. | [SRC-0355](https://blocksandfiles.com/2022/11/16/micron-cuts-dram-nand-production/) | low |
+| CLM-1123 | Micron's net investments in capital expenditures were US$7.01 billion in fiscal 2023. | [SRC-0354](https://www.sec.gov/Archives/edgar/data/723125/000072312523000051/a2023q4ex991-pressrelease.htm) | low |
+
+**Possible reasons:** definition: the near-50% may refer to wafer-fab-equipment capex only, not total capex; plan vs outcome; net capex (after partner/government contributions) vs gross capex
+**More defensible:** CLM-1123. The actual reported figure is from Micron's 8-K earnings release; the press figure's base is unclear.
+**Remaining uncertainty:** FY2022 net capex and the WFE split were not retrieved in this run, so the actual percentage cut is not computed.
+

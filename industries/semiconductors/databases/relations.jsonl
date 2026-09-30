@@ -198,3 +198,15 @@
 {"claim_ids": ["CLM-1018", "CLM-1020"], "id": "REL-0198", "object_id": "CO-0011", "predicate": "competes_with", "subject_id": "CO-0013"}
 {"claim_ids": ["CLM-1102", "CLM-0488"], "id": "REL-0199", "notes": "IDMs with in-house back end still outsource part of their packaging.", "object_id": "ENT-0002", "predicate": "provides_service_to", "subject_id": "ENT-0015"}
 {"claim_ids": ["CLM-1091", "CLM-1095"], "id": "REL-0200", "notes": "Foundries (TSMC) sell back-end advanced packaging, overlapping OSAT services.", "object_id": "ENT-0015", "predicate": "competes_with", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-1161", "CLM-1156", "CLM-1147"], "id": "REL-0201", "notes": "Memory makers sell mostly under negotiated contracts to OEMs, hyperscalers and module makers; spot market is a small share.", "object_id": "ENT-0031", "predicate": "supplies", "subject_id": "ENT-0003"}
+{"claim_ids": ["CLM-1153", "CLM-1151", "CLM-1160"], "id": "REL-0202", "notes": "From 2026, prepayments/deposits and take-or-pay commitments under multi-year memory agreements.", "object_id": "ENT-0003", "predicate": "pays", "subject_id": "ENT-0031"}
+{"claim_ids": ["CLM-1153", "CLM-1158", "CLM-1159", "CLM-1198"], "id": "REL-0203", "object_id": "ENT-0099", "predicate": "uses", "subject_id": "ENT-0003"}
+{"claim_ids": ["CLM-1165", "CLM-1166", "CLM-1137"], "id": "REL-0204", "object_id": "ENT-0040", "predicate": "measures", "subject_id": "ENT-0150"}
+{"claim_ids": ["CLM-1169"], "id": "REL-0205", "object_id": "ENT-0040", "predicate": "measures", "subject_id": "ENT-0160"}
+{"claim_ids": ["CLM-1190"], "id": "REL-0206", "object_id": "CO-0022", "predicate": "invests_in", "subject_id": "ENT-0122"}
+{"claim_ids": ["CLM-1191"], "id": "REL-0207", "object_id": "CO-0021", "predicate": "invests_in", "subject_id": "ENT-0122"}
+{"claim_ids": ["CLM-1174"], "id": "REL-0208", "object_id": "CO-0024", "predicate": "invests_in", "subject_id": "ENT-0159"}
+{"claim_ids": ["CLM-1173"], "id": "REL-0209", "notes": "2003 countervailing duty on Hynix DRAM imports into the US (44.29%).", "object_id": "CO-0006", "predicate": "restricts", "subject_id": "ENT-0158"}
+{"claim_ids": ["CLM-0121"], "id": "REL-0210", "notes": "Micron sponsored Elpida's reorganisation and acquired it (2012-2013).", "object_id": "CO-0024", "predicate": "owns", "subject_id": "CO-0007"}
+{"claim_ids": ["CLM-0555", "CLM-0556"], "id": "REL-0211", "object_id": "CO-0006", "predicate": "competes_with", "subject_id": "CO-0007"}
+{"claim_ids": ["CLM-0554", "CLM-0555"], "id": "REL-0212", "object_id": "CO-0006", "predicate": "competes_with", "subject_id": "CO-0008"}

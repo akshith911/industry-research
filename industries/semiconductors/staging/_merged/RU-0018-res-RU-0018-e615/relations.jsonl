@@ -1,0 +1,12 @@
+{"subject_id": "ENT-0003", "predicate": "supplies", "object_id": "ENT-0031", "claim_ids": ["@c_oldpractice", "@c_mutop10", "@c_sca16"], "notes": "Memory makers sell mostly under negotiated contracts to OEMs, hyperscalers and module makers; spot market is a small share."}
+{"subject_id": "ENT-0031", "predicate": "pays", "object_id": "ENT-0003", "claim_ids": ["@c_sca10q", "@c_scarev", "@c_ltaterms"], "notes": "From 2026, prepayments/deposits and take-or-pay commitments under multi-year memory agreements."}
+{"subject_id": "ENT-0003", "predicate": "uses", "object_id": "ENT-0099", "claim_ids": ["@c_sca10q", "@c_samlta", "@c_skhlta", "@c_multa"]}
+{"subject_id": "@e_tf", "predicate": "measures", "object_id": "ENT-0040", "claim_ids": ["@c_dxmethod", "@c_dxfreq", "@c_tf4q25"]}
+{"subject_id": "@e_bok", "predicate": "measures", "object_id": "ENT-0040", "claim_ids": ["@c_bok"]}
+{"subject_id": "ENT-0122", "predicate": "invests_in", "object_id": "@co_ymtc", "claim_ids": ["@c_ymtc23"]}
+{"subject_id": "ENT-0122", "predicate": "invests_in", "object_id": "@co_cxmt", "claim_ids": ["@c_cxmtbf"]}
+{"subject_id": "@e_dbj", "predicate": "invests_in", "object_id": "@co_elp", "claim_ids": ["@c_elpidaipa"]}
+{"subject_id": "@e_ita", "predicate": "restricts", "object_id": "@co_skh", "claim_ids": ["@c_cvd"], "notes": "2003 countervailing duty on Hynix DRAM imports into the US (44.29%)."}
+{"subject_id": "@co_mu", "predicate": "owns", "object_id": "@co_elp", "claim_ids": ["CLM-0121"], "notes": "Micron sponsored Elpida's reorganisation and acquired it (2012-2013)."}
+{"subject_id": "@co_mu", "predicate": "competes_with", "object_id": "@co_skh", "claim_ids": ["CLM-0555", "CLM-0556"]}
+{"subject_id": "@co_ss", "predicate": "competes_with", "object_id": "@co_skh", "claim_ids": ["CLM-0554", "CLM-0555"]}

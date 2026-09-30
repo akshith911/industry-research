@@ -152,6 +152,16 @@
 
 **Sources:** [SRC-0186](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/ter-20241231.htm)
 
+### Average selling price (ASP)
+
+**In plain words:** Total sales divided by the number of units (or bits) sold; for memory it is the main measure of price moves.
+
+**Technically:** Memory makers report ASP changes per gigabit (bit ASP); Micron states annual DRAM ASP changes ranged roughly +40% to -40% or worse over five years.
+
+**Related:** Bit shipments
+
+**Sources:** [SRC-0096](https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm) [SRC-0381](https://g.foolcdn.com/features/1996/sp0923b.htm)
+
 ### Back-end (assembly, test and packaging)
 
 **In plain words:** The part of manufacturing that turns finished wafers into individual, tested, packaged chips that can be soldered into products.
@@ -197,6 +207,16 @@
 **Technically:** China Integrated Circuit Industry Investment Fund: phase 1 (2014, CNY 138.7bn), phase 2 (2019, CNY 204bn), phase 3 (2024, CNY 344bn registered capital).
 
 **Sources:** [SRC-0068](https://english.www.gov.cn/news/202405/29/content_WS66569746c6d0868f4e8e7987.html) [SRC-0067](https://www.usitc.gov/publications/332/journals/chinese_semiconductor_industrial_policy_past_and_present_jice_july_2019.pdf)
+
+### Bit shipments
+
+**In plain words:** How much memory capacity (counted in bits) a company ships; memory revenue equals bit shipments times price per bit.
+
+**Technically:** Memory volume measure (Gb or GB equivalents); bit supply growth guidance is the main supply-discipline signal (e.g. Micron guided negative DRAM bit supply growth for CY2023).
+
+**Related:** Average selling price (ASP), Wafer starts
+
+**Sources:** [SRC-0355](https://blocksandfiles.com/2022/11/16/micron-cuts-dram-nand-production/)
 
 ### Blue Book (WSTS)
 
@@ -322,6 +342,16 @@
 
 **Sources:** [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm)
 
+### Contract price (memory)
+
+**In plain words:** The price a memory maker and a big buyer agree privately for a month or a quarter; most memory is sold this way.
+
+**Technically:** Negotiated price for DRAM/NAND sold to OEMs, hyperscalers and module makers, historically reset monthly or quarterly; not published, so research firms (e.g. DRAMeXchange) estimate it from surveys and report session high/low/average.
+
+**Related:** Spot price (memory), Long-term agreement
+
+**Sources:** [SRC-0389](https://dramexchange.com/Service/Faqs) [SRC-0371](https://www.eetimes.com/?p=1133354) [SRC-0363](https://www.trendforce.com/news/2025/11/03/news-dram-quotes-reportedly-shift-to-monthly-as-samsung-largely-halts-contracts/)
+
 ### Conventional packaging
 
 **In plain words:** The older, labour-heavy, low-margin ways of packaging chips (mostly wire-bonded chips in plastic packages on metal frames), as opposed to advanced packaging.
@@ -331,6 +361,16 @@
 **Related:** Wire bonding, Advanced packaging
 
 **Sources:** [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm)
+
+### Countervailing duty
+
+**In plain words:** An import tax a country charges to offset a foreign government's subsidy to the exporter.
+
+**Technically:** Duty set equal to the net subsidy rate found by the investigating authority; the US imposed 44.29% on Hynix DRAMs in 2003 after finding state-directed creditor support.
+
+**Related:** Dumping
+
+**Sources:** [SRC-0374](https://www.govinfo.gov/content/pkg/FR-2003-08-11/pdf/03-20421.pdf)
 
 ### Country Group D:5
 
@@ -545,6 +585,14 @@
 **Technically:** WSTS annual End Use Survey segmentation: PC/computer, communications, consumer, automotive, industrial, government (incl. military).
 
 **Sources:** [SRC-0010](https://www.semiconductors.org/wp-content/uploads/2025/05/2025-SIA-Factbook-FINAL-1.pdf) [SRC-0009](https://www.semiconductors.org/ai-auto-industrial-markets-spurred-rebound-in-chip-demand-during-second-half-of-2023/)
+
+### End-of-life notice
+
+**In plain words:** A message from a chipmaker telling customers it will stop making a product and when last orders are due.
+
+**Technically:** Micron's June 2025 EOL notices for DDR4/LPDDR4 preceded sharp DDR4 price rises as supply shifted to DDR5/HBM.
+
+**Sources:** [SRC-0364](https://www.trendforce.com/news/2025/06/13/news-micron-confirms-ddr4-phase-out-with-eol-notices-reportedly-hints-at-price-hikes-ahead/)
 
 ### Entity List
 
@@ -937,6 +985,14 @@
 **Technically:** Destocking phase of the semiconductor cycle in which channel and customer inventories are drawn down; visible e.g. in Microchip's 42% FY2025 sales decline.
 
 **Sources:** [SRC-0102](https://ir.microchip.com/news-events/press-releases/detail/1309/microchip-technology-announces-financial-results-for-fourth-quarter-and-fiscal-year-2025) [SRC-0103](https://www.sec.gov/Archives/edgar/data/8858/000000885825000028/avt-20250628x10k.htm)
+
+### Inventory write-down (net realizable value)
+
+**In plain words:** An accounting loss taken when chips in stock are worth less than they cost to make.
+
+**Technically:** Under GAAP, inventory is carried at the lower of cost or net realizable value; when memory prices fall below cost, makers record write-downs (Micron US$1.43bn in FQ2 2023).
+
+**Sources:** [SRC-0353](https://www.sec.gov/Archives/edgar/data/723125/000072312523000018/a2023q2ex991-pressrelease.htm) [SRC-0354](https://www.sec.gov/Archives/edgar/data/723125/000072312523000051/a2023q4ex991-pressrelease.htm)
 
 ### Ion implantation
 
@@ -1574,6 +1630,16 @@
 
 **Sources:** [SRC-0169](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/SoIC.htm)
 
+### Spot price (memory)
+
+**In plain words:** The price of memory chips traded day to day between brokers, module makers and distributors outside long contracts; it reacts first when shortages or gluts appear.
+
+**Technically:** Price in the small open/spot market (vendors, OEMs/system integrators, channel distributors, module makers, brokers); above contract prices in shortages and below them when sellers dump inventory; DRAMeXchange updates it three times daily.
+
+**Related:** Contract price (memory)
+
+**Sources:** [SRC-0389](https://dramexchange.com/Service/Faqs) [SRC-0371](https://www.eetimes.com/?p=1133354)
+
 ### STDF
 
 **In plain words:** A common file format for storing chip test results.
@@ -1583,6 +1649,16 @@
 **Related:** Automatic test equipment
 
 **Sources:** [SRC-0188](https://www.kanwoda.com/wp-content/uploads/2015/05/std-spec.pdf)
+
+### Strategic Customer Agreement
+
+**In plain words:** Micron's name for its 2026 multi-year memory supply deals in which customers commit to buy set amounts, often paying cash up front.
+
+**Technically:** Take-or-pay agreements (5 years for data-center/consumer, 3 years for automotive) with fixed prices or min/max price bands and customer deposits; 16 signed by June 2026 covering ~20% of Micron DRAM and ~1/3 of NAND volume.
+
+**Related:** Take-or-pay
+
+**Sources:** [SRC-0369](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000015/mu-20260528.htm) [SRC-0368](https://www.blocksandfiles.com/flash/2026/06/25/us-memory-triopolist-makes-its-customers-pay/5261977)
 
 ### Supplement No. 4 to Part 742
 
@@ -1766,6 +1842,14 @@
 
 **Sources:** [SRC-0293](https://www.federalregister.gov/documents/full_text/text/2025/09/02/2025-16735.txt) [SRC-0294](https://media.bis.gov/press-release/department-commerce-closes-export-controls-loophole-foreign-owned-semiconductor-fabs-china)
 
+### Voluntary export restraint
+
+**In plain words:** An agreement where an exporting country limits its own exports, usually under pressure, which tends to raise prices.
+
+**Technically:** Irwin describes MITI's post-1986 output/export cuts as an 'antidumping' VER aimed at a price target, which raised DRAM prices and profits of Japanese producers.
+
+**Sources:** [SRC-0066](https://www.nber.org/system/files/chapters/c8717/c8717.pdf)
+
 ### Wafer
 
 **In plain words:** A thin round slice of silicon on which many chips are made at once.
@@ -1813,6 +1897,16 @@
 **Related:** Advanced packaging
 
 **Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
+
+### Wafer starts
+
+**In plain words:** The number of new silicon wafers a factory puts into production; cutting them is how chipmakers reduce output.
+
+**Technically:** Fab input measure (wafers per month); Micron cut DRAM/NAND wafer starts ~20% (Nov 2022) and Kioxia ~30% (Oct 2022) in the downturn.
+
+**Related:** Bit shipments
+
+**Sources:** [SRC-0355](https://blocksandfiles.com/2022/11/16/micron-cuts-dram-nand-production/) [SRC-0358](https://www.kioxia.com/en-jp/about/news/2022/20220930-1.html)
 
 ### Wafer-level packaging
 

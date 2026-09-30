@@ -21,7 +21,7 @@
 | RU-0015 | 2 | P2 | history | History: Japan's rise and decline in semiconductors (1970s-2010s) | dropped | RU-0001 | researcher_discovery |
 | RU-0016 | 1 | P0 | dynamics | Dynamics: the AI demand shift - accelerators, HBM and advanced packaging (2022-2026) | researched | RU-0001 | researcher_discovery |
 | RU-0017 | 1 | P0 | unit_economics | Foundry wafer pricing: price by node, pricing unit, annual increases and pass-through | queued | RU-0001, RU-0003 | researcher_discovery |
-| RU-0018 | 1 | P0 | dynamics | Memory: business model, price cycle, and the history of memory cycles and consolidation (1970-2026) | in_progress | RU-0001 | researcher_discovery |
+| RU-0018 | 1 | P0 | dynamics | Memory: business model, price cycle, and the history of memory cycles and consolidation (1970-2026) | researched | RU-0001 | researcher_discovery |
 | RU-0019 | 2 | P1 | business_models | Distribution channel economics and problems: margins, ship-and-debit, price protection, stock rotation, excess inventory and disintermediation | queued | RU-0001, RU-0043 | researcher_discovery |
 | RU-0020 | 2 | P1 | capital | Government money flows into semiconductors: Japan, South Korea and Taiwan (grants, tax credits, policy loans, state equity) | queued | RU-0001, RU-0031 | researcher_discovery |
 | RU-0021 | 2 | P1 | business_models | Equipment makers' commercial model and the purchase-to-production workflow: pricing, down payments, installation, acceptance, services and upgrades | queued | RU-0001, RU-0042 | researcher_discovery |
@@ -263,3 +263,4 @@
 | RU-0257 | 2 | P1 | regulation | Section 48D in practice: credits claimed, elective payments, who benefits and the extension fight after 2026 | queued | RU-0026 | researcher_discovery |
 | RU-0258 | 2 | P1 | capital | Ownership and state capital in Chinese and Singaporean OSATs: JCET (China Resources), Tongfu (AMD JV), Huatian, WiseRoad/UTAC and their customer ties | queued | RU-0007 | researcher_discovery |
 | RU-0259 | 2 | P2 | geography | Americas back-end build-out: US CHIPS ITSI Fund partner countries (Costa Rica, Panama, Mexico) and US advanced packaging plants (Amkor Arizona, SK hynix Indiana, Intel New Mexico) | queued | RU-0007 | researcher_discovery |
+| RU-0260 | 3 | P2 | value_chain | Memory channel and spot market: module makers, brokers and how memory price shocks reach device makers (2019-2026) | queued | RU-0018 | researcher_discovery |

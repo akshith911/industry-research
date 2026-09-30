@@ -204,6 +204,18 @@
 | JCET Group (CO-0013) | competes_with | ASE Technology Holding (CO-0011) | CLM-1018, CLM-1020 |
 | OSAT (outsourced assembly and test) (category) (ENT-0015) | provides_service_to | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-1102, CLM-0488 |
 | Foundry (category) (ENT-0012) | competes_with | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-1091, CLM-1095 |
+| Memory chip maker (category) (ENT-0003) | supplies | Chip buyer (category) (ENT-0031) | CLM-1161, CLM-1156, CLM-1147 |
+| Chip buyer (category) (ENT-0031) | pays | Memory chip maker (category) (ENT-0003) | CLM-1153, CLM-1151, CLM-1160 |
+| Memory chip maker (category) (ENT-0003) | uses | Long-term capacity / supply agreement (ENT-0099) | CLM-1153, CLM-1158, CLM-1159, CLM-1198 |
+| TrendForce (ENT-0150) | measures | DRAM (ENT-0040) | CLM-1165, CLM-1166, CLM-1137 |
+| Bank of Korea (ENT-0160) | measures | DRAM (ENT-0040) | CLM-1169 |
+| China National IC Industry Investment Fund (Big Fund) (ENT-0122) | invests_in | YMTC (CO-0022) | CLM-1190 |
+| China National IC Industry Investment Fund (Big Fund) (ENT-0122) | invests_in | CXMT (CO-0021) | CLM-1191 |
+| Development Bank of Japan (ENT-0159) | invests_in | Elpida Memory (CO-0024) | CLM-1174 |
+| US Commerce Department International Trade Administration (Enforcement and Compliance) (ENT-0158) | restricts | SK hynix Inc. (CO-0006) | CLM-1173 |
+| Micron Technology, Inc. (CO-0007) | owns | Elpida Memory (CO-0024) | CLM-0121 |
+| Micron Technology, Inc. (CO-0007) | competes_with | SK hynix Inc. (CO-0006) | CLM-0555, CLM-0556 |
+| Samsung Electronics Co., Ltd. (CO-0008) | competes_with | SK hynix Inc. (CO-0006) | CLM-0554, CLM-0555 |
 
 ## Entities
 
@@ -366,3 +378,7 @@
 | ENT-0155 | Conventional (wire-bond/leadframe) packaging | packaging_technology | Wire-bonded chips in leadframe or laminate packages; lower value, labour-intensive, mostly in China and Southeast Asia. |
 | ENT-0156 | Flip-chip packaging | packaging_technology | Bumped die attached face-down to a substrate; the largest advanced-packaging platform by revenue and the base for 2.5D packages. |
 | ENT-0157 | Wafer-level packaging (fan-in and fan-out) | packaging_technology | Packaging done on the whole wafer before dicing; fan-in keeps connections within the die, fan-out spreads them into mould compound. |
+| ENT-0158 | US Commerce Department International Trade Administration (Enforcement and Compliance) | trade_remedy_authority | US agency that investigates dumping and subsidies and issues antidumping and countervailing duty orders (e.g. the 2003 DRAM order on Hynix). |
+| ENT-0159 | Development Bank of Japan | capital_provider | Government-backed Japanese bank that took preferred shares in Elpida in 2009 under the revised Industrial Revitalization Act. |
+| ENT-0160 | Bank of Korea | statistics_body | South Korea's central bank; its monthly export price index includes DRAM and flash memory components, one of the few official memory price series. |
+| ENT-0161 | Computer Systems Policy Project | industry_association | US computer makers' group (IBM, Tandem, HP and others) founded in 1989 to oppose antidumping measures that raised DRAM prices. |

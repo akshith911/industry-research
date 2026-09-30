@@ -50,6 +50,10 @@
 | CLM-1089 | Per-country ATP capacity shares for 2022 and 2032 (US, Japan, Korea, China, Taiwan, EU, Malaysia, Philippines, Singapore, Thailand, Mexico) could not be reliably extracted: the SIA/BCG 2024 Exhibit 13 is a chart whose value-to-label mapping is not recoverable from the PDF text layer. | RU-0007 |
 | CLM-1111 | No public 2025 top-10 OSAT ranking (TrendForce or similar) was found as of September 2026; the latest public ranking with company revenues is for 2024. | RU-0007 |
 | CLM-1112 | No public estimate of in-house (IDM and foundry) assembly and test value after 2019 was found, so the current outsourced share of the back end cannot be computed on a consistent basis. | RU-0007 |
+| CLM-1202 | Unknown: a free public annual time series of world DRAM and NAND revenue (as opposed to total memory) back to the 1990s was not found; SIA releases give DRAM/NAND growth rates only for some years (e.g. 2019, 2024). | RU-0018 |
+| CLM-1203 | Unknown: a primary figure for the size of the 2001 DRAM revenue decline was not established; secondary sources cite forecasts of 46% to 55% that could not be traced to a final WSTS/SIA number. | RU-0018 |
+| CLM-1204 | Unknown: Kioxia's FY2023 (April 2023-March 2024) results could not be read from its PDF presentation in this run, so its downturn loss is not recorded here. | RU-0018 |
+| CLM-1215 | Unknown: Micron's exact MD&A wording on DRAM ASP and bit-shipment changes for fiscal 2026 could not be quoted; search snippets indicate it discloses ASP and bit changes in approximate ranges (e.g. ASP roughly +140% and bits roughly +30% for the first nine months), but this was not verified against the filing text. | RU-0018 |
 
 ## Open questions from research units
 

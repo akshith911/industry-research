@@ -16,6 +16,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0030 | Was your CHIPS award amended after January 2025 to include a warrant or equity, or to remove upside sharing, and what did you receive in exchange? | Shows how far the equity-for-grants model has spread beyond Intel and what firms traded for it. | Awardee 8-K/10-Q disclosure or Commerce announcement | open |
 
+## Interview guide: DRAMeXchange/TrendForce analyst
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0036 | Roughly what percentage of DRAM bits shipped industry-wide go through the spot/channel market versus contracts, and has that changed since the 2025-26 shortage? | The only public figure (80-90% contract) dates from 2002; spot prices are widely quoted as if representative. | Analyst estimate with method, or supplier disclosure | open |
+
 ## Interview guide: EDA vendor account executive
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -34,11 +40,23 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0025 | How are HBM3E/HBM4 volumes and prices fixed for the following year, and roughly what premium per bit does HBM command over server DDR5? | Determines how much of AI value memory makers capture and how fast it can erode when Samsung and Micron add share. | Contract structure description and an order-of-magnitude premium from a buyer or seller | open |
 
+## Interview guide: HBM sales/marketing at SK hynix, Samsung or Micron
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0038 | When you agree next year's HBM supply, what is fixed (price per GB, volumes, product generation), when is it agreed, and what happens if qualification of a new generation slips? | HBM is sold on annual volume-price deals unlike commodity DRAM; the terms decide margin split between memory makers and accelerator vendors. | Company statements or contract descriptions | open |
+
 ## Interview guide: India Semiconductor Mission officials
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0034 | What unit volumes are the approved Indian ATMP plants actually shipping in 2026, for which customers, and what share of approved capacity is that? | Approvals and capacity claims (e.g. 48 million chips/day) say little about real output; India's back-end-led strategy depends on customer qualification and volume. | Company disclosures of shipped units or ISM progress data by plant. | open |
+
+## Interview guide: Micron investor relations
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0037 | Of the US$22bn in deposits and commitments Micron cited, how much cash had been received by fiscal year-end and where is it recorded on the balance sheet? | Prepayments move working capital from buyers to memory makers and signal how binding the commitments are. | Micron FY2026 10-K contract-liabilities note | open |
 
 ## Interview guide: OSAT sales director
 
@@ -184,6 +202,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0015 | What did the most recent leading-edge mask set cost and how long did it take from tape-out to masks-at-fab? | Mask cost is a major fixed cost shaping design economics and multi-project wafer demand. | Quoted ranges from two independent practitioners or a filing that discloses mask pricing. | open |
+
+## Interview guide: memory procurement lead at a hyperscaler or PC OEM
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0035 | In your 2026 multi-year memory agreements, how is the price for each period set (fixed schedule, index-linked, or negotiated within a band), and how often is it reset? | Determines whether LTAs actually dampen the memory cycle or merely delay repricing; public filings only say 'fixed or min/max'. | Redacted LTA terms, or specific statements from buyer/seller | open |
 
 ## Interview guide: memory product marketing executive
 

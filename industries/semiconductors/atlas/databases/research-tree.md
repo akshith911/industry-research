@@ -28,7 +28,7 @@
 | RU-0022 | 2 | P1 | unit_economics | Packaging and test unit economics and OSAT problems: pricing basis, utilisation, advanced-packaging capex, substrate shortages and the foundry-vs-OSAT split | queued | RU-0001, RU-0007, RU-0036 | researcher_discovery |
 | RU-0023 | 1 | P1 | unit_economics | Cross-model financial benchmark (margins, capex, R&D) on consistent periods | queued | RU-0001 | researcher_discovery |
 | RU-0024 | 2 | P2 | business_models | Design-enablement business models: EDA licensing (time-based, emulation, cloud) and IP/patent royalty economics | queued | RU-0001, RU-0006, RU-0034 | researcher_discovery |
-| RU-0025 | 1 | P0 | regulation | US export controls on semiconductors and tools, 2018-2026: EAR rules, ECCNs, FDP rules and timeline | in_progress | RU-0001 | researcher_discovery |
+| RU-0025 | 1 | P0 | regulation | US export controls on semiconductors and tools, 2018-2026: EAR rules, ECCNs, FDP rules and timeline | researched | RU-0001 | researcher_discovery |
 | RU-0026 | 1 | P0 | regulation | US CHIPS Act grants, 48D tax credit and award status (incl. Investment Accelerator and equity conversions) | in_progress | RU-0001 | researcher_discovery |
 | RU-0027 | 1 | P1 | regulation | US tariffs on semiconductors (Section 232, 301, reciprocal) plus customs classification, rules of origin and the WTO ITA | queued | RU-0001, RU-0009 | researcher_discovery |
 | RU-0028 | 1 | P1 | regulation | EU Chips Act, Chips Act 2.0, IPCEI and member-state State aid (Germany, France, Italy, Netherlands, Ireland, Austria) | queued | RU-0001 | researcher_discovery |
@@ -257,3 +257,5 @@
 | RU-0251 | 2 | P1 | market_size | Captive and custom silicon outside the headline chip market: size of in-house chips (Apple, hyperscaler ASICs) and how each publisher counts them | queued | RU-0002 | researcher_discovery |
 | RU-0252 | 2 | P2 | market_size | WSTS product-category time series before 2020 (discretes, opto, sensors, analog, micro, logic, memory, 1986-2019) | queued | RU-0002 | researcher_discovery |
 | RU-0253 | 2 | P1 | dynamics | AI accelerator supply constraints beyond CoWoS: IC substrates (ABF/BT, T-glass), rack-scale integration, optics and power equipment (2023-2027) | queued | RU-0016 | researcher_discovery |
+| RU-0254 | 2 | P1 | regulation | Foundry/OSAT due-diligence rule in practice (2025-2026): approved and authorised IC designers, KYC and reporting, and effect on Chinese fabless access to advanced foundry capacity | queued | RU-0025 | researcher_discovery |
+| RU-0255 | 2 | P2 | regulation | US Section 232 action on polysilicon (Proclamation 11052, August 2026) and BIS anti-stockpiling rule: scope, duties and effects on wafer supply | queued | RU-0027, RU-0064 | researcher_discovery |

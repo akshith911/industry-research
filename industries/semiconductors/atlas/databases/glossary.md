@@ -64,6 +64,14 @@
 
 **Sources:** [SRC-0018](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A4651+edition%3Aprelim%29) [SRC-0019](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-II/subchapter-C/part-231/subpart-A)
 
+### Advanced-node IC
+
+**In plain words:** The kinds of leading chips the US does not want made in China: the most advanced logic, DRAM and flash memory.
+
+**Technically:** EAR definition used for end-use controls: logic at 16/14 nm or below or non-planar transistors; NAND with 128+ layers; DRAM with memory cell area < 0.0019 um2 or memory density > 0.288 Gb/mm2 (since Dec 2024, replacing 18 nm half-pitch).
+
+**Sources:** [SRC-0279](https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-21658.txt) [SRC-0285](https://www.federalregister.gov/documents/full_text/text/2024/12/05/2024-28270.txt)
+
 ### Affiliates rule
 
 **In plain words:** A US rule that would automatically apply blacklist restrictions to companies majority-owned by blacklisted companies.
@@ -87,6 +95,26 @@
 **Technically:** WSTS IC category with general-purpose and application-specific analog products.
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
+### Approved IC designer
+
+**In plain words:** A chip-design company the US has vetted, so contract chipmakers can make its advanced chips without assuming they are restricted AI chips.
+
+**Technically:** Under 90 FR 5298 (Jan 2025), designers approved by the End-User Review Committee (Supp. 6 to Part 744); 'authorized IC designers' are designers headquartered in Taiwan or Country Groups A:1/A:5 meeting criteria, subject to KYC and reporting; status extended to 31 Dec 2026.
+
+**Related:** Approved OSAT
+
+**Sources:** [SRC-0289](https://www.federalregister.gov/documents/full_text/text/2025/01/16/2025-00711.txt) [SRC-0290](https://www.federalregister.gov/api/v1/documents/2026-06851.json)
+
+### Approved OSAT
+
+**In plain words:** A chip packaging company on a US list whose word can be relied on about what a packaged chip contains.
+
+**Technically:** OSAT listed in Supp. 7 to Part 744 under 90 FR 5298 whose attestations (e.g. transistor count, no HBM) can overcome the 3A090.a presumption for 16/14 nm-or-below logic ICs.
+
+**Related:** Approved IC designer, OSAT
+
+**Sources:** [SRC-0289](https://www.federalregister.gov/documents/full_text/text/2025/01/16/2025-00711.txt)
 
 ### ASIC
 
@@ -274,6 +302,14 @@
 
 **Sources:** [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm)
 
+### Country Group D:5
+
+**In plain words:** A US list of countries under a US arms embargo, including China; many chip-tool rules apply to exports to these countries.
+
+**Technically:** Country group in Supplement No. 1 to 15 CFR Part 740 (US arms-embargoed countries, incl. the PRC); used with Macau as destination scope for the SME FDP rule and ECAD/TCAD controls.
+
+**Sources:** [SRC-0284](https://media.bis.gov/sites/default/files/documents/FINAL%20DOC%20Nat%20Sec%20Action%20Rls%20Dec%202%2024.pdf) [SRC-0305](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=734&section=734.9)
+
 ### CoWoS
 
 **In plain words:** TSMC's packaging technology that puts processors and HBM memory side by side on an interposer; used for most large AI accelerators.
@@ -339,6 +375,16 @@
 **Technically:** A massively parallel processor sold by merchant vendors (NVIDIA, AMD) as a programmable AI accelerator, usually packaged with HBM on a 2.5D interposer and sold as boards, servers or full racks.
 
 **Related:** AI accelerator, CoWoS
+
+### De minimis rule (EAR)
+
+**In plain words:** A US rule saying that a product made abroad falls under US export rules if it contains more than a small share of controlled US parts; for some chipmaking tools that share is zero.
+
+**Technically:** 15 CFR 734.4: foreign-made items incorporating controlled US content above 10% (E:1/E:2) or 25% (other destinations) of value are subject to the EAR; 734.4(a)(8) sets no de minimis level for specified SME containing US-origin ICs destined to Macau/D:5.
+
+**Related:** Foreign Direct Product Rule
+
+**Sources:** [SRC-0307](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=734&section=734.4)
 
 ### Deposition
 
@@ -467,6 +513,16 @@
 **Technically:** List maintained by BIS under the Export Administration Regulations; exports of items subject to the EAR to listed parties require a licence, often with a presumption of denial.
 
 **Sources:** [SRC-0052](https://2017-2021.commerce.gov/news/press-releases/2019/05/department-commerce-announces-addition-huawei-technologies-co-ltd.html)
+
+### Entity List footnote designations (1, 4, 5)
+
+**In plain words:** Marks next to some names on the US trade blacklist that extend US control to foreign-made goods going to those companies.
+
+**Technically:** Footnotes in Supp. 4 to Part 744 triggering entity-specific FDP rules in 734.9(e): footnote 1 (Huawei, 2020), footnote 4 (advanced computing/supercomputer entities, 2022), footnote 5 (advanced-node IC production entities, Dec 2024).
+
+**Related:** Entity List, Foreign Direct Product Rule
+
+**Sources:** [SRC-0272](https://www.federalregister.gov/api/v1/documents/2020-10856.json) [SRC-0279](https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-21658.txt) [SRC-0284](https://media.bis.gov/sites/default/files/documents/FINAL%20DOC%20Nat%20Sec%20Action%20Rls%20Dec%202%2024.pdf) [SRC-0305](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=734&section=734.9)
 
 ### Etch
 
@@ -786,6 +842,14 @@
 
 **Sources:** [SRC-0017](https://www.census.gov/foreign-trade/schedules/b/2022/c85.html) [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
+### Interim final rule (IFR)
+
+**In plain words:** A US rule that takes effect right away and asks for public comments afterwards, rather than before.
+
+**Technically:** Rule issued without prior notice-and-comment, effective on or near publication, with post-publication comments; most BIS semiconductor rules 2020-2025 were IFRs.
+
+**Sources:** [SRC-0272](https://www.federalregister.gov/api/v1/documents/2020-10856.json) [SRC-0280](https://www.federalregister.gov/api/v1/documents/2023-23049.json) [SRC-0288](https://www.federalregister.gov/api/v1/documents/2025-00711.json)
+
 ### Interposer
 
 **In plain words:** A thin 'circuit board' layer, often made of silicon, that sits under several chips and wires them together at very high density.
@@ -853,6 +917,22 @@
 **Technically:** Upfront or periodic fee granting rights to use IP or software; in semiconductor IP typically charged per design or per access agreement.
 
 **Sources:** [SRC-0081](https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm) [SRC-0084](https://investors.arm.com/static-files/219a3b28-f209-4d74-8bc6-f9e026d55a95)
+
+### License Exception IEC
+
+**In plain words:** A shortcut that lets items be exported without a US licence to countries that have put in place the same controls themselves.
+
+**Technically:** EAR licence exception created 6 Sep 2024 (89 FR 72926) for newly controlled semiconductor, quantum and additive-manufacturing items to/by countries with equivalent technical controls, listed in a table on the BIS website.
+
+**Sources:** [SRC-0298](https://www.federalregister.gov/documents/full_text/text/2024/09/06/2024-19633.txt)
+
+### License Exception NAC
+
+**In plain words:** A shortcut that lets exporters ship some less-sensitive AI chips after notifying the US government, which then has 25 days to object.
+
+**Technically:** EAR licence exception created in October 2023 (AC/S IFR) for certain 3A090/4A090 items; prior notification with US government determination within 25 days.
+
+**Sources:** [SRC-0283](https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor) [SRC-0282](https://www.federalregister.gov/documents/full_text/text/2023/10/25/2023-23055.txt)
 
 ### Logic
 
@@ -922,6 +1002,16 @@
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
+### Memory bandwidth density
+
+**In plain words:** How fast data can move in and out of a memory chip for each square millimetre of its area; the US uses it to decide which high-bandwidth memory needs an export licence.
+
+**Technically:** ECCN 3A090.c parameter: HBM with memory bandwidth density greater than 2 GB/s per mm2 is controlled (December 2024).
+
+**Related:** High-bandwidth memory
+
+**Sources:** [SRC-0285](https://www.federalregister.gov/documents/full_text/text/2024/12/05/2024-28270.txt)
+
 ### Memory cycle
 
 **In plain words:** The repeating pattern where memory chip prices soar in shortages and crash in gluts.
@@ -965,6 +1055,14 @@
 **Technically:** An integrated circuit implementing a central processing unit; Intel's 4004 (1971) is commonly cited as the first commercial example.
 
 **Sources:** [SRC-0035](https://www.computerhistory.org/siliconengine/microprocessor-integrates-cpu-function-onto-a-single-chip/)
+
+### Military-civil fusion
+
+**In plain words:** China's policy of linking civilian companies and research to its military; the US cites it as a reason to restrict Chinese chip firms.
+
+**Technically:** PRC strategy integrating civilian and defence industrial bases; cited by BIS in the SMIC listing (2020) and the December 2024 Entity List rule.
+
+**Sources:** [SRC-0277](https://www.federalregister.gov/documents/full_text/text/2020/12/22/2020-28031.txt) [SRC-0297](https://www.federalregister.gov/api/v1/documents/2024-07004,2024-19633,2024-28267,2025-00636.json?fields[]=document_number&fields[]=citation&fields[]=publication_date&fields[]=effective_on&fields[]=abstract)
 
 ### Moore's Law
 
@@ -1081,6 +1179,16 @@
 **Related:** Design rules, EDA
 
 **Sources:** [SRC-0178](https://github.com/google/skywater-pdk)
+
+### Performance density
+
+**In plain words:** How much computing a chip does per square millimetre of silicon; it stops companies dodging limits by splitting power across smaller chips.
+
+**Technically:** EAR parameter = TPP divided by applicable die area (mm2); 3A090.a captures ICs with TPP >= 1600 and performance density >= 5.92.
+
+**Related:** Total processing performance (TPP)
+
+**Sources:** [SRC-0287](https://www.ecfr.gov/api/search/v1/results?query=%22performance%20density%22%205.92&per_page=5) [SRC-0283](https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor)
 
 ### Photolithography
 
@@ -1344,6 +1452,14 @@
 
 **Sources:** [SRC-0188](https://www.kanwoda.com/wp-content/uploads/2015/05/std-spec.pdf)
 
+### Supplement No. 4 to Part 742
+
+**In plain words:** A list of 33 allied countries whose chip-tool exports from their own territory are exempt from certain new US licence requirements, because they have their own controls.
+
+**Technically:** 'Countries Excluded From Certain Semiconductor Manufacturing Equipment License Requirements' (89 FR 96817), used in 742.4(a)(4)(ii)(B) to exclude SME exported from those countries by non-D:5-headquartered entities from SME FDP/de minimis licence requirements.
+
+**Sources:** [SRC-0286](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=742&appendix=Supplement%20No.%204%20to%20Part%20742) [SRC-0306](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=742&section=742.4)
+
 ### Supply-demand balance (CoWoS)
 
 **In plain words:** The point at which there is finally enough advanced-packaging capacity to meet all the orders; TSMC has repeatedly pushed back when it expects this.
@@ -1422,6 +1538,16 @@
 
 **Sources:** [SRC-0081](https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm) [SRC-0082](https://news.synopsys.com/2025-12-10-Synopsys-Posts-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year-2025)
 
+### Total processing performance (TPP)
+
+**In plain words:** A single number the US government uses to measure how much computing a chip can do; above a set level, exporting the chip needs permission.
+
+**Technically:** EAR metric of a chip's aggregate processing capability (replacing 'bits x TOPS' in October 2023); used in ECCN 3A090 (e.g. TPP >= 4800, or >= 1600 with performance density >= 5.92).
+
+**Related:** Performance density, ECCN
+
+**Sources:** [SRC-0282](https://www.federalregister.gov/documents/full_text/text/2023/10/25/2023-23055.txt) [SRC-0287](https://www.ecfr.gov/api/search/v1/results?query=%22performance%20density%22%205.92&per_page=5)
+
 ### TPU
 
 **In plain words:** Google's own AI chip, used in Google's data centres and rented to cloud customers such as Anthropic.
@@ -1471,6 +1597,22 @@
 **Related:** Chiplet
 
 **Sources:** [SRC-0175](https://www.uciexpress.org/)
+
+### US person (EAR)
+
+**In plain words:** Anyone the US export rules treat as American: US citizens, green-card holders, people in the US and US companies. Some chip rules limit what they may do for Chinese chip factories.
+
+**Technically:** EAR term covering US citizens, permanent residents, protected individuals, US-organised entities and persons in the US; 744.6(c)(2) requires licences for their support of specified advanced-IC production in China.
+
+**Sources:** [SRC-0279](https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-21658.txt) [SRC-0296](https://www.ajot.com/news/ban-on-us-talent-at-china-chip-firms-thwarts-xias-key-ambition)
+
+### Validated End-User (VEU)
+
+**In plain words:** A pre-approval that lets a vetted foreign factory receive controlled US goods without its suppliers asking for a licence each time.
+
+**Technically:** EAR authorisation (15 CFR 748.15) under which approved end users receive eligible items without the supplier obtaining an individual licence; revoked for Samsung, SK hynix and Intel Dalian China fabs effective 31 Dec 2025.
+
+**Sources:** [SRC-0293](https://www.federalregister.gov/documents/full_text/text/2025/09/02/2025-16735.txt) [SRC-0294](https://media.bis.gov/press-release/department-commerce-closes-export-controls-loophole-foreign-owned-semiconductor-fabs-china)
 
 ### Wafer
 

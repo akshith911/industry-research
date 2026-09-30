@@ -39,6 +39,8 @@
 | CLM-0799 | TSMC does not publicly disclose CoWoS capacity in wafers per month; all public capacity figures found are supply-chain or press estimates that vary widely by vintage. | RU-0016 |
 | CLM-0814 | The size and expected end of the T-glass/substrate shortage in 2026-2027 could not be established from primary or open sources; Counterpoint's March 2026 report on a 'multi-year substrate shortage' is subscription-only. | RU-0016 |
 | CLM-0819 | A like-for-like comparison of the AI wave with the PC and smartphone waves by end-use segment (chip revenue attributable to PCs in the 1990s or smartphones in 2010-2015) could not be built from free data, because the WSTS End Use Survey history and product splits before 2020 are not public. | RU-0016 |
+| CLM-0890 | No BIS rule rescinding the AI Diffusion Rule appears in the Federal Register list of BIS rules published between 17 January 2025 and 30 September 2026. | RU-0025 |
+| CLM-0898 | No BIS proposed rule or notice mentioning 'semiconductor' was found in the Federal Register between 1 June 2025 and 30 September 2026. | RU-0025 |
 
 ## Open questions from research units
 

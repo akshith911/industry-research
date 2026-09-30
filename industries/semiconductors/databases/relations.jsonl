@@ -51,10 +51,10 @@
 {"claim_ids": ["CLM-0002"], "id": "REL-0051", "notes": "Only members that design and sell under own trade name.", "object_id": "ENT-0128", "predicate": "sends_information_to", "subject_id": "ENT-0001"}
 {"claim_ids": ["CLM-0058", "CLM-0057"], "id": "REL-0052", "object_id": "ENT-0018", "predicate": "measures", "subject_id": "ENT-0130"}
 {"claim_ids": ["CLM-0062"], "id": "REL-0053", "object_id": "ENT-0007", "predicate": "measures", "subject_id": "ENT-0132"}
-{"claim_ids": ["CLM-0301", "CLM-0304"], "id": "REL-0054", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0108"}
-{"claim_ids": ["CLM-0301", "CLM-0307"], "id": "REL-0055", "object_id": "ENT-0038", "predicate": "restricts", "subject_id": "ENT-0108"}
-{"claim_ids": ["CLM-0304"], "id": "REL-0056", "object_id": "ENT-0041", "predicate": "restricts", "subject_id": "ENT-0108"}
-{"claim_ids": ["CLM-0409"], "id": "REL-0057", "object_id": "ENT-0007", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0301", "CLM-0304", "CLM-0853", "CLM-0850", "CLM-0885"], "id": "REL-0054", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0301", "CLM-0307", "CLM-0837", "CLM-0844"], "id": "REL-0055", "object_id": "ENT-0038", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0304", "CLM-0851", "CLM-0852"], "id": "REL-0056", "object_id": "ENT-0041", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0409", "CLM-0835", "CLM-0856", "CLM-0857"], "id": "REL-0057", "object_id": "ENT-0007", "predicate": "restricts", "subject_id": "ENT-0108"}
 {"claim_ids": ["CLM-0336", "CLM-0338"], "id": "REL-0058", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0118"}
 {"claim_ids": ["CLM-0339"], "id": "REL-0059", "object_id": "ENT-0019", "predicate": "restricts", "subject_id": "ENT-0119"}
 {"claim_ids": ["CLM-0344", "CLM-0346"], "id": "REL-0060", "object_id": "ENT-0026", "predicate": "restricts", "subject_id": "ENT-0120"}
@@ -161,3 +161,16 @@
 {"claim_ids": ["CLM-0792"], "id": "REL-0161", "notes": "HBM", "object_id": "CO-0007", "predicate": "competes_with", "subject_id": "CO-0006"}
 {"claim_ids": ["CLM-0794"], "id": "REL-0162", "object_id": "ENT-0068", "predicate": "produces", "subject_id": "CO-0005"}
 {"claim_ids": ["CLM-0794", "CLM-0798"], "id": "REL-0163", "notes": "OSATs add CoWoS-class capacity alongside TSMC", "object_id": "CO-0005", "predicate": "provides_service_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-0863", "CLM-0865"], "id": "REL-0164", "object_id": "ENT-0012", "predicate": "regulates", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0863", "CLM-0865", "CLM-0864"], "id": "REL-0165", "object_id": "ENT-0015", "predicate": "regulates", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0862", "CLM-0863"], "id": "REL-0166", "object_id": "REG-0045", "predicate": "subject_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-0862", "CLM-0863"], "id": "REL-0167", "object_id": "REG-0045", "predicate": "subject_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-0864", "CLM-0866"], "id": "REL-0168", "object_id": "REG-0045", "predicate": "subject_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0899", "CLM-0902"], "id": "REL-0169", "object_id": "REG-0046", "predicate": "subject_to", "subject_id": "ENT-0003"}
+{"claim_ids": ["CLM-0899", "CLM-0902", "CLM-0880"], "id": "REL-0170", "object_id": "ENT-0003", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0853", "CLM-0885", "CLM-0882"], "id": "REL-0171", "object_id": "REG-0007", "predicate": "subject_to", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0842"], "id": "REL-0172", "object_id": "REG-0042", "predicate": "subject_to", "subject_id": "ENT-0019"}
+{"claim_ids": ["CLM-0843", "CLM-0844"], "id": "REL-0173", "object_id": "REG-0043", "predicate": "subject_to", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-0835", "CLM-0836", "CLM-0867"], "id": "REL-0174", "object_id": "REG-0011", "predicate": "subject_to", "subject_id": "ENT-0007"}
+{"claim_ids": ["CLM-0876", "CLM-0835"], "id": "REL-0175", "object_id": "ENT-0066", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0835"], "id": "REL-0176", "notes": "87 FR 49979 implemented December 2021 Wassenaar plenary decisions.", "object_id": "REG-0011", "predicate": "sets_standard_for", "subject_id": "ENT-0126"}

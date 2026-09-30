@@ -71,11 +71,23 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0003 | Since 2022, has your company changed target inventory days for semiconductors, signed direct capacity agreements with foundries, or redesigned to multi-source chips? What remains in place today? | Determines whether the shortage was a one-off or a structural shift in who holds inventory and bargaining power. | Multiple practitioners describing current contract structures and inventory targets, ideally corroborated by company filings. | open |
 
+## Interview guide: export compliance lead at a leading-edge foundry
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0026 | Since January 2025, how does your company decide whether a 16/14 nm-or-below logic die is presumed 3A090.a, and how many customers moved from 'authorized' to 'approved' IC designer status? | The rule turns foundries into export-control gatekeepers; its real effect on Chinese chip designers' access to TSMC/Samsung capacity is not public. | Foundry annual report risk disclosures; BIS list of approved IC designers (Supp. 6 to Part 744) updates | open |
+
 ## Interview guide: export compliance manager at a semiconductor equipment maker
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0010 | For your last several licence applications for China-bound semiconductor items, how long did decisions take, what share were approved, and what did compliance cost you in staff and systems? | Licensing delay and uncertainty are a real cost for equipment makers and chip designers, and a possible pain point for compliance tooling. | Participant estimates of processing times, approval shares and compliance headcount/cost, ideally corroborated by BIS annual licensing statistics. | open |
+
+## Interview guide: export compliance staff at Samsung, SK hynix or their equipment suppliers
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0027 | Have your China fabs received BIS licences since January 2026, and do they allow spare parts, service and replacement tools of the same generation? | These fabs are a large share of global memory output; licence terms decide whether they can maintain or must slowly degrade. | Company 10-K/annual report disclosures; BIS statements | open |
 
 ## Interview guide: fab logistics manager
 
@@ -148,4 +160,10 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0020 | At leading-edge nodes, what share of masks are made in-house by the chipmaker versus bought from merchant mask shops? | Shows whether merchant mask shops are a viable independent segment or marginal at the leading edge. | Participant estimates cross-checked with mask-shop filings. | open |
+
+## Interview guide: trade compliance manager at a Korean or Taiwanese SME maker
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0028 | Since December 2024, have you had to classify your tools against the SME FDP product scope and apply for US licences for Chinese customers? | Determines whether non-excluded allied tool makers are at a competitive disadvantage versus Japanese and Dutch firms. | Company disclosures; BIS advisory opinions; KSIA/SEMI statements | open |
 

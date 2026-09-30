@@ -1,0 +1,13 @@
+{"subject_id":"ENT-0108","predicate":"regulates","object_id":"ENT-0012","claim_ids":["@c_fdd_presume","@c_fdd_report"]}
+{"subject_id":"ENT-0108","predicate":"regulates","object_id":"ENT-0015","claim_ids":["@c_fdd_presume","@c_fdd_report","@c_fdd_lists"]}
+{"subject_id":"ENT-0012","predicate":"subject_to","object_id":"@reg_fdd","claim_ids":["@c_fdd_cite","@c_fdd_presume"]}
+{"subject_id":"ENT-0015","predicate":"subject_to","object_id":"@reg_fdd","claim_ids":["@c_fdd_cite","@c_fdd_presume"]}
+{"subject_id":"ENT-0004","predicate":"subject_to","object_id":"@reg_fdd","claim_ids":["@c_fdd_lists","@c_fdd_2026ext"]}
+{"subject_id":"ENT-0003","predicate":"subject_to","object_id":"@reg_veu","claim_ids":["@c_veu_cite","@c_veu_policy"]}
+{"subject_id":"ENT-0108","predicate":"restricts","object_id":"ENT-0003","claim_ids":["@c_veu_cite","@c_veu_policy","@c_dec24_dram"]}
+{"subject_id":"ENT-0019","predicate":"subject_to","object_id":"REG-0007","claim_ids":["@c_smefdp","@c_dm_sme","@c_742_4_excl"]}
+{"subject_id":"ENT-0019","predicate":"subject_to","object_id":"@reg_oct23sme","claim_ids":["@c_oct23_sme_countries"]}
+{"subject_id":"ENT-0004","predicate":"subject_to","object_id":"@reg_oct23acs","claim_ids":["@c_oct23_pd","@c_3a090a_now"]}
+{"subject_id":"ENT-0007","predicate":"subject_to","object_id":"REG-0011","claim_ids":["@c_ecad_scope","@c_ecad_3d006","@c_ecad_ns"]}
+{"subject_id":"ENT-0108","predicate":"restricts","object_id":"ENT-0066","claim_ids":["@c_sep24_items","@c_ecad_scope"]}
+{"subject_id":"ENT-0126","predicate":"sets_standard_for","object_id":"REG-0011","claim_ids":["@c_ecad_scope"],"notes":"87 FR 49979 implemented December 2021 Wassenaar plenary decisions."}

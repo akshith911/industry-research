@@ -57,10 +57,10 @@
 | Chip company (category) (ENT-0001) | sends_information_to | World Semiconductor Trade Statistics (WSTS) (ENT-0128) | CLM-0002 |
 | SEMI (ENT-0130) | measures | Semiconductor equipment maker (category) (ENT-0018) | CLM-0058, CLM-0057 |
 | ESD Alliance (ENT-0132) | measures | EDA vendor (category) (ENT-0007) | CLM-0062 |
-| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Wafer-fab (front-end) equipment maker (category) (ENT-0019) | CLM-0301, CLM-0304 |
-| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | AI accelerator / advanced computing chip (ENT-0038) | CLM-0301, CLM-0307 |
-| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | High-bandwidth memory (HBM) (ENT-0041) | CLM-0304 |
-| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | EDA vendor (category) (ENT-0007) | CLM-0409 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Wafer-fab (front-end) equipment maker (category) (ENT-0019) | CLM-0301, CLM-0304, CLM-0853, CLM-0850, CLM-0885 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | AI accelerator / advanced computing chip (ENT-0038) | CLM-0301, CLM-0307, CLM-0837, CLM-0844 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | High-bandwidth memory (HBM) (ENT-0041) | CLM-0304, CLM-0851, CLM-0852 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | EDA vendor (category) (ENT-0007) | CLM-0409, CLM-0835, CLM-0856, CLM-0857 |
 | Netherlands Minister for Foreign Trade and Development (ENT-0118) | restricts | Wafer-fab (front-end) equipment maker (category) (ENT-0019) | CLM-0336, CLM-0338 |
 | Japan Ministry of Economy, Trade and Industry (METI) (ENT-0119) | restricts | Wafer-fab (front-end) equipment maker (category) (ENT-0019) | CLM-0339 |
 | China Ministry of Commerce (MOFCOM) (ENT-0120) | restricts | Critical-mineral producer (category) (ENT-0026) | CLM-0344, CLM-0346 |
@@ -84,17 +84,17 @@
 | Wafer-fab (front-end) equipment maker (category) (ENT-0019) | subject_to | EAR: Foreign-Produced Direct Product Rule additions and refinements to controls for advanced computing and semiconductor manufacturing items (89 FR 96790) (REG-0007) | CLM-0304 |
 | Memory chip maker (category) (ENT-0003) | subject_to | EAR: Foreign-Produced Direct Product Rule additions and refinements to controls for advanced computing and semiconductor manufacturing items (89 FR 96790) (REG-0007) | CLM-0304 |
 | Foundry (category) (ENT-0012) | subject_to | EAR: Foreign-Produced Direct Product Rule additions and refinements to controls for advanced computing and semiconductor manufacturing items (89 FR 96790) (REG-0007) | CLM-0304 |
-| Chip company (category) (ENT-0001) | subject_to | EAR Entity List 'affiliates rule' (50% ownership) and its one-year suspension (REG-0008) | CLM-0305, CLM-0306 |
-| Semiconductor equipment maker (category) (ENT-0018) | subject_to | EAR Entity List 'affiliates rule' (50% ownership) and its one-year suspension (REG-0008) | CLM-0305, CLM-0306 |
-| Authorized (franchised) distributor (category) (ENT-0029) | subject_to | EAR Entity List 'affiliates rule' (50% ownership) and its one-year suspension (REG-0008) | CLM-0305, CLM-0306 |
+| Chip company (category) (ENT-0001) | subject_to | EAR Entity List 'affiliates rule' (50% ownership; 90 FR 47201) and its one-year suspension (REG-0008) | CLM-0305, CLM-0306 |
+| Semiconductor equipment maker (category) (ENT-0018) | subject_to | EAR Entity List 'affiliates rule' (50% ownership; 90 FR 47201) and its one-year suspension (REG-0008) | CLM-0305, CLM-0306 |
+| Authorized (franchised) distributor (category) (ENT-0029) | subject_to | EAR Entity List 'affiliates rule' (50% ownership; 90 FR 47201) and its one-year suspension (REG-0008) | CLM-0305, CLM-0306 |
 | Fabless chip company (category) (ENT-0004) | subject_to | BIS revision to licence review policy for advanced computing commodities (H200-class chips to China and Macau) (REG-0009) | CLM-0307, CLM-0308 |
 | Fabless chip company (category) (ENT-0004) | subject_to | AI Diffusion Rule (January 2025) and its announced rescission (REG-0010) | CLM-0309, CLM-0310 |
 | Integrated device manufacturer (IDM) (category) (ENT-0002) | subject_to | AI Diffusion Rule (January 2025) and its announced rescission (REG-0010) | CLM-0309, CLM-0310 |
-| EDA vendor (category) (ENT-0007) | subject_to | Export controls on ECAD software for GAAFET integrated circuits (August 2022) (REG-0011) | CLM-0409, CLM-0408 |
-| Chip company (category) (ENT-0001) | subject_to | Entity List designation of Huawei Technologies and affiliates (May 2019) (REG-0012) | CLM-0135 |
-| Semiconductor equipment maker (category) (ENT-0018) | subject_to | Entity List designation of Huawei Technologies and affiliates (May 2019) (REG-0012) | CLM-0135 |
-| EDA vendor (category) (ENT-0007) | subject_to | Entity List designation of Huawei Technologies and affiliates (May 2019) (REG-0012) | CLM-0135 |
-| Foundry (category) (ENT-0012) | subject_to | Entity List designation of Huawei Technologies and affiliates (May 2019) (REG-0012) | CLM-0135 |
+| EDA vendor (category) (ENT-0007) | subject_to | Export controls on ECAD software for GAAFET integrated circuits (87 FR 49979, August 2022; ECCN 3D006) (REG-0011) | CLM-0409, CLM-0408 |
+| Chip company (category) (ENT-0001) | subject_to | Entity List designation of Huawei Technologies and 68 non-US affiliates (84 FR 22961, May 2019) (REG-0012) | CLM-0135 |
+| Semiconductor equipment maker (category) (ENT-0018) | subject_to | Entity List designation of Huawei Technologies and 68 non-US affiliates (84 FR 22961, May 2019) (REG-0012) | CLM-0135 |
+| EDA vendor (category) (ENT-0007) | subject_to | Entity List designation of Huawei Technologies and 68 non-US affiliates (84 FR 22961, May 2019) (REG-0012) | CLM-0135 |
+| Foundry (category) (ENT-0012) | subject_to | Entity List designation of Huawei Technologies and 68 non-US affiliates (84 FR 22961, May 2019) (REG-0012) | CLM-0135 |
 | Integrated device manufacturer (IDM) (category) (ENT-0002) | subject_to | CHIPS 'guardrails': Preventing the improper use of CHIPS Act funding (15 CFR Part 231) (REG-0013) | CLM-0313, CLM-0028, CLM-0029 |
 | Foundry (category) (ENT-0012) | subject_to | CHIPS 'guardrails': Preventing the improper use of CHIPS Act funding (15 CFR Part 231) (REG-0013) | CLM-0313, CLM-0028, CLM-0029 |
 | Integrated device manufacturer (IDM) (category) (ENT-0002) | subject_to | Advanced manufacturing investment credit (26 U.S.C. 48D) (REG-0014) | CLM-0278, CLM-0279, CLM-0280, CLM-0281 |
@@ -167,6 +167,19 @@
 | SK hynix Inc. (CO-0006) | competes_with | Micron Technology, Inc. (CO-0007) | CLM-0792 |
 | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | produces | 2.5D interposer packaging (ENT-0068) | CLM-0794 |
 | OSAT (outsourced assembly and test) (category) (ENT-0015) | provides_service_to | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-0794, CLM-0798 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | regulates | Foundry (category) (ENT-0012) | CLM-0863, CLM-0865 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | regulates | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-0863, CLM-0865, CLM-0864 |
+| Foundry (category) (ENT-0012) | subject_to | EAR: Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits (90 FR 5298, January 2025) - foundry/OSAT due-diligence rule (REG-0045) | CLM-0862, CLM-0863 |
+| OSAT (outsourced assembly and test) (category) (ENT-0015) | subject_to | EAR: Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits (90 FR 5298, January 2025) - foundry/OSAT due-diligence rule (REG-0045) | CLM-0862, CLM-0863 |
+| Fabless chip company (category) (ENT-0004) | subject_to | EAR: Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits (90 FR 5298, January 2025) - foundry/OSAT due-diligence rule (REG-0045) | CLM-0864, CLM-0866 |
+| Memory chip maker (category) (ENT-0003) | subject_to | EAR: Revocation of Validated End-User Authorizations in the PRC (90 FR 42321, September 2025) (REG-0046) | CLM-0899, CLM-0902 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Memory chip maker (category) (ENT-0003) | CLM-0899, CLM-0902, CLM-0880 |
+| Wafer-fab (front-end) equipment maker (category) (ENT-0019) | subject_to | EAR: Foreign-Produced Direct Product Rule additions and refinements to controls for advanced computing and semiconductor manufacturing items (89 FR 96790) (REG-0007) | CLM-0853, CLM-0885, CLM-0882 |
+| Wafer-fab (front-end) equipment maker (category) (ENT-0019) | subject_to | EAR: Export Controls on Semiconductor Manufacturing Items (88 FR 73424, October 2023) (REG-0042) | CLM-0842 |
+| Fabless chip company (category) (ENT-0004) | subject_to | EAR: Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections (88 FR 73458, October 2023) (REG-0043) | CLM-0843, CLM-0844 |
+| EDA vendor (category) (ENT-0007) | subject_to | Export controls on ECAD software for GAAFET integrated circuits (87 FR 49979, August 2022; ECCN 3D006) (REG-0011) | CLM-0835, CLM-0836, CLM-0867 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Gate-all-around (nanosheet) transistor (ENT-0066) | CLM-0876, CLM-0835 |
+| Wassenaar Arrangement (ENT-0126) | sets_standard_for | Export controls on ECAD software for GAAFET integrated circuits (87 FR 49979, August 2022; ECCN 3D006) (REG-0011) | CLM-0835 |
 
 ## Entities
 

@@ -306,3 +306,42 @@ TSMC's chairman relayed (Jan 2026) that a cloud customer said TSMC silicon, not 
 **More defensible:** not determinable. Both are self-reported views; neither is measured evidence of which constraint binds.
 **Remaining uncertainty:** No public data quantify idle chips waiting for power vs power waiting for chips.
 
+## CON-0024: Effective date of the US GAAFET ECAD software control (August 2022 rule) (resolved)
+
+Existing claim (BIS press release, 12 Aug 2022) says the ECAD control was effective 15 August 2022; the Federal Register DATES section says the rule was effective 15 August 2022 except ECCN 3D006 (GAAFET ECAD), effective 14 October 2022.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0409 | In August 2022 the US imposed export controls on electronic computer-aided design (ECAD/EDA) software specially designed for developing GAAFET integrated circuits, effective 15 August 2022. | [SRC-0184](https://www.bis.gov/media/documents/2022.08.12-bis-press-release-wa-2021-1758-technologies-controls-rule.pdf) | low |
+| CLM-0836 | The GAAFET ECAD software control in 87 FR 49979 (new ECCN 3D006) took effect on 14 October 2022, while the rest of the rule took effect on 15 August 2022. | [SRC-0291](https://www.federalregister.gov/documents/full_text/text/2022/08/15/2022-17125.txt) | low |
+
+**Possible reasons:** press release gave the rule's general effective date and omitted the delayed date for 3D006; definition: 'rule effective' vs 'ECAD provision effective'
+**More defensible:** CLM-0836. The Federal Register DATES section is the legal text and explicitly carves out ECCN 3D006.
+**Remaining uncertainty:** None material; REG-0011's effective date should read 2022-10-14 for the ECAD control.
+
+## CON-0025: Which allied countries are excluded from the December 2024 SME FDP licence requirements (resolved)
+
+Reuters (July 2024, draft rule) reported that shipments from Japan, the Netherlands and South Korea would be excluded; the final Supplement No. 4 to Part 742 lists 33 countries including Japan and the Netherlands but not South Korea.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0904 | Reuters reported in July 2024, citing two unnamed sources, that the planned expansion of the FDP rule would exclude shipments from Japan, the Netherlands and South Korea, and over 30 other A:5 countries. | [SRC-0309](https://rte.ie/news/business/2024/0731/1462802-us-rule-on-foreign-chip-exports-to-china-to-exempt-some/) | low |
+| CLM-0860 | Supplement No. 4 to 15 CFR Part 742, 'Countries Excluded From Certain Semiconductor Manufacturing Equipment License Requirements', lists 33 countries including Japan, the Netherlands, Germany, the UK, Canada and Australia; South Korea and Taiwan are not listed. | [SRC-0286](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=742&appendix=Supplement%20No.%204%20to%20Part%20742) | low |
+
+**Possible reasons:** draft vs final rule: scope changed before publication; different instruments: news report on a draft vs codified regulation; reporter may have equated A:5 membership with exclusion
+**More defensible:** CLM-0860. Codified regulation (eCFR) governs; the news report described an unpublished draft.
+**Remaining uncertainty:** Why South Korea was left out of the exclusion is not stated in sources read; whether Korean SME makers now need licences in practice depends on FDP product scope (see interview queue).
+
+## CON-0026: Date of the Huawei Entity List designation (2019) (definitional)
+
+Existing claim dates the Huawei listing to 15 May 2019 (Commerce announcement); the Federal Register rule 84 FR 22961 gives effective date 16 May 2019 and publication 21 May 2019.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0135 | On May 15, 2019 the US Commerce Department added Huawei Technologies and affiliates to the Entity List, requiring a BIS licence for the sale or transfer of US technology to them. | [SRC-0052](https://2017-2021.commerce.gov/news/press-releases/2019/05/department-commerce-announces-addition-huawei-technologies-co-ltd.html) | low |
+| CLM-0820 | The May 2019 BIS rule adding Huawei Technologies Co., Ltd. to the Entity List was published at 84 FR 22961 on 21 May 2019, effective 16 May 2019. | [SRC-0270](https://www.federalregister.gov/api/v1/documents/2019-10616.json) | low |
+
+**Possible reasons:** announcement date vs effective date vs publication date
+**More defensible:** not determinable. Both are correct for different events; atlas pages should state which date is used.
+**Remaining uncertainty:** None.
+

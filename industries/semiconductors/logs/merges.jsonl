@@ -40,3 +40,5 @@
 {"added": {"claims": 2, "fact_checks": 31}, "agent": "fc-W1-e3b7", "batch": "FC-W1-fc-W1-e3b7", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
 {"added": {"claims": 1, "fact_checks": 27, "sources": 1}, "agent": "fc-W1-c9f0", "batch": "FC-W1-fc-W1-c9f0", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
 {"added": {"contradictions": 1, "fact_checks": 32, "sources": 1}, "agent": "fc-W1-a4e1", "batch": "FC-W1-fc-W1-a4e1", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"research_units": 1, "updates": 34}, "agent": "gap-W1-8c3f", "batch": "GAP-W1-gap-W1-8c3f", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 19, "sources": 12}, "agent": "con-W1-5e2b", "batch": "CON-W1-con-W1-5e2b", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}

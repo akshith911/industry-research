@@ -140,6 +140,7 @@
 | RU-0045 | Business model and NRE economics are RU-0092; data-centre competitive shares are in the new 'Data-centre compute competition' unit. |
 | RU-0045 | [from RU-0092] Link to INT-0002 (are captive chips counted in market statistics). |
 | RU-0045 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0045 | [gap-W1-8c3f] W1 findings: WSTS excludes captive chips (CLM-0575) and whether hyperscaler custom chips are captured is unknown (CLM-0727); resolve here. |
 | RU-0046 | Logistics and fab construction were split into their own new units. |
 | RU-0046 | prereq: Equipment sub-tier supply base |
 | RU-0047 | Country profiles (new geography units) depend on this unit's definitions. |
@@ -377,3 +378,4 @@
 | RU-0249 | China 2014-2026 is RU-0183; this unit stops at 2014. |
 | RU-0249 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0250 | Planner-flagged gap (plan1-A-9d62, plan1-D-8e05); confirmed by gap-plan-6a1d search that US Commerce licensed GB300-class exports to G42 and Humain in Nov 2025 (to verify against commerce.gov). |
+| RU-0261 | Do not start before 1 Oct 2026 (Micron reports after market close on 30 Sep 2026). CHIPS award/disbursement refresh (CLM-0908/0912/0981/0982/0987) is in RU-0256, not here. |

@@ -32,3 +32,11 @@
 {"added": {"claims": 2, "fact_checks": 35, "sources": 1}, "agent": "fc-W1-9e45", "batch": "FC-W1-fc-W1-9e45", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
 {"added": {"claims": 1, "fact_checks": 26, "sources": 1}, "agent": "fc-W1-8f19", "batch": "FC-W1-fc-W1-8f19", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
 {"added": {"claims": 3, "contradictions": 1, "fact_checks": 33, "sources": 2}, "agent": "fc-W1-6a3e", "batch": "FC-W1-fc-W1-6a3e", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 4, "fact_checks": 29, "sources": 1}, "agent": "fc-W1-b2c8", "batch": "FC-W1-fc-W1-b2c8", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 1, "fact_checks": 33, "sources": 1}, "agent": "fc-W1-1e7c", "batch": "FC-W1-fc-W1-1e7c", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 7, "fact_checks": 34}, "agent": "fc-W1-7c52", "batch": "FC-W1-fc-W1-7c52", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 5, "contradictions": 1, "fact_checks": 30, "sources": 4}, "agent": "fc-W1-5b3d", "batch": "FC-W1-fc-W1-5b3d", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 1, "fact_checks": 24, "sources": 1}, "agent": "fc-W1-2f86", "batch": "FC-W1-fc-W1-2f86", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": "RU-0016", "reused": {}}
+{"added": {"claims": 2, "fact_checks": 31}, "agent": "fc-W1-e3b7", "batch": "FC-W1-fc-W1-e3b7", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 1, "fact_checks": 27, "sources": 1}, "agent": "fc-W1-c9f0", "batch": "FC-W1-fc-W1-c9f0", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"contradictions": 1, "fact_checks": 32, "sources": 1}, "agent": "fc-W1-a4e1", "batch": "FC-W1-fc-W1-a4e1", "date": "2026-09-30", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}

@@ -209,7 +209,7 @@ WSTS forecast USD 975bn for 2026 in December 2025 and USD 1.51 trillion in Sprin
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0716 | IDC (September 2025) expected 2025 worldwide semiconductor revenue of US$800 billion, up 17.6% from US$680 billion in 2024. | [SRC-0241](https://www.idc.com/resource-center/press-releases/investment-in-and-adoption-of-ai-infrastructure-drives-increase-in-worldwide-semiconductor-revenue-growth-rate-from-15-5-at-the-start-of-2025-to-17-6-now-according-to-idc/) | low |
+| CLM-0716 | IDC (September 2025) expected 2025 worldwide semiconductor revenue of US$800 billion, up 17.6% from US$680 billion in 2024. | [SRC-0241](https://www.idc.com/resource-center/press-releases/investment-in-and-adoption-of-ai-infrastructure-drives-increase-in-worldwide-semiconductor-revenue-growth-rate-from-15-5-at-the-start-of-2025-to-17-6-now-according-to-idc/) | medium |
 | CLM-0053 | Gartner's final estimate put 2024 worldwide semiconductor revenue at US$655.9 billion, up 21% from US$542.1 billion in 2023. | [SRC-0013](https://www.gartner.com/en/newsroom/press-releases/2025-04-10-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2024) | low |
 | CLM-0031 | WSTS reported the 2024 world semiconductor market at US$630.5 billion. | [SRC-0003](https://www.wsts.org/esraCMS/extension/media/f/WST/7057/WSTS_FC-Release-2025_05.pdf) | low |
 
@@ -223,7 +223,7 @@ Gartner's January 2024 preliminary put Nvidia's 2023 revenue at about US$24bn; i
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0707 | Gartner's preliminary 2023 estimate (January 2024) put Nvidia's semiconductor revenue at about US$24 billion, ranking it fifth. | [SRC-0239](https://www.eenewseurope.com/en/gartner-differs-from-other-analysts-over-nvidia/) | low |
+| CLM-0707 | Gartner's preliminary 2023 estimate (January 2024) put Nvidia's semiconductor revenue at about US$24 billion, ranking it fifth. | [SRC-0239](https://www.eenewseurope.com/en/gartner-differs-from-other-analysts-over-nvidia/) | medium |
 | CLM-0708 | Gartner's April 2025 vendor table restated Nvidia's 2023 semiconductor revenue at US$34.8 billion. | [SRC-0237](https://us.design-reuse.com/news/57691/worldwide-semiconductor-revenue-2024.html) | low |
 
 **Possible reasons:** Gartner changed how it values Nvidia (e.g. counting more of data-centre product revenue as semiconductor); calendarisation of Nvidia's fiscal year
@@ -236,8 +236,8 @@ Gartner put 2022 at US$601.7bn (Jan 2023) then US$599.6bn (Apr 2023).
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0700 | Gartner's preliminary estimate (January 2023) put 2022 worldwide semiconductor revenue at US$601.7 billion, up 1.1% from US$595 billion in 2021. | [SRC-0240](https://www.electronicsonline.net.au/content/business/news/global-semiconductor-revenue-reached-600-billion-in-2022-327491672) | low |
-| CLM-0701 | Gartner's revised figure (April 2023) put 2022 worldwide semiconductor revenue at US$599.6 billion, growth of 0.2%. | [SRC-0234](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2023-04-26-gartner-forecasts-worldwide-semiconductor-revenue-to-decline-11-percent-in-2023) | low |
+| CLM-0700 | Gartner's preliminary estimate (January 2023) put 2022 worldwide semiconductor revenue at US$601.7 billion, up 1.1% from US$595 billion in 2021. | [SRC-0240](https://www.electronicsonline.net.au/content/business/news/global-semiconductor-revenue-reached-600-billion-in-2022-327491672) | medium |
+| CLM-0701 | Gartner's revised figure (April 2023) put 2022 worldwide semiconductor revenue at US$599.6 billion, growth of 0.2%. | [SRC-0234](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2023-04-26-gartner-forecasts-worldwide-semiconductor-revenue-to-decline-11-percent-in-2023) | medium |
 
 **Possible reasons:** normal preliminary-to-final revision as vendor results are filed
 **More defensible:** CLM-0701. Later vintage.
@@ -262,8 +262,8 @@ WSTS's Q2 2026 news release gives H1 2026 at US$702bn; the July 2026 Blue Book d
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0731 | WSTS reported that the global semiconductor market reached US$702 billion in the first half of 2026, up 102% year on year, with memory up 305% and logic up 45%. | [SRC-0245](https://www.wsts.org/76/Global-Semiconductor-Market-records-exceptional-growth-in-Q2-2026) | low |
-| CLM-0732 | The July 2026 edition of the WSTS Blue Book data shows January-June 2026 billings of US$718.6 billion (Q1 US$304.9bn, Q2 US$413.7bn). | [SRC-0223](https://www.wsts.org/esraCMS/extension/media/f/WST/7771/WSTS-Historical-Billings-Report-Jul_2026.xlsx) | low |
+| CLM-0731 | WSTS reported that the global semiconductor market reached US$702 billion in the first half of 2026, up 102% year on year, with memory up 305% and logic up 45%. | [SRC-0245](https://www.wsts.org/76/Global-Semiconductor-Market-records-exceptional-growth-in-Q2-2026) | high |
+| CLM-0732 | The July 2026 edition of the WSTS Blue Book data shows January-June 2026 billings of US$718.6 billion (Q1 US$304.9bn, Q2 US$413.7bn). | [SRC-0223](https://www.wsts.org/esraCMS/extension/media/f/WST/7771/WSTS-Historical-Billings-Report-Jul_2026.xlsx) | high |
 
 **Possible reasons:** data vintage: monthly data revised upward between the Q2 release and the July 2026 Blue Book; late or imputed member submissions replaced by actuals
 **More defensible:** CLM-0732. Later vintage of the same statistic.
@@ -276,7 +276,7 @@ WSTS forecast 2026 at US$1.51tn (June 2026) and calculated US$1,655bn after Q2 d
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0032 | In June 2026 WSTS forecast the world semiconductor market to grow 90% in 2026 to US$1.51 trillion. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
-| CLM-0733 | After incorporating actual Q2 2026 data, WSTS's calculation for the full-year 2026 market rose to US$1,655 billion (about +108%) and for 2027 to about US$2.1 trillion (+29%), with memory now expected to grow 302%. | [SRC-0245](https://www.wsts.org/76/Global-Semiconductor-Market-records-exceptional-growth-in-Q2-2026) | low |
+| CLM-0733 | After incorporating actual Q2 2026 data, WSTS's calculation for the full-year 2026 market rose to US$1,655 billion (about +108%) and for 2027 to about US$2.1 trillion (+29%), with memory now expected to grow 302%. | [SRC-0245](https://www.wsts.org/76/Global-Semiconductor-Market-records-exceptional-growth-in-Q2-2026) | high |
 
 **Possible reasons:** forecast vintage: memory prices kept rising faster than the spring consensus assumed
 **More defensible:** CLM-0733. Incorporates actual Q2 2026 data.
@@ -288,8 +288,8 @@ October 2024 supply-chain estimate put 2026 CoWoS capacity at 140,000-150,000 wa
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0796 | Supply-chain sources (MoneyDJ, via TrendForce, October 2024) expected TSMC CoWoS capacity of 35,000-40,000 wafers per month in 2024, about 80,000 in 2025, and possibly 140,000-150,000 in 2026. | [SRC-0262](https://www.trendforce.com/news/2024/10/21/news-cowos-capacity-doubles-for-two-years-still-insufficient-positive-outlook-for-suppliers/) | low |
-| CLM-0797 | Taiwanese press (Commercial Times, via TrendForce, December 2025) put TSMC CoWoS capacity at 75,000-80,000 wafers per month in late 2025 with a 2026 target of 120,000-130,000, and reported CoWoS-L and CoWoS-S fully booked. | [SRC-0263](https://www.trendforce.com/news/2025/12/08/news-tsmcs-cowos-l-s-reportedly-fully-booked-osat-partners-step-up-with-ases-cowop-in-focus) | low |
+| CLM-0796 | Supply-chain sources (MoneyDJ, via TrendForce, October 2024) expected TSMC CoWoS capacity of 35,000-40,000 wafers per month in 2024, about 80,000 in 2025, and possibly 140,000-150,000 in 2026. | [SRC-0262](https://www.trendforce.com/news/2024/10/21/news-cowos-capacity-doubles-for-two-years-still-insufficient-positive-outlook-for-suppliers/) | medium |
+| CLM-0797 | Taiwanese press (Commercial Times, via TrendForce, December 2025) put TSMC CoWoS capacity at 75,000-80,000 wafers per month in late 2025 with a 2026 target of 120,000-130,000, and reported CoWoS-L and CoWoS-S fully booked. | [SRC-0263](https://www.trendforce.com/news/2025/12/08/news-tsmcs-cowos-l-s-reportedly-fully-booked-osat-partners-step-up-with-ases-cowop-in-focus) | medium |
 
 **Possible reasons:** forecast vintage (14 months apart); unattributed supply-chain sources vs different press outlets; whether OSAT-outsourced CoWoS is counted; year-end vs average capacity
 **More defensible:** CLM-0797. The later estimate reflects 14 more months of actual build-out and is closer to the period; both are unofficial.
@@ -302,8 +302,8 @@ TSMC's chairman relayed (Jan 2026) that a cloud customer said TSMC silicon, not 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0772 | TSMC's chairman reported that a cloud-provider customer told him TSMC silicon, not power supply, was the binding bottleneck for its AI data centres, because it had planned power 5-6 years earlier. | [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf) | medium |
-| CLM-0808 | Amazon's CEO said AWS added more than 3.8 GW of power in the 12 months to Q3 2025, expected to double capacity again by 2027, and that across the industry 'maybe the bottleneck is power'. | [SRC-0264](https://www.fool.com/earnings/call-transcripts/2025/10/31/amazon-amzn-q3-2025-earnings-call-transcript/) | low |
-| CLM-0816 | The IEA warned that around 20% of planned data-centre projects could be delayed unless grid risks are addressed. | [SRC-0269](https://www.iea.org/reports/energy-and-ai/executive-summary) | low |
+| CLM-0808 | Amazon's CEO said AWS added more than 3.8 GW of power in the 12 months to Q3 2025, expected to double capacity again by 2027, and that across the industry 'maybe the bottleneck is power'. | [SRC-0264](https://www.fool.com/earnings/call-transcripts/2025/10/31/amazon-amzn-q3-2025-earnings-call-transcript/) | medium |
+| CLM-0816 | The IEA warned that around 20% of planned data-centre projects could be delayed unless grid risks are addressed. | [SRC-0269](https://www.iea.org/reports/energy-and-ai/executive-summary) | high |
 
 **Possible reasons:** different speakers with different incentives (a supplier asked to add capacity vs a cloud operator explaining capacity pacing); different dates (Oct 2025 vs Jan 2026); different firms: some hyperscalers secured power years earlier; bottlenecks may be sequential rather than exclusive
 **More defensible:** not determinable. Both are self-reported views; neither is measured evidence of which constraint binds.
@@ -329,7 +329,7 @@ Reuters (July 2024, draft rule) reported that shipments from Japan, the Netherla
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0904 | Reuters reported in July 2024, citing two unnamed sources, that the planned expansion of the FDP rule would exclude shipments from Japan, the Netherlands and South Korea, and over 30 other A:5 countries. | [SRC-0309](https://rte.ie/news/business/2024/0731/1462802-us-rule-on-foreign-chip-exports-to-china-to-exempt-some/) | low |
-| CLM-0860 | Supplement No. 4 to 15 CFR Part 742, 'Countries Excluded From Certain Semiconductor Manufacturing Equipment License Requirements', lists 33 countries including Japan, the Netherlands, Germany, the UK, Canada and Australia; South Korea and Taiwan are not listed. | [SRC-0286](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=742&appendix=Supplement%20No.%204%20to%20Part%20742) | low |
+| CLM-0860 | Supplement No. 4 to 15 CFR Part 742, 'Countries Excluded From Certain Semiconductor Manufacturing Equipment License Requirements', lists 33 countries including Japan, the Netherlands, Germany, the UK, Canada and Australia; South Korea and Taiwan are not listed. | [SRC-0286](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=742&appendix=Supplement%20No.%204%20to%20Part%20742) | high |
 
 **Possible reasons:** draft vs final rule: scope changed before publication; different instruments: news report on a draft vs codified regulation; reporter may have equated A:5 membership with exclusion
 **More defensible:** CLM-0860. Codified regulation (eCFR) governs; the news report described an unpublished draft.
@@ -356,7 +356,7 @@ OIG: about US$6.3bn awarded to Natcast by Jan 2025 (plus ~US$1.1bn NAPPF); Comme
 |---|---|---|---|
 | CLM-0925 | As of 31 January 2025 NIST had awarded approximately US$6.3 billion to Natcast, the nonprofit incorporated on 19 October 2023 to operate the National Semiconductor Technology Center, using other transaction agreements. | [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) | high |
 | CLM-0950 | In late August 2025 the Commerce Department declared void the agreement granting Natcast up to US$7.4 billion of CHIPS R&D funding to operate the NSTC, and said NIST would assume operation of the NSTC. | [SRC-0311](https://www.manufacturingdive.com/news/commerce-department-cuts-7-4-billion-chips-act-funding-natcast-howard-lutnick/758561) [SRC-0312](https://www.aip.org/fyi/trump-administration-overhauls-chips-r-d-plans) | medium |
-| CLM-0997 | Commerce cancelled CHIPS R&D awards representing US$7.8 billion of the US$11 billion appropriated for advanced microelectronics R&D, including the Natcast NSTC award (August 2025) and SRC's Manufacturing USA institute award (terminated for convenience, December 2025), and paused or cancelled NAPMP awards. | [SRC-0324](https://files.gao.gov/reports/GAO-26-109121/index.html) | low |
+| CLM-0997 | Commerce cancelled CHIPS R&D awards representing US$7.8 billion of the US$11 billion appropriated for advanced microelectronics R&D, including the Natcast NSTC award (August 2025) and SRC's Manufacturing USA institute award (terminated for convenience, December 2025), and paused or cancelled NAPMP awards. | [SRC-0324](https://files.gao.gov/reports/GAO-26-109121/index.html) | high |
 
 **Possible reasons:** population: GAO's US$7.8bn includes cancelled SRC Manufacturing USA and NAPMP awards, not only Natcast; definition: 'up to' ceilings of the final January 2025 Natcast agreements vs amounts awarded as of 31 Jan 2025; period: OIG snapshot at 31 Jan 2025; later January 2025 awards (NAPPF) added
 **More defensible:** not determinable. Each figure counts a different set of awards; none contradicts the others once scope is stated.
@@ -368,7 +368,7 @@ GAO says awards cover 4.6% to 38.8% of projected capex (July 2025); CRS says TSM
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0985 | CHIPS incentive awards cover between 4.6 and 38.8 percent of projects' company-estimated capital expenditures, with a median of 14.2 percent (as of July 2025). | [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf) | low |
+| CLM-0985 | CHIPS incentive awards cover between 4.6 and 38.8 percent of projects' company-estimated capital expenditures, with a median of 14.2 percent (as of July 2025). | [SRC-0323](https://www.gao.gov/assets/gao-26-107882.pdf) | high |
 | CLM-0939 | TSMC and Micron brought their CHIPS awards to under 4% of their total project investment by increasing their capital commitments; CRS found only 2 of the 40 funded projects had direct funding of 5% or less of projected capex. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | medium |
 
 **Possible reasons:** period: CRS reflects capital-commitment increases by TSMC and Micron after the award documents GAO used; definition: CRS divides by company-announced total investment; GAO uses project capex in award documents and treats three projects of one company as one
@@ -449,7 +449,7 @@ CSET estimated back-end ATP at about 10% of a finished chip's value; SIA/BCG put
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-1040 | CSET estimated back-end ATP at about 10% of the value of a finished chip, while SIA/BCG estimated 6% of value added, 3% of industry R&D and 13% of industry capital expenditure. | [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) | medium |
-| CLM-1086 | SIA/BCG estimated ATP at about 6% of semiconductor industry value added in 2022, with ATP value added measured by installed capacity at facility location. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | low |
+| CLM-1086 | SIA/BCG estimated ATP at about 6% of semiconductor industry value added in 2022, with ATP value added measured by installed capacity at facility location. | [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) | high |
 
 **Possible reasons:** definition: value of a finished chip vs value added across the industry; period: CSET 2019 data vs SIA/BCG 2019 and 2022; method: CSET's value-chain accounting vs BCG's capacity-based allocation
 **More defensible:** not determinable. Different measures; both indicate the back end is a small share of value.
@@ -462,7 +462,7 @@ Gartner estimated HBM at 23% of DRAM market value in 2025 (after the fact); Tren
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0056 | Gartner estimated that high-bandwidth memory (HBM) represented 23% of the DRAM market in 2025 and surpassed US$30 billion in sales. | [SRC-0012](https://www.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025) | low |
-| CLM-1194 | TrendForce projected in May 2024 that HBM would exceed 20% of DRAM market value in 2024 and potentially 30% in 2025, while being about 5% of DRAM bit capacity in 2024. | [SRC-0385](https://Trendforce.com/presscenter/news/20240506-12125.html) | low |
+| CLM-1194 | TrendForce projected in May 2024 that HBM would exceed 20% of DRAM market value in 2024 and potentially 30% in 2025, while being about 5% of DRAM bit capacity in 2024. | [SRC-0385](https://Trendforce.com/presscenter/news/20240506-12125.html) | medium |
 
 **Possible reasons:** forecast vs outcome: TrendForce figure is a 2024 projection, Gartner's a post-year estimate; conventional DRAM prices rose sharply in 2H25, enlarging the denominator; different DRAM revenue populations and HBM definitions (e.g. HBM counted at stack vs die level)
 **More defensible:** CLM-0056. Gartner's figure is a post-year estimate of the actual year; TrendForce's is an earlier projection. Neither is tier 1.
@@ -506,4 +506,30 @@ CLM-1072 counts HCL-Foxconn Jewar as a pure wafer fab; TechCrunch reported at ap
 **Possible reasons:** definition: PIB table gives capacity in wafers/month, which reads like a fab but is also how OSATs quote wafer-level throughput; population: initial phase vs later plans
 **More defensible:** CLM-1234. The researcher's classification was an inference from the PIB capacity unit; TechCrunch explicitly describes the initial scope as OSAT. The primary Cabinet release (PIB PRID 2128468) returned HTTP 403 and could not be checked.
 **Remaining uncertainty:** Primary Cabinet release not opened; whether a front-end line is planned later is unknown.
+
+## CON-0039: Whether Qimonda received a state rescue before insolvency (resolved)
+
+CLM-1209 says Qimonda had 'no rescue agreed'; contemporaneous reports say a EUR 325m package from Saxony, Infineon and a Portuguese state bank was announced in Dec 2008, and insolvency followed when further funding talks failed.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1209 | Inference: states have repeatedly propped up memory makers in downturns: Korea via state-directed creditor support to Hynix (2001-03), Japan via DBJ equity in Elpida (2009), and China via Big Fund and local-government capital for YMTC and CXMT (2016-2026); only the Chinese entrants have grown, while Qimonda (no rescue agreed) and Elpida (rescued, then bankrupt) exited. |  | low |
+| CLM-1249 | In December 2008 Qimonda announced a EUR 325 million rescue package from the state of Saxony (EUR 150m), parent Infineon (EUR 75m loan) and a Portuguese state investment bank (EUR 100m), but filed for insolvency in January 2009 after talks on about EUR 300 million of further funding collapsed. | [SRC-0403](https://www.thelocal.de/20081221/16281) [SRC-0404](https://www.thelocal.de/20090123/16957) | low |
+
+**Possible reasons:** definition: researcher may have meant no sufficient/final rescue; omission: the Dec 2008 package was not among the claims the researcher combined
+**More defensible:** CLM-1249. Two dated news reports state the package was announced; the insolvency report says it was additional funding that failed.
+**Remaining uncertainty:** Whether all EUR 325m was actually disbursed before the filing is not stated in the sources.
+
+## CON-0040: Outsourced (OSAT) share of global assembly, test and packaging value over time (definitional)
+
+CLM-1104 says no public estimate shows a large change in the outsourced share since about 53% in 2016-2019; CLM-1117 (same research unit) computes about 43% for 2024 from DIGITIMES OSAT revenue against SIA/BCG's US$95bn ATP market.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1104 | Across published Gartner-based estimates, the outsourced share of assembly, packaging and test value rose from about 44% (2007 forecast) to about 52-53% by 2016-2019, and no public estimate shows a large change since then. |  | low |
+| CLM-1117 | Setting DIGITIMES' 2024 OSAT revenue (US$41.2bn) against SIA/BCG's US$95bn ATP market implies OSATs perform only about 43% of back-end value, lower than the ~53% implied by Gartner 2017 and CSET 2019; the gap is likely definitional (SIA/BCG's total may value in-house and foundry advanced packaging generously) rather than evidence of insourcing. |  | low |
+
+**Possible reasons:** definition: SIA/BCG's ATP total includes IDM and foundry in-house facilities valued by BCG's own method; Gartner's in-house figure may be valued differently; period: SIA/BCG does not state the reference year of its US$95bn; Gartner figures are 2017 forecasts; methodology: different publishers (Gartner, CSET, DIGITIMES, BCG) with undisclosed methods
+**More defensible:** not determinable. The two ratios combine numerators and denominators from different publishers and years, so neither shows a real change in outsourcing. CLM-1104's absolute 'no large change' statement is too strong given CLM-1117.
+**Remaining uncertainty:** No single publisher gives a consistent time series of in-house against outsourced back-end value after 2019.
 

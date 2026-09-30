@@ -40,6 +40,14 @@
 
 **Sources:** [SRC-0177](https://news.skhynix.com/sk-hynix-starts-mass-production-of-world-first-321-high-nand/)
 
+### ABF
+
+**In plain words:** A thin insulating film used to build the many wiring layers of the substrate that large chips sit on.
+
+**Technically:** Epoxy-based build-up dielectric film (Ajinomoto) used in high-layer-count flip-chip substrates for CPUs, GPUs and AI accelerators.
+
+**Related:** Package substrate, T-glass
+
 ### Advanced manufacturing investment credit
 
 **In plain words:** A US tax credit that returns a share of the money a company spends building a chip or chip-equipment factory.
@@ -63,6 +71,14 @@
 **Technically:** BIS rule (Sept 2025) extending Entity List end-user controls to entities at least 50% owned, directly or indirectly, by listed entities; suspended 10 Nov 2025 to 9 Nov 2026.
 
 **Sources:** [SRC-0112](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities)
+
+### AI accelerator
+
+**In plain words:** A chip built to do the huge number of simple maths operations that training and running AI models needs, much faster than an ordinary processor.
+
+**Technically:** A processor optimised for dense matrix/tensor arithmetic (GPU, TPU or other ASIC) used for AI training and inference; TSMC counts AI GPUs, AI ASICs and HBM controllers for data-centre AI as 'AI accelerators'.
+
+**Related:** GPU, XPU, High-bandwidth memory
 
 ### Analog IC
 
@@ -315,6 +331,14 @@
 **Related:** WSTS
 
 **Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf) [SRC-0226](https://semiconductors.org/wp-content/uploads/2025/01/WSTS-Presentation-Subscription-Oct2024.pdf)
+
+### Data-center GPU
+
+**In plain words:** Originally a chip for drawing graphics; big versions are now the main general-purpose chip used to train and run AI in data centres.
+
+**Technically:** A massively parallel processor sold by merchant vendors (NVIDIA, AMD) as a programmable AI accelerator, usually packaged with HBM on a 2.5D interposer and sold as boards, servers or full racks.
+
+**Related:** AI accelerator, CoWoS
 
 ### Deposition
 
@@ -709,6 +733,14 @@
 **Related:** 3D integration, SoIC
 
 **Sources:** [SRC-0196](https://www.imec-int.com/en/expertise/cmos-advanced/connect/3d-integration) [SRC-0169](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/SoIC.htm)
+
+### Hyperscaler
+
+**In plain words:** One of the few giant cloud companies (such as Amazon, Google, Microsoft, Meta) that run enormous data centres and buy most AI chips.
+
+**Technically:** Operator of very large-scale cloud data-centre fleets; the largest end buyers of AI accelerators, often purchasing through OEMs/ODMs and increasingly designing custom silicon.
+
+**Related:** XPU, System company designing its own chips
 
 ### IDM
 
@@ -1312,6 +1344,14 @@
 
 **Sources:** [SRC-0188](https://www.kanwoda.com/wp-content/uploads/2015/05/std-spec.pdf)
 
+### Supply-demand balance (CoWoS)
+
+**In plain words:** The point at which there is finally enough advanced-packaging capacity to meet all the orders; TSMC has repeatedly pushed back when it expects this.
+
+**Technically:** Management language for when CoWoS/leading-edge capacity matches customer demand; TSMC's stated expectation moved from end-2024 to 2025-2026 to beyond 2026.
+
+**Related:** CoWoS
+
 ### System-level test
 
 **In plain words:** Testing a chip by running it as it would be used in a real device.
@@ -1321,6 +1361,14 @@
 **Related:** Final test
 
 **Sources:** [SRC-0186](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/ter-20241231.htm) [SRC-0187](https://www.semiconductors.org/wp-content/uploads/2018/06/0_2015-ITRS-2.0-Test-.pdf)
+
+### T-glass
+
+**In plain words:** A special glass fabric woven into chip package substrates to stop them warping when they heat up; very few factories can make it.
+
+**Technically:** Low-coefficient-of-thermal-expansion glass fibre cloth used as reinforcement in BT and ABF-based IC substrates and core layers; dominated by Nitto Boseki (Nittobo).
+
+**Related:** Package substrate, ABF
 
 ### Take-or-pay
 
@@ -1373,6 +1421,22 @@
 **Technically:** EDA licence granting use for a defined term, often bundled with support as a subscription; revenue recognised over time or upfront depending on the arrangement.
 
 **Sources:** [SRC-0081](https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm) [SRC-0082](https://news.synopsys.com/2025-12-10-Synopsys-Posts-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year-2025)
+
+### TPU
+
+**In plain words:** Google's own AI chip, used in Google's data centres and rented to cloud customers such as Anthropic.
+
+**Technically:** Google-designed AI accelerator ASIC family (seventh generation 'Ironwood' GA in late 2025); physical design and supply handled with Broadcom; offered via Google Cloud.
+
+**Related:** XPU, ASIC
+
+### Trainium
+
+**In plain words:** Amazon's own AI chip, used inside Amazon Web Services and by customers such as Anthropic.
+
+**Technically:** AWS-designed AI training/inference accelerator family (Trainium2 in volume 2025; Trainium3 from 2026) deployed in AWS data centres, e.g. Project Rainier.
+
+**Related:** XPU, TPU
 
 ### Transistor
 
@@ -1461,6 +1525,14 @@
 **Technically:** World Semiconductor Trade Statistics, non-profit founded 1986; members that design and sell chips under their own name report revenue monthly.
 
 **Sources:** [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) [SRC-0005](https://www.wsts.org/61/OVERVIEW)
+
+### XPU
+
+**In plain words:** Broadcom's word for an AI chip it designs together with one big customer, just for that customer.
+
+**Technically:** A customer-specific AI accelerator ASIC co-developed by a design partner (e.g. Broadcom, Marvell) for a hyperscaler or AI lab; the partner handles physical design, IP, foundry and packaging and books the chip revenue.
+
+**Related:** ASIC, Hyperscaler
 
 ### Yield
 

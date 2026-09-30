@@ -279,3 +279,30 @@ WSTS forecast 2026 at US$1.51tn (June 2026) and calculated US$1,655bn after Q2 d
 **More defensible:** CLM-0733. Incorporates actual Q2 2026 data.
 **Remaining uncertainty:** Still a projection; memory pricing extremely volatile.
 
+## CON-0022: TSMC CoWoS capacity expected for 2026 (open)
+
+October 2024 supply-chain estimate put 2026 CoWoS capacity at 140,000-150,000 wafers/month; December 2025 press estimate put the 2026 target at 120,000-130,000.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0796 | Supply-chain sources (MoneyDJ, via TrendForce, October 2024) expected TSMC CoWoS capacity of 35,000-40,000 wafers per month in 2024, about 80,000 in 2025, and possibly 140,000-150,000 in 2026. | [SRC-0262](https://www.trendforce.com/news/2024/10/21/news-cowos-capacity-doubles-for-two-years-still-insufficient-positive-outlook-for-suppliers/) | low |
+| CLM-0797 | Taiwanese press (Commercial Times, via TrendForce, December 2025) put TSMC CoWoS capacity at 75,000-80,000 wafers per month in late 2025 with a 2026 target of 120,000-130,000, and reported CoWoS-L and CoWoS-S fully booked. | [SRC-0263](https://www.trendforce.com/news/2025/12/08/news-tsmcs-cowos-l-s-reportedly-fully-booked-osat-partners-step-up-with-ases-cowop-in-focus) | low |
+
+**Possible reasons:** forecast vintage (14 months apart); unattributed supply-chain sources vs different press outlets; whether OSAT-outsourced CoWoS is counted; year-end vs average capacity
+**More defensible:** CLM-0797. The later estimate reflects 14 more months of actual build-out and is closer to the period; both are unofficial.
+**Remaining uncertainty:** TSMC does not disclose CoWoS wafer capacity; neither figure can be checked against a primary source.
+
+## CON-0023: What is the binding bottleneck for AI build-out: silicon or power? (open)
+
+TSMC's chairman relayed (Jan 2026) that a cloud customer said TSMC silicon, not power, is the bottleneck; Amazon's CEO said (Oct 2025) that across the industry 'maybe the bottleneck is power'; the IEA warns ~20% of planned data centres risk grid delays.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0772 | TSMC's chairman reported that a cloud-provider customer told him TSMC silicon, not power supply, was the binding bottleneck for its AI data centres, because it had planned power 5-6 years earlier. | [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf) | low |
+| CLM-0808 | Amazon's CEO said AWS added more than 3.8 GW of power in the 12 months to Q3 2025, expected to double capacity again by 2027, and that across the industry 'maybe the bottleneck is power'. | [SRC-0264](https://www.fool.com/earnings/call-transcripts/2025/10/31/amazon-amzn-q3-2025-earnings-call-transcript/) | low |
+| CLM-0816 | The IEA warned that around 20% of planned data-centre projects could be delayed unless grid risks are addressed. | [SRC-0269](https://www.iea.org/reports/energy-and-ai/executive-summary) | low |
+
+**Possible reasons:** different speakers with different incentives (a supplier asked to add capacity vs a cloud operator explaining capacity pacing); different dates (Oct 2025 vs Jan 2026); different firms: some hyperscalers secured power years earlier; bottlenecks may be sequential rather than exclusive
+**More defensible:** not determinable. Both are self-reported views; neither is measured evidence of which constraint binds.
+**Remaining uncertainty:** No public data quantify idle chips waiting for power vs power waiting for chips.
+

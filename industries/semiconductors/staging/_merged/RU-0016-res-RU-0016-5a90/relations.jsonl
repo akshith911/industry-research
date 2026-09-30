@@ -1,0 +1,18 @@
+{"subject_id":"@co_tsmc","predicate":"supplies","object_id":"@co_nvda","claim_ids":["@c_nv_suppliers"],"notes":"Wafer foundry and CoWoS packaging"}
+{"subject_id":"@co_skh","predicate":"supplies","object_id":"@co_nvda","claim_ids":["@c_nv_suppliers"],"notes":"HBM/memory"}
+{"subject_id":"@co_mu","predicate":"supplies","object_id":"@co_nvda","claim_ids":["@c_nv_suppliers"],"notes":"HBM/memory"}
+{"subject_id":"@co_ss","predicate":"supplies","object_id":"@co_nvda","claim_ids":["@c_nv_suppliers"],"notes":"Memory and foundry wafers"}
+{"subject_id":"@co_nvda","predicate":"uses","object_id":"ENT-0068","claim_ids":["@c_nv_suppliers"],"notes":"CoWoS 2.5D packaging"}
+{"subject_id":"@co_nvda","predicate":"produces","object_id":"ENT-0038","claim_ids":["@c_nv_dc26"]}
+{"subject_id":"@co_amd","predicate":"produces","object_id":"ENT-0038","claim_ids":["@c_amd_instinct24"]}
+{"subject_id":"@co_skh","predicate":"produces","object_id":"ENT-0041","claim_ids":["@c_skh_hbm40"]}
+{"subject_id":"@co_mu","predicate":"produces","object_id":"ENT-0041","claim_ids":["@c_mu_hbm"]}
+{"subject_id":"@co_nvda","predicate":"competes_with","object_id":"@co_amzn","claim_ids":["@c_nv_comp_csp"],"notes":"Amazon's in-house Trainium vs NVIDIA GPUs"}
+{"subject_id":"@co_nvda","predicate":"competes_with","object_id":"@co_goog","claim_ids":["@c_nv_comp_csp"],"notes":"Google TPUs vs NVIDIA GPUs"}
+{"subject_id":"@co_nvda","predicate":"competes_with","object_id":"@co_amd","claim_ids":["@c_nv_comp_csp"]}
+{"subject_id":"ENT-0108","predicate":"restricts","object_id":"@co_nvda","claim_ids":["@c_nv_h20","@c_nv_h20lic"],"notes":"H20 licence requirement April 2025"}
+{"subject_id":"ENT-0108","predicate":"restricts","object_id":"@co_amd","claim_ids":["@c_amd_mi308"],"notes":"MI308 export control"}
+{"subject_id":"@co_skh","predicate":"competes_with","object_id":"@co_ss","claim_ids":["@c_hbm_share_q325"],"notes":"HBM"}
+{"subject_id":"@co_skh","predicate":"competes_with","object_id":"@co_mu","claim_ids":["@c_hbm_share_q325"],"notes":"HBM"}
+{"subject_id":"@co_tsmc","predicate":"produces","object_id":"ENT-0068","claim_ids":["@c_tsmc_cowos_double"]}
+{"subject_id":"ENT-0015","predicate":"provides_service_to","object_id":"@co_tsmc","claim_ids":["@c_tsmc_cowos_double","@c_ase_cowos"],"notes":"OSATs add CoWoS-class capacity alongside TSMC"}

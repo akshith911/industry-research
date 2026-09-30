@@ -10,7 +10,7 @@
 | RU-0004 | 1 | P1 | value_chain | Semiconductor manufacturing equipment: segments, size and geography | dropped | RU-0001 | researcher_discovery |
 | RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | dropped | RU-0001 | researcher_discovery |
 | RU-0006 | 1 | P1 | value_chain | EDA software market: segments, vendors, concentration and China's domestic EDA | queued | RU-0001 | researcher_discovery |
-| RU-0007 | 1 | P0 | value_chain | Back-end stage map: assembly and test market, OSAT vs in-house vs foundry, leaders and geography | queued | RU-0001 | researcher_discovery |
+| RU-0007 | 1 | P0 | value_chain | Back-end stage map: assembly and test market, OSAT vs in-house vs foundry, leaders and geography | in_progress | RU-0001 | researcher_discovery |
 | RU-0008 | 1 | P0 | segmentation | Segmentation: product taxonomy and segment sizes (WSTS classes, ASSP/ASIC/general-purpose), end-market shares and 2025-2026 price vs volume | queued | RU-0001, RU-0002 | researcher_discovery |
 | RU-0009 | 1 | P1 | definition | Definitions and classification: legal and statistical meanings of 'semiconductor', leading-edge/mature/advanced, and NAICS/ISIC/NACE/HS codes | queued | RU-0001 | researcher_discovery |
 | RU-0010 | 2 | P2 | adjacent | Boundary industries: displays, solar PV, passive components, PCBs and EMS | queued | RU-0001 | researcher_discovery |
@@ -19,17 +19,17 @@
 | RU-0013 | 1 | P0 | regulation | Policy: evolution of semiconductor export controls 2018-2026 (US, Netherlands, Japan, China countermeasures) | dropped | RU-0001 | researcher_discovery |
 | RU-0014 | 3 | P1 | regulation | Cross-country comparison of chip industrial policy: design, money committed vs disbursed, and effectiveness (did subsidies change where fabs are built and what they cost?) | queued | RU-0020, RU-0026, RU-0028, RU-0031, RU-0098, RU-0106, RU-0108, RU-0109, RU-0135, RU-0138, RU-0141, RU-0142, RU-0143, RU-0144 | researcher_discovery |
 | RU-0015 | 2 | P2 | history | History: Japan's rise and decline in semiconductors (1970s-2010s) | dropped | RU-0001 | researcher_discovery |
-| RU-0016 | 1 | P0 | dynamics | Dynamics: the AI demand shift - accelerators, HBM and advanced packaging (2022-2026) | queued | RU-0001 | researcher_discovery |
+| RU-0016 | 1 | P0 | dynamics | Dynamics: the AI demand shift - accelerators, HBM and advanced packaging (2022-2026) | researched | RU-0001 | researcher_discovery |
 | RU-0017 | 1 | P0 | unit_economics | Foundry wafer pricing: price by node, pricing unit, annual increases and pass-through | queued | RU-0001, RU-0003 | researcher_discovery |
-| RU-0018 | 1 | P0 | dynamics | Memory: business model, price cycle, and the history of memory cycles and consolidation (1970-2026) | queued | RU-0001 | researcher_discovery |
+| RU-0018 | 1 | P0 | dynamics | Memory: business model, price cycle, and the history of memory cycles and consolidation (1970-2026) | in_progress | RU-0001 | researcher_discovery |
 | RU-0019 | 2 | P1 | business_models | Distribution channel economics and problems: margins, ship-and-debit, price protection, stock rotation, excess inventory and disintermediation | queued | RU-0001, RU-0043 | researcher_discovery |
 | RU-0020 | 2 | P1 | capital | Government money flows into semiconductors: Japan, South Korea and Taiwan (grants, tax credits, policy loans, state equity) | queued | RU-0001, RU-0031 | researcher_discovery |
 | RU-0021 | 2 | P1 | business_models | Equipment makers' commercial model and the purchase-to-production workflow: pricing, down payments, installation, acceptance, services and upgrades | queued | RU-0001, RU-0042 | researcher_discovery |
 | RU-0022 | 2 | P1 | unit_economics | Packaging and test unit economics and OSAT problems: pricing basis, utilisation, advanced-packaging capex, substrate shortages and the foundry-vs-OSAT split | queued | RU-0001, RU-0007, RU-0036 | researcher_discovery |
 | RU-0023 | 1 | P1 | unit_economics | Cross-model financial benchmark (margins, capex, R&D) on consistent periods | queued | RU-0001 | researcher_discovery |
 | RU-0024 | 2 | P2 | business_models | Design-enablement business models: EDA licensing (time-based, emulation, cloud) and IP/patent royalty economics | queued | RU-0001, RU-0006, RU-0034 | researcher_discovery |
-| RU-0025 | 1 | P0 | regulation | US export controls on semiconductors and tools, 2018-2026: EAR rules, ECCNs, FDP rules and timeline | queued | RU-0001 | researcher_discovery |
-| RU-0026 | 1 | P0 | regulation | US CHIPS Act grants, 48D tax credit and award status (incl. Investment Accelerator and equity conversions) | queued | RU-0001 | researcher_discovery |
+| RU-0025 | 1 | P0 | regulation | US export controls on semiconductors and tools, 2018-2026: EAR rules, ECCNs, FDP rules and timeline | in_progress | RU-0001 | researcher_discovery |
+| RU-0026 | 1 | P0 | regulation | US CHIPS Act grants, 48D tax credit and award status (incl. Investment Accelerator and equity conversions) | in_progress | RU-0001 | researcher_discovery |
 | RU-0027 | 1 | P1 | regulation | US tariffs on semiconductors (Section 232, 301, reciprocal) plus customs classification, rules of origin and the WTO ITA | queued | RU-0001, RU-0009 | researcher_discovery |
 | RU-0028 | 1 | P1 | regulation | EU Chips Act, Chips Act 2.0, IPCEI and member-state State aid (Germany, France, Italy, Netherlands, Ireland, Austria) | queued | RU-0001 | researcher_discovery |
 | RU-0029 | 2 | P1 | regulation | Allied export controls on chipmaking tools: Netherlands, Japan, South Korea, Wassenaar and plurilateral coordination | queued | RU-0025 | researcher_discovery |
@@ -256,3 +256,4 @@
 | RU-0250 | 2 | P1 | regulation | Middle East (UAE, Saudi Arabia) AI-chip imports and fab ambitions: US licensing conditions, sovereign AI data-centre deals and local industrial policy | queued | RU-0132 | gap_finder |
 | RU-0251 | 2 | P1 | market_size | Captive and custom silicon outside the headline chip market: size of in-house chips (Apple, hyperscaler ASICs) and how each publisher counts them | queued | RU-0002 | researcher_discovery |
 | RU-0252 | 2 | P2 | market_size | WSTS product-category time series before 2020 (discretes, opto, sensors, analog, micro, logic, memory, 1986-2019) | queued | RU-0002 | researcher_discovery |
+| RU-0253 | 2 | P1 | dynamics | AI accelerator supply constraints beyond CoWoS: IC substrates (ABF/BT, T-glass), rack-scale integration, optics and power equipment (2023-2027) | queued | RU-0016 | researcher_discovery |

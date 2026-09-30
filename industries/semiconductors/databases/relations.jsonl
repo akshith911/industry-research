@@ -143,3 +143,21 @@
 {"claim_ids": ["CLM-0583", "CLM-0682"], "id": "REL-0143", "notes": "SIA publishes WSTS data for the Americas, Taiwan and China.", "object_id": "ENT-0092", "predicate": "distributes", "subject_id": "ENT-0129"}
 {"claim_ids": ["CLM-0583"], "id": "REL-0144", "object_id": "ENT-0092", "predicate": "distributes", "subject_id": "ENT-0143"}
 {"claim_ids": ["CLM-0583"], "id": "REL-0145", "object_id": "ENT-0092", "predicate": "distributes", "subject_id": "ENT-0144"}
+{"claim_ids": ["CLM-0804"], "id": "REL-0146", "notes": "Wafer foundry and CoWoS packaging", "object_id": "CO-0001", "predicate": "supplies", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-0804"], "id": "REL-0147", "notes": "HBM/memory", "object_id": "CO-0001", "predicate": "supplies", "subject_id": "CO-0006"}
+{"claim_ids": ["CLM-0804"], "id": "REL-0148", "notes": "HBM/memory", "object_id": "CO-0001", "predicate": "supplies", "subject_id": "CO-0007"}
+{"claim_ids": ["CLM-0804"], "id": "REL-0149", "notes": "Memory and foundry wafers", "object_id": "CO-0001", "predicate": "supplies", "subject_id": "CO-0008"}
+{"claim_ids": ["CLM-0804"], "id": "REL-0150", "notes": "CoWoS 2.5D packaging", "object_id": "ENT-0068", "predicate": "uses", "subject_id": "CO-0001"}
+{"claim_ids": ["CLM-0744"], "id": "REL-0151", "object_id": "ENT-0038", "predicate": "produces", "subject_id": "CO-0001"}
+{"claim_ids": ["CLM-0753"], "id": "REL-0152", "object_id": "ENT-0038", "predicate": "produces", "subject_id": "CO-0002"}
+{"claim_ids": ["CLM-0781"], "id": "REL-0153", "object_id": "ENT-0041", "predicate": "produces", "subject_id": "CO-0006"}
+{"claim_ids": ["CLM-0785"], "id": "REL-0154", "object_id": "ENT-0041", "predicate": "produces", "subject_id": "CO-0007"}
+{"claim_ids": ["CLM-0805"], "id": "REL-0155", "notes": "Amazon's in-house Trainium vs NVIDIA GPUs", "object_id": "CO-0009", "predicate": "competes_with", "subject_id": "CO-0001"}
+{"claim_ids": ["CLM-0805"], "id": "REL-0156", "notes": "Google TPUs vs NVIDIA GPUs", "object_id": "CO-0010", "predicate": "competes_with", "subject_id": "CO-0001"}
+{"claim_ids": ["CLM-0805"], "id": "REL-0157", "object_id": "CO-0002", "predicate": "competes_with", "subject_id": "CO-0001"}
+{"claim_ids": ["CLM-0746", "CLM-0803"], "id": "REL-0158", "notes": "H20 licence requirement April 2025", "object_id": "CO-0001", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0756"], "id": "REL-0159", "notes": "MI308 export control", "object_id": "CO-0002", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-0792"], "id": "REL-0160", "notes": "HBM", "object_id": "CO-0008", "predicate": "competes_with", "subject_id": "CO-0006"}
+{"claim_ids": ["CLM-0792"], "id": "REL-0161", "notes": "HBM", "object_id": "CO-0007", "predicate": "competes_with", "subject_id": "CO-0006"}
+{"claim_ids": ["CLM-0794"], "id": "REL-0162", "object_id": "ENT-0068", "predicate": "produces", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-0794", "CLM-0798"], "id": "REL-0163", "notes": "OSATs add CoWoS-class capacity alongside TSMC", "object_id": "CO-0005", "predicate": "provides_service_to", "subject_id": "ENT-0015"}

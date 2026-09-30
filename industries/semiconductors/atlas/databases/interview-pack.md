@@ -16,11 +16,23 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0012 | Which PFAS and fluorinated gases does your process depend on, what derogations are you relying on, and what substitution timeline do you face? | Environmental chemical rules could raise costs or force process changes in etching/cleaning; public evidence was not obtained in this run. | ECHA RAC/SEAC opinions and participant statements on dependent uses and derogation periods. | open |
 
+## Interview guide: HBM procurement leads at accelerator designers
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0025 | How are HBM3E/HBM4 volumes and prices fixed for the following year, and roughly what premium per bit does HBM command over server DDR5? | Determines how much of AI value memory makers capture and how fast it can erode when Samsung and Micron add share. | Contract structure description and an order-of-magnitude premium from a buyer or seller | open |
+
 ## Interview guide: OSAT sales director
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0008 | How are packaging and test services priced and how has advanced packaging (e.g. 2.5D) pricing differed from conventional? | Advanced packaging is a fast-growing value pool; pricing basis not disclosed in filings read. | Interview; OSAT investor presentations. | open |
+
+## Interview guide: TSMC advanced packaging planners
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0024 | What was the effective CoWoS (all variants) output capacity per month at end-2024, end-2025 and planned end-2026, and what share came from OSAT partners? | CoWoS was the main AI accelerator bottleneck 2023-2026; public numbers are unofficial and vary by 15-20%. | A capacity figure from a TSMC or OSAT manager, or a customer allocation schedule | open |
 
 ## Interview guide: WSTS Administrator
 

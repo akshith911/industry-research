@@ -149,6 +149,24 @@
 | Semiconductor Industry Association (SIA) (ENT-0129) | distributes | WSTS world semiconductor market statistics (ENT-0092) | CLM-0583, CLM-0682 |
 | European Semiconductor Industry Association (ESIA) (ENT-0143) | distributes | WSTS world semiconductor market statistics (ENT-0092) | CLM-0583 |
 | Korea Semiconductor Industry Association (KSIA) (ENT-0144) | distributes | WSTS world semiconductor market statistics (ENT-0092) | CLM-0583 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | supplies | NVIDIA Corporation (CO-0001) | CLM-0804 |
+| SK hynix Inc. (CO-0006) | supplies | NVIDIA Corporation (CO-0001) | CLM-0804 |
+| Micron Technology, Inc. (CO-0007) | supplies | NVIDIA Corporation (CO-0001) | CLM-0804 |
+| Samsung Electronics Co., Ltd. (CO-0008) | supplies | NVIDIA Corporation (CO-0001) | CLM-0804 |
+| NVIDIA Corporation (CO-0001) | uses | 2.5D interposer packaging (ENT-0068) | CLM-0804 |
+| NVIDIA Corporation (CO-0001) | produces | AI accelerator / advanced computing chip (ENT-0038) | CLM-0744 |
+| Advanced Micro Devices, Inc. (CO-0002) | produces | AI accelerator / advanced computing chip (ENT-0038) | CLM-0753 |
+| SK hynix Inc. (CO-0006) | produces | High-bandwidth memory (HBM) (ENT-0041) | CLM-0781 |
+| Micron Technology, Inc. (CO-0007) | produces | High-bandwidth memory (HBM) (ENT-0041) | CLM-0785 |
+| NVIDIA Corporation (CO-0001) | competes_with | Amazon.com, Inc. (CO-0009) | CLM-0805 |
+| NVIDIA Corporation (CO-0001) | competes_with | Alphabet Inc. (CO-0010) | CLM-0805 |
+| NVIDIA Corporation (CO-0001) | competes_with | Advanced Micro Devices, Inc. (CO-0002) | CLM-0805 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | NVIDIA Corporation (CO-0001) | CLM-0746, CLM-0803 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Advanced Micro Devices, Inc. (CO-0002) | CLM-0756 |
+| SK hynix Inc. (CO-0006) | competes_with | Samsung Electronics Co., Ltd. (CO-0008) | CLM-0792 |
+| SK hynix Inc. (CO-0006) | competes_with | Micron Technology, Inc. (CO-0007) | CLM-0792 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | produces | 2.5D interposer packaging (ENT-0068) | CLM-0794 |
+| OSAT (outsourced assembly and test) (category) (ENT-0015) | provides_service_to | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-0794, CLM-0798 |
 
 ## Entities
 

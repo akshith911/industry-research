@@ -101,6 +101,7 @@
 | CLM-2231 | No official count of Japanese listed semiconductor companies exists in the JPX 33-sector system, which has no semiconductor sector. | RU-0226 |
 | CLM-2232 | The number of HKEX-listed companies in HSICS subsectors 703010/703020 was not found. | RU-0226 |
 | CLM-2233 | No official list or count of Indian listed semiconductor companies was found, and the NSE classification has no semiconductor category. | RU-0226 |
+| CLM-2239 | A Federal Register search found no BIS document mentioning 'electronic design automation' published between 1 May and 31 August 2025, consistent with the May 2025 EDA licence requirement not having been published as a rule. | RU-0034 |
 
 ## Open questions from research units
 

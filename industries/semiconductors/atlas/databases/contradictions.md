@@ -540,7 +540,7 @@ CLM-0561 records automotive at 9.9% of 2024 demand (and CLM-0560's notes record 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0561 | Automotive accounted for 9.9% of global semiconductor demand in 2024 (SIA, from WSTS End Use Survey). | [SRC-0011](https://www.semiconductors.org/wp-content/uploads/2025/07/SIA-State-of-the-Industry-Report-2025.pdf) | low |
-| CLM-1343 | In 2024 automotive was 12.7% of global semiconductor demand, consumer 9.9%, industrial 8.4% and government 1.0% (WSTS End Use Survey via SIA). | [SRC-0011](https://www.semiconductors.org/wp-content/uploads/2025/07/SIA-State-of-the-Industry-Report-2025.pdf) [SRC-0010](https://www.semiconductors.org/wp-content/uploads/2025/05/2025-SIA-Factbook-FINAL-1.pdf) | low |
+| CLM-1343 | In 2024 automotive was 12.7% of global semiconductor demand, consumer 9.9%, industrial 8.4% and government 1.0% (WSTS End Use Survey via SIA). | [SRC-0011](https://www.semiconductors.org/wp-content/uploads/2025/07/SIA-State-of-the-Industry-Report-2025.pdf) [SRC-0010](https://www.semiconductors.org/wp-content/uploads/2025/05/2025-SIA-Factbook-FINAL-1.pdf) | high |
 
 **Possible reasons:** earlier extraction tool mis-mapped chart labels to values (documented in CLM-0073)
 **More defensible:** CLM-1343. Two SIA documents (SOI 2025 p.24 and Factbook 2025 p.8) agree when read from page images, and SIA SOI 2026 repeats 2024 as automotive 13%, consumer 10%.
@@ -553,7 +553,7 @@ CLM-0016 says this could not be established from the 2021 classification; the F6
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0016 | Whether solar (photovoltaic) cells are included in the WSTS semiconductor market could not be established from the public 2021 WSTS Product Classification. |  | unknown |
-| CLM-1289 | The WSTS 2021 classification includes solar cells in optoelectronics, under 'Other Optoelectronics' (F6). | [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf) | low |
+| CLM-1289 | The WSTS 2021 classification includes solar cells in optoelectronics, under 'Other Optoelectronics' (F6). | [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf) | high |
 
 **Possible reasons:** earlier search tool missed the text
 **More defensible:** CLM-1289. Verbatim text in Product Classification 2021, section 3.2 (F6).
@@ -568,7 +568,7 @@ WSTS final US$230.0bn; SIA February 2026 release US$223.1bn; Gartner April 2026 
 | CLM-0036 | Memory ICs were US$230.0 billion of the 2025 world semiconductor market, per WSTS. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
 | CLM-0294 | SIA reports memory sales of US$223.1 billion in 2025, up 34.8%. | [SRC-0007](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/) | low |
 | CLM-0702 | Gartner's April 2026 forecast release put 2025 worldwide semiconductor revenue at US$805.3 billion (memory US$216.3bn, non-memory US$589.0bn), up from its preliminary US$793 billion. | [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026) | low |
-| CLM-1334 | Gartner's August 2026 release puts 2025 memory revenue at US$220.1bn within a US$809.0bn total market. | [SRC-0429](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026) | low |
+| CLM-1334 | Gartner's August 2026 release puts 2025 memory revenue at US$220.1bn within a US$809.0bn total market. | [SRC-0429](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026) | medium |
 
 **Possible reasons:** data vintage (SIA Feb release precedes WSTS final); Gartner counts vendor revenue from its own model, not WSTS member reports; treatment of module makers and captive sales
 **More defensible:** CLM-0036. WSTS final Blue Book actuals are the industry reference; Gartner is a modelled estimate.
@@ -581,7 +581,7 @@ WSTS (June 2026) forecasts memory at US$803.9bn; Gartner forecast US$633.3bn in 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0042 | WSTS forecast 2026 memory sales at US$803.9 billion, roughly 250% growth year over year, making memory more than half of the forecast 2026 market. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
-| CLM-1333 | Gartner (August 2026) forecasts memory revenue of US$837.3bn in 2026 (54% of the market, up from 27% in 2025) and non-memory revenue of US$717.9bn, up 21.9% from US$589.0bn. | [SRC-0429](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026) | low |
+| CLM-1333 | Gartner (August 2026) forecasts memory revenue of US$837.3bn in 2026 (54% of the market, up from 27% in 2025) and non-memory revenue of US$717.9bn, up 21.9% from US$589.0bn. | [SRC-0429](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026) | medium |
 | CLM-0703 | In April 2026 Gartner forecast 2026 worldwide semiconductor revenue at US$1,320.2 billion (+64%), with memory at US$633.3 billion, and 2027 at US$1,554.5 billion. | [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026) | medium |
 
 **Possible reasons:** forecast vintage: memory prices kept rising through mid-2026; different base-year memory totals
@@ -594,7 +594,7 @@ SIA says consumer electronics sales grew in value in 2025; its own rounded share
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1347 | SIA states that communications, auto, consumer electronics, industrial and government chip sales all grew in value in 2025 but each lost share because of AI-driven growth. | [SRC-0421](https://www.semiconductors.org/wp-content/uploads/2026/07/SIA_2026_State-of-the-Semiconductor-Industry.pdf) | low |
+| CLM-1347 | SIA states that communications, auto, consumer electronics, industrial and government chip sales all grew in value in 2025 but each lost share because of AI-driven growth. | [SRC-0421](https://www.semiconductors.org/wp-content/uploads/2026/07/SIA_2026_State-of-the-Semiconductor-Industry.pdf) | medium |
 | CLM-1349 | Applying SIA's end-use shares to WSTS totals implies 2025 demand of about US$362bn for computers/AI (+64% on ~US$220bn), US$228bn communications (+10%), US$87bn automotive (+8%), US$56bn industrial (+5%), US$56bn consumer (about -11%) and US$7bn government (+14%). |  | low |
 
 **Possible reasons:** the 2025 share is rounded to a whole percent (needs at least 7.85% for growth); the 2024 base may have been revised in the 2025 End Use Survey
@@ -607,8 +607,8 @@ Factbook 2024 and SIA's 2024 release give computer 25% of 2023 sales; the SOI 20
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1341 | SIA's 2024 Factbook gives 2023 end-use shares of communications 32%, PC/computer 25%, automotive 17.0%, industrial 14.0%, consumer 11.0% and government 1.0%. | [SRC-0425](https://www.semiconductors.org/wp-content/uploads/2024/05/SIA-2024-Factbook.pdf) | low |
-| CLM-1340 | In 2023 communications took US$169.2bn of chip demand (-1.8%), computer US$140.0bn (-7.1%), automotive US$90.1bn (+15.0%), industrial US$72.1bn (-13.3%), consumer US$54.8bn (-31.9%) and government US$5.0bn (-45.0%); automotive was the only segment that grew. | [SRC-0422](https://www.semiconductors.org/wp-content/uploads/2024/10/SIA_2024_State-of-Industry-Report.pdf) | low |
+| CLM-1341 | SIA's 2024 Factbook gives 2023 end-use shares of communications 32%, PC/computer 25%, automotive 17.0%, industrial 14.0%, consumer 11.0% and government 1.0%. | [SRC-0425](https://www.semiconductors.org/wp-content/uploads/2024/05/SIA-2024-Factbook.pdf) | high |
+| CLM-1340 | In 2023 communications took US$169.2bn of chip demand (-1.8%), computer US$140.0bn (-7.1%), automotive US$90.1bn (+15.0%), industrial US$72.1bn (-13.3%), consumer US$54.8bn (-31.9%) and government US$5.0bn (-45.0%); automotive was the only segment that grew. | [SRC-0422](https://www.semiconductors.org/wp-content/uploads/2024/10/SIA_2024_State-of-Industry-Report.pdf) | high |
 | CLM-0075 | In 2023 the PC/computer end market fell to 25% of semiconductor sales while communications' share rose 2 percentage points and automotive became the third-largest end market, per the WSTS End-Use Survey. | [SRC-0009](https://www.semiconductors.org/ai-auto-industrial-markets-spurred-rebound-in-chip-demand-during-second-half-of-2023/) | low |
 
 **Possible reasons:** rounding; End Use Survey total differs from Blue Book total; different survey vintages
@@ -621,9 +621,9 @@ The White House (Nov 2025) said Chinese general licences meant 'de facto removal
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1398 | The White House said in November 2025 that China would issue general licences for exports of rare earths, gallium, germanium, antimony and graphite for the benefit of US end users, calling this the de facto removal of controls imposed since 2023. | [SRC-0477](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/) | low |
-| CLM-1401 | In May 2026 the White House said China would address US concerns about shortages of rare earths and critical minerals including yttrium, scandium, neodymium and indium, and about restrictions on selling rare-earth production equipment and technology. | [SRC-0478](https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-secures-historic-deals-with-china-delivering-for-american-workers-farmers-and-industry) | low |
-| CLM-1402 | As of 25 September 2026 the White House said the US and China were still working on US concerns about rare-earth and critical-mineral shortages, aiming to return shipments to appropriate levels. | [SRC-0479](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/) | low |
+| CLM-1398 | The White House said in November 2025 that China would issue general licences for exports of rare earths, gallium, germanium, antimony and graphite for the benefit of US end users, calling this the de facto removal of controls imposed since 2023. | [SRC-0477](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/) | medium |
+| CLM-1401 | In May 2026 the White House said China would address US concerns about shortages of rare earths and critical minerals including yttrium, scandium, neodymium and indium, and about restrictions on selling rare-earth production equipment and technology. | [SRC-0478](https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-secures-historic-deals-with-china-delivering-for-american-workers-farmers-and-industry) | medium |
+| CLM-1402 | As of 25 September 2026 the White House said the US and China were still working on US concerns about rare-earth and critical-mineral shortages, aiming to return shipments to appropriate levels. | [SRC-0479](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/) | medium |
 | CLM-1397 | The November 2025 suspension (Announcement 2025 No. 70) does not list the April 2025 rare-earth controls (Announcement 2025 No. 18), so those controls appear to remain in force. |  | low |
 
 **Possible reasons:** commitment vs implementation: general licences promised but no Chinese general-licence notice found; scope: suspensions covered the Oct 2025 package and the US-specific ban, not the April 2025 rare-earth or Feb 2025 indium controls; period: Nov 2025 statement vs 2026 observations
@@ -636,8 +636,8 @@ USGS says China 'banned all exports of germanium to the United States' in Decemb
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1441 | USGS described Announcement 2024 No. 46 as China banning all germanium exports to the United States in December 2024. | [SRC-0482](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-germanium.pdf) | low |
-| CLM-1383 | MOFCOM Announcement 2024 No. 46 (3 December 2024) banned dual-use exports to US military users or uses and stated that gallium, germanium, antimony and superhard-material dual-use exports to the US would in principle not be licensed, with stricter end-user review for graphite. | [SRC-0444](https://www.mofcom.gov.cn/zwgk/zcfb/art/2024/art_3d5e990b43424e60828030f58a547b60.html) | low |
+| CLM-1441 | USGS described Announcement 2024 No. 46 as China banning all germanium exports to the United States in December 2024. | [SRC-0482](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-germanium.pdf) | medium |
+| CLM-1383 | MOFCOM Announcement 2024 No. 46 (3 December 2024) banned dual-use exports to US military users or uses and stated that gallium, germanium, antimony and superhard-material dual-use exports to the US would in principle not be licensed, with stricter end-user review for graphite. | [SRC-0444](https://www.mofcom.gov.cn/zwgk/zcfb/art/2024/art_3d5e990b43424e60828030f58a547b60.html) | high |
 
 **Possible reasons:** definition: presumption of denial vs absolute ban; translation/summarisation by USGS
 **More defensible:** CLM-1383. Primary legal text controls; in practice the effect may be close to a ban.
@@ -649,25 +649,26 @@ The White House said China would terminate anti-dumping investigations targeting
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1399 | The White House said in November 2025 that China would end its investigations targeting US companies in the semiconductor supply chain, including antitrust, anti-monopoly and anti-dumping investigations. | [SRC-0477](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/) | low |
-| CLM-1425 | MOFCOM's trade remedy bureau issued questionnaires in the analog chip anti-dumping case in October 2025; no later milestone (preliminary ruling, extension or termination) appears in its trade remedy notice list or 2026 announcement list as viewed on 1 October 2026. | [SRC-0451](https://trb.mofcom.gov.cn/myjjdc/index.html) [SRC-0475](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/index.html) | low |
+| CLM-1399 | The White House said in November 2025 that China would end its investigations targeting US companies in the semiconductor supply chain, including antitrust, anti-monopoly and anti-dumping investigations. | [SRC-0477](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/) | medium |
+| CLM-1425 | MOFCOM's trade remedy bureau issued questionnaires in the analog chip anti-dumping case in October 2025; no later milestone (preliminary ruling, extension or termination) appears in its trade remedy notice list or 2026 announcement list as viewed on 1 October 2026. | [SRC-0451](https://trb.mofcom.gov.cn/myjjdc/index.html) [SRC-0475](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/index.html) | high |
 
 **Possible reasons:** termination may have been unpublished or published elsewhere; case may have been extended (to 13 Mar 2027) without a listed notice; US description may not cover this case
 **More defensible:** not determinable. Neither source settles current status.
 **Remaining uncertainty:** Current legal status of the case; whether provisional or final duties exist.
 
-## CON-0050: Number of EAR violations Cadence admitted in its BIS civil settlement (July 2025) (open)
+## CON-0050: Number of EAR violations Cadence admitted in its BIS civil settlement (July 2025) (resolved)
 
 BIS's press release cites 56 violations for CSCC/NUDT sales plus two further violations from the Phytium contract transfer (58 named); DLA Piper's summary of the settlement says 61 violations.
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1510 | In its BIS settlement Cadence admitted 56 EAR violations between September 2015 and September 2020 for EDA hardware, software and design technology worth US$45,305,317.41 sold to NUDT through the CSCC alias. | [SRC-0511](https://www.bis.gov/press-release/cadence-design-systems-pay-95-million-penalty-bis-unauthorized-exports-chinese-entities-tied-development) | low |
-| CLM-1548 | DLA Piper's summary of the Cadence resolution states that Cadence admitted 61 EAR violations in its civil settlement with BIS and agreed a US$95,312,000 civil penalty, half payable within 30 days and the rest suspended pending the DOJ fine. | [SRC-0512](https://www.jdsupra.com/legalnews/cadence-case-signals-doj-and-bis-1307328) | low |
+| CLM-1510 | In its BIS settlement Cadence admitted 56 EAR violations between September 2015 and September 2020 for EDA hardware, software and design technology worth US$45,305,317.41 sold to NUDT through the CSCC alias. | [SRC-0511](https://www.bis.gov/press-release/cadence-design-systems-pay-95-million-penalty-bis-unauthorized-exports-chinese-entities-tied-development) | high |
+| CLM-1548 | DLA Piper's summary of the Cadence resolution states that Cadence admitted 61 EAR violations in its civil settlement with BIS and agreed a US$95,312,000 civil penalty, half payable within 30 days and the rest suspended pending the DOJ fine. | [SRC-0512](https://www.jdsupra.com/legalnews/cadence-case-signals-doj-and-bis-1307328) | medium |
+| CLM-2255 | BIS's Cadence order covers 61 EAR violations: 56 unlicensed sales/loans to CSCC (NUDT alias), two charges for the actual and attempted transfer of CSCC items to Phytium, and three for software downloads by Entity-Listed JSC Mikron, Huawei and SMIC (2016-2021). | [SRC-0800](https://bis.gov/media/documents/cadence-design-systems-final-order-7.28.2025.pdf) | low |
 
 **Possible reasons:** population: BIS text also mentions 'other Entity List parties', which may add violations not itemised in the press release; definition: press release vs settlement agreement may count charges differently; error in secondary summary
-**More defensible:** CLM-1510. BIS is the tier-1 regulator source; DLA Piper is a tier-2 summary. However the BIS figure covers only the CSCC portion explicitly.
-**Remaining uncertainty:** The BIS final order / proposed charging letter PDF was not opened; it would give the definitive count.
+**More defensible:** CLM-2255. The BIS final order (primary text) lists 61 charges: 56 CSCC sales/loans (the BIS press release figure), 2 Phytium transfer charges and 3 Entity-List download charges (Mikron, Huawei, SMIC). Both figures are right; the press release only itemises 58.
+**Remaining uncertainty:** None on the count; the order was opened in full by fact-checker fc-W1R2-5a0e.
 
 ## CON-0051: How many EDA partners are in TSMC's OIP EDA Alliance (definitional)
 
@@ -675,13 +676,14 @@ TSMC's 2021 blog and 2024 annual report both say 16 EDA partners; TSMC's EDA All
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1469 | TSMC's 2024 annual report gives OIP participants as 16 EDA, 7 Cloud, 40 IP, 29 design center alliance and 8 value chain aggregator partners, plus 23 3DFabric Alliance partners. | [SRC-0496](https://investor.tsmc.com/static/annualReports/2024/english/ebook/files/basic-html/page113.html) | low |
-| CLM-1468 | TSMC's EDA Alliance listed 11 partners as of 23 September 2026: Cadence, iROC, Jedat, Keysight, Lorentz Solution, Primarius, Siemens EDA, Silvaco, SkillCAD, Synopsys and Zuken. | [SRC-0491](https://www.tsmc.com/english/dedicatedFoundry/oip/eda_alliance) | low |
-| CLM-1549 | TSMC's October 2021 blog gave OIP as 16 EDA, 6 Cloud, 37 IP, 21 DCA and 8 VCA partners. | [SRC-0495](https://tsmc.com/english/blog-article-20211025) | low |
+| CLM-1469 | TSMC's 2024 annual report gives OIP participants as 16 EDA, 7 Cloud, 40 IP, 29 design center alliance and 8 value chain aggregator partners, plus 23 3DFabric Alliance partners. | [SRC-0496](https://investor.tsmc.com/static/annualReports/2024/english/ebook/files/basic-html/page113.html) | high |
+| CLM-1468 | TSMC's EDA Alliance listed 11 partners as of 23 September 2026: Cadence, iROC, Jedat, Keysight, Lorentz Solution, Primarius, Siemens EDA, Silvaco, SkillCAD, Synopsys and Zuken. | [SRC-0491](https://www.tsmc.com/english/dedicatedFoundry/oip/eda_alliance) | high |
+| CLM-1549 | TSMC's October 2021 blog gave OIP as 16 EDA, 6 Cloud, 37 IP, 21 DCA and 8 VCA partners. | [SRC-0495](https://tsmc.com/english/blog-article-20211025) | medium |
+| CLM-2254 | TSMC's 2025 annual report lists OIP solution providers as 13 EDA, seven Cloud, 37 IP, 29 design center alliance and eight value chain aggregator partners, plus 23 partners in the 3DFabric alliance. | [SRC-0817](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf) | low |
 
 **Possible reasons:** period: 2021/2024 counts vs a 2026 list; partners may have left or been acquired (e.g. Ansys into Synopsys in 2025); definition: annual-report count may include partners not shown on the public list
 **More defensible:** not determinable. Different dates; the 2026 list is the most current but the two figures do not measure the same point in time.
-**Remaining uncertainty:** Which five partners dropped off, and whether TSMC's 2025 annual report gives a new count, was not checked.
+**Remaining uncertainty:** TSMC's 2025 annual report gives 13 EDA partners (vs 16 in 2024 and 11 on the Sept 2026 web list); the remaining gap may come from the counting date or definition. Which partners left was not checked.
 
 ## CON-0052: TSMC CoWoS capacity expected at end-2026 (2026 vintage estimates) (open)
 
@@ -689,8 +691,8 @@ TSMC's 2021 blog and 2024 annual report both say 16 EDA partners; TSMC's EDA All
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1587 | Institutional investors cited by Commercial Times (August 2026) estimated TSMC's monthly CoWoS capacity at 140,000 wafers by end-2026 and 220,000 by end-2027. | [SRC-0559](https://www.trendforce.com/news/2026/08/12/news-ases-spil-breaks-ground-on-nearly-twd-100b-plant-in-douliu-to-boost-cowos-capacity-operations-set-for-2028/) | low |
-| CLM-1588 | Institutional investors cited by TechNews (April 2026) expected TSMC's CoWoS capacity to reach about 115,000-140,000 wafers per month by end-2026 and about 170,000 in 2027, concentrated in Tainan and Chiayi. | [SRC-0563](https://www.trendforce.com/news/2026/04/16/news-tsmc-says-cowos-offers-industrys-largest-reticle-size-packaging-amid-intel-emib-rivalry-copos-advances/) | low |
+| CLM-1587 | Institutional investors cited by Commercial Times (August 2026) estimated TSMC's monthly CoWoS capacity at 140,000 wafers by end-2026 and 220,000 by end-2027. | [SRC-0559](https://www.trendforce.com/news/2026/08/12/news-ases-spil-breaks-ground-on-nearly-twd-100b-plant-in-douliu-to-boost-cowos-capacity-operations-set-for-2028/) | medium |
+| CLM-1588 | Institutional investors cited by TechNews (April 2026) expected TSMC's CoWoS capacity to reach about 115,000-140,000 wafers per month by end-2026 and about 170,000 in 2027, concentrated in Tainan and Chiayi. | [SRC-0563](https://www.trendforce.com/news/2026/04/16/news-tsmc-says-cowos-offers-industrys-largest-reticle-size-packaging-amid-intel-emib-rivalry-copos-advances/) | medium |
 | CLM-1589 | Economic Daily News (September 2026) reported that TSMC's CoWoS capacity could double from about 130,000 wafers per month at end-2026 to 260,000 at end-2028, centred on AP7 in Chiayi and the Arizona campus. | [SRC-0561](https://www.trendforce.com/news/2026/09/14/news-tsmc-reportedly-targets-22-2nm-16-3nm-capacity-boost-by-mid-2027-cowos-to-double-by-2028/) | low |
 | CLM-1264 | Institutional investors cited by Economic Daily News (June 2026) expected TSMC's monthly CoWoS capacity to reach 120,000-140,000 wafers in 2026, with OSAT partners adding 50,000-60,000 wafers so that total industry capacity approaches 200,000 wafers per month. | [SRC-0412](https://www.trendforce.com/news/?p=59316) | low |
 | CLM-1265 | Mydrivers (via TrendForce, August 2026) reported that TSMC's monthly CoWoS capacity is projected to rise from about 70,000 wafers in 2025 to 130,000-140,000 wafers by the end of 2026. | [SRC-0411](https://www.trendforce.com/news/2026/08/05/news-tsmc-reportedly-expands-outsourcing-of-key-cowos-front-end-step-to-osats-amid-rising-nvidia-asic-demand/) | low |
@@ -961,4 +963,44 @@ TWSE ISIN classification lists 91 TWSE semiconductor stocks on 2026-10-01, but t
 **Possible reasons:** period: listings or delistings between August reporting and 1 October; population: ISIN lists securities (could include issues not filing monthly revenue, e.g. newly listed or foreign 'KY' issuers reporting differently); method: our row counting of the MOPS text may miss rows with non-4-digit codes
 **More defensible:** CLM-2184. The ISIN list is the exchange's classification register; the MOPS table is a revenue report that can omit companies.
 **Remaining uncertainty:** Which three companies differ was not checked.
+
+## CON-0072: Besi hybrid-bonding customer count at end-2025 (open)
+
+Besi's FY2025 release (Feb 2026) says hybrid-bonding adoption expanded to 18 customers in 2025; its Q2-26 release (Jul 2026) says adoption increased 'from 15 at year end 2025' to 21.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2253 | Besi's FY2025 results release (19 Feb 2026) said hybrid-bonding adoption expanded to 18 customers and cumulative orders grew to 150+ systems in 2025, and that six integrated hybrid-bonding production lines with 30 Besi hybrid bonders were installed at a leading logic customer in collaboration with Applied Materials. | [SRC-0546](https://www.globenewswire.com/news-release/2026/02/19/3240803/0/en/be-semiconductor-industries-n-v-announces-q4-25-and-full-year-2025-results.html) | low |
+| CLM-1622 | Besi said hybrid-bonding customer adoption rose from 15 at end-2025 to 21 at end-Q2 2026, with new orders from two repeat customers and one new hyperscaler in Q2 2026, and H1-26 orders of €562.6 million (+116.5%). | [SRC-0547](https://www.globenewswire.com/news-release/2026/07/23/3331898/0/en/be-semiconductor-industries-n-v-announces-q2-26-and-h1-26-results.html) | medium |
+
+**Possible reasons:** definition: the later count may exclude customers with only evaluation/R&D tools or merge related entities; restatement or correction by Besi without explanation; drafting error in one release
+**More defensible:** not determinable. Both are Besi's own counts for the same date, with near-identical wording. Neither release explains the change, so neither can be preferred on evidence.
+**Remaining uncertainty:** Whether Besi had 15 or 18 hybrid-bonding customers at end-2025 and how it defines 'customer adoption'. The Q2-26 count of 21 uses the later basis.
+
+## CON-0073: Besi hybrid-bonding customer count at end-2025 (open)
+
+Besi's FY2025 release (Feb 2026) says hybrid bonding adoption expanded to 18 customers in 2025; its Q1-26 release says adoption increased to 20 customers; its H1-26 release says adoption 'increased from 15 at year end 2025 to 21 at the end of Q2-26'. The end-2025 baseline is 18 in one release and 15 in another.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1619 | Besi reported that by end-2025 cumulative hybrid-bonding orders since 2021 exceeded 150 systems from 18 customers, and that six integrated hybrid-bonding lines with 30 Besi bonders were installed at a leading logic customer together with Applied Materials. | [SRC-0546](https://www.globenewswire.com/news-release/2026/02/19/3240803/0/en/be-semiconductor-industries-n-v-announces-q4-25-and-full-year-2025-results.html) | medium |
+| CLM-2259 | Besi's Q1-26 results release (23 April 2026) said its hybrid-bonding adoption increased to 20 customers overall. | [SRC-0820](https://www.besi.com/fileadmin/user_upload/Q1-2026.pdf) | low |
+| CLM-1622 | Besi said hybrid-bonding customer adoption rose from 15 at end-2025 to 21 at end-Q2 2026, with new orders from two repeat customers and one new hyperscaler in Q2 2026, and H1-26 orders of €562.6 million (+116.5%). | [SRC-0547](https://www.globenewswire.com/news-release/2026/07/23/3331898/0/en/be-semiconductor-industries-n-v-announces-q2-26-and-h1-26-results.html) | medium |
+
+**Possible reasons:** definition change: Besi may have narrowed the count (e.g. customers with production/qualification orders vs. any evaluation tool) in the H1-26 release; restatement or consolidation of customer entities; cumulative-since-2021 count vs. currently active customers
+**More defensible:** not determinable. All three are Besi's own statements; none explains the basis of the count, so neither baseline can be preferred.
+**Remaining uncertainty:** Which definition Besi uses in each release; the trend (growth to ~20-21 by mid-2026) is consistent, but the end-2025 level is 15 or 18 depending on the release.
+
+## CON-0074: Gen-AI chips' share of total chip unit volume (open)
+
+Deloitte states gen-AI chips are 'roughly 0.2% of total volume'; dividing its own ~20 million AI chips by its ~1.05 trillion total units gives ~0.002%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1325 | Deloitte estimates that generative-AI chips will be about 50% of industry revenue in 2026 but fewer than 20 million chips, roughly 0.2% of total unit volume. | [SRC-0430](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html) | low |
+| CLM-2265 | Deloitte's own inputs imply that about 20 million gen-AI chips would be roughly 0.002% of the ~1.05 trillion chips sold annually, not the 'roughly 0.2%' its 2026 outlook states. | [SRC-0430](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html) | low |
+
+**Possible reasons:** arithmetic: a percent/fraction slip (0.002% vs 0.2%); definition: Deloitte may mean a different denominator, e.g. wafers or a subset of chips, not stated; period: 2026 AI chips vs 2025 total units
+**More defensible:** CLM-2265. Both inputs come from the same document's endnotes; the quotient is unambiguous unless a different, undisclosed denominator was used.
+**Remaining uncertainty:** Deloitte does not state the denominator it used for 0.2%. Neither figure is a measured count: the 1.05 trillion units are an SIA estimate and the 20 million AI chips a rough wafer-based estimate.
 

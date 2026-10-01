@@ -361,6 +361,61 @@
 | SAE International (ENT-0224) | sets_standard_for | Independent distributor / broker (category) (ENT-0030) | CLM-2477 |
 | Independent Distributors of Electronics Association (IDEA) (ENT-0221) | sets_standard_for | Independent distributor / broker (category) (ENT-0030) | CLM-2476 |
 | US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Arrow Electronics, Inc. (CO-0076) | CLM-2415 |
+| TrendForce (ENT-0150) | measures | Foundry (category) (ENT-0012) | CLM-2548, CLM-2549 |
+| Counterpoint Research (ENT-0228) | measures | Foundry (category) (ENT-0012) | CLM-2531, CLM-2543 |
+| TechInsights (ENT-0142) | measures | Foundry (category) (ENT-0012) | CLM-2569, CLM-2570 |
+| Mubadala Investment Company PJSC (CO-0140) | owns | GlobalFoundries Inc. (CO-0134) | CLM-2592 |
+| GlobalFoundries Inc. (CO-0134) | competes_with | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-2590 |
+| GlobalFoundries Inc. (CO-0134) | competes_with | United Microelectronics Corporation (CO-0133) | CLM-2590 |
+| GlobalFoundries Inc. (CO-0134) | competes_with | Semiconductor Manufacturing International Corporation (CO-0068) | CLM-2590 |
+| GlobalFoundries Inc. (CO-0134) | competes_with | Samsung Electronics Co., Ltd. (CO-0008) | CLM-2590 |
+| GlobalFoundries Inc. (CO-0134) | competes_with | Intel Corporation (CO-0029) | CLM-2590 |
+| United Microelectronics Corporation (CO-0133) | part_of | Pure-play foundry (category) (ENT-0013) | CLM-2572, CLM-2590 |
+| GlobalFoundries Inc. (CO-0134) | part_of | Pure-play foundry (category) (ENT-0013) | CLM-2589, CLM-2572 |
+| Hua Hong Semiconductor Limited (CO-0135) | part_of | Pure-play foundry (category) (ENT-0013) | CLM-2579 |
+| Tower Semiconductor Ltd. (CO-0136) | partners_with | Intel Corporation (CO-0029) | CLM-2586 |
+| Pure-play foundry (category) (ENT-0013) | enables | Fabless chip company (category) (ENT-0004) | CLM-2646, CLM-2652, CLM-2647 |
+| Defense Advanced Research Projects Agency (DARPA) (ENT-0234) | subsidizes | MOSIS (Metal Oxide Semiconductor Implementation Service) (ENT-0233) | CLM-2681, CLM-2683 |
+| MOSIS (Metal Oxide Semiconductor Implementation Service) (ENT-0233) | buys_from | Foundry (category) (ENT-0012) | CLM-2683, CLM-2679 |
+| Advanced Micro Devices, Inc. (CO-0002) | invests_in | GlobalFoundries Inc. (CO-0134) | CLM-2719 |
+| Advanced Micro Devices, Inc. (CO-0002) | buys_from | GlobalFoundries Inc. (CO-0134) | CLM-2722 |
+| Xilinx, Inc. (CO-0142) | buys_from | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-2665 |
+| Xilinx, Inc. (CO-0142) | buys_from | United Microelectronics Corporation (CO-0133) | CLM-2664, CLM-2665 |
+| Lattice Semiconductor Corporation (CO-0143) | buys_from | United Microelectronics Corporation (CO-0133) | CLM-2666 |
+| Lattice Semiconductor Corporation (CO-0143) | buys_from | Chartered Semiconductor Manufacturing Ltd. (CO-0141) | CLM-2666 |
+| Texas Instruments Incorporated (CO-0125) | buys_from | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-2717, CLM-2715 |
+| Infineon Technologies AG (CO-0131) | buys_from | Foundry (category) (ENT-0012) | CLM-2718 |
+| LSI Logic Corporation (CO-0148) | buys_from | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-2713 |
+| ON Semiconductor Corporation (CO-0129) | buys_from | LSI Logic Corporation (CO-0148) | CLM-2714 |
+| GlobalFoundries Inc. (CO-0134) | owns | Chartered Semiconductor Manufacturing Ltd. (CO-0141) | CLM-2724, CLM-2723 |
+| OSAT (outsourced assembly and test) (category) (ENT-0015) | provides_service_to | Fabless chip company (category) (ENT-0004) | CLM-2704, CLM-2713 |
+| ASMPT Limited (CO-0032) | owns | Critical Manufacturing, S.A. (CO-0153) | CLM-2792 |
+| Applied Materials, Inc. (CO-0035) | competes_with | PDF Solutions, Inc. (CO-0150) | CLM-2804 |
+| Onto Innovation Inc. (CO-0151) | competes_with | PDF Solutions, Inc. (CO-0150) | CLM-2801, CLM-2804 |
+| KLA Corporation (CO-0060) | competes_with | PDF Solutions, Inc. (CO-0150) | CLM-2804 |
+| Synopsys, Inc. (CO-0145) | competes_with | PDF Solutions, Inc. (CO-0150) | CLM-2804 |
+| Siemens AG (CO-0152) | competes_with | PDF Solutions, Inc. (CO-0150) | CLM-2804 |
+| Advantest Corporation (CO-0061) | invests_in | PDF Solutions, Inc. (CO-0150) | CLM-2819 |
+| Advantest Corporation (CO-0061) | partners_with | PDF Solutions, Inc. (CO-0150) | CLM-2819, CLM-2768 |
+| PDF Solutions, Inc. (CO-0150) | produces | secureWISE remote equipment access network (ENT-0252) | CLM-2809, CLM-2812 |
+| PDF Solutions, Inc. (CO-0150) | produces | Fault detection and classification (FDC) system (ENT-0084) | CLM-2803 |
+| PDF Solutions, Inc. (CO-0150) | produces | Yield management system (YMS) (ENT-0251) | CLM-2814, CLM-2815 |
+| Applied Materials, Inc. (CO-0035) | produces | Manufacturing execution system (MES) (ENT-0083) | CLM-2776, CLM-2779 |
+| Applied Materials, Inc. (CO-0035) | produces | Advanced process control (APC) / run-to-run system (ENT-0249) | CLM-2781, CLM-2777 |
+| Siemens AG (CO-0152) | produces | Manufacturing execution system (MES) (ENT-0083) | CLM-2789, CLM-2790 |
+| Critical Manufacturing, S.A. (CO-0153) | produces | Manufacturing execution system (MES) (ENT-0083) | CLM-2794 |
+| INFICON Holding AG (CO-0156) | produces | Fault detection and classification (FDC) system (ENT-0084) | CLM-2797 |
+| Synopsys, Inc. (CO-0145) | produces | Yield management system (YMS) (ENT-0251) | CLM-2799 |
+| Onto Innovation Inc. (CO-0151) | produces | Yield management system (YMS) (ENT-0251) | CLM-2800 |
+| KLA Corporation (CO-0060) | produces | Yield management system (YMS) (ENT-0251) | CLM-2802 |
+| Daifuku Co., Ltd. (CO-0154) | produces | Automated material handling system (AMHS) (ENT-0247) | CLM-2835, CLM-2836 |
+| Murata Machinery, Ltd. (CO-0155) | produces | Automated material handling system (AMHS) (ENT-0247) | CLM-2846, CLM-2845 |
+| Daifuku Co., Ltd. (CO-0154) | partners_with | Semiconductor Assembly Test Automation and Standardization Research Association (SATAS) (ENT-0255) | CLM-2848 |
+| Glorysoft (Shanghai) Co., Ltd. (CO-0157) | competes_with | Applied Materials, Inc. (CO-0035) | CLM-2826, CLM-2857 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | PDF Solutions, Inc. (CO-0150) | CLM-2818 |
+| SEMI (ENT-0130) | sets_standard_for | Manufacturing-software vendor (category) (ENT-0027) | CLM-2808, CLM-2750, CLM-2754 |
+| Manufacturing execution system (MES) (ENT-0083) | sends_information_to | Material control system (MCS) (ENT-0248) | CLM-2796 |
+| SEMI Equipment Data Acquisition (Interface A) (ENT-0242) | enables | Fault detection and classification (FDC) system (ENT-0084) | CLM-2762, CLM-2755 |
 
 ## Entities
 
@@ -593,3 +648,31 @@
 | ENT-0225 | TrustedParts.com | information_system | ECIA-run search site aggregating price and stock of genuine parts from authorized distributors only; also hosts ECIA's distributor research reports. |
 | ENT-0226 | ECIA Top 50 Authorized Distributors rankings | market_statistic | Annual ECIA rankings of the top 50 authorized distributors in the Americas and worldwide (since 2021), by revenue, region, component category and end market; authorized distributors only, partly ECIA estimates. |
 | ENT-0227 | SAE AS6081A counterfeit-avoidance standard for independent distribution | technical_standard | SAE standard (current edition 21 April 2023) on counterfeit EEE parts avoidance, detection, mitigation and disposition for independent distributors. |
+| ENT-0228 | Counterpoint Research | market_research_firm | Technology market research firm; publishes quarterly pure-foundry shares and a 'Foundry 2.0' tracker (pure-play foundries, non-memory IDMs, OSATs, photomask suppliers). |
+| ENT-0229 | TrendForce top-10 foundry revenue ranking | market_statistic | Quarterly and annual ranking of the 10 largest foundries by revenue in USD; counts Samsung foundry business only (since c.2023), PSMC foundry services only and HuaHong Group incl. HLMC; excludes Intel Foundry's internal sales. |
+| ENT-0230 | Counterpoint Foundry 2.0 market tracker | market_statistic | Counterpoint quarterly and annual estimate of Foundry 2.0 revenue (foundry, non-memory IDM, OSAT, photomask & others) and company shares. |
+| ENT-0231 | TSMC Foundry 2.0 industry estimate | market_statistic | TSMC's annual estimate of the Foundry 2.0 industry (all logic wafer manufacturing incl. non-memory IDMs, packaging, testing, mask-making, others): ~US$250bn 2023, ~US$305bn 2025; TSMC share 28%/34%/40%. |
+| ENT-0232 | Xerox Palo Alto Research Center (PARC) | research_organisation | Corporate research lab where Lynn Conway developed the MPC multi-project chip service and co-developed the Mead-Conway VLSI methodology (1970s-1981). |
+| ENT-0233 | MOSIS (Metal Oxide Semiconductor Implementation Service) | research_organisation | Multi-project-wafer prototyping service run by USC's Information Sciences Institute since 1981 under DARPA (later DARPA/NSF) contracts; pools designs from many users onto shared fabrication runs at commercial foundries. |
+| ENT-0234 | Defense Advanced Research Projects Agency (DARPA) | government_body | US Department of Defense research agency; funded the VLSI program (late 1970s-1980s) and MOSIS. |
+| ENT-0235 | SEMI GEM300 standards suite | technical_standard | The set of SEMI equipment-communication standards (E39, E40, E87, E90, E94, E116, E148, E157 on top of SECS-II/HSMS/GEM, as defined in SEMI E192) that 300 mm fabs require for fully automated carrier, job and wafer handling. |
+| ENT-0236 | SEMI E40/E94 process and control job management | technical_standard | SEMI E40 (process jobs: which recipe to run on which wafers) and SEMI E94 (control jobs: a unit of work for one or more carriers made of process jobs), used together for host-directed processing. |
+| ENT-0237 | SEMI E87 carrier management (CMS) | technical_standard | SEMI standard for host-equipment communication during carrier transfers at load ports, including carrier ID and slot-map verification. |
+| ENT-0238 | SEMI E90 substrate tracking | technical_standard | SEMI standard under which equipment tracks each substrate (wafer) inside the tool for the factory system. |
+| ENT-0239 | SEMI E116 equipment performance tracking (EPT) | technical_standard | SEMI standard for automatic reporting of equipment and module states, time in state and blocked reasons to the host. |
+| ENT-0240 | SEMI E10 equipment RAM and utilization | technical_standard | SEMI standard (first published 1986) defining six basic equipment states and reliability, availability, maintainability and utilization metrics (MTBF, MTTR, uptime). |
+| ENT-0241 | SEMI E84 carrier handoff parallel I/O | technical_standard | SEMI standard for the hardware signals used when AMHS vehicles hand a carrier to or from a tool load port or stocker. |
+| ENT-0242 | SEMI Equipment Data Acquisition (Interface A) | technical_standard | SEMI web-services standards suite (E120, E125, E128, E132, E134, E138, E164) for high-volume equipment data collection by multiple factory clients, alongside SECS/GEM. |
+| ENT-0243 | SEMI E183 Rich Interactive Test Database (RITdb) | technical_standard | SEMI test-data standard (first published 2021) combining a relational data container able to hold all STDF content with real-time MQTT publish-subscribe streaming for test floors. |
+| ENT-0244 | AEC-Q001 part average testing guideline | technical_standard | Automotive Electronics Council guideline for removing statistical outlier parts using static or dynamic test limits. |
+| ENT-0245 | Automotive Electronics Council (AEC) | standards_body | Body that publishes the AEC-Q qualification and screening documents used by automotive chip buyers, including AEC-Q001 on part average testing. |
+| ENT-0246 | SEMI E187 cybersecurity of fab equipment | technical_standard | SEMI baseline security requirements for Windows/Linux computers in fab equipment and AMHS (OS support, network security, endpoint protection, monitoring), published 2022. |
+| ENT-0247 | Automated material handling system (AMHS) | technology | The ceiling-mounted vehicles (OHT), stockers, buffers and lifts, plus control software, that move wafer carriers (FOUPs) between tools in a fab without people carrying them. |
+| ENT-0248 | Material control system (MCS) | information_system | Fab software that schedules and controls carrier movements by the AMHS on instruction from the MES/dispatcher. |
+| ENT-0249 | Advanced process control (APC) / run-to-run system | information_system | Software that adjusts recipe parameters run by run from metrology and sensor data to keep process results on target. |
+| ENT-0250 | Statistical process control (SPC) system | information_system | Software that charts measurements against control limits and flags out-of-control conditions that stop tools and trigger action plans. |
+| ENT-0251 | Yield management system (YMS) | information_system | Software that combines inline, parametric, defect, test and genealogy data to find causes of yield loss (e.g. PDF Exensio, KLA Klarity, Onto Discover, Synopsys Yield Explorer). |
+| ENT-0252 | secureWISE remote equipment access network | information_system | Private network and software (owned by PDF Solutions since March 2025) through which equipment suppliers remotely monitor and, if the fab permits, control tools in customer fabs. |
+| ENT-0253 | Samsung SDS Nexplant MES | information_system | MES suite from Samsung SDS covering scheduling and dispatching, manufacturing operations, material control and SECS-based tool control. |
+| ENT-0254 | Frost & Sullivan | market_research_firm | Consulting and market-research firm founded in 1961; prepared the issuer-commissioned China IMSS market report used in the Glorysoft HKEX prospectus. |
+| ENT-0255 | Semiconductor Assembly Test Automation and Standardization Research Association (SATAS) | research_organisation | Japanese research association (founded by 15 organisations incl. Intel and Daifuku; 38 members by April 2026) developing standardised, automated back-end assembly and test lines by 2028. |

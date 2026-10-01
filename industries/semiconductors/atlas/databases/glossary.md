@@ -50,6 +50,16 @@
 
 **Sources:** [SRC-0177](https://news.skhynix.com/sk-hynix-starts-mass-production-of-world-first-321-high-nand/)
 
+### 8-inch-equivalent wafer
+
+**In plain words:** A way of counting wafers so that big and small wafers can be added together, by converting each large 12-inch wafer into 2.25 small 8-inch ones.
+
+**Technically:** SMIC's unit: number of standard logic 12-inch wafers x 2.25 (area ratio); used for capacity and shipments by SMIC and Hua Hong. TSMC and GF instead report 12-inch (300mm) equivalents.
+
+**Related:** 300mm-equivalent wafer
+
+**Sources:** [SRC-1003](https://www.hkexnews.hk/listedco/listconews/sehk/2026/0326/2026032601294.pdf)
+
 ### A-share
 
 **In plain words:** Shares of mainland Chinese companies traded in yuan on the Shanghai, Shenzhen or Beijing exchanges.
@@ -107,6 +117,14 @@
 **Technically:** A processor optimised for dense matrix/tensor arithmetic (GPU, TPU or other ASIC) used for AI training and inference; TSMC counts AI GPUs, AI ASICs and HBM controllers for data-centre AI as 'AI accelerators'.
 
 **Related:** GPU, XPU, High-bandwidth memory
+
+### AMHS (automated material handling system)
+
+**In plain words:** The robot transport network in a chip factory that carries boxes of wafers between machines.
+
+**Technically:** Overhead hoist transport vehicles, stockers, buffers, lifts and the material control software that move wafer carriers between tools, handing off at load ports per SEMI E84.
+
+**Sources:** [SRC-1105](https://expo.semi.org/india2025/Public/eBooth.aspx?BoothID=643684&IndexInList=67&ListByBooth=true&Nav=False) [SRC-1107](https://www.muratec.com/company/division/cfa) [SRC-1070](https://store-us.semi.org/products/e08400-semi-e84-specification-for-enhanced-carrier-handoff-parallel-i-o-interface)
 
 ### Analog IC
 
@@ -205,6 +223,16 @@
 **Technically:** Application-specific integrated circuit; often developed with design-service firms offering turnkey spec-to-production flows.
 
 **Sources:** [SRC-0219](https://www.guc-asic.com/en/about/us)
+
+### Asset smart strategy
+
+**In plain words:** AMD's name for its 2008-2009 plan to stop owning chip factories by moving them into a separate company it partly owned.
+
+**Technically:** AMD's strategy under which it contributed its Dresden fabs and manufacturing staff to GLOBALFOUNDRIES (closed 2 March 2009) in exchange for GF securities and a Wafer Supply Agreement, becoming a design-focused (fabless) company.
+
+**Related:** Fabless, Foundry
+
+**Sources:** [SRC-1044](https://www.sec.gov/Archives/edgar/data/2488/000119312510035218/d10k.htm)
 
 ### ASSP
 
@@ -366,6 +394,16 @@
 
 **Sources:** [SRC-0944](https://www.ecworld.ru/support/sst/pdfs/GLO_disti25.pdf)
 
+### Buffer foundry use
+
+**In plain words:** When a chipmaker with its own factories also pays a contract factory to make some chips, so it can add or drop that outside work as demand rises and falls.
+
+**Technically:** IDM practice of placing a variable share of wafer demand at foundries to absorb cyclical swings without building fab capacity; described by Morris Chang as the pre-fabless foundry market ('leftovers') and by EDN for TI's use of TSMC, UMC and SMIC.
+
+**Related:** Foundry, IDM, Fab-lite
+
+**Sources:** [SRC-1017](https://www.edn.com/texas-instruments-exits-process-development-race/) [SRC-1024](https://archive.computerhistory.org/resources/text/Oral_History/Chang_Morris/Chang_Morris_1.oral_history.2007.102658129.pdf)
+
 ### Bumping
 
 **In plain words:** Putting tiny solder or copper balls on the surface of a wafer so its chips can later be connected face-down to a package.
@@ -427,6 +465,16 @@
 **Related:** Photomask
 
 **Sources:** [SRC-0183](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm)
+
+### Carve-out (semiconductor division spin-off)
+
+**In plain words:** When a big electronics company turns its in-house chip division into a separate company, either by listing it or selling it.
+
+**Technically:** Separation of a diversified group's semiconductor operations into a stand-alone entity via IPO/spin-off (Siemens to Infineon 1999, Motorola to Freescale 2004) or sale to investors (Agilent SPG 2005, Philips Semiconductors to NXP 2006).
+
+**Related:** IDM
+
+**Sources:** [SRC-1051](https://sec.gov/Archives/edgar/data/1107457/000091205701541907/a2062727z20-f.htm) [SRC-1049](https://www.sec.gov/Archives/edgar/data/68505/000095013705009943/c96841e10vq.htm) [SRC-1054](https://www.sec.gov/Archives/edgar/data/1090872/000119312505168663/d8k.htm) [SRC-1053](https://sec.gov/Archives/edgar/data/313216/000115697306001159/u50917e6vk.htm)
 
 ### Catch-all control (China)
 
@@ -549,6 +597,14 @@
 **Technically:** Algorithms and process models (e.g. OPC) that optimise reticle patterns and process windows for given lithography conditions.
 
 **Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
+### Computer-integrated manufacturing (CIM)
+
+**In plain words:** The full set of factory software that runs a chip plant together.
+
+**Technically:** Integrated fab software stack (MES, dispatching, equipment automation, MCS, SPC/FDC/APC, yield) connected to equipment via SEMI standards.
+
+**Sources:** [SRC-1081](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-significantly-expand-its-fab-wide-software) [SRC-1109](https://www1.hkexnews.hk/app/sehk/2026/108262/a130703/sehk26030203578.pdf)
 
 ### Conflict minerals
 
@@ -721,6 +777,14 @@
 **Related:** WSTS
 
 **Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf) [SRC-0226](https://semiconductors.org/wp-content/uploads/2025/01/WSTS-Presentation-Subscription-Oct2024.pdf)
+
+### Data collection plan (DCP)
+
+**In plain words:** A request telling a machine which measurements and events to send, and how often.
+
+**Technically:** SEMI E134 object listing trace, event and exception requests that an EDA client defines and activates on equipment.
+
+**Sources:** [SRC-1099](https://cimetrix.com/hubfs/docs/Whitepapers/Introduction-to-EDA-WhitePaper.pdf)
 
 ### Data-center GPU
 
@@ -1014,6 +1078,14 @@
 
 **Sources:** [SRC-0272](https://www.federalregister.gov/api/v1/documents/2020-10856.json) [SRC-0279](https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-21658.txt) [SRC-0284](https://media.bis.gov/sites/default/files/documents/FINAL%20DOC%20Nat%20Sec%20Action%20Rls%20Dec%202%2024.pdf) [SRC-0305](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=734&section=734.9)
 
+### Equipment automation program (EAP)
+
+**In plain words:** The software link that connects each machine to the factory system.
+
+**Technically:** Middleware/cell controller that translates MES commands into SECS/GEM messages for equipment and collects equipment data.
+
+**Sources:** [SRC-1109](https://www1.hkexnews.hk/app/sehk/2026/108262/a130703/sehk26030203578.pdf)
+
 ### Equipment billings (SEMI)
 
 **In plain words:** The dollar value of chipmaking machines that equipment makers report having invoiced, added up by the region they were sold into.
@@ -1127,6 +1199,18 @@
 **Technically:** Ratio of wafer starts to installed capacity; over 90% from Q2 2020 to 2021 per Commerce RFI.
 
 **Sources:** [SRC-0045](https://www.commerce.gov/news/blog/2022/01/results-semiconductor-supply-chain-request-information)
+
+### Fab-lite
+
+**In plain words:** A chip company that keeps some of its own factories but sends more and more of its production, especially the most advanced chips, to outside contract factories.
+
+**Technically:** Manufacturing strategy in which an IDM reduces or stops investment in new wafer fabs (and often back-end assets), retains in-house capacity for differentiated processes (e.g. analog, power), and outsources leading-edge logic to foundries and assembly/test to OSATs.
+
+**Example:** Infineon (2007) kept power logic in-house and farmed out advanced logic to foundries.
+
+**Related:** IDM, Fabless, Foundry, OSAT
+
+**Sources:** [SRC-1052](https://sec.gov/Archives/edgar/data/1107457/000132693207000238/f01658e6vk.htm) [SRC-1030](https://www.sec.gov/Archives/edgar/data/1047127/000095015307000403/p73489e10vk.htm) [SRC-1013](http://icinsights.com/data/articles/documents/945.pdf)
 
 ### Fabless
 
@@ -1284,13 +1368,31 @@
 
 **Sources:** [SRC-0028](https://semiconductor.samsung.com/news-events/tech-blog/from-foundry-to-fabless-an-overview-of-the-semiconductor-ecosystem/) [SRC-0029](https://www.trendforce.com/presscenter/news/20260312-12965.html)
 
+### Foundry 1.0
+
+**In plain words:** The traditional way of measuring the foundry market: only the revenue of companies that make chips for other companies.
+
+**Technically:** Counterpoint's label for the pure-foundry market (pure-play foundries, with Samsung's foundry incl. internal logic), as opposed to Foundry 2.0, which adds non-memory IDMs, OSATs and photomask makers.
+
+**Related:** Foundry 2.0, Foundry
+
+**Sources:** [SRC-0995](https://www.semiconductor-digest.com/global-semiconductor-foundry-2-0-markets-q2-2025-revenue-up-19-yoy-driven-by-advanced-process-and-packaging/) [SRC-0990](https://counterpointresearch.com/en/insights/Global-Foundry-2.0-Market-Climb-to-a-Record-320-Billion-in-Revenues-in-2025)
+
 ### Foundry 2.0
 
 **In plain words:** TSMC's wider definition of its market, adding packaging, testing, mask-making and non-memory chipmakers' own factories.
 
-**Technically:** All logic wafer manufacturing (incl. non-memory IDMs) plus packaging, testing, mask-making and others; ~US$250bn in 2023 vs US$115bn old definition (TSMC).
+**Technically:** All logic wafer manufacturing (incl. non-memory IDMs) plus packaging, testing, mask-making and others. TSMC: ~US$250bn in 2023 (vs US$115bn old definition), ~US$305bn in 2025; Counterpoint's version (adds photomask suppliers explicitly): US$320bn in 2025.
 
 **Sources:** [SRC-0023](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf) [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf)
+
+### FOUP (front-opening unified pod)
+
+**In plain words:** The sealed plastic box that holds a batch of 300 mm wafers as they move around the factory.
+
+**Technically:** Standard 300 mm wafer carrier (SEMI E47.1) transported by AMHS and docked at tool load ports; may be nitrogen-purged.
+
+**Sources:** [SRC-1105](https://expo.semi.org/india2025/Public/eBooth.aspx?BoothID=643684&IndexInList=67&ListByBooth=true&Nav=False) [SRC-1070](https://store-us.semi.org/products/e08400-semi-e84-specification-for-enhanced-carrier-handoff-parallel-i-o-interface)
 
 ### Foveros
 
@@ -1384,6 +1486,14 @@
 
 **Sources:** [SRC-0180](https://store-us.semi.org/products/p03900-semi-p39-specification-for-oasis%C2%AE-open-artwork-system-interchange-standard)
 
+### GEM300
+
+**In plain words:** The set of rules 300 mm chip factories require machines to follow so they can be run fully automatically.
+
+**Technically:** SEMI E39/E40/E87/E90/E94/E116/E148/E157 on top of SECS-II, HSMS and GEM (E30), as listed in SEMI E192.
+
+**Sources:** [SRC-1100](https://cimetrix.com/hubfs/docs/Whitepapers/GEM300-WhitePaper-2020.pdf) [SRC-1101](https://cimetrix.com/gem300)
+
 ### General-purpose analog
 
 **In plain words:** Catalogue analog chips (amplifiers, converters, interface and power-management chips) that are not tied to one type of end product.
@@ -1458,6 +1568,16 @@
 
 **Sources:** [SRC-0775](https://www.fsa.go.jp/news/r5/sonota/20231208/01.pdf)
 
+### Headquarters vs location attribution
+
+**In plain words:** Two ways to give a factory to a country: by where the owning company is based, or by where the factory physically stands.
+
+**Technically:** Location basis assigns fab/ATP capacity to the country of the site (SIA/BCG fab and ATP rows, SEMI, OECD); HQ basis assigns it to the owner's home (CSET, Knometa company shares). E.g. China hosted ~19% of IC capacity at end-2023 but Chinese companies held ~11%.
+
+**Related:** Value added (semiconductor value chain)
+
+**Sources:** [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) [SRC-1123](https://www.knometa.com/news?post=china-to-become-world-039-s-largest-source-of-ic-wafer-capacity-by-2026) [SRC-0191](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)
+
 ### High Performance Computing
 
 **In plain words:** TSMC's revenue category for chips that go into powerful computers such as AI servers and PCs.
@@ -1515,6 +1635,14 @@
 **Related:** GICS
 
 **Sources:** [SRC-0792](https://www.hsi.com.hk/static/uploads/contents/en/dl_centre/brochures/B_HSICSe.pdf)
+
+### HSMS
+
+**In plain words:** The network method (like the internet) machines use to send factory-standard messages to control computers.
+
+**Technically:** SEMI E37 High-Speed SECS Message Services: TCP/IP transport for SECS-II messages, replacing serial SECS-I.
+
+**Sources:** [SRC-1061](https://store-us.semi.org/products/e03700-semi-e37-high-speed-secs-message-services-hsms-generic-services)
 
 ### Hybrid bonding
 
@@ -1605,6 +1733,22 @@
 **Related:** Logic, Memory, Analog IC, Micro
 
 **Sources:** [SRC-0017](https://www.census.gov/foreign-trade/schedules/b/2022/c85.html) [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
+### Intelligent manufacturing software solutions (IMSS)
+
+**In plain words:** Frost & Sullivan's umbrella term in China for all factory-running software in chip and related plants.
+
+**Technically:** Category covering MES, APS, RTD, EAP, MCS, test management, data collection, YMS, engineering data analysis and SPC for semiconductor, display, PCB and PV manufacturing.
+
+**Sources:** [SRC-1109](https://www1.hkexnews.hk/app/sehk/2026/108262/a130703/sehk26030203578.pdf)
+
+### Interface A (Equipment Data Acquisition)
+
+**In plain words:** A second data connection on each factory machine that lets several analysis programs pull detailed sensor data at once.
+
+**Technically:** SEMI EDA suite (E120, E125, E132, E134 etc.) using SOAP/XML web services; supplements SECS/GEM, supports multiple concurrent clients and self-describing metadata.
+
+**Sources:** [SRC-1099](https://cimetrix.com/hubfs/docs/Whitepapers/Introduction-to-EDA-WhitePaper.pdf)
 
 ### Interim final rule (IFR)
 
@@ -1870,6 +2014,14 @@
 
 **Sources:** [SRC-0183](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm)
 
+### Material control system (MCS)
+
+**In plain words:** The software that tells the transport robots which wafer box to move where.
+
+**Technically:** Factory software that schedules and executes carrier moves by the AMHS on request from the MES or dispatcher.
+
+**Sources:** [SRC-1081](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-significantly-expand-its-fab-wide-software) [SRC-1107](https://www.muratec.com/company/division/cfa)
+
 ### Materials Market Data Subscription (MMDS)
 
 **In plain words:** SEMI's paid dataset that tracks how much money is spent on chipmaking materials, by type and region.
@@ -1879,6 +2031,16 @@
 **Related:** Semiconductor materials
 
 **Sources:** [SRC-0021](https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports) [SRC-0602](https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf)
+
+### Mead-Conway design methodology
+
+**In plain words:** A simple, standard set of rules (published around 1979-80) that let people design chips without knowing every detail of the factory that would make them.
+
+**Technically:** Structured VLSI system-design methodology and scalable layout design rules developed by Carver Mead (Caltech) and Lynn Conway (Xerox PARC), published as 'Introduction to VLSI Systems' (Addison-Wesley, 1979/1980); simplified the interface between design and fabrication and underpinned multi-project chip services (MPC79, MOSIS).
+
+**Related:** Design rules, Multi-project wafer, Fabless
+
+**Sources:** [SRC-1025](https://nap.nationalacademies.org/read/6323/chapter/6) [SRC-1021](https://computerhistory.org/siliconengine/computer-aided-design-tools-developed-for-ics) [SRC-1026](https://ai.eecs.umich.edu/people/conway/Impact/Impact.html)
 
 ### Memflation
 
@@ -2066,6 +2228,16 @@
 
 **Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf) [SRC-0235](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025)
 
+### Non-memory IDM
+
+**In plain words:** A company that designs and makes its own chips in its own factories, but does not make memory chips (for example Texas Instruments, Infineon, Intel).
+
+**Technically:** Integrated device manufacturer whose products exclude DRAM/NAND; its in-house wafer manufacturing is counted in TSMC's and Counterpoint's Foundry 2.0 totals but not in pure-foundry rankings.
+
+**Related:** IDM, Foundry 2.0
+
+**Sources:** [SRC-0990](https://counterpointresearch.com/en/insights/Global-Foundry-2.0-Market-Climb-to-a-Record-320-Billion-in-Revenues-in-2025) [SRC-0999](https://investor.tsmc.com/sites/ir/annual-report/2024/2024%20Annual%20Report_E.pdf)
+
 ### Non-recurring engineering (NRE)
 
 **In plain words:** One-time fees a customer pays for designing a custom chip.
@@ -2184,6 +2356,14 @@
 
 **Sources:** [SRC-0310](https://www.oig.doc.gov/wp-content/OIGPublications/OIG-25-021-I.pdf) [SRC-0314](https://www.covingtonblogs.com/2025/11/05/u-s-department-of-commerce-opens-new-funding-opportunity-for-semiconductor-rd/)
 
+### Out-of-control action plan (OCAP)
+
+**In plain words:** The checklist engineers follow to fix a machine or process after an alarm.
+
+**Technically:** Defined troubleshooting and disposition steps triggered by an SPC or FDC violation, increasingly run in workflow software.
+
+**Sources:** [SRC-1083](https://appliedsmartfactory.com/semiconductor-blog/quality/spc-and-fdc-violations)
+
 ### Outbound investment rules
 
 **In plain words:** US rules limiting how Americans can invest in Chinese companies in sensitive technologies such as chips.
@@ -2201,6 +2381,14 @@
 **Related:** Point-in-time revenue recognition, Recurring revenue
 
 **Sources:** [SRC-0679](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/R10.htm) [SRC-0678](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/R9.htm) [SRC-0674](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R11.htm)
+
+### Overhead hoist transport (OHT)
+
+**In plain words:** Small vehicles that run on rails on the factory ceiling and lower wafer boxes onto machines.
+
+**Technically:** Ceiling-suspended rail vehicles that carry FOUPs between tools, buffers and stockers across floors and buildings; the core of 300 mm AMHS.
+
+**Sources:** [SRC-1107](https://www.muratec.com/company/division/cfa) [SRC-1105](https://expo.semi.org/india2025/Public/eBooth.aspx?BoothID=643684&IndexInList=67&ListByBooth=true&Nav=False)
 
 ### Overlay
 
@@ -2243,6 +2431,14 @@
 **Related:** Wafer fabrication materials, Package substrate
 
 **Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0021](https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports)
+
+### Part average testing (PAT)
+
+**In plain words:** Throwing out chips that pass the test but behave oddly compared with the rest of their batch, because they are more likely to fail later.
+
+**Technically:** AEC-Q001 statistical outlier screening using robust mean and sigma with static or per-lot/wafer dynamic limits.
+
+**Sources:** [SRC-1077](http://aecouncil.com/Documents/AEC_Q001_Rev_D.pdf)
 
 ### Participant census
 
@@ -2408,6 +2604,14 @@
 
 **Sources:** [SRC-0647](https://www.sec.gov/Archives/edgar/data/319201/000031920125000024/klac-20250630.htm) [SRC-0649](https://d1io3yog0oux5.cloudfront.net/_480bab5adfc62db6ef1206ad85ae8e13/klatencor/db/1117/10585/letter_to_shareholders/KLA+Corporation+Q2CY25+Earnings+Letter+to+Shareholders.pdf)
 
+### Process job / control job
+
+**In plain words:** A factory computer's instructions to a machine: which recipe to run on which wafers (process job), grouped per wafer box (control job).
+
+**Technically:** SEMI E40 process jobs specify the recipe and material; SEMI E94 control jobs group process jobs for one or more carriers; process jobs must exist before the control job that links them.
+
+**Sources:** [SRC-1062](https://store-us.semi.org/products/e04000-semi-e40-specification-for-processing-management) [SRC-1065](https://store-us.semi.org/products/e09400-semi-e94-specification-for-control-job-management) [SRC-1076](https://www.semi.org/sites/semi.org/files/2020-08/AUX013-00-0705.pdf)
+
 ### Process node
 
 **In plain words:** A generation name for a chip manufacturing technology (e.g. '3nm'); smaller usually means newer and denser, but the number is a label, not a measurement.
@@ -2472,6 +2676,14 @@
 
 **Sources:** [SRC-0157](https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion)
 
+### Real-time dispatching (RTD)
+
+**In plain words:** Software that picks which batch of wafers each machine should work on next.
+
+**Technically:** Rule- or optimisation-based selection of the next lot for a tool, triggered by machine events, part of or linked to the MES.
+
+**Sources:** [SRC-1091](https://www.samsungsds.com/en/mes/nexplant-mes.html) [SRC-0190](https://www.siemens.com/en-us/products/opcenter/execution/semiconductor/) [SRC-1109](https://www1.hkexnews.hk/app/sehk/2026/108262/a130703/sehk26030203578.pdf)
+
 ### Recapture (48D)
 
 **In plain words:** Having to pay back a tax credit already received because the company broke a condition within a set number of years.
@@ -2481,6 +2693,14 @@
 **Related:** Expansion clawback, Advanced manufacturing investment credit
 
 **Sources:** [SRC-0318](https://www.govinfo.gov/content/pkg/FR-2024-10-23/html/2024-23857.htm)
+
+### Recipe management system (RMS)
+
+**In plain words:** A central library that stores and controls the exact settings each machine uses.
+
+**Technically:** Software that centralises, validates and version-controls equipment recipes across tools and fabs.
+
+**Sources:** [SRC-0190](https://www.siemens.com/en-us/products/opcenter/execution/semiconductor/)
 
 ### Recurring revenue
 
@@ -2550,6 +2770,14 @@
 
 **Sources:** [SRC-0168](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) [SRC-0534](https://pr.tsmc.com/english/news/3302)
 
+### RITdb
+
+**In plain words:** A newer standard for chip test data that can be streamed live instead of waiting for files.
+
+**Technically:** SEMI E183 Rich Interactive Test Database: relational container (superset of STDF content) plus MQTT publish-subscribe streaming with provenance metadata.
+
+**Sources:** [SRC-1069](https://store-us.semi.org/products/e18300-semi-e183-specification-for-rich-interactive-test-database-ritdb) [SRC-1072](https://semi.org/en/blogs/semi-news/modernizing-ic-test-using-semi-ritdb-standards)
+
 ### Royalty
 
 **In plain words:** A small payment made for each chip or device sold that uses someone else's technology.
@@ -2590,6 +2818,14 @@
 
 **Sources:** [SRC-0179](https://news.synopsys.com/2018-03-19-Synopsys-Introduces-Breakthrough-Fusion-Technology-to-Transform-the-RTL-to-GDSII-Flow)
 
+### Run-to-run control (R2R)
+
+**In plain words:** Automatically tweaking a machine recipe after each batch based on how the last batch measured, so results stay on target.
+
+**Technically:** A form of advanced process control in which metrology after a step feeds a model that adjusts recipe parameters for the next lot or wafer (feedback) or downstream steps (feedforward).
+
+**Sources:** [SRC-1084](https://appliedmaterials.com/en-il/automation-software/e3-run-to-run-control-r2r) [SRC-1062](https://store-us.semi.org/products/e04000-semi-e40-specification-for-processing-management)
+
 ### S-1 method (Japan IPO)
 
 **In plain words:** A Japanese IPO route that lets a company file its offering document before the exchange approves the listing, to sound out investors earlier.
@@ -2599,6 +2835,16 @@
 **Related:** EDINET
 
 **Sources:** [SRC-0778](https://www.amt-law.com/asset/pdf/bulletins10_pdf/241220.pdf)
+
+### Scaled pure-play foundry
+
+**In plain words:** A large contract chipmaker (over US$3 billion a year) that only makes chips designed by others.
+
+**Technically:** GlobalFoundries' 20-F term: a company that focuses on producing ICs for other companies, rather than of its own design, with more than US$3bn of annual foundry revenue (TSMC, SMIC, UMC, GF in 2025).
+
+**Related:** Pure-play foundry, Foundry
+
+**Sources:** [SRC-0094](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm)
 
 ### Scanner
 
@@ -2653,6 +2899,14 @@
 **Technically:** Semiconductor Manufacturing Technology consortium formed August 1987 with anticipated federal support of $100m/year.
 
 **Sources:** [SRC-0048](https://www.gao.gov/assets/rced-92-283.pdf)
+
+### SEMI E10 equipment states
+
+**In plain words:** A standard way to say whether a machine is producing, idle, being repaired, etc., so everyone measures uptime the same way.
+
+**Technically:** Six mutually exclusive states (productive, standby, engineering, scheduled downtime, unscheduled downtime, non-scheduled) underlying MTBF, MTTR, availability and utilization metrics.
+
+**Sources:** [SRC-1067](https://store-us.semi.org/products/e01000-semi-e10-specification-for-definition-and-measurement-of-equipment-reliability-availability-and-maintainability-ram-and-utilization) [SRC-1075](http://semi.org/en/semi-e10-specification-equipment-reliability-availability-and-maintainability)
 
 ### SEMI P10
 
@@ -2800,6 +3054,16 @@
 
 **Sources:** [SRC-0534](https://pr.tsmc.com/english/news/3302)
 
+### Specialty foundry
+
+**In plain words:** A contract chipmaker that competes on special manufacturing processes (power, high-voltage, radio-frequency, sensors) rather than on the smallest transistors.
+
+**Technically:** Foundry focused on differentiated mature-node platforms (BCD, HV, RF-SOI, SiGe, eNVM, CIS, silicon photonics), e.g. Tower, VIS, Hua Hong, GlobalFoundries.
+
+**Related:** Legacy semiconductor, Foundry
+
+**Sources:** [SRC-1009](https://www.vis.com.tw/en/about) [SRC-1004](https://www.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901618_c.pdf)
+
 ### Spot price (memory)
 
 **In plain words:** The price of memory chips traded day to day between brokers, module makers and distributors outside long contracts; it reacts first when shortages or gluts appear.
@@ -2830,6 +3094,14 @@
 
 **Sources:** [SRC-0785](https://english.sse.com.cn/news/newsrelease/voice/c/c_20250616_10782033.shtml)
 
+### Statistical process control (SPC)
+
+**In plain words:** Watching measurements on charts and raising an alarm when they drift outside normal limits.
+
+**Technically:** Control-chart monitoring of process and metrology parameters; violations stop processing and trigger an out-of-control action plan.
+
+**Sources:** [SRC-1083](https://appliedsmartfactory.com/semiconductor-blog/quality/spc-and-fdc-violations) [SRC-1109](https://www1.hkexnews.hk/app/sehk/2026/108262/a130703/sehk26030203578.pdf)
+
 ### STDF
 
 **In plain words:** A common file format for storing chip test results.
@@ -2859,6 +3131,14 @@
 **Related:** Price protection, Franchised distribution agreement
 
 **Sources:** [SRC-0668](https://www.sec.gov/Archives/edgar/data/827054/000082705425000077/R9.htm)
+
+### Stocker
+
+**In plain words:** A tall automated shelf where wafer boxes wait between production steps.
+
+**Technically:** Automated storage unit for carriers (FOUPs) within the AMHS, sometimes with nitrogen purge; under-track buffers are smaller variants.
+
+**Sources:** [SRC-1105](https://expo.semi.org/india2025/Public/eBooth.aspx?BoothID=643684&IndexInList=67&ListByBooth=true&Nav=False) [SRC-1107](https://www.muratec.com/company/division/cfa)
 
 ### Strategic Customer Agreement
 
@@ -3088,6 +3368,16 @@
 
 **Sources:** [SRC-0674](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R11.htm)
 
+### Upcoming fab capacity
+
+**In plain words:** Factory capacity that has been announced or is being built but is not yet making chips.
+
+**Technically:** OECD: 'planned' (announced, incl. construction starting 5+ years out) plus 'under construction' (being built or equipped), as distinct from 'in-production' (incl. first-silicon runs).
+
+**Related:** Wafer starts per month (WSPM)
+
+**Sources:** [SRC-1114](https://oecd.org/content/dam/oecd/en/publications/reports/2025/12/the-chip-landscape_27ef5d87/02dbd028-en.pdf)
+
 ### Upside sharing
 
 **In plain words:** A promise to hand part of any unexpectedly large profit from a subsidised project back to the government.
@@ -3113,6 +3403,16 @@
 **Technically:** EAR authorisation (15 CFR 748.15) under which approved end users receive eligible items without the supplier obtaining an individual licence; revoked for Samsung, SK hynix and Intel Dalian China fabs effective 31 Dec 2025.
 
 **Sources:** [SRC-0293](https://www.federalregister.gov/documents/full_text/text/2025/09/02/2025-16735.txt) [SRC-0294](https://media.bis.gov/press-release/department-commerce-closes-export-controls-loophole-foreign-owned-semiconductor-fabs-china)
+
+### Value added (semiconductor value chain)
+
+**In plain words:** The part of a chip's final price that each step of the chain creates, after subtracting what that step bought from others; used to say how much of the industry each country 'owns'.
+
+**Technically:** SIA/BCG: revenue-based activity shares (design, EDA/IP, equipment, materials) attributed to company HQ plus capacity-based shares (fab, ATP) attributed to facility location; CSET: segment value add weighted by firm-HQ market shares; OECD: national-accounts value added by producing economy (ICIO).
+
+**Related:** Headquarters vs location attribution, Wafer starts per month (WSPM)
+
+**Sources:** [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) [SRC-0191](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) [SRC-1115](https://oecd.org/content/dam/oecd/en/publications/reports/2023/06/vulnerabilities-in-the-semiconductor-supply-chain_f4de7491/6bed616f-en.pdf)
 
 ### Volume purchase agreement (equipment)
 

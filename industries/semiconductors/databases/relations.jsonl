@@ -355,3 +355,58 @@
 {"claim_ids": ["CLM-2477"], "id": "REL-0355", "object_id": "ENT-0030", "predicate": "sets_standard_for", "subject_id": "ENT-0224"}
 {"claim_ids": ["CLM-2476"], "id": "REL-0356", "object_id": "ENT-0030", "predicate": "sets_standard_for", "subject_id": "ENT-0221"}
 {"claim_ids": ["CLM-2415"], "id": "REL-0357", "notes": "Oct-Nov 2025 Entity List listing of three Arrow China subsidiaries", "object_id": "CO-0076", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-2548", "CLM-2549"], "id": "REL-0358", "notes": "Top-10 foundry revenue ranking", "object_id": "ENT-0012", "predicate": "measures", "subject_id": "ENT-0150"}
+{"claim_ids": ["CLM-2531", "CLM-2543"], "id": "REL-0359", "notes": "Foundry 2.0 tracker and pure-foundry shares", "object_id": "ENT-0012", "predicate": "measures", "subject_id": "ENT-0228"}
+{"claim_ids": ["CLM-2569", "CLM-2570"], "id": "REL-0360", "object_id": "ENT-0012", "predicate": "measures", "subject_id": "ENT-0142"}
+{"claim_ids": ["CLM-2592"], "id": "REL-0361", "notes": "About 81% of ordinary shares", "object_id": "CO-0134", "predicate": "owns", "subject_id": "CO-0140"}
+{"claim_ids": ["CLM-2590"], "id": "REL-0362", "object_id": "CO-0005", "predicate": "competes_with", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2590"], "id": "REL-0363", "object_id": "CO-0133", "predicate": "competes_with", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2590"], "id": "REL-0364", "object_id": "CO-0068", "predicate": "competes_with", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2590"], "id": "REL-0365", "notes": "Samsung's foundry operation services", "object_id": "CO-0008", "predicate": "competes_with", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2590"], "id": "REL-0366", "notes": "Intel's foundry operation services", "object_id": "CO-0029", "predicate": "competes_with", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2572", "CLM-2590"], "id": "REL-0367", "object_id": "ENT-0013", "predicate": "part_of", "subject_id": "CO-0133"}
+{"claim_ids": ["CLM-2589", "CLM-2572"], "id": "REL-0368", "object_id": "ENT-0013", "predicate": "part_of", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2579"], "id": "REL-0369", "object_id": "ENT-0013", "predicate": "part_of", "subject_id": "CO-0135"}
+{"claim_ids": ["CLM-2586"], "id": "REL-0370", "notes": "2023 300mm capacity agreement at Intel New Mexico; Intel signalled non-performance, in mediation", "object_id": "CO-0029", "predicate": "partners_with", "subject_id": "CO-0136"}
+{"claim_ids": ["CLM-2646", "CLM-2652", "CLM-2647"], "id": "REL-0371", "notes": "Historical: dedicated foundries removed the need for chip start-ups to fund their own fabs.", "object_id": "ENT-0004", "predicate": "enables", "subject_id": "ENT-0013"}
+{"claim_ids": ["CLM-2681", "CLM-2683"], "id": "REL-0372", "notes": "DARPA contracts to USC/ISI from 1981; NSF administered from 1982.", "object_id": "ENT-0233", "predicate": "subsidizes", "subject_id": "ENT-0234"}
+{"claim_ids": ["CLM-2683", "CLM-2679"], "id": "REL-0373", "notes": "MOSIS pooled designs onto runs at 7 foundries and 13 mask houses (1987).", "object_id": "ENT-0012", "predicate": "buys_from", "subject_id": "ENT-0233"}
+{"claim_ids": ["CLM-2719"], "id": "REL-0374", "notes": "AMD contributed fabs to GF for GF securities (2009).", "object_id": "CO-0134", "predicate": "invests_in", "subject_id": "CO-0002"}
+{"claim_ids": ["CLM-2722"], "id": "REL-0375", "notes": "Wafer Supply Agreement from March 2009.", "object_id": "CO-0134", "predicate": "buys_from", "subject_id": "CO-0002"}
+{"claim_ids": ["CLM-2665"], "id": "REL-0376", "object_id": "CO-0005", "predicate": "buys_from", "subject_id": "CO-0142"}
+{"claim_ids": ["CLM-2664", "CLM-2665"], "id": "REL-0377", "object_id": "CO-0133", "predicate": "buys_from", "subject_id": "CO-0142"}
+{"claim_ids": ["CLM-2666"], "id": "REL-0378", "object_id": "CO-0133", "predicate": "buys_from", "subject_id": "CO-0143"}
+{"claim_ids": ["CLM-2666"], "id": "REL-0379", "object_id": "CO-0141", "predicate": "buys_from", "subject_id": "CO-0143"}
+{"claim_ids": ["CLM-2717", "CLM-2715"], "id": "REL-0380", "notes": "Buffer foundry use; from 2007 joint process development with foundry partners.", "object_id": "CO-0005", "predicate": "buys_from", "subject_id": "CO-0125"}
+{"claim_ids": ["CLM-2718"], "id": "REL-0381", "object_id": "ENT-0012", "predicate": "buys_from", "subject_id": "CO-0131"}
+{"claim_ids": ["CLM-2713"], "id": "REL-0382", "object_id": "ENT-0015", "predicate": "buys_from", "subject_id": "CO-0148"}
+{"claim_ids": ["CLM-2714"], "id": "REL-0383", "notes": "Asset purchase of the Gresham fab, 2006.", "object_id": "CO-0148", "predicate": "buys_from", "subject_id": "CO-0129"}
+{"claim_ids": ["CLM-2724", "CLM-2723"], "id": "REL-0384", "notes": "Combined in 2010 under common ATIC/Mubadala ownership.", "object_id": "CO-0141", "predicate": "owns", "subject_id": "CO-0134"}
+{"claim_ids": ["CLM-2704", "CLM-2713"], "id": "REL-0385", "object_id": "ENT-0004", "predicate": "provides_service_to", "subject_id": "ENT-0015"}
+{"claim_ids": ["CLM-2792"], "id": "REL-0386", "object_id": "CO-0153", "predicate": "owns", "subject_id": "CO-0032"}
+{"claim_ids": ["CLM-2804"], "id": "REL-0387", "object_id": "CO-0150", "predicate": "competes_with", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-2801", "CLM-2804"], "id": "REL-0388", "object_id": "CO-0150", "predicate": "competes_with", "subject_id": "CO-0151"}
+{"claim_ids": ["CLM-2804"], "id": "REL-0389", "object_id": "CO-0150", "predicate": "competes_with", "subject_id": "CO-0060"}
+{"claim_ids": ["CLM-2804"], "id": "REL-0390", "object_id": "CO-0150", "predicate": "competes_with", "subject_id": "CO-0145"}
+{"claim_ids": ["CLM-2804"], "id": "REL-0391", "object_id": "CO-0150", "predicate": "competes_with", "subject_id": "CO-0152"}
+{"claim_ids": ["CLM-2819"], "id": "REL-0392", "object_id": "CO-0150", "predicate": "invests_in", "subject_id": "CO-0061"}
+{"claim_ids": ["CLM-2819", "CLM-2768"], "id": "REL-0393", "object_id": "CO-0150", "predicate": "partners_with", "subject_id": "CO-0061"}
+{"claim_ids": ["CLM-2809", "CLM-2812"], "id": "REL-0394", "object_id": "ENT-0252", "predicate": "produces", "subject_id": "CO-0150"}
+{"claim_ids": ["CLM-2803"], "id": "REL-0395", "object_id": "ENT-0084", "predicate": "produces", "subject_id": "CO-0150"}
+{"claim_ids": ["CLM-2814", "CLM-2815"], "id": "REL-0396", "object_id": "ENT-0251", "predicate": "produces", "subject_id": "CO-0150"}
+{"claim_ids": ["CLM-2776", "CLM-2779"], "id": "REL-0397", "object_id": "ENT-0083", "predicate": "produces", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-2781", "CLM-2777"], "id": "REL-0398", "object_id": "ENT-0249", "predicate": "produces", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-2789", "CLM-2790"], "id": "REL-0399", "object_id": "ENT-0083", "predicate": "produces", "subject_id": "CO-0152"}
+{"claim_ids": ["CLM-2794"], "id": "REL-0400", "object_id": "ENT-0083", "predicate": "produces", "subject_id": "CO-0153"}
+{"claim_ids": ["CLM-2797"], "id": "REL-0401", "object_id": "ENT-0084", "predicate": "produces", "subject_id": "CO-0156"}
+{"claim_ids": ["CLM-2799"], "id": "REL-0402", "object_id": "ENT-0251", "predicate": "produces", "subject_id": "CO-0145"}
+{"claim_ids": ["CLM-2800"], "id": "REL-0403", "object_id": "ENT-0251", "predicate": "produces", "subject_id": "CO-0151"}
+{"claim_ids": ["CLM-2802"], "id": "REL-0404", "object_id": "ENT-0251", "predicate": "produces", "subject_id": "CO-0060"}
+{"claim_ids": ["CLM-2835", "CLM-2836"], "id": "REL-0405", "object_id": "ENT-0247", "predicate": "produces", "subject_id": "CO-0154"}
+{"claim_ids": ["CLM-2846", "CLM-2845"], "id": "REL-0406", "object_id": "ENT-0247", "predicate": "produces", "subject_id": "CO-0155"}
+{"claim_ids": ["CLM-2848"], "id": "REL-0407", "notes": "Founding member of the SATAS research association.", "object_id": "ENT-0255", "predicate": "partners_with", "subject_id": "CO-0154"}
+{"claim_ids": ["CLM-2826", "CLM-2857"], "id": "REL-0408", "notes": "Applied identified as 'Company A' by inference only.", "object_id": "CO-0035", "predicate": "competes_with", "subject_id": "CO-0157"}
+{"claim_ids": ["CLM-2818"], "id": "REL-0409", "object_id": "CO-0150", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-2808", "CLM-2750", "CLM-2754"], "id": "REL-0410", "notes": "SEMI equipment-communication standards that fab software and connectivity vendors implement.", "object_id": "ENT-0027", "predicate": "sets_standard_for", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-2796"], "id": "REL-0411", "notes": "MES/dispatcher sends lot-transfer requests to material control.", "object_id": "ENT-0248", "predicate": "sends_information_to", "subject_id": "ENT-0083"}
+{"claim_ids": ["CLM-2762", "CLM-2755"], "id": "REL-0412", "object_id": "ENT-0084", "predicate": "enables", "subject_id": "ENT-0242"}

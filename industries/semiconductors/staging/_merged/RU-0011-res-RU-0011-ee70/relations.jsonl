@@ -1,0 +1,15 @@
+{"subject_id": "ENT-0013", "predicate": "enables", "object_id": "ENT-0004", "claim_ids": ["@chang_capital", "@chm_chang", "@chang_timeline"], "notes": "Historical: dedicated foundries removed the need for chip start-ups to fund their own fabs."}
+{"subject_id": "@darpa", "predicate": "subsidizes", "object_id": "@mosis", "claim_ids": ["@nap_access", "@mosis1987"], "notes": "DARPA contracts to USC/ISI from 1981; NSF administered from 1982."}
+{"subject_id": "@mosis", "predicate": "buys_from", "object_id": "ENT-0012", "claim_ids": ["@mosis1987", "@nap_mosis"], "notes": "MOSIS pooled designs onto runs at 7 foundries and 13 mask houses (1987)."}
+{"subject_id": "CO-0002", "predicate": "invests_in", "object_id": "@gf", "claim_ids": ["@amd_contrib"], "notes": "AMD contributed fabs to GF for GF securities (2009)."}
+{"subject_id": "CO-0002", "predicate": "buys_from", "object_id": "@gf", "claim_ids": ["@amd_wsa"], "notes": "Wafer Supply Agreement from March 2009."}
+{"subject_id": "@xlnx", "predicate": "buys_from", "object_id": "CO-0005", "claim_ids": ["@xlnx18"]}
+{"subject_id": "@xlnx", "predicate": "buys_from", "object_id": "@umc", "claim_ids": ["@xlnx08", "@xlnx18"]}
+{"subject_id": "@lscc", "predicate": "buys_from", "object_id": "@umc", "claim_ids": ["@lscc07"]}
+{"subject_id": "@lscc", "predicate": "buys_from", "object_id": "@chrt", "claim_ids": ["@lscc07"]}
+{"subject_id": "@ti", "predicate": "buys_from", "object_id": "CO-0005", "claim_ids": ["@edn_ti", "@ti_2007"], "notes": "Buffer foundry use; from 2007 joint process development with foundry partners."}
+{"subject_id": "@ifx", "predicate": "buys_from", "object_id": "ENT-0012", "claim_ids": ["@ifx_fablight"]}
+{"subject_id": "@lsi", "predicate": "buys_from", "object_id": "ENT-0015", "claim_ids": ["@lsi_why"]}
+{"subject_id": "@onsemi", "predicate": "buys_from", "object_id": "@lsi", "claim_ids": ["@on_gresham"], "notes": "Asset purchase of the Gresham fab, 2006."}
+{"subject_id": "@gf", "predicate": "owns", "object_id": "@chrt", "claim_ids": ["@gf_hist", "@amd_chrt"], "notes": "Combined in 2010 under common ATIC/Mubadala ownership."}
+{"subject_id": "ENT-0015", "predicate": "provides_service_to", "object_id": "ENT-0004", "claim_ids": ["@amk98_capex", "@lsi_why"]}

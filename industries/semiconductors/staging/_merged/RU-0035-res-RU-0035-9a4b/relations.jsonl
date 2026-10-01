@@ -1,0 +1,27 @@
+{"subject_id": "CO-0032", "predicate": "owns", "object_id": "@cm", "claim_ids": ["@c_cm_asmpt"]}
+{"subject_id": "CO-0035", "predicate": "competes_with", "object_id": "@pdfs", "claim_ids": ["@c_pdf_comp"]}
+{"subject_id": "@onto", "predicate": "competes_with", "object_id": "@pdfs", "claim_ids": ["@c_onto_comp", "@c_pdf_comp"]}
+{"subject_id": "CO-0060", "predicate": "competes_with", "object_id": "@pdfs", "claim_ids": ["@c_pdf_comp"]}
+{"subject_id": "@snps", "predicate": "competes_with", "object_id": "@pdfs", "claim_ids": ["@c_pdf_comp"]}
+{"subject_id": "@siemens", "predicate": "competes_with", "object_id": "@pdfs", "claim_ids": ["@c_pdf_comp"]}
+{"subject_id": "CO-0061", "predicate": "invests_in", "object_id": "@pdfs", "claim_ids": ["@c_pdf_adv"]}
+{"subject_id": "CO-0061", "predicate": "partners_with", "object_id": "@pdfs", "claim_ids": ["@c_pdf_adv", "@c_adv_partners"]}
+{"subject_id": "@pdfs", "predicate": "produces", "object_id": "@ent_securewise", "claim_ids": ["@c_pdf_sw_acq", "@c_pdf_sw_flow"]}
+{"subject_id": "@pdfs", "predicate": "produces", "object_id": "ENT-0084", "claim_ids": ["@c_pdf_fdc"]}
+{"subject_id": "@pdfs", "predicate": "produces", "object_id": "@ent_yms", "claim_ids": ["@c_pdf_20k", "@c_pdf_ecid"]}
+{"subject_id": "CO-0035", "predicate": "produces", "object_id": "ENT-0083", "claim_ids": ["@c_consilium", "@c_300works"]}
+{"subject_id": "CO-0035", "predicate": "produces", "object_id": "@ent_apc", "claim_ids": ["@c_r2r", "@c_brooks"]}
+{"subject_id": "@siemens", "predicate": "produces", "object_id": "ENT-0083", "claim_ids": ["@c_camstar", "@c_opc_recipe"]}
+{"subject_id": "@cm", "predicate": "produces", "object_id": "ENT-0083", "claim_ids": ["@c_cm_black"]}
+{"subject_id": "@inficon", "predicate": "produces", "object_id": "ENT-0084", "claim_ids": ["@c_fabguard"]}
+{"subject_id": "@snps", "predicate": "produces", "object_id": "@ent_yms", "claim_ids": ["@c_ye"]}
+{"subject_id": "@onto", "predicate": "produces", "object_id": "@ent_yms", "claim_ids": ["@c_onto_disc"]}
+{"subject_id": "CO-0060", "predicate": "produces", "object_id": "@ent_yms", "claim_ids": ["@c_kla_sw"]}
+{"subject_id": "@daifuku", "predicate": "produces", "object_id": "@ent_amhs", "claim_ids": ["@c_dfk_amhs", "@c_dfk_prod"]}
+{"subject_id": "@murata", "predicate": "produces", "object_id": "@ent_amhs", "claim_ids": ["@c_mura_oht", "@c_mura_cfa"]}
+{"subject_id": "@daifuku", "predicate": "partners_with", "object_id": "@ent_satas", "claim_ids": ["@c_satas"], "notes": "Founding member of the SATAS research association."}
+{"subject_id": "@glory", "predicate": "competes_with", "object_id": "CO-0035", "claim_ids": ["@c_gly_top5", "@i_amat_A"], "notes": "Applied identified as 'Company A' by inference only."}
+{"subject_id": "ENT-0108", "predicate": "restricts", "object_id": "@pdfs", "claim_ids": ["@c_pdf_bis"]}
+{"subject_id": "ENT-0130", "predicate": "sets_standard_for", "object_id": "ENT-0027", "claim_ids": ["@c_pdf_cimstd", "@c_gem300suite", "@c_eda_suite"], "notes": "SEMI equipment-communication standards that fab software and connectivity vendors implement."}
+{"subject_id": "ENT-0083", "predicate": "sends_information_to", "object_id": "@ent_mcs", "claim_ids": ["@c_sds_flow"], "notes": "MES/dispatcher sends lot-transfer requests to material control."}
+{"subject_id": "@ent_ifa", "predicate": "enables", "object_id": "ENT-0084", "claim_ids": ["@c_eda_uses", "@c_eda_multi"]}

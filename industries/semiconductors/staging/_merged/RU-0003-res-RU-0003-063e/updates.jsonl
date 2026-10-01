@@ -1,0 +1,3 @@
+{"id": "CO-0005", "set": {"metric_claim_ids": ["CLM-0069", "@tsmc_sh25", "@tsmc_sh24", "@tsmc_adv24"]}}
+{"id": "CO-0068", "set": {"metric_claim_ids": ["@smic_rev", "@smic_cap", "@smic_reg"]}}
+{"id": "TRM-0020", "set": {"technical_definition": "All logic wafer manufacturing (incl. non-memory IDMs) plus packaging, testing, mask-making and others. TSMC: ~US$250bn in 2023 (vs US$115bn old definition), ~US$305bn in 2025; Counterpoint's version (adds photomask suppliers explicitly): US$320bn in 2025."}}

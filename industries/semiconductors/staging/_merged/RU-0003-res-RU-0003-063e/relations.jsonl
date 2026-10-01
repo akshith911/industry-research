@@ -1,0 +1,13 @@
+{"subject_id": "ENT-0150", "predicate": "measures", "object_id": "ENT-0012", "claim_ids": ["@tf_2025", "@tf_2025sh"], "notes": "Top-10 foundry revenue ranking"}
+{"subject_id": "@counterpoint", "predicate": "measures", "object_id": "ENT-0012", "claim_ids": ["@cp_320", "@cp_pure2q26"], "notes": "Foundry 2.0 tracker and pure-foundry shares"}
+{"subject_id": "ENT-0142", "predicate": "measures", "object_id": "ENT-0012", "claim_ids": ["@ti_2024", "@ti_2023"]}
+{"subject_id": "@mubadala", "predicate": "owns", "object_id": "@gf_co", "claim_ids": ["@gf_mub"], "notes": "About 81% of ordinary shares"}
+{"subject_id": "@gf_co", "predicate": "competes_with", "object_id": "CO-0005", "claim_ids": ["@gf_comp"]}
+{"subject_id": "@gf_co", "predicate": "competes_with", "object_id": "@umc_co", "claim_ids": ["@gf_comp"]}
+{"subject_id": "@gf_co", "predicate": "competes_with", "object_id": "CO-0068", "claim_ids": ["@gf_comp"]}
+{"subject_id": "@gf_co", "predicate": "competes_with", "object_id": "CO-0008", "claim_ids": ["@gf_comp"], "notes": "Samsung's foundry operation services"}
+{"subject_id": "@gf_co", "predicate": "competes_with", "object_id": "CO-0029", "claim_ids": ["@gf_comp"], "notes": "Intel's foundry operation services"}
+{"subject_id": "@umc_co", "predicate": "part_of", "object_id": "ENT-0013", "claim_ids": ["@ti_big4", "@gf_comp"]}
+{"subject_id": "@gf_co", "predicate": "part_of", "object_id": "ENT-0013", "claim_ids": ["@gf_scaled", "@ti_big4"]}
+{"subject_id": "@hh_co", "predicate": "part_of", "object_id": "ENT-0013", "claim_ids": ["@hh_pure"]}
+{"subject_id": "@tower_co", "predicate": "partners_with", "object_id": "CO-0029", "claim_ids": ["@tower_intel"], "notes": "2023 300mm capacity agreement at Intel New Mexico; Intel signalled non-performance, in mediation"}

@@ -22,6 +22,18 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0045 | How many EUV optical columns and drive-laser systems can be built per year today, what limits ramp, and is a second drive-laser source qualified? | These set the ceiling on EUV scanner output; ASML states Zeiss capacity limits its production. | Supplier capacity statements, capex disclosures tied to unit capacity. | open |
 
+## Interview guide: Applied Materials AGS finance
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0069 | What was global fab-software revenue in 2025 and how was it split by vendor and module? | Needed to size the market and judge concentration; public data exists only for China. | Analyst dataset with methodology or vendor segment disclosures | open |
+
+## Interview guide: BCG semiconductor practice authors of the 2021 and 2024 SIA/BCG reports
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0073 | Were the Exhibit 14 'Overall' shares computed from the printed activity rows and weights, and were the 2022 activity weights re-estimated or carried over from 2019? | It decides whether Korea's value-added share really fell from 16% to 12% between 2019 and 2022. | BCG's underlying value-added table by activity and region for 2019 and 2022. | open |
+
 ## Interview guide: Besi, ASMPT or Hanmi sales/IR staff
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -34,6 +46,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0029 | How much CHIPS direct funding has your company actually received to date, against which milestones, and are any disbursement requests pending? | Only the US$6bn total to July 2025 is public; without per-company payments the true public share of each fab's cost cannot be computed. | USAspending.gov outlays by award, company 10-K/20-F government-grant notes split by jurisdiction, or a future GAO report | open |
 
+## Interview guide: CIM/factory-automation directors at TSMC, Samsung, Intel, Micron, SK hynix, GlobalFoundries
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0068 | Which parts of your CIM stack (MES, dispatching, MCS, EAP, FDC, APC, SPC, YMS) are commercial products versus built in-house, and why? | Determines the addressable market for fab-software vendors and how locked-in each fab is. | Named fab-by-fab breakdown or survey of CIM architecture | open |
+
 ## Interview guide: Commerce Investment Accelerator officials
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -45,6 +63,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0036 | Roughly what percentage of DRAM bits shipped industry-wide go through the spot/channel market versus contracts, and has that changed since the 2025-26 shortage? | The only public figure (80-90% contract) dates from 2002; spot prices are widely quoted as if representative. | Analyst estimate with method, or supplier disclosure | open |
+
+## Interview guide: Daifuku Cleanroom and Murata Clean FA sales management
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0070 | What share of new 300 mm fab AMHS orders did each supplier win in 2024-2025, and what are typical lead times and costs per fab? | AMHS is a two-supplier chokepoint for fab construction; shares and lead times matter for new fabs. | Order-level data or supplier disclosure of share | open |
 
 ## Interview guide: ECIA/DMASS analysts
 
@@ -112,6 +136,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0037 | Of the US$22bn in deposits and commitments Micron cited, how much cash had been received by fiscal year-end and where is it recorded on the balance sheet? | Prepayments move working capital from buyers to memory makers and signal how binding the commitments are. | Micron FY2026 10-K contract-liabilities note | open |
 
+## Interview guide: OSAT market-research analyst (TechSearch International, Prismark, Yole)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0066 | Do you have a consistent series of the outsourced share of total assembly and test (by value or units) for 1985, 1995, 2005 and 2015, and how was it estimated? | Needed to date when the back end became mostly outsourced; the only public datapoint is 'more than 20%' around 1998. | Analyst time series with methodology, or archived Dataquest/Gartner reports | open |
+
 ## Interview guide: OSAT sales director
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -135,6 +165,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0049 | What were WWSEMS billings by segment (wafer processing, other front-end, test, assembly & packaging) each year 2015-2025? | Needed for a segment-size time series; only growth rates are public. | WWSEMS annual tables or EMDS sample report | open |
+
+## Interview guide: Samsung Foundry or System LSI finance/IR staff
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0065 | Roughly what share of Samsung Foundry's wafer revenue is internal (System LSI), and are internal transfers priced at market rates? | Samsung's foundry share ranges from ~6% to ~18% depending on whether internal logic is counted; Samsung does not disclose Foundry revenue. | Samsung DART business report segment notes or management disclosure | open |
 
 ## Interview guide: TSMC advanced packaging planners
 
@@ -203,6 +239,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0003 | Since 2022, has your company changed target inventory days for semiconductors, signed direct capacity agreements with foundries, or redesigned to multi-source chips? What remains in place today? | Determines whether the shortage was a one-off or a structural shift in who holds inventory and bargaining power. | Multiple practitioners describing current contract structures and inventory targets, ideally corroborated by company filings. | open |
 
+## Interview guide: early TSMC or UMC sales/account executive
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0067 | In TSMC's and UMC's first years, were wafers priced per wafer or per good die, were there capacity-reservation deposits, and what did IDMs require before trusting a dedicated foundry? | Explains how TSMC/UMC won IDM and fabless trust and whether capacity reservations or prepayments existed before the 2000s. | Contemporary contracts, S-1/prospectus exhibits, or first-hand recollections | open |
+
 ## Interview guide: executives of Chinese listed distributors
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -233,6 +275,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0046 | At 175-220 wph and current uptime, at what layer count or pitch does a single High-NA exposure become cheaper than 0.33 NA double patterning? | TSMC says cost is the only reason it defers High-NA; adoption pace hinges on this crossover. | Cost-of-ownership models presented at SPIE Advanced Lithography or by chipmakers. | open |
 
+## Interview guide: fab data-platform / big-data engineering leads
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0071 | How many terabytes per day does one of your 300 mm fabs generate (sensor traces, metrology, defect images, test) and how long is each type kept? | Drives storage/analytics architecture and cost; only vendor generalities are public. | Measured volumes by data type from a named fab | open |
+
 ## Interview guide: fab finance controllers at TSMC, Samsung, Intel, Micron, GlobalFoundries
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -256,6 +304,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0047 | For your top three chemical and gas categories, are they bought on consignment or VMI, under how long a contract, and is pricing indexed or fixed? | Decides switching costs, supplier pricing power and who holds inventory; no filing describes the fab side. | Consistent descriptions from two or more fabs or suppliers | open |
+
+## Interview guide: fab shift managers and process engineers
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0072 | Which recurring tasks (OCAP execution, recipe changes, lot disposition, test-program changes, data pulls) are still done by hand in your fab or test floor, and how long do they take? | Manual steps are where errors, scrap and automation opportunities sit. | Time-and-motion or incident data from operators | open |
 
 ## Interview guide: fabless product/yield engineering manager
 

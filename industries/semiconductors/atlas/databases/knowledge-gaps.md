@@ -106,6 +106,22 @@
 | CLM-2485 | Gartner publishes a paywalled 'Market Share: Semiconductor Distributors, Worldwide' report; its figures could not be read and are not used. | RU-0043 |
 | CLM-2486 | Infineon's numeric share of revenue through distribution could not be established: its FY2025 investor deck shows a channel pie chart without percentage labels, and the annual report gives no split. | RU-0043 |
 | CLM-2487 | Renesas does not disclose the share of its revenue sold through authorized sales agents/distributors in its 2025 financial report. | RU-0043 |
+| CLM-2595 | Samsung Foundry's own revenue is not given as a figure in Samsung's 4Q25 earnings release or presentation text: System LSI and Foundry are reported together as 'Non-Memory' inside the DS division, so the Samsung Foundry revenues in TrendForce and Counterpoint rankings are analyst estimates. | RU-0003 |
+| CLM-2607 | Publicly available evidence is insufficient to give foundry revenue shares by node band (leading-edge, 7-16nm, 28nm and above) across the whole industry; only company-level node mixes (TSMC, UMC) and TrendForce capacity shares by region are public. | RU-0003 |
+| CLM-2608 | Gartner's 2024 foundry-services total could not be verified: the 'Market Share: Semiconductor Foundry, Worldwide, 2024' page is behind a bot check, and only a search-engine snippet was seen. | RU-0003 |
+| CLM-2609 | No single public source gives a consistent annual foundry-market series for 2020-2025: TrendForce publishes quarterly top-10 totals plus some annual totals (2023, 2024, 2025), TSMC's own old-definition series stops in 2023, and TechInsights and IDC publish only scattered annual points. | RU-0003 |
+| CLM-2610 | Whether Counterpoint's Foundry 2.0 total removes double counting (e.g. OSAT packaging bought by IDMs, or masks bought by foundries) is not disclosed in its public releases. | RU-0003 |
+| CLM-2732 | Unknown: no public time series of fabless companies' share of semiconductor or IC sales before 1997 (1984-1996) was found. | RU-0011 |
+| CLM-2733 | Unknown: no consistent public series of the outsourced (OSAT) share of total semiconductor assembly and test by year was found; the only historical datapoint found is 'more than 20%' around 1998 (Amkor annual report citing unnamed analysts). | RU-0011 |
+| CLM-2734 | Unknown: the size of the pure-play foundry market before 2000 (1987-1999) was not established from a public source. | RU-0011 |
+| CLM-2735 | Unknown: the founding member list of the Fabless Semiconductor Association (1994) and its first chair could not be established from a primary source; only the count (40 companies) was found. | RU-0011 |
+| CLM-2736 | Unknown: primary-source founding dates and early revenues of Daisy Systems and Valid Logic (the 'DMV' generation of EDA, early 1980s) were not established; only tier-3 encyclopedia entries were found. | RU-0011 |
+| CLM-2852 | Publicly available evidence is insufficient to establish the global market size or vendor shares for semiconductor fab software (MES, FDC/APC, SPC, yield management) as a whole; the only primary sizing found is Frost & Sullivan's China-only estimate. | RU-0035 |
+| CLM-2853 | Publicly available evidence is insufficient to establish what share of fabs run in-house versus vendor MES, FDC and yield systems; sources only show that in-house tools exist (PDF Solutions names internal groups as indirect competition; Applied mentions in-house OCAP tools) and Applied's unsourced claim of >70% of new 300 mm fabs. | RU-0035 |
+| CLM-2854 | Publicly available evidence is insufficient to establish the global AMHS market size or shares of Daifuku, Murata Machinery and other suppliers (e.g. Samsung affiliate SEMES or Chinese entrants); only tier-3 market-research blurbs were found. | RU-0035 |
+| CLM-2855 | Publicly available evidence is insufficient to establish, from a primary source, how much data a single modern fab generates per day; vendors say "terabytes daily" and tier-3 sites quote 5-30 TB/day without method. | RU-0035 |
+| CLM-2856 | No public evidence was found on whether general fab MES, FDC, SPC or yield-management software is specifically listed under a US export-control classification; the identified software controls (ECCN 3D992-3D994) target SME development/production software and lithography-throughput software. | RU-0035 |
+| CLM-2920 | Publicly available evidence is insufficient to establish SIA/BCG regional value-added shares for any year after 2024: SIA's 2026 State of the Industry report has no value-added-by-region exhibit and no newer SIA/BCG supply-chain update was found. | RU-0047 |
 
 ## Open questions from research units
 
@@ -116,6 +132,7 @@
 | RU-0002 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0003 | Foundry business model and transfer pricing are RU-0091; this unit is size and shares. |
 | RU-0006 | Seat and bundle pricing is not public (INT-0009); money side sits in RU-0024 and a business-model unit. |
+| RU-0006 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0053 and of RU-0024, RU-0057, RU-0060, RU-0225. |
 | RU-0007 | Foundry vs OSAT split of advanced packaging is unknown (CLM-0539); RU-0036 covers the advanced side. |
 | RU-0007 | Pricing is in RU-0022 and INT-0008, not here. |
 | RU-0008 | Deep dives by end market sit in separate dynamics units (automotive/industrial, consumer, AI). |
@@ -125,14 +142,19 @@
 | RU-0009 | [from RU-0214] Keep statistical codes (NAICS/HS) out of scope: RU-0009 covers them. |
 | RU-0009 | [from RU-0214] Output: one comparison table of definitions with claim ids, feeding every market-size and regulation unit. |
 | RU-0009 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0009 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 units RU-0118 (labor) and RU-0181 (cycle), and of RU-0027/RU-0177. |
 | RU-0010 | Overlaps RU-0009 (official classifications): this unit decides scope; RU-0009 maps codes. |
+| RU-0010 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0172; the adjacent dimension has no claims and this unit sets atlas scope. |
+| RU-0010 | [gap-W1R2-6ad7] AI data-centre power and grid now have their own unit (new adjacent unit from gap-W1R2-6ad7); keep this unit to boundary products and scope decisions. |
 | RU-0011 | Rising capital intensity and exits from the leading edge are in RU-0116; technology history in RU-0079; pre-2018 policy in RU-0151. |
 | RU-0012 | Current price mechanics and HBM contracting are in RU-0018; keep this unit historical. |
 | RU-0014 | Is there any public source that reports disbursed amounts on a consistent basis across countries? (OECD may be the only one; to verify) |
 | RU-0014 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0014 | [gap-W1R2-6ad7] now depends on RU-0276 (overseas fab P&L) - subsidiary accounts are the only audited evidence of what subsidised new-site fabs earn. |
 | RU-0016 | Overbuild risk is handled in the risks unit on cyclical and demand risk. |
 | RU-0017 | Questions on prepayments and LTA renegotiation moved to new unit 'Foundry capacity reservation, prepayments and shortfall enforcement across the 2021-2024 cycle'. |
 | RU-0017 | Link to INT-0005. |
+| RU-0017 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
 | RU-0018 | Keep historical cycle narrative in RU-0012. |
 | RU-0018 | [from RU-0012] Current price mechanics and HBM contracting are in RU-0018; keep this unit historical. |
 | RU-0018 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
@@ -149,9 +171,14 @@
 | RU-0022 | Link to INT-0008. |
 | RU-0022 | RU-0007/RU-0044 cover structure; this unit covers pricing and economics. |
 | RU-0022 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0022 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0164 and of RU-0074, RU-0099. |
 | RU-0023 | Sample should be reused by the working-capital unit and the wage/labour-cost unit. |
+| RU-0023 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0105 (capital) and of RU-0086, RU-0113, RU-0114, RU-0129, RU-0192. |
+| RU-0023 | [gap-W1R2-6ad7] Fill W1 unknowns: TSMC 2025 R&D expense (CLM-0173, from the FY2025 20-F income statement or MOPS consolidated statements), NVIDIA fiscal 2026 R&D expense (CLM-0195, 10-K), and Kioxia FY2023 results (CLM-1204, Kioxia IR or EDINET securities report) as sample firms. |
+| RU-0023 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
 | RU-0024 | [from RU-0095] Link to INT-0009. |
 | RU-0024 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0024 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 units RU-0099, RU-0150, RU-0222. |
 | RU-0025 | Is the 2020 FDP rule change on Huawei cited correctly (85 FR 51596)? to verify |
 | RU-0025 | Which 2026 BIS rules on semiconductors, if any, were published after the discovery cut-off? |
 | RU-0025 | Absorbs the US part of dropped RU-0013. |
@@ -160,8 +187,10 @@
 | RU-0027 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0027 | Customs classification, rules of origin and the ITA folded in from RU-0136. |
 | RU-0028 | EU dual-use and FDI screening are covered in RU-0137. |
+| RU-0028 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0137 (European export control/Nexperia), which feeds P0 RU-0169 and RU-0200. |
 | RU-0029 | Taiwan's controls moved to a separate Taiwan unit. |
 | RU-0029 | Absorbs the Dutch/Japanese part of dropped RU-0013. |
+| RU-0029 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0168 (export-licence workflow). |
 | RU-0030 | Absorbs the China part of dropped RU-0013. |
 | RU-0030 | Big Fund and domestic-substitution policy are covered in RU-0138; CAC review and procurement levers in RU-0139. |
 | RU-0031 | Korea, Taiwan and India moved to their own units. |
@@ -170,6 +199,8 @@
 | RU-0032 | Conflict minerals and ESG disclosure moved to a separate unit; US fab permitting and water moved to 'US fab siting rules'. |
 | RU-0032 | [from RU-0211] INT-0012 relevant. |
 | RU-0032 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0032 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0212; also holds unknowns CLM-0334/CLM-0335 (F-gas, PFAS). |
+| RU-0033 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0156. |
 | RU-0034 | Operational sequence (design stages, tape-out gates, mask turnaround) is in the new design-to-tape-out and tape-out-to-first-silicon workflow units; keep this unit on information content and access. |
 | RU-0034 | MPW question moved to the tape-out-to-first-silicon workflow. |
 | RU-0035 | Cross-company data sharing moved to the new information-flows unit 'Cross-company yield and quality data exchange'. |
@@ -179,7 +210,9 @@
 | RU-0036 | Pricing belongs to RU-0022. |
 | RU-0037 | Photoresists moved to new unit on lithography materials; masks to the mask-making unit; export-control rules stay in RU-0013/RU-0025/RU-0029. |
 | RU-0038 | Execution risk of transitions is covered by the technology-execution risk unit. |
+| RU-0038 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0073. |
 | RU-0039 | Order-to-delivery workflow and allocation workflow are separate workflow units. |
+| RU-0039 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 units RU-0164, RU-0169, RU-0182, RU-0191. |
 | RU-0040 | Export controls on EDA moved to RU-0025; trade-secret and IP enforcement moved to a separate unit. |
 | RU-0040 | How do contractors trace chip origin through distributors to certify 5949 compliance? (interview) |
 | RU-0041 | Contract terms for consumables are unknown (INT-0019); money-flow depth belongs to a money_flows unit. |
@@ -193,6 +226,8 @@
 | RU-0045 | [from RU-0092] Link to INT-0002 (are captive chips counted in market statistics). |
 | RU-0045 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0045 | [gap-W1-8c3f] W1 findings: WSTS excludes captive chips (CLM-0575) and whether hyperscaler custom chips are captured is unknown (CLM-0727); resolve here. |
+| RU-0045 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 units RU-0221 and RU-0227, and of RU-0060, RU-0084, RU-0112, RU-0190. |
+| RU-0045 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
 | RU-0046 | Logistics and fab construction were split into their own new units. |
 | RU-0046 | prereq: Equipment sub-tier supply base |
 | RU-0047 | Country profiles (new geography units) depend on this unit's definitions. |
@@ -207,6 +242,8 @@
 | RU-0052 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0053 | Contradictions between Chinese broker and Western estimates should be recorded, not resolved by judgment. |
 | RU-0053 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0053 | [gap-W1R2-6ad7] removed dependency RU-0060 (priority inversion): China's domestic IP share can be asked directly; RU-0006 already covers China's domestic EDA. |
+| RU-0053 | [gap-W1R2-6ad7] Resolve CLM-1742 and CLM-1958 where possible: SMEE shipments and domestic shares by tool category from Chinese exchange filings of Piotech, ACM Research (Shanghai), Hwatsing and SMEE's suppliers, plus customs import data. |
 | RU-0054 | INT-0019 asks the same question of practitioners; answers go there if not public. |
 | RU-0054 | [from RU-0170] INT-0019 relevant. |
 | RU-0054 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
@@ -216,28 +253,37 @@
 | RU-0057 | [from RU-0205] Coordinate with supply_chain_concentration units owned by another planner; this unit covers consequences and mitigation only. |
 | RU-0057 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0057 | Scope split (gap-plan-6a1d): reuses RU-0048 definitions; consequences of single-supplier outages folded in from RU-0205. |
+| RU-0057 | [gap-W1R2-6ad7] now depends on RU-0270 (EUV sub-tier single-source status) so the scorecard covers the EUV sub-tier, not just Zeiss/TRUMPF. |
 | RU-0058 | Overlaps RU-0014/RU-0020 on public money; this unit maps roles, not totals. |
 | RU-0058 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0059 | Design-data handoff is RU-0034; custom silicon is RU-0045. |
 | RU-0059 | The 2019-era 'US$1bn per leading SoC' figure (CLM-0413) needs a current source. |
+| RU-0059 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0227 (chip-company enumeration). |
 | RU-0060 | Royalty economics sit in RU-0024. |
 | RU-0060 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0060 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
 | RU-0061 | INT-0015 and INT-0020 remain open for practitioners. |
 | RU-0061 | [from RU-0100] Link to INT-0015, INT-0020. |
 | RU-0061 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0061 | [gap-W1R2-6ad7] Resolve CLM-0428 where possible (published mask-set cost by node from eBeam Initiative surveys, IBS/IEEE papers, foundry MPW price lists); otherwise keep INT-0015/INT-0051. |
 | RU-0062 | RU-0047 reconciles regional shares; this unit supplies units and definitions. |
 | RU-0062 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0063 | Test data flows are in RU-0035. |
+| RU-0063 | [gap-W1R2-6ad7] The ontology type test_insertion has no entities: record wafer sort/probe, final test, burn-in and system-level test as test_insertion entities with relations (part_of the assembly-and-test value-chain stage; tests_for chip types) evidenced by claims. |
 | RU-0064 | Contract terms link to INT-0019. |
+| RU-0064 | [gap-W1R2-6ad7] Resolve CLM-0569: firm-level silicon wafer shares (Shin-Etsu, SUMCO, GlobalWafers, Siltronic, SK Siltron) from company annual reports/IR decks (SUMCO and GlobalWafers publish share charts) rather than press. |
 | RU-0065 | Environmental compliance depth sits in RU-0032. |
 | RU-0066 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0066 | [gap-W1R2-6ad7] Retry METI's chart of Japanese firms' global shares in chip materials (CLM-1865: the 2023 strategy PDF failed to open); try the METI English summary, the 2024/2025 strategy revision, or the Cabinet Office copy. |
 | RU-0068 | Chip buyers' sourcing behaviour (INT-0003) is also relevant to a participants unit. |
 | RU-0068 | [from RU-0233] EMS money path is RU-0085; this unit is who the buyers are and how concentrated. |
 | RU-0068 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0068 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
 | RU-0069 | Equipment post-sale service belongs to RU-0021. |
 | RU-0070 | INT-0021 remains open for practitioners. |
+| RU-0070 | [gap-W1R2-6ad7] priority P2->P1: only owner of the logistics stage, a hidden participant group with no records yet (unknown CLM-0568, INT-0021). |
+| RU-0071 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0163; only unit on EPC contractors and facility-system suppliers (hidden participants). |
+| RU-0071 | [gap-W1R2-6ad7] Resolve CLM-2149/CLM-2147 where possible: fab construction-cost inflation by country 2021-2025 (construction cost indices from national statistics offices; contractor disclosures) and any method-disclosed fab TCO comparison for India or China. |
 | RU-0073 | Marketing claims must be recorded as reported_claim. |
 | RU-0073 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0074 | [from RU-0097] Link to INT-0017. |
@@ -245,23 +291,32 @@
 | RU-0075 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0076 | Israel (Tower) is covered here as a jurisdiction of specialty foundry capacity. |
 | RU-0076 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0076 | [gap-W1R2-6ad7] priority P2->P1: prereq of RU-0225 (durable advantage). |
+| RU-0076 | [gap-W1R2-6ad7] removed dependency RU-0077 (priority inversion after raising this unit to P1): specialty platforms do not need the silicon-photonics unit; cross-reference if it has run. |
 | RU-0078 | RU-0035 covers the data flows; this unit covers the supplier landscape. |
 | RU-0080 | Is value added (SIA/BCG) or revenue the right basis for a money-flow Sankey? Decide and document. |
 | RU-0081 | prereq: Foundry capacity reservation, prepayments and shortfall enforcement across the cycle |
 | RU-0081 | Does any public source quantify IDM outsourced share across the industry, or only company by company? |
 | RU-0082 | Link to INT-0019 (second-source qualification time). |
+| RU-0082 | [gap-W1R2-6ad7] absorbed RU-0271 ('Fab-site gas and chemical services: total gas and chemical management, on-site plants and '): on-site gas plants and take-or-pay contracts are already RU-0082 Q2 and RU-0065 Q4. |
 | RU-0083 | Is the US$27bn NVIDIA cloud commitment for internal R&D compute or resale? (open unknown from money-flows.md) |
 | RU-0084 | Link to INT-0003 and INT-0018. |
 | RU-0084 | Mutual prereq resolved: RU-0172 (OEM/EMS sourcing incl. turnkey vs consigned) depends on this unit. |
 | RU-0085 | prereq: Buyer-to-chipmaker commercial terms |
 | RU-0086 | Choice of representative firms should reuse RU-0023's sample. |
+| RU-0086 | [gap-W1R2-6ad7] absorbed RU-0275 ('Customer prepayments and deposits across the supply chain (foundry, OSAT, equipment, wafer'): cross-tier prepayment balances are RU-0086 Q4 (how much working capital prepayments and deposits move between participants). |
+| RU-0086 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
 | RU-0087 | Link to INT-0006 (typical LTA terms). |
 | RU-0087 | Absorbs question 2-3 of RU-0017 (see its status_note). |
 | RU-0087 | [from RU-0081] Does any public source quantify IDM outsourced share across the industry, or only company by company? |
 | RU-0087 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0087 | [gap-W1R2-6ad7] Resolve CLM-0185: GlobalFoundries' customer prepayment balance at end-2025 (20-F contract-liabilities note; use the SEC EDGAR full-text search or the XBRL financial-data API if the browser is blocked). |
+| RU-0087 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
 | RU-0088 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0089 | Geographic statistics belong to planner owning 'geography'; this unit is about money/profit location only. |
 | RU-0090 | Output should become the business_models section of the atlas and feed a glossary of pricing units. |
+| RU-0091 | [gap-W1R2-6ad7] absorbed RU-0268 ('Intel Foundry advanced packaging as a merchant business: EMIB-T/Foveros customers, capacit'): Intel Foundry external customers and separation are RU-0091; packaging-as-a-merchant-business is one more Intel Foundry question. |
+| RU-0091 | [gap-W1R2-6ad7] INT-0055 is partly desk-resolvable: Intel 10-K describes the internal foundry model (intersegment revenue, pricing basis); record what it says and keep the interview for the method details. |
 | RU-0092 | prereq: Business-model catalogue (planner C) |
 | RU-0092 | Link to INT-0002 (are captive chips counted in market statistics). |
 | RU-0093 | [from RU-0223] Business model of analog IDMs is RU-0093; this unit is market structure only. |
@@ -281,11 +336,13 @@
 | RU-0104 | Link to INT-0005. |
 | RU-0105 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0105 | Mutual prereq resolved (gap-plan-6a1d): RU-0106 (fab pipeline) depends on this unit, not the reverse. |
+| RU-0105 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
 | RU-0106 | A companies/entities output is expected for each project owner. |
 | RU-0106 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0112 | Also provides systematic company discovery for fabless startups by region. |
 | RU-0113 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0114 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0114 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0212. |
 | RU-0116 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0117 | prereq: Fab cost model by node and region |
 | RU-0117 | prereq: Fab project pipeline |
@@ -309,15 +366,21 @@
 | RU-0133 | INT-0010: licence decision times and approval rates |
 | RU-0133 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0135 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0135 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 units RU-0014 and RU-0235. |
 | RU-0137 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0137 | Nexperia owner (gap-plan-6a1d): the legal record of the 2025 Nexperia case (Goods Availability Act order, court measures, China's export ban, suspension) is recorded here; RU-0169, RU-0200, RU-0030 and RU-0052 cite it for allocation, weaponisation, retaliation and legacy-chip angles only. |
+| RU-0137 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 units RU-0169 and RU-0200. |
 | RU-0138 | Estimates of total Chinese support vary widely; plan a contradiction record. |
 | RU-0138 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0138 | [gap-W1R2-6ad7] removed dependency RU-0020 (priority inversion): China state capital does not need the Japan/Korea/Taiwan money unit; cross-country comparison is RU-0014. |
+| RU-0139 | [gap-W1R2-6ad7] absorbed RU-0264 ('China trade remedies and supply-chain security investigations against foreign chip inputs '): China trade remedies are one of the market-access levers RU-0139 already covers (same jurisdiction, same dependency RU-0030). |
+| RU-0139 | [gap-W1R2-6ad7] priority P1->P0: prereq of P0 RU-0236 (China profile); now also holds China trade-remedy and supply-chain-security investigations (from RU-0264). |
 | RU-0142 | Discovery evidence for Korea was tier-3 only; priority is primary texts. |
 | RU-0144 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0150 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0152 | INT-0010 |
 | RU-0152 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0152 | [gap-W1R2-6ad7] now depends on RU-0263 (China customs mineral export series) - the only quantitative evidence on whether China's controls cut shipments. |
 | RU-0153 | INT-0013 is the key interview item. |
 | RU-0153 | [from RU-0154] INT-0017 open. |
 | RU-0153 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
@@ -335,6 +398,7 @@
 | RU-0162 | INT-0003 relevant. |
 | RU-0162 | [from RU-0161] INT-0015, INT-0020 relevant. |
 | RU-0162 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0162 | [gap-W1R2-6ad7] removed dependency RU-0033 (priority inversion): RU-0162 asks the JESD47/AEC-Q qualification questions itself; RU-0033 covers standards-body governance. |
 | RU-0163 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0164 | INT-0005, INT-0006, INT-0014 relevant. |
 | RU-0164 | [from RU-0165] INT-0008 relevant. |
@@ -353,13 +417,19 @@
 | RU-0175 | prereq: The semiconductor business cycle |
 | RU-0176 | Supports company-discovery units owned by the participants/competition planners. |
 | RU-0177 | Extended by gap-plan-6a1d to cover country-pair trade flows (planner-flagged gap), not just datasets. |
+| RU-0177 | [gap-W1R2-6ad7] Resolve CLM-0735: the 2025 dollar value of WSTS 'China' region sales (SIA monthly regional releases / WSTS Blue Book region file) and compare with China customs IC imports. |
 | RU-0181 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0181 | [gap-W1R2-6ad7] Resolve CLM-1202/CLM-1203: annual world DRAM and NAND revenue back to the 1990s and the size of the 2001 DRAM revenue fall, from WSTS spring releases or SIA archives (RU-0018 found only growth rates). |
 | RU-0182 | INT-0003 relevant. |
 | RU-0184 | prereq: China's semiconductor build-out |
 | RU-0186 | prereq: The semiconductor business cycle |
 | RU-0189 | [from RU-0218] AI accelerator cost stack is RU-0103; this unit focuses on device-level chip content, not accelerator internals. |
 | RU-0189 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0189 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0222. |
+| RU-0189 | [gap-W1R2-6ad7] Resolve CLM-0819: compare the AI wave with the PC (1990s) and smartphone (2010-2015) waves by end-use chip revenue, using WSTS end-use series and company disclosures. |
+| RU-0190 | [gap-W1R2-6ad7] absorbed RU-0265 ('Open-source silicon access: open PDKs, open EDA flows and MPW aggregators (SKY130, GF180, '): open PDKs and MPW aggregators are already asked in RU-0190 Q3 (programmes that help small designers). |
 | RU-0195 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0195 | [gap-W1R2-6ad7] priority P2->P1: only problems unit for equipment and materials suppliers; the problems dimension has no claims yet. Also resolve CLM-1959 (Lam/TEL customer concentration) from 10-K/integrated-report text. |
 | RU-0197 | prereq: Chip traceability and provenance |
 | RU-0200 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0200 | Nexperia legal facts come from RU-0137; this unit covers exposure and spread of damage. |
@@ -367,6 +437,7 @@
 | RU-0202 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0205 | Coordinate with supply_chain_concentration units owned by another planner; this unit covers consequences and mitigation only. |
 | RU-0206 | INT-0004 relevant. |
+| RU-0206 | [gap-W1R2-6ad7] Reuse the new adjacent unit on AI data-centre power and grid constraints (gap-W1R2-6ad7) for the [from RU-0253] power question and CON-0023 (silicon vs power as the binding constraint). |
 | RU-0211 | INT-0012 relevant. |
 | RU-0212 | INT-0003 relevant. |
 | RU-0212 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
@@ -393,9 +464,12 @@
 | RU-0226 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0227 | Custom-silicon business model is RU-0092; this unit only enumerates. |
 | RU-0227 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0227 | [gap-W1R2-6ad7] removed dependency RU-0112 (priority inversion): start-up enumeration can reuse RU-0112 if it has run; VC funding is not needed to list companies. |
 | RU-0228 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0228 | [gap-W1R2-6ad7] Hidden participants: enumerate independent reliability, qualification and failure-analysis laboratories (e.g. Eurofins EAG, MA-tek, iST) and the certification bodies that audit IATF 16949 / ISO 26262 for chip suppliers; confirm each exists from its own site or a registry. |
 | RU-0229 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
 | RU-0230 | Enumeration split (gap-plan-6a1d): stage units (RU-0003, 0006, 0007, 0041, 0042, 0050, 0055, 0061, 0063-0066) record leaders and shares; enumeration units record the long tail as companies records using the RU-0226 method. |
+| RU-0230 | [gap-W1R2-6ad7] absorbed RU-0272 ('Contamination-control and filtration suppliers (Entegris APS, Pall, Shin-Etsu Polymer, Gud'): filtration/contamination-control suppliers are one more materials-adjacent category for the materials enumeration RU-0230. |
 | RU-0231 | prereq: Participant census method (same batch). |
 | RU-0232 | prereq: Participant census method (same batch). |
 | RU-0233 | prereq: Participant census method (same batch). |
@@ -424,10 +498,40 @@
 | RU-0245 | Policy detail sits in regulation and capital units; this profile summarises and links, not repeats. |
 | RU-0246 | Labour offshoring details are in RU-0131; technology history is RU-0079. This unit gives the industrial narrative with dated milestones. |
 | RU-0246 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0246 | [gap-W1R2-6ad7] priority P2->P1: prereq of P1 RU-0241; history dimension has no claims yet. |
 | RU-0247 | Memory consolidation specifics are RU-0012; value-chain disaggregation is RU-0011. This unit is the national-development story. |
+| RU-0247 | [gap-W1R2-6ad7] Resolve CLM-0154: the 1976 RCA-to-ITRI technology-transfer terms (ITRI history pages, Taiwan Executive Yuan/MOEA archives, peer-reviewed histories). |
 | RU-0248 | Trade agreements are covered as policy in RU-0151; this unit covers industrial outcomes. |
 | RU-0248 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
+| RU-0248 | [gap-W1R2-6ad7] removed dependency RU-0116 (priority inversion): Japan's rise/decline history does not need the P2 technology-generations unit; cross-reference if available. |
+| RU-0248 | [gap-W1R2-6ad7] Resolve CLM-0153: Japan's peak share of the world semiconductor market in the late 1980s, from the WSTS Blue Book region series (Japan region 1986-1992 is already in CLM-0694) or a METI/JEITA primary source; note region-of-sale vs company-HQ basis. |
 | RU-0249 | China 2014-2026 is RU-0183; this unit stops at 2014. |
 | RU-0249 | Merged scope (gap-plan-6a1d): questions tagged [from RU-xxxx] come from absorbed units; budget ~40-60 searches and record 'unknown' rather than skim. |
 | RU-0250 | Planner-flagged gap (plan1-A-9d62, plan1-D-8e05); confirmed by gap-plan-6a1d search that US Commerce licensed GB300-class exports to G42 and Humain in Nov 2025 (to verify against commerce.gov). |
-| RU-0261 | Do not start before 1 Oct 2026 (Micron reports after market close on 30 Sep 2026). CHIPS award/disbursement refresh (CLM-0908/0912/0981/0982/0987) is in RU-0256, not here. |
+| RU-0256 | [gap-W1R2-6ad7] Resolve CLM-1014: has the CHIPS national-security guardrails rule (15 CFR Part 231) been amended since 2023 (eCFR 'timeline' view; Federal Register search)? Also INT-0029-INT-0031 may be partly answerable from 10-K/10-Q government-incentive notes. |
+| RU-0256 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
+| RU-0261 | Do not start before 16 Oct 2026 (gap-W1R2-6ad7: so it also captures TSMC 3Q26 and TRUMPF FY2025/26 results, both 15 Oct 2026; Micron reported 30 Sep 2026). CHIPS award/disbursement refresh (CLM-0908/0912/0981/0982/0987) is in RU-0256, not here. |
+| RU-0261 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
+| RU-0261 | [gap-W1R2-6ad7] priority P1->P0 and scope widened: 58 claims are now marked outdated (was 12 at gap-W1-8c3f). Policy deadlines in Nov 2026-Jan 2027 are in the separate policy-deadline unit (gap-W1R2-6ad7), which must run after 28 Nov 2026. |
+| RU-0262 | [gap-W1R2-6ad7] lowered to P2: RU-0008 found WSTS unit series are member-only since 2021 (CLM-1356); low desk yield expected. Try JEITA/WSTS Japan releases and company unit disclosures first. |
+| RU-0263 | [gap-W1R2-6ad7] kept as the dataset unit; RU-0049 (critical minerals, P0) asks the policy/exposure questions and should cite these series. Time-sensitive: China's suspensions run to 10 and 27 Nov 2026 - record monthly data up to the latest release and note the date. |
+| RU-0266 | [gap-W1R2-6ad7] lowered to P2: overlaps RU-0162's [from RU-0161] mask-data-preparation question and RU-0061; run after RU-0061 and keep to the software-vendor market (Synopsys, Siemens, ASML Brion, D2S) and data formats. |
+| RU-0267 | [gap-W1R2-6ad7] moved from wave 3 to wave 2 (it is not a synthesis unit) at P2: volume is ~2028-29, so it matters for the technology roadmap, not today's structure. |
+| RU-0270 | [gap-W1R2-6ad7] kept separate from RU-0050 (already 10 questions, all tool types); feeds RU-0057. ASML annual report 'single sourcing' passages and Brainport/VDL/Prodrive annual accounts are the primary sources. |
+| RU-0274 | [gap-W1R2-6ad7] absorbed RU-0269 ('Packaging and back-end lithography: steppers, digital/maskless and panel-level lithography'): packaging lithography is one more back-end tool category alongside dicing, bonding and molding in RU-0274. |
+| RU-0276 | [gap-W1R2-6ad7] INT-0059 is partly desk-resolvable: JASM is consolidated by TSMC; TSMC annual report subsidiary tables and Japanese official gazette (kanpo) balance-sheet notices may give JASM results and how METI subsidies are booked. |
+| RU-0276 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
+| RU-0278 | [gap-W1R2-6ad7] absorbed RU-0279 and RU-0280: all three apply the RU-0226 method to one disclosure system each; one researcher can reuse the same pipeline. Access: SEC blocks the browser ('Undeclared Automated Tool'): use the declared bulk files or curl with a declared User-Agent; DART/EDINET APIs need keys - if unavailable record 'unknown' and use exchange lists. Output feeds RU-0227 to RU-0230 (enumeration), which should reuse it if it has run. |
+| RU-0278 | [gap-W1R2-6ad7] Resolves unknowns CLM-2229 (SEC SIC 3674 count), CLM-2230 (KRX), CLM-2231 (Japan), CLM-2232 (HKEX), CLM-2233 (India). |
+| RU-0278 | [gap-W1R2-6ad7] Access note from W1/W2 fact-checks: sec.gov blocks the browser ('Undeclared Automated Tool') and investor.tsmc.com / some IR sites (TI, Applied) return Cloudflare/Akamai 403. What worked: web_extract on the sec.gov document URL, EDGAR full-text search (efts.sec.gov), curl with a declared User-Agent, the XBRL company-facts API, the identical exhibit on EDGAR instead of the IR PDF, and MOPS for TSMC. Cite the original filing, not a mirror (MarketBeat, StockAnalysis, edgar.tools). |
+| RU-0282 | Timing: the orchestrator must not dispatch before 28 Nov 2026 (after both China deadlines). irs has no start-date field, so the date is in the title. |
+| RU-0282 | A follow-up pass after 10 Jan 2027 is the separate unit 'Policy deadline check, Jan 2027'. |
+| RU-0282 | Cross-check RU-0027 (Section 232/301 tariffs) if it has run; this unit records only the dated status changes. |
+| RU-0283 | Timing: do not dispatch before 11 Jan 2027. |
+| RU-0284 | Brief gap check (gap-W1R2-6ad7): a Berkeley CSM-31 report with 'cycle time per mask layer' and a SemiEngineering 'Battling Fab Cycle Times' article (2017) exist; researcher must open and quote them. |
+| RU-0285 | Brief gap check (gap-W1R2-6ad7): LBNL 'Queued Up: 2025 Edition' (Dec 2025, data to end-2024) confirmed to exist. Feeds RU-0206 (AI capex risk) and RU-0010 (scope). |
+| RU-0285 | Electricity tariffs for specific fabs stay in RU-0277. |
+| RU-0286 | Record re-sourced figures as new claims citing the original; mention the superseded claim id in notes so fact-checkers can mark the old one. Do not edit old claims. |
+| RU-0286 | List computed by gap-W1R2-6ad7 on 2026-10-01: fact/estimate/reported_claim claims with a metric whose sources are all tier 3. |
+| RU-0287 | Low search budget (~20-30): most relations should cite claims already in the database. Lists computed by gap-W1R2-6ad7 on 2026-10-01 from relations.jsonl and a name scan of claims. |
+| RU-0287 | Run before the enumeration units (RU-0227 to RU-0230) so they extend, not duplicate, these records. |

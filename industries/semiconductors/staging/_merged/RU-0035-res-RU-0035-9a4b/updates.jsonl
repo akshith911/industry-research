@@ -1,0 +1,2 @@
+{"id": "CO-0035", "set": {"roles": ["equipment_maker", "wafer_fab_equipment_maker", "manufacturing_software_vendor"]}, "reason": "Applied sells MES/CIM/APC software (SmartFactory) since the 1998 Consilium acquisition"}
+{"id": "CO-0060", "set": {"roles": ["wafer_fab_equipment_maker", "manufacturing_software_vendor"]}, "reason": "KLA 10-K describes Klarity and other semiconductor software solutions"}

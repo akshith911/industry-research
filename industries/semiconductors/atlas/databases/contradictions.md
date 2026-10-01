@@ -102,7 +102,7 @@ SIA/WSTS figures imply memory sales fell ~29% in 2023 (US$130bn to US$92.3bn); G
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0291 | SIA/WSTS figures imply memory sales fell about 29% from 2022 to 2023 (US$130bn to US$92.3bn), versus about 8% for the whole market. | [SRC-0108](https://www.semiconductors.org/global-semiconductor-sales-increase-3-2-in-2022-despite-second-half-slowdown/) [SRC-0055](https://www.semiconductors.org/global-semiconductor-sales-decrease-8-2-in-2023-market-rebounds-late-in-year/) | low |
-| CLM-0292 | Gartner's preliminary estimate is that memory revenue declined 37% in 2023, the largest fall of any segment. | [SRC-0109](https://www.gartner.com/en/newsroom/press-releases/2024-01-16-gartner-says-worldwide-semiconductor-revenue-declined-11-percent-in-2023) | low |
+| CLM-0292 | Gartner's preliminary estimate is that memory revenue declined 37% in 2023, the largest fall of any segment. | [SRC-0109](https://www.gartner.com/en/newsroom/press-releases/2024-01-16-gartner-says-worldwide-semiconductor-revenue-declined-11-percent-in-2023) | medium |
 
 **Possible reasons:** Different populations and methods (WSTS member data vs Gartner vendor estimates); SIA 2022 memory figure is rounded; Gartner preliminary vs WSTS final
 **More defensible:** not determinable. Both show memory fell far more than the overall market; exact magnitude depends on data series.
@@ -115,7 +115,7 @@ NIST's CHIPS fact sheet says the investment tax credit is up to 25% of qualified
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0367 | NIST's CHIPS fact sheet describes the CHIPS investment tax credit as up to 25% of qualified capital expenditures. | [SRC-0116](https://www.nist.gov/document/chips-america-fact-sheet-federal-incentives) | low |
-| CLM-0315 | The section 48D credit rate is 35% of qualified investment following P.L. 119-21 section 70308, with 25% applying to facilities placed in service before 2026. | [SRC-0118](https://www.irs.gov/forms-pubs/correction-to-the-2025-instructions-for-form-3468-of-the-applicability-of-the-35-rate-on-line-1c-in-part-iv-advanced-manufacturing-investment-credit-under-section-48d) [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | low |
+| CLM-0315 | The section 48D credit rate is 35% of qualified investment following P.L. 119-21 section 70308, with 25% applying to facilities placed in service before 2026. | [SRC-0118](https://www.irs.gov/forms-pubs/correction-to-the-2025-instructions-for-form-3468-of-the-applicability-of-the-35-rate-on-line-1c-in-part-iv-advanced-manufacturing-investment-credit-under-section-48d) [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | high |
 | CLM-0974 | The IRS states the 48D credit is 25% of qualified investment for property placed in service through 31 December 2025 and 35% for qualified property placed in service thereafter. | [SRC-0319](https://www.irs.gov/credits-deductions/advanced-manufacturing-investment-credit) | high |
 | CLM-0959 | TSMC's FY2025 20-F notes that TSMC Arizona is also eligible to apply for a 25% investment grant for its qualified investments, a description that does not reflect the 35% rate enacted in 2025 for property placed in service after 2025. | [SRC-0077](https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf) | medium |
 | CLM-0963 | In November 2024 Intel said it planned to claim the investment tax credit, expected to be up to 25% of qualified investments, on more than US$100 billion of planned US investment. | [SRC-0317](https://www.sec.gov/Archives/edgar/data/50863/000005086324000169/a11252024form8-kex991.htm) | medium |
@@ -130,8 +130,8 @@ BCG/SIA give an average wafer fabrication cycle time of about 12 weeks; ASML say
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0372 | The average time to fabricate finished semiconductor wafers (cycle time) is about 12 weeks. | [SRC-0153](https://web-assets.bcg.com/9d/64/367c63094411b6e9e1407bec0dcc/bcgxsia-strengthening-the-global-semiconductor-value-chain-april-2021.pdf) | low |
-| CLM-0373 | ASML states that the microchip manufacturing process involves hundreds of steps and can take up to four months from design to mass production. | [SRC-0158](https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made) | low |
+| CLM-0372 | The average time to fabricate finished semiconductor wafers (cycle time) is about 12 weeks. | [SRC-0153](https://web-assets.bcg.com/9d/64/367c63094411b6e9e1407bec0dcc/bcgxsia-strengthening-the-global-semiconductor-value-chain-april-2021.pdf) | medium |
+| CLM-0373 | ASML states that the microchip manufacturing process involves hundreds of steps and can take up to four months from design to mass production. | [SRC-0158](https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made) | high |
 
 **Possible reasons:** different definitions: fab cycle time for one wafer lot vs elapsed time from design release to mass production; average vs upper bound; ASML figure's scope (whether it includes mask making, back-end, ramp) not defined
 **More defensible:** not determinable. The figures measure different intervals; neither contradicts the other. A newcomer should read 12 weeks as front-end only, excluding mask making and back-end.
@@ -183,7 +183,7 @@ WSTS forecast USD 975bn for 2026 in December 2025 and USD 1.51 trillion in Sprin
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0564 | In December 2025 WSTS forecast the 2026 global semiconductor market at USD 975 billion, after an estimated USD 772 billion in 2025. | [SRC-0002](https://www.wsts.org/esraCMS/extension/media/f/WST/7310/WSTS_FC-Release-2025_11.pdf) | low |
-| CLM-0565 | In its Spring 2026 forecast WSTS projected the 2026 global semiconductor market at USD 1.51 trillion (+90%), with memory surging about 250%. | [SRC-0204](https://www.wsts.org/76/Recent-News-Release) | low |
+| CLM-0565 | In its Spring 2026 forecast WSTS projected the 2026 global semiconductor market at USD 1.51 trillion (+90%), with memory surging about 250%. | [SRC-0204](https://www.wsts.org/76/Recent-News-Release) | high |
 
 **Possible reasons:** Forecast revision between vintages driven by memory price surge (~250% memory growth)
 **More defensible:** CLM-0565. Same organisation, same definition; the later vintage incorporates more recent data.
@@ -315,7 +315,7 @@ Existing claim (BIS press release, 12 Aug 2022) says the ECAD control was effect
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0409 | In August 2022 the US imposed export controls on electronic computer-aided design (ECAD/EDA) software specially designed for developing GAAFET integrated circuits, effective 15 August 2022. | [SRC-0184](https://www.bis.gov/media/documents/2022.08.12-bis-press-release-wa-2021-1758-technologies-controls-rule.pdf) | low |
+| CLM-0409 | In August 2022 the US imposed export controls on electronic computer-aided design (ECAD/EDA) software specially designed for developing GAAFET integrated circuits, effective 15 August 2022. | [SRC-0184](https://www.bis.gov/media/documents/2022.08.12-bis-press-release-wa-2021-1758-technologies-controls-rule.pdf) | high |
 | CLM-0836 | The GAAFET ECAD software control in 87 FR 49979 (new ECCN 3D006) took effect on 14 October 2022, while the rest of the rule took effect on 15 August 2022. | [SRC-0291](https://www.federalregister.gov/documents/full_text/text/2022/08/15/2022-17125.txt) | high |
 
 **Possible reasons:** press release gave the rule's general effective date and omitted the delayed date for 3D006; definition: 'rule effective' vs 'ECAD provision effective'
@@ -382,7 +382,7 @@ OMB's Federal Program Inventory says construction must commence by 31 Dec 2025; 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
 | CLM-0977 | OMB's Federal Program Inventory describes the 48D credit as 25% and states that construction on qualifying facilities must commence by 31 December 2025. | [SRC-0320](https://fpi.omb.gov/program/TC.087.html) | high |
-| CLM-0280 | The 48D credit does not apply to property whose construction begins after 31 December 2026. | [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | low |
+| CLM-0280 | The 48D credit does not apply to property whose construction begins after 31 December 2026. | [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29) | high |
 | CLM-0944 | CRS states the 35% semiconductor investment tax credit is available only to projects that begin fab construction before 31 December 2026. | [SRC-0105](https://www.everycrsreport.com/files/2026-07-14_R49031_157331cbaf561ee49780ef5b60b2f38407b33cde.html) | high |
 
 **Possible reasons:** error or outdated text in the OMB inventory entry; the OMB entry also omits the 2025 increase to 35%, suggesting it is not maintained
@@ -395,7 +395,7 @@ Announcements give US$20.47 per share for 433.3m shares; the 8-K gives US$20.74 
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-0317 | In August 2025 the US government agreed to take a 9.9% equity stake in Intel (433.3 million shares at USD 20.47) funded by USD 5.7 billion of unpaid CHIPS Act grants and USD 3.2 billion of Secure Enclave awards. | [SRC-0098](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/a08222025form8-kex991.htm) | low |
+| CLM-0317 | In August 2025 the US government agreed to take a 9.9% equity stake in Intel (433.3 million shares at USD 20.47) funded by USD 5.7 billion of unpaid CHIPS Act grants and USD 3.2 billion of Secure Enclave awards. | [SRC-0098](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/a08222025form8-kex991.htm) | high |
 | CLM-0964 | Under the August 2025 agreement Intel issued 274,583,000 shares to Commerce at closing in exchange for US$5.695 billion of accelerated CHIPS direct-funding disbursements (US$20.74 per share), and 158,740,000 shares into escrow at US$20.00 per share to be released as US$3.1748 billion of Secure Enclave disbursements are paid. | [SRC-0315](https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm) | high |
 
 **Possible reasons:** definition: US$20.47 is the blended average of the two tranches
@@ -1082,4 +1082,58 @@ CLM-1259 (Tiger Brokers, 4 Aug 2026) gives Micron 25%; CLM-1261 (Huawei Central,
 **Possible reasons:** vintage: early-August press figures vs Counterpoint's Sep 2026 release; population: Sep table includes CXMT and Nanya explicitly; rounding
 **More defensible:** CLM-1261. Counterpoint's own page (Sep 2026) shows Micron 24% in Q2 2026.
 **Remaining uncertainty:** Reason for the revision is not disclosed.
+
+## CON-0081: China's share of world gallium production (open)
+
+USITC briefing says China produced 'close to 90 percent' of world gallium in 2022; USGS MCS 2026 says China accounted for 99% of world primary low-purity gallium production.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0345 | According to the USITC, China produced around 60% of the world's germanium and close to 90% of its gallium in 2022. | [SRC-0137](https://www.usitc.gov/publications/332/executive_briefings/ebot_germanium_and_gallium.pdf) | low |
+| CLM-2249 | USGS's Mineral Commodity Summaries 2026 again stated that China accounted for 99% of world primary low-purity gallium production. | [SRC-0808](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf) | high |
+
+**Possible reasons:** different period (2022 vs 2025); different population (all gallium vs primary low-purity gallium); USITC figure cites press reports (Al Jazeera, Reuters), not USGS statistics
+**More defensible:** CLM-2249. USGS is the official statistical source for mineral production; the USITC executive briefing is an author's view citing news reports in footnote 2.
+**Remaining uncertainty:** USGS figure for 2022 itself was not read this run, so how much is period change vs. source quality is unclear.
+
+## CON-0082: Design share of semiconductor value added, 2019 (SIA/BCG 2021) (open)
+
+The same SIA/BCG report says design is '53% of the value added' in running text (p.15) but 50% in the design sidebar (p.15) and Exhibit 4.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0477 | Design accounted for about 53% of semiconductor industry value added (2019, SIA/BCG estimate). | [SRC-0199](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf) | medium |
+| CLM-2353 | SIA/BCG's Exhibit 4 and design sidebar put chip design at 50% of 2019 semiconductor industry value added. | [SRC-0199](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf) | low |
+
+**Possible reasons:** editing error in running text; text may reuse the design R&D share (53%) in place of value added; different base (e.g. excluding a category) not stated
+**More defensible:** CLM-2353. The 50% figure sits in a consistent breakdown whose six value-added shares sum to 100% ($290B); 53% is the design share of R&D in the same sidebar, which suggests a slip in the text.
+**Remaining uncertainty:** BCG has not published a correction; the underlying model is not disclosed.
+
+## CON-0083: Is EUV required to manufacture 7nm chips? (resolved)
+
+BCG/SIA (2021) state that EUV equipment is 'required to manufacture chips at 7 nanometers and below'. TSMC's first-generation N7 was in volume production in 2018, before any EUV process (N7+, 2019), using DUV immersion multi-patterning.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0399 | BCG/SIA state that EUV lithography equipment is required to manufacture chips at 7 nanometers and below. | [SRC-0153](https://web-assets.bcg.com/9d/64/367c63094411b6e9e1407bec0dcc/bcgxsia-strengthening-the-global-semiconductor-value-chain-april-2021.pdf) | low |
+| CLM-2374 | TSMC began volume production of its first-generation 7nm (N7) process in 2018, a year before its first EUV-based process (N7+) entered volume production; N7 was patterned with 193nm ArF immersion (DUV) lithography. | [SRC-0916](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_7nm) [SRC-0917](https://pr.tsmc.com/english/news/2010) [SRC-0918](https://en.wikichip.org/wiki/7_nm_lithography_process) | low |
+
+**Possible reasons:** simplification in a policy report; BCG may mean the leading edge in general, or 7nm-class EUV variants (N7+, N6); EUV became economically necessary from 5nm, not technically mandatory at 7nm
+**More defensible:** CLM-2374. Company-documented production history beats a general statement in a consulting report.
+**Remaining uncertainty:** Whether other makers' 7nm-class processes (e.g. Samsung 7LPP, Intel 4) needed EUV. They used it, but that does not make EUV required at 7nm.
+
+## CON-0084: Chip design share of semiconductor value added and R&D (BCG/SIA 2021) (resolved)
+
+The 2021 BCG/SIA report's body text says design is 65% of industry R&D and 53% of value added. Its stage box and Exhibit 4 on the same page say 53% of R&D and 50% of value added.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0412 | Chip design accounted for about 53% of semiconductor industry value added and 65% of industry R&D (BCG/SIA estimate, 2019 data). | [SRC-0153](https://web-assets.bcg.com/9d/64/367c63094411b6e9e1407bec0dcc/bcgxsia-strengthening-the-global-semiconductor-value-chain-april-2021.pdf) | low |
+| CLM-0476 | Design accounted for about 65% of total semiconductor industry R&D (2019, SIA/BCG estimate). | [SRC-0199](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf) | medium |
+| CLM-0477 | Design accounted for about 53% of semiconductor industry value added (2019, SIA/BCG estimate). | [SRC-0199](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf) | medium |
+| CLM-2376 | BCG/SIA's 2021 value-chain breakdown (2019 data) puts chip design at about 50% of semiconductor industry value added, 53% of industry R&D and 13% of industry capital expenditure. | [SRC-0153](https://web-assets.bcg.com/9d/64/367c63094411b6e9e1407bec0dcc/bcgxsia-strengthening-the-global-semiconductor-value-chain-april-2021.pdf) | low |
+
+**Possible reasons:** drafting/transposition error in the report body text; different rounding or vintage between text and exhibit
+**More defensible:** CLM-2376. The exhibit figures add up to about 100% across all value-chain stages for both R&D and value added. The body-text figures would push the totals above 100%.
+**Remaining uncertainty:** BCG has not issued a correction. The 2024 SIA/BCG report does not restate the design share of value added.
 

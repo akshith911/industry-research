@@ -18,14 +18,18 @@ import shutil
 from pathlib import Path
 
 from . import db
-from .rules import VERDICT_TO_STATUS, compute_confidence, normalize_text, normalize_url
+from .rules import TIER_BY_TYPE, VERDICT_TO_STATUS, compute_confidence, normalize_text, normalize_url
 from .validate import latest_checks, validate
 
 NEAR_DUP_RATIO = 0.88
 
 
 def _name_keys(r: dict, field: str) -> set:
-    return {normalize_text(x) for x in [r.get(field, "")] + r.get("aliases", []) if x}
+    # normalize_text keeps only ASCII; a non-Latin name (e.g. 中微公司) would become ""
+    # and match every other non-Latin name, so fall back to the casefolded original.
+    keys = {normalize_text(x) or x.strip().casefold() for x in [r.get(field, "")] + r.get("aliases", []) if x}
+    keys.discard("")
+    return keys
 
 
 def _find_existing(name: str, rec: dict, rows: list):
@@ -130,6 +134,8 @@ def merge_batch(ind: Path, batch_dir: Path, dry_run: bool = False) -> dict:
                         break
             elif name == "sources":
                 rec.setdefault("access_date", today)
+                if rec.get("source_type") in TIER_BY_TYPE:
+                    rec.setdefault("tier", TIER_BY_TYPE[rec["source_type"]])
             elif name == "fact_checks":
                 rec.setdefault("checker", agent)
                 rec.setdefault("checked_at", today)

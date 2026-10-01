@@ -95,6 +95,18 @@ class IRSTest(unittest.TestCase):
             merge.merge_batch(self.ind, write_batch(self.ind, "b1", "res-1", {"sources": [bad]}))
         self.assertIn("tier", str(e.exception))
 
+    def test_tier_derived_from_source_type_when_omitted(self):
+        src = {k: v for k, v in SRC.items() if k != "tier"}
+        merge.merge_batch(self.ind, write_batch(self.ind, "b1", "res-1", {"sources": [src], "claims": [CLAIM]}))
+        self.assertEqual(db.load_db(self.ind, "sources")[0]["tier"], 1)
+
+    def test_non_latin_names_do_not_collide(self):
+        a = {"name": "北方华创", "entity_type": "foundry", "description": "x"}
+        b = {"name": "中微公司", "entity_type": "foundry", "description": "y"}
+        merge.merge_batch(self.ind, write_batch(self.ind, "b1", "res-1", {"entities": [a]}))
+        merge.merge_batch(self.ind, write_batch(self.ind, "b2", "res-2", {"entities": [b, dict(a)]}))
+        self.assertEqual([e["name"] for e in db.load_db(self.ind, "entities")], ["北方华创", "中微公司"])
+
     def test_fact_without_source_rejected(self):
         with self.assertRaises(SystemExit):
             merge.merge_batch(self.ind, write_batch(self.ind, "b1", "res-1", {"claims": [dict(CLAIM, source_ids=[])]}))

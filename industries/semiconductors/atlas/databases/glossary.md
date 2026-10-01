@@ -12,6 +12,16 @@
 
 **Sources:** [SRC-0195](https://www.imec-int.com/en/articles/chiplets-piecing-together-next-generation-chips-part-i) [SRC-0168](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm)
 
+### 2D enhanced architecture
+
+**In plain words:** The roadmap's neutral name for side-by-side chips linked through a denser-than-normal layer (organic for 2DO, silicon/glass bridge or interposer for 2DS), replacing loose labels like '2.5D'.
+
+**Technically:** IEEE HIR 2024 ch.22 nomenclature: 2D enhanced = laterally placed dies with a high-density medium between die and substrate; 2DO organic, 2DS inorganic; 3D = dies stacked directly.
+
+**Related:** 2.5D integration, 3D integration
+
+**Sources:** [SRC-0552](https://eps.ieee.org/wp-content/uploads/2025/11/HIR_2024_ch22_2D-3D.pdf)
+
 ### 300mm-equivalent wafer
 
 **In plain words:** A way of counting factory output as if every wafer were the standard large 300mm size.
@@ -39,6 +49,16 @@
 **Related:** DRAM
 
 **Sources:** [SRC-0177](https://news.skhynix.com/sk-hynix-starts-mass-production-of-world-first-321-high-nand/)
+
+### A-share
+
+**In plain words:** Shares of mainland Chinese companies traded in yuan on the Shanghai, Shenzhen or Beijing exchanges.
+
+**Technically:** RMB-denominated ordinary shares listed on mainland exchanges; disclosure in Chinese via CSRC-appointed media.
+
+**Related:** STAR Market
+
+**Sources:** [SRC-0779](https://www.csrc.gov.cn/csrc_en/c102030/c1371072/content.shtml) [SRC-0785](https://english.sse.com.cn/news/newsrelease/voice/c/c_20250616_10782033.shtml)
 
 ### ABF
 
@@ -96,6 +116,50 @@
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
+### Anamorphic optics
+
+**In plain words:** Optics that shrink the mask image by different amounts in the two directions, used in High-NA EUV so existing mask sizes still work.
+
+**Technically:** Projection optics with unequal demagnification (4x and 8x) in High-NA EUV, halving the exposure field and requiring field stitching for large dies.
+
+**Related:** High-NA EUV
+
+**Sources:** [SRC-0568](https://www.asml.com/en/news/press-releases/2024/asml-imec-opening-high-na-euv-lithography-lab) [SRC-0156](https://www.asml.com/en/news/stories/2024/5-things-high-na-euv)
+
+### Annual securities report (Japan)
+
+**In plain words:** The main yearly report a Japanese listed company files with the regulator, similar to a US 10-K.
+
+**Technically:** 有価証券報告書 (yūka shōken hōkokusho) filed on EDINET under the FIEA; statutory viewing period 5 years plus 5-year extension. Local-language name(s): 有価証券報告書.
+
+**Related:** EDINET
+
+**Sources:** [SRC-0773](https://disclosure2dl.edinet-fsa.go.jp/guide/static/disclosure/download/ESE140206.pdf) [SRC-0774](https://www.fsa.go.jp/search/20130917.html)
+
+### Anti-Foreign Sanctions Law
+
+**In plain words:** A 2021 Chinese law that lets China punish people and firms involved in foreign sanctions on China, and lets Chinese firms sue companies that follow those sanctions against them.
+
+**Technically:** NPCSC law of 10 June 2021: countermeasure list (Art. 4-6) with visa bans, asset freezes and transaction bans; Art. 12 bars implementing foreign discriminatory restrictive measures and grants a private right of action for injunction and damages. Chinese name: 反外国制裁法.
+
+**Sources:** [SRC-0438](http://www.npc.gov.cn/c2/c30834/202106/t20210610_311892.html)
+
+### Application processor
+
+**In plain words:** The main chip in a smartphone or tablet, combining the processor, graphics and other functions on one piece of silicon.
+
+**Technically:** WSTS L7f: low-power ICs integrating CPU, GPU, connectivity and multimedia codec (with or without modem); counted as logic (special-purpose logic, wireless communication), not as MOS micro.
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
+### Application-specific IC total (WSTS Q99)
+
+**In plain words:** A WSTS roll-up adding up all chips made for a particular kind of end product, across analog, micro and logic.
+
+**Technically:** Q99 = JA (application-specific analog) + P2 (MCU) + P4 (DSP) + L2c (standard cells/FPLD) + LA (special-purpose logic); computed by WSTS data-collection agents, not reported by members; split Q1 consumer, Q2 computer, Q3a/b wireless/wired, Q4a/b automotive, Q6 multipurpose.
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
 ### Approved IC designer
 
 **In plain words:** A chip-design company the US has vetted, so contract chipmakers can make its advanced chips without assuming they are restricted AI chips.
@@ -116,6 +180,24 @@
 
 **Sources:** [SRC-0289](https://www.federalregister.gov/documents/full_text/text/2025/01/16/2025-00711.txt)
 
+### Architecture licence
+
+**In plain words:** A licence that lets a chip company design its own processor cores that follow Arm's instruction set, rather than use Arm-designed cores.
+
+**Technically:** Arm licence to architecture IP including future version extensions over contracts of 3 to 20 years; consideration is allocated between available architecture and deferred future extensions.
+
+**Related:** Semiconductor IP, Royalty
+
+**Sources:** [SRC-0672](https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/R10.htm)
+
+### ArF immersion
+
+**In plain words:** The most advanced kind of deep-ultraviolet lithography: 193-nanometre laser light with a thin layer of water between lens and wafer to print finer features.
+
+**Technically:** 193 nm ArF excimer lithography with water immersion (NA up to 1.35, ~38 nm single-exposure resolution); ASML's NXT platform.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
 ### ASIC
 
 **In plain words:** A chip custom-designed for one specific customer or job, rather than a general-purpose chip.
@@ -123,6 +205,14 @@
 **Technically:** Application-specific integrated circuit; often developed with design-service firms offering turnkey spec-to-production flows.
 
 **Sources:** [SRC-0219](https://www.guc-asic.com/en/about/us)
+
+### ASSP
+
+**In plain words:** A chip designed by a chip company for one type of product (for example a TV or a phone) and sold from a catalogue to anyone who wants it.
+
+**Technically:** WSTS: an application-specific device whose design is controlled by the semiconductor manufacturer, listed in catalogues and sold to any customer; reported under MOS Special Purpose Logic (LA) by application segment (L5-L9).
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
 ### ATM
 
@@ -218,6 +308,14 @@
 
 **Sources:** [SRC-0355](https://blocksandfiles.com/2022/11/16/micron-cuts-dram-nand-production/)
 
+### Blocking prohibition (China)
+
+**In plain words:** An order from China telling companies they must not obey a specific foreign sanction.
+
+**Technically:** Prohibition issued under MOFCOM's Rules on Counteracting Unjustified Extra-territorial Application of Foreign Legislation; e.g. Announcement 2026 No. 21 orders non-recognition, non-enforcement and non-compliance with US SDN sanctions on five Chinese refiners. Chinese name: 阻断禁令.
+
+**Sources:** [SRC-0470](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_00468f197e7447f5b8059b2e844e78b8.html)
+
 ### Blue Book (WSTS)
 
 **In plain words:** WSTS's detailed monthly statistics report for members and subscribers, the source of the official chip-market history.
@@ -227,6 +325,16 @@
 **Related:** WSTS, Historical Billings Report
 
 **Sources:** [SRC-0224](https://wsts.org/67/Historical-Billings-Report) [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf)
+
+### Breakage fee
+
+**In plain words:** A penalty a customer pays if it buys less than the minimum volume it promised in a long-term supply deal.
+
+**Technically:** Fee under an LTA with minimum volume requirements, estimated as variable consideration and recognised with wafer revenue over the agreement term when not constrained.
+
+**Related:** Long-term agreement, Take-or-pay
+
+**Sources:** [SRC-0660](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/R11.htm)
 
 ### Bumping
 
@@ -290,6 +398,44 @@
 
 **Sources:** [SRC-0183](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm)
 
+### Catch-all control (China)
+
+**In plain words:** A rule that even goods not on any control list need a Chinese export licence if the exporter knows they could harm China's security or be used for weapons.
+
+**Technically:** Export Control Law Art. 12 para. 3 and Decree 792 Art. 14: licence required for unlisted goods, technology and services where the exporter knows, should know, or is notified of risks to national security and interests, WMD or terrorism use.
+
+**Sources:** [SRC-0434](https://www.mofcom.gov.cn/zfxxgk/gkml/art/2020/art_76b5fa416a4c42afa8af295eefffdffc.html) [SRC-0436](https://www.gov.cn/gongbao/2024/issue_11686/202411/content_6985161.html)
+
+### Chapter 18C
+
+**In plain words:** Hong Kong listing rules that let specialist tech companies, including some chip firms, list before they have big revenues.
+
+**Technically:** HKEX Main Board Chapter 18C (Specialist Technology Companies); pre-commercial issuers carry a 'P' marker in their stock names.
+
+**Related:** HKEXnews
+
+**Sources:** [SRC-0791](https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en)
+
+### Chemical mechanical planarization (CMP)
+
+**In plain words:** Polishing a wafer flat with a slurry and pad between layers so the next layer can be built evenly.
+
+**Technically:** Combined chemical etching and mechanical abrasion step used to planarize dielectric and metal layers; a distinct tool category in which Chinese firms held ~12.6% share in 2025 per CSET.
+
+**Related:** Deposition, Etch
+
+**Sources:** [SRC-0657](https://eto.tech/blog/latest-data-added-to-chip-supply-chain-explorer)
+
+### Chip-on-wafer and on-substrate steps
+
+**In plain words:** The two halves of building a CoWoS-type package: first the chips are mounted on the interposer wafer (CoW), then the result is mounted on a package substrate (oS). Foundries and OSATs can split these.
+
+**Technically:** CoW = die-to-interposer-wafer bonding (micro-bump/TCB or mass reflow), underfill, mold, thinning/TSV reveal; oS = singulated module attach to organic substrate, lid/stiffener, test. 'Full process' means one provider does both.
+
+**Related:** CoWoS, Interposer
+
+**Sources:** [SRC-0542](https://www.fool.com/earnings/call-transcripts/2026/08/07/ase-asx-q2-2026-earnings-call-transcript/) [SRC-0559](https://www.trendforce.com/news/2026/08/12/news-ases-spil-breaks-ground-on-nearly-twd-100b-plant-in-douliu-to-boost-cowos-capacity-operations-set-for-2028/) [SRC-0565](https://www.techflowpost.com/en-US/article/34199)
+
 ### Chiplet
 
 **In plain words:** A small chip designed to be combined with other small chips in one package, instead of making one huge chip.
@@ -315,6 +461,64 @@
 **Technically:** SIA/BCG definition: a value-chain step where one region accounts for more than 65% of global market share.
 
 **Sources:** [SRC-0031](https://www.semiconductors.org/wp-content/uploads/2021/03/SIA-BCG_Global-Value-Chain_2-pager.pdf) [SRC-0199](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf)
+
+### CIK
+
+**In plain words:** The permanent ID number the SEC gives every company or person that files with it.
+
+**Technically:** Central Index Key: 10-digit identifier (with leading zeros) used in EDGAR URLs and APIs, e.g. data.sec.gov/submissions/CIK##########.json.
+
+**Example:** NVIDIA's CIK is 0001045810.
+
+**Related:** EDGAR
+
+**Sources:** [SRC-0736](https://www.sec.gov/search-filings/edgar-application-programming-interfaces)
+
+### CMP consumables
+
+**In plain words:** The polishing liquids and pads used to grind each layer of a chip perfectly flat.
+
+**Technically:** Slurries (abrasive particles such as silica, alumina or ceria in chemistry) and polishing pads for chemical-mechanical planarization; TECHCET: ~US$3.4bn in 2024 (slurry ~US$2bn, pads US$1.39bn).
+
+**Sources:** [SRC-0618](https://www.semiconductor-digest.com/techcet-projects-cmp-market-is-set-to-reach-3-6b-in-2025) [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials)
+
+### CNINFO
+
+**In plain words:** A Chinese website approved by the securities regulator where listed companies publish official announcements.
+
+**Technically:** 巨潮资讯网 (www.cninfo.com.cn), a CSRC-designated information-disclosure website. Local-language name(s): 巨潮资讯网.
+
+**Related:** A-share
+
+**Sources:** [SRC-0784](https://www.csrc.gov.cn/shanghai/c105566/c1278950/content.shtml)
+
+### Co-packaged optics
+
+**In plain words:** Putting the optical (laser-light) data link inside the chip package instead of a plug-in module at the edge of the board, to save power.
+
+**Technically:** Integration of photonic engines with switch/compute dies on the package substrate; TSMC's COUPE stacks an electronic die on a photonic die via SoIC and enters production on substrate in 2026.
+
+**Related:** SoIC
+
+**Sources:** [SRC-0534](https://pr.tsmc.com/english/news/3302)
+
+### Coater/developer (track)
+
+**In plain words:** A machine linked to the lithography scanner that spreads light-sensitive coating on the wafer before printing and develops it afterwards.
+
+**Technically:** Photoresist processing equipment that coats, bakes and develops resist; for EUV and ArF immersion it is supplied almost entirely by Tokyo Electron and Screen.
+
+**Related:** Photolithography
+
+**Sources:** [SRC-0645](https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4presentations-e.pdf) [SRC-0658](https://eto.tech/blog/five-key-facts-chokepoints-chip-supply-chain)
+
+### Computational lithography
+
+**In plain words:** Using computer models to pre-distort the patterns on a mask so they print correctly on the wafer.
+
+**Technically:** Algorithms and process models (e.g. OPC) that optimise reticle patterns and process windows for given lithography conditions.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
 
 ### Conflict minerals
 
@@ -362,6 +566,16 @@
 
 **Sources:** [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) [SRC-0092](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm)
 
+### CoPoS
+
+**In plain words:** TSMC's version of CoWoS built on large square panels instead of round wafers, so more of the huge AI packages fit per run.
+
+**Technically:** Panel-level interposer process (reported 310x310 mm class) for very large reticle-multiple packages; pilot line 2026, volume expected 2028-29; warpage is a key challenge.
+
+**Related:** CoWoS, Fan-out packaging
+
+**Sources:** [SRC-0564](https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/)
+
 ### Countervailing duty
 
 **In plain words:** An import tax a country charges to offset a foreign government's subsidy to the exporter.
@@ -400,6 +614,16 @@
 
 **Sources:** [SRC-0157](https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion) [SRC-0189](https://www.pdf.com/semiconductor-manufacturing-data-101-an-introduction/)
 
+### CSIC
+
+**In plain words:** A chip made to one customer's own design and sold only to that customer.
+
+**Technically:** WSTS: IC initiated by a specific customer's specification; reported in Special Purpose Logic (LA) when the application is evident and sizeable, otherwise in MOS Gate Arrays (L2b) or Standard Cells (L2c).
+
+**Related:** ASIC
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
 ### Currency effect (WSTS regional data)
 
 **In plain words:** Because WSTS counts everything in US dollars, a region's market can shrink in dollars while growing in its local currency when that currency weakens.
@@ -427,6 +651,16 @@
 **Technically:** Discretes, analog, and optoelectronics & sensors (SIA/BCG usage).
 
 **Sources:** [SRC-0030](https://www.semiconductors.org/wp-content/uploads/2024/05/Emerging-Resilience-in-the-Semiconductor-Supply-Chain_BCG-Briefing.pdf)
+
+### DART
+
+**In plain words:** South Korea's government website where companies publish their official filings.
+
+**Technically:** Data Analysis, Retrieval and Transfer System run by the Financial Supervisory Service; OpenDART API (40-character key) gives XML filings, XBRL financials and company industry codes. Local-language name(s): 전자공시.
+
+**Related:** XBRL
+
+**Sources:** [SRC-0768](https://engopendart.fss.or.kr/intro/main.do) [SRC-0771](https://englishdart.fss.or.kr/)
 
 ### Data collection agent (DCA)
 
@@ -456,6 +690,16 @@
 
 **Sources:** [SRC-0307](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=734&section=734.4)
 
+### Deemed export
+
+**In plain words:** Showing controlled technical information to a foreign person inside your own country counts legally as exporting it to that person's home country.
+
+**Technically:** EAR concept (15 CFR 734.13) under which release of controlled technology or source code to a foreign person is treated as an export to their most recent country of citizenship/residency.
+
+**Related:** Published (EAR 734.7), Export Administration Regulations
+
+**Sources:** [SRC-0528](https://platform.chipfoundry.io/knowledge-base/article/understanding-export-compliance) [SRC-0507](https://s206.q4cdn.com/597110084/files/doc_financials/2025/ar/CDNS-FY-2025-Form-10-K.pdf)
+
 ### Deposition
 
 **In plain words:** Laying down an ultra-thin layer of material on the wafer.
@@ -465,6 +709,16 @@
 **Related:** Etch
 
 **Sources:** [SRC-0159](https://www.asml.com/en/news/stories/2021/semiconductor-manufacturing-process-steps)
+
+### Design Kit License Agreement
+
+**In plain words:** The legal contract a chip designer signs to be allowed to download and use a factory's design kit.
+
+**Technically:** Licence/NDA instrument governing access to foundry design kits (rules, models, libraries); used e.g. by EUROPRACTICE alongside NDAs.
+
+**Related:** PDK, Non-disclosure agreement
+
+**Sources:** [SRC-0523](https://europractice-ic.com/mpw-prototyping)
 
 ### Design rules
 
@@ -504,6 +758,16 @@
 
 **Sources:** [SRC-0104](https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A48D+edition%3Aprelim%29)
 
+### Disclosure of Interests (Hong Kong)
+
+**In plain words:** Filings that tell the public when big shareholders or directors buy or sell a Hong Kong-listed company's shares.
+
+**Technically:** Notices under Part XV of the Securities and Futures Ordinance, filed electronically via HKEX's DION system since 3 July 2017 and published on HKEXnews.
+
+**Related:** HKEXnews
+
+**Sources:** [SRC-0790](https://www2.hkexnews.hk/Shareholding-Disclosures/Disclosure-of-Interests?sc_lang=en)
+
 ### Discrete semiconductor
 
 **In plain words:** A single-function electronic part such as one diode or transistor, not a whole circuit.
@@ -530,6 +794,14 @@
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
+### Drive laser (EUV)
+
+**In plain words:** A very powerful laser that hits tiny drops of tin so they glow with the extreme ultraviolet light used in EUV machines.
+
+**Technically:** Pulsed CO2 laser system (multi-stage amplifier, tens of kW average pulse power) used in laser-produced-plasma EUV sources; built by TRUMPF for ASML.
+
+**Sources:** [SRC-0581](https://www.trumpf.com/en_INT/solutions/applications/euv-lithography/) [SRC-0580](https://www.trumpf.com/filestorage/TRUMPF_Master/Corporate/Annual_report/Current/TRUMPF-Annual-Report-2024-2025.pdf)
+
 ### Dual-use items
 
 **In plain words:** Products or technology that can be used for both civilian and military purposes.
@@ -554,6 +826,16 @@
 
 **Sources:** [SRC-0072](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment)
 
+### EAR99
+
+**In plain words:** The catch-all export category for ordinary commercial items that are under US export rules but need no licence for most countries.
+
+**Technically:** Designation for items subject to the EAR but not listed on the Commerce Control List; licences needed only for embargoed destinations, prohibited end users/uses.
+
+**Related:** ECCN, Deemed export
+
+**Sources:** [SRC-0528](https://platform.chipfoundry.io/knowledge-base/article/understanding-export-compliance)
+
 ### ECCN
 
 **In plain words:** A code that tells an exporter which export rules apply to a specific product.
@@ -562,6 +844,36 @@
 
 **Sources:** [SRC-0111](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing)
 
+### EDA tool certification
+
+**In plain words:** A foundry's official confirmation that a design program gives correct results for its manufacturing process.
+
+**Technically:** Foundry qualification of specific EDA tools/versions (e.g. DRC/LVS, extraction, SPICE) against its rule decks and models for a node, e.g. TSMC EDA Alliance certification or Samsung SAFE-QEDA.
+
+**Related:** Reference flow, Signoff
+
+**Sources:** [SRC-0502](https://news.siemens.com/en-us/siemens-tsmc-oip-2025) [SRC-0490](https://semiconductor.samsung.com/foundry/safe/eda/)
+
+### EDINET
+
+**In plain words:** Japan's government website where companies file their official annual and half-year reports.
+
+**Technically:** FSA's electronic disclosure system under the Financial Instruments and Exchange Act; API v2 with key; documents viewable for about 10 years.
+
+**Related:** Annual securities report (Japan)
+
+**Sources:** [SRC-0774](https://www.fsa.go.jp/search/20130917.html) [SRC-0773](https://disclosure2dl.edinet-fsa.go.jp/guide/static/disclosure/download/ESE140206.pdf)
+
+### Electronic gases
+
+**In plain words:** The ultra-pure gases a fab uses: large volumes of nitrogen and hydrogen, plus small volumes of special gases for etching, deposition and doping.
+
+**Technically:** TECHCET splits bulk gases (N2, H2, O2, Ar, often generated on site) and specialty gases (e.g. WF6, NF3); US$6.34bn forecast for 2025.
+
+**Related:** Excimer gas, On-site gas supply
+
+**Sources:** [SRC-0619](https://www.semiconductor-digest.com/techcet-forecasts-6-3b-electronic-gases-market-in-2025) [SRC-0615](https://assets.linde.com/-/media/global/corporate/corporate/documents/investors/full-year-financial-reports/2025-annual-report-to-shareholders.pdf)
+
 ### Electronic system design (EDA)
 
 **In plain words:** Software tools engineers use to design and check chips and circuit boards.
@@ -569,6 +881,26 @@
 **Technically:** ESD Alliance scope: CAE, IC physical design & verification, PCB & MCM tools, semiconductor IP and services.
 
 **Sources:** [SRC-0022](https://www.semi.org/en/semi-press-release/esd-alliance-reports-electronic-system-design-industry-posts-5.5-billion-dollars-in-revenue-in-q4-2025)
+
+### Emerging Stock Board
+
+**In plain words:** A Taiwan trading board for companies not yet fully listed; many young chip firms trade there first.
+
+**Technically:** Taipei Exchange's emerging stock market (興櫃); stocks classified by the same industry groups as TWSE/TPEx. Local-language name(s): 興櫃.
+
+**Related:** TPEx
+
+**Sources:** [SRC-0761](https://isin.twse.com.tw/isin/e_class_main.jsp?owncode=&stockname=&isincode=&market=E&issuetype=&industry_code=24&Page=1&chklike=Y)
+
+### EMIB
+
+**In plain words:** Intel's cheaper alternative to a full silicon interposer: a small sliver of silicon buried in the package substrate only where two chips meet, carrying the dense wiring between them.
+
+**Technically:** Embedded silicon bridge die in the organic package substrate giving shoreline-to-shoreline high-density die-to-die interconnect; EMIB-M adds MIM capacitors and EMIB-T adds through-silicon vias for power delivery and bandwidth. In HVM since 2017.
+
+**Related:** Interposer, 2.5D integration, Silicon bridge
+
+**Sources:** [SRC-0538](https://www.intel.com/content/www/us/en/foundry/packaging.html) [SRC-0348](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm)
 
 ### EMS
 
@@ -612,6 +944,26 @@
 
 **Sources:** [SRC-0272](https://www.federalregister.gov/api/v1/documents/2020-10856.json) [SRC-0279](https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-21658.txt) [SRC-0284](https://media.bis.gov/sites/default/files/documents/FINAL%20DOC%20Nat%20Sec%20Action%20Rls%20Dec%202%2024.pdf) [SRC-0305](https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-15.xml?part=734&section=734.9)
 
+### Equipment billings (SEMI)
+
+**In plain words:** The dollar value of chipmaking machines that equipment makers report having invoiced, added up by the region they were sold into.
+
+**Technically:** Monthly billings submitted by SEMI and SEAJ member equipment companies (95+), aggregated into seven regions and 22-24 segments in the WWSEMS report; an association statistic, not audited revenue.
+
+**Related:** Wafer fab equipment (WFE), Japanese-made equipment sales (SEAJ)
+
+**Sources:** [SRC-0020](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) [SRC-0635](https://www.seaj.or.jp/english/statistics/783745958684.pdf)
+
+### Equipment depreciation life
+
+**In plain words:** The number of years over which a chipmaker spreads the purchase cost of its tools in its accounts; a longer life makes each wafer look cheaper.
+
+**Technically:** Estimated useful life used for straight-line depreciation of production equipment; TSMC uses 5 years, Intel moved certain tools from 5 to 8 years in 2023, and IC Knowledge models default to 5 years for equipment, 10 for building systems and 15 for buildings.
+
+**Related:** Fab
+
+**Sources:** [SRC-0730](https://investor.tsmc.com/static/annualReports/2020/english/ebook/files/basic-html/page290.html) [SRC-0729](https://intc.com/filings-reports/annual-reports/xbrl_doc_only/3541) [SRC-0704](https://semiwiki.com/semiconductor-manufacturers/tsmc/303594-tsmc-arizona-fab-cost-revisited)
+
 ### Etch
 
 **In plain words:** Removing material where the pattern says so, to carve the circuit into the layer below.
@@ -646,6 +998,16 @@
 
 **Sources:** [SRC-0211](https://www.usitc.gov/publications/332/executive_briefings/ebot_decarlo_goodman_ukraine_neon_and_semiconductors.pdf)
 
+### Excimer laser
+
+**In plain words:** A gas laser that produces deep-ultraviolet light; it is the light source in DUV lithography machines.
+
+**Technically:** Pulsed gas-discharge laser using rare-gas halide mixtures: KrF (248 nm) or ArF (193 nm); made by Cymer (ASML) and Gigaphoton (Komatsu).
+
+**Related:** Excimer gas, DUV lithography
+
+**Sources:** [SRC-0570](https://www.asml.com/en/company/about-asml/cymer) [SRC-0583](https://www.gigaphoton.com/en/company/)
+
 ### Expansion clawback
 
 **In plain words:** A condition that makes a company give back US chip subsidies if it significantly expands chip factories in China or other countries of concern.
@@ -661,6 +1023,16 @@
 **Technically:** US regulations (15 CFR Parts 730-774) administered by BIS that control exports, re-exports and in-country transfers of dual-use items listed on the Commerce Control List and items subject to end-use/end-user controls.
 
 **Sources:** [SRC-0110](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor-manufacturing-items)
+
+### Export control control list (China)
+
+**In plain words:** A Chinese list of foreign buyers that Chinese companies may not sell dual-use goods to without special permission.
+
+**Technically:** Importer/end-user list under Export Control Law Art. 18 and Decree 792 Arts. 28-30; MOFCOM can prohibit, restrict or suspend dual-use transactions; since 2026 notices also bar foreign parties from transferring Chinese-origin dual-use items to listed entities. Distinct from the 'watch list' (关注名单). Chinese name: 管控名单.
+
+**Related:** Unreliable Entity List, Entity List
+
+**Sources:** [SRC-0434](https://www.mofcom.gov.cn/zfxxgk/gkml/art/2020/art_76b5fa416a4c42afa8af295eefffdffc.html) [SRC-0436](https://www.gov.cn/gongbao/2024/issue_11686/202411/content_6985161.html) [SRC-0471](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_aab677e956c943808cebf8c06a28ff0e.html)
 
 ### Export controls
 
@@ -696,6 +1068,16 @@
 
 **Sources:** [SRC-0028](https://semiconductor.samsung.com/news-events/tech-blog/from-foundry-to-fabless-an-overview-of-the-semiconductor-ecosystem/)
 
+### Factory acceptance test
+
+**In plain words:** Testing a lithography machine at the maker's factory to prove it meets the agreed specification before it is shipped.
+
+**Technically:** Pre-shipment test of an integrated system against contractual specs; ASML re-tests at site acceptance (SAT) after installation and recognises revenue at FAT for proven technologies.
+
+**Related:** Site acceptance test, Fast shipment
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
 ### Fan-out packaging
 
 **In plain words:** A wafer-level package where the chip is embedded in a larger moulded area so wiring can spread out beyond the chip's edges, allowing more connections without a traditional substrate.
@@ -706,6 +1088,16 @@
 
 **Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf)
 
+### Fast shipment
+
+**In plain words:** Shipping a machine before all factory testing is done so the customer gets it sooner; final acceptance happens at the customer's site.
+
+**Technically:** ASML practice of skipping some factory testing; revenue is deferred until site acceptance test when FAT acceptance is not proven.
+
+**Related:** Factory acceptance test
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
 ### Fault detection and classification
 
 **In plain words:** Software that watches sensor readings from factory machines to spot problems early.
@@ -715,6 +1107,16 @@
 **Related:** MES
 
 **Sources:** [SRC-0189](https://www.pdf.com/semiconductor-manufacturing-data-101-an-introduction/)
+
+### Field upgrade
+
+**In plain words:** An upgrade installed on a lithography machine already in a customer's factory to make it faster or more precise.
+
+**Technically:** Post-sale system enhancement booked in ASML's installed base management (service and field option) revenue, e.g. NXE:3800E upgrades in 2025.
+
+**Related:** Installed base management
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
 
 ### Final test
 
@@ -744,6 +1146,16 @@
 
 **Sources:** [SRC-0125](https://digital-strategy.ec.europa.eu/en/policies/european-chips-act)
 
+### Flexible Spending Account (EDA)
+
+**In plain words:** A deal where a chip designer commits to spend a fixed amount with an EDA vendor and picks the specific tools later.
+
+**Technically:** Non-cancellable commitment of a fixed dollar amount over a period, drawn down against a product list; Synopsys reported US$2.0bn in its backlog at 31 Oct 2025; Cadence describes similar non-cancelable commitments.
+
+**Related:** Remaining performance obligations (RPO), Time-based licence
+
+**Sources:** [SRC-0675](https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/R14.htm) [SRC-0674](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R11.htm)
+
 ### Flip chip
 
 **In plain words:** A way of attaching a chip upside down so that small solder bumps across its whole face connect directly to the package, giving more and shorter connections than wires.
@@ -762,6 +1174,38 @@
 
 **Sources:** [SRC-0110](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor-manufacturing-items) [SRC-0111](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing)
 
+### Foreign private issuer
+
+**In plain words:** A non-US company listed in the US that follows lighter SEC rules, such as yearly Form 20-F instead of quarterly 10-Qs.
+
+**Technically:** SEC status under Exchange Act Rule 3b-4; files 20-F annually (within four months) and 6-K for interim information.
+
+**Related:** Form 20-F
+
+**Sources:** [SRC-0755](https://www.sec.gov/files/form20-f.pdf)
+
+### Form 20-F
+
+**In plain words:** The yearly report that foreign companies listed in the US file with the SEC, in English.
+
+**Technically:** Annual report/registration form for foreign private issuers under the Exchange Act; due within four months after fiscal year-end; filed on EDGAR.
+
+**Example:** TSMC, ASE and ASML file 20-Fs.
+
+**Related:** Form 10-K, Foreign private issuer
+
+**Sources:** [SRC-0755](https://www.sec.gov/files/form20-f.pdf)
+
+### Foundational chip
+
+**In plain words:** SIA's name for the many cheaper, often older-technology chips (power, analog, controllers, sensors) that almost every product needs.
+
+**Technically:** SIA usage (2026 State of the Industry): 'analog/foundational chips, such as power chips, transceivers, controllers, and sensors'; SIA reports separate sales and volume growth for the group but does not publish its exact product definition.
+
+**Related:** Legacy semiconductor
+
+**Sources:** [SRC-0421](https://www.semiconductors.org/wp-content/uploads/2026/07/SIA_2026_State-of-the-Semiconductor-Industry.pdf)
+
 ### Foundry
 
 **In plain words:** A factory company that manufactures chips designed by other companies.
@@ -777,6 +1221,34 @@
 **Technically:** All logic wafer manufacturing (incl. non-memory IDMs) plus packaging, testing, mask-making and others; ~US$250bn in 2023 vs US$115bn old definition (TSMC).
 
 **Sources:** [SRC-0023](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf) [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf)
+
+### Foveros
+
+**In plain words:** Intel's brand for stacking chips on top of or beside each other on a base chip or interposer.
+
+**Technically:** Intel packaging family: Foveros-S (silicon interposer, active base die), Foveros-R (RDL interposer), Foveros-B, and Foveros Direct (Cu-Cu hybrid bonding, sub-5 µm pitch planned on 18A-PT).
+
+**Related:** 3D integration, Hybrid bonding
+
+**Sources:** [SRC-0538](https://www.intel.com/content/www/us/en/foundry/packaging.html) [SRC-0539](https://www.intc.com/news-events/press-releases/detail/1739/intel-foundry-gathers-customers-and-partners-outlines)
+
+### FPGA
+
+**In plain words:** A chip whose wiring the buyer can program after it is made, so one standard chip can do many different jobs.
+
+**Technically:** WSTS counts FPLDs (PLDs, PALs, FPGAs) in MOS Standard Cells and Field Programmable Logic (L2c), split by application (L2e-L2j).
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf) [SRC-0431](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/08/chips-nodes-and-wafers_1189c2a2/f68de895-en.pdf)
+
+### Fracturing
+
+**In plain words:** Chopping the chip's shapes into simple pieces (rectangles and trapezoids) that a mask-writing machine can expose one at a time.
+
+**Technically:** Conversion of polygon layout data into the primitive figure/shot representation of a specific mask writer format (MEBES, VSB, multibeam).
+
+**Related:** Mask data preparation, Job deck
+
+**Sources:** [SRC-0503](https://static.sw.cdn.siemens.com/siemens-disw-assets/public/4vNFWwdwgqPhypErT9K3za/en-US/Siemens-SW-calibre-mdp-FS-83159-C1.pdf) [SRC-0504](https://www.synopsys.com/content/dam/synopsys/silicon/datasheets/mdp-ds.pdf)
 
 ### Franchised distribution agreement
 
@@ -795,6 +1267,16 @@
 **Related:** Back-end
 
 **Sources:** [SRC-0153](https://web-assets.bcg.com/9d/64/367c63094411b6e9e1407bec0dcc/bcgxsia-strengthening-the-global-semiconductor-value-chain-april-2021.pdf)
+
+### Gainshare
+
+**In plain words:** A fee a fab-software vendor earns that goes up or down with how many wafers its customer produces.
+
+**Technically:** PDF Solutions' volume-based revenue tied to customers' wafer manufacturing volumes, recognised in the usage period and accrued from estimates before customer reports.
+
+**Related:** Recurring revenue
+
+**Sources:** [SRC-0688](https://www.sec.gov/Archives/edgar/data/1120914/000143774926005366/R12.htm)
 
 ### Gallium and germanium
 
@@ -832,6 +1314,42 @@
 
 **Sources:** [SRC-0180](https://store-us.semi.org/products/p03900-semi-p39-specification-for-oasis%C2%AE-open-artwork-system-interchange-standard)
 
+### General-purpose analog
+
+**In plain words:** Catalogue analog chips (amplifiers, converters, interface and power-management chips) that are not tied to one type of end product.
+
+**Technically:** WSTS J0: amplifiers/comparators (J9), interface (J4), power management (J6) and signal conversion (J7); contrasted with application-specific analog JA (JB-JF).
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
+### General-purpose logic
+
+**In plain words:** Simple, cheap catalogue logic chips (gates, flip-flops) used in almost every kind of equipment.
+
+**Technically:** WSTS L2a: standard commodity catalogue products, usually simple gates, flip-flops and registers; excludes programmable devices and ASICs.
+
+**Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
+
+### GICS
+
+**In plain words:** A private industry-sorting scheme from MSCI and S&P used by investors; chip firms are in 4530 'Semiconductors & Semiconductor Equipment'.
+
+**Technically:** Global Industry Classification Standard; sub-industries 45301010 Semiconductor Materials & Equipment and 45301020 Semiconductors; 60% revenue rule; licensed data.
+
+**Related:** HSICS, SIC code
+
+**Sources:** [SRC-0793](https://www.msci.com/indexes/documents/methodology/1_MSCI_Global_Industry_Classification_Standard_GICS_Methodology_20250220.pdf) [SRC-0794](https://www.msci.com/downloads/documents/indexes/gics/annual-review-and-consultations/GICS_Structure_Change_Doc_31_March_2022.pdf)
+
+### GigaFab
+
+**In plain words:** A group of several chip factories built side by side so they can share buildings, power, water and staff.
+
+**Technically:** TSMC's site model in which six or seven 300mm fab phases share central facility plants; IC Knowledge estimates it cuts construction cost by about 25% versus a stand-alone fab.
+
+**Related:** Fab
+
+**Sources:** [SRC-0703](https://semiwiki.com/semiconductor-manufacturers/tsmc/285846-cost-analysis-of-the-proposed-tsmc-us-fab) [SRC-0707](https://tickertrends.io/transcripts/TSM/Q3-earnings-transcript-2025)
+
 ### Glass substrate
 
 **In plain words:** A new kind of package base made from glass instead of plastic-like materials, flatter and able to carry denser wiring.
@@ -849,6 +1367,16 @@
 **Technically:** (Revenue − cost of revenue) / revenue.
 
 **Sources:** [SRC-0024](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf)
+
+### Half-year securities report (Japan)
+
+**In plain words:** A report Japanese listed companies file after the first half of their year; it replaced the legal quarterly report in 2024.
+
+**Technically:** 半期報告書 under amended FIEA Art. 24-5 from 1 April 2024, due within 45 days (60 days for some companies). Local-language name(s): 半期報告書.
+
+**Related:** Annual securities report (Japan)
+
+**Sources:** [SRC-0775](https://www.fsa.go.jp/news/r5/sonota/20231208/01.pdf)
 
 ### High Performance Computing
 
@@ -888,6 +1416,16 @@
 
 **Sources:** [SRC-0224](https://wsts.org/67/Historical-Billings-Report) [SRC-0223](https://www.wsts.org/esraCMS/extension/media/f/WST/7771/WSTS-Historical-Billings-Report-Jul_2026.xlsx)
 
+### HSICS
+
+**In plain words:** Hang Seng's system for sorting Hong Kong-listed companies by industry; it has a semiconductor sector.
+
+**Technically:** Hang Seng Industry Classification System: 12 industries, 31 sectors, 114 subsectors; semiconductors 703010, semiconductor equipment & materials 703020; revenue-based.
+
+**Related:** GICS
+
+**Sources:** [SRC-0792](https://www.hsi.com.hk/static/uploads/contents/en/dl_centre/brochures/B_HSICSe.pdf)
+
 ### Hybrid bonding
 
 **In plain words:** Joining two chips (or wafers) face to face so their copper contacts fuse directly, without solder bumps, giving extremely dense connections.
@@ -905,6 +1443,24 @@
 **Technically:** Operator of very large-scale cloud data-centre fleets; the largest end buyers of AI accelerators, often purchasing through OEMs/ODMs and increasingly designing custom silicon.
 
 **Related:** XPU, System company designing its own chips
+
+### I-Cube
+
+**In plain words:** Samsung Foundry's brand names for its 2.5D (I-Cube, H-Cube) and 3D (X-Cube) packaging.
+
+**Technically:** I-CubeS: silicon interposer; I-CubeE: embedded silicon bridges in fan-out panel RDL interposer; H-Cube: hybrid ABF+HDI substrate; X-Cube: 3D stacking by micro-bump or Cu hybrid bonding.
+
+**Related:** 2.5D integration, 3D integration
+
+**Sources:** [SRC-0540](https://semiconductor.samsung.com/us/foundry/advanced-package/advanced-heterogeneous-integration)
+
+### i-line
+
+**In plain words:** Lithography using 365-nanometre ultraviolet light from mercury lamps, for chips or layers that do not need very small features.
+
+**Technically:** 365 nm mercury-lamp exposure (ASML lists ~220 nm resolution); dominant in power devices, MEMS, sensors and packaging.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
 
 ### IDM
 
@@ -978,6 +1534,16 @@
 
 **Sources:** [SRC-0168](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) [SRC-0195](https://www.imec-int.com/en/articles/chiplets-piecing-together-next-generation-chips-part-i)
 
+### Intersegment transfer pricing (IDM foundry)
+
+**In plain words:** When a chip company's own factory unit 'sells' wafers to its own product units at prices meant to look like market prices.
+
+**Technically:** Intel Foundry records intersegment wafer and back-end service revenue from Intel Products at prices intended to approximate market pricing; external customers were US$307m of its 2025 revenue.
+
+**Related:** IDM foundry business, Foundry
+
+**Sources:** [SRC-0664](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/R12.htm)
+
 ### Inventory correction
 
 **In plain words:** A period when customers and distributors stop buying because they already hold too much stock, so chipmakers' sales fall sharply.
@@ -1002,6 +1568,16 @@
 
 **Sources:** [SRC-0159](https://www.asml.com/en/news/stories/2021/semiconductor-manufacturing-process-steps)
 
+### Japanese-made equipment sales (SEAJ)
+
+**In plain words:** How much Japanese equipment companies sell worldwide in a fiscal year, wherever their customers are.
+
+**Technically:** SEAJ series of domestic and overseas sales by Japanese manufacturers incl. overseas subsidiaries, fiscal year April-March, in yen; distinct from 'Japanese market billing' (sales into Japan by all makers).
+
+**Related:** Equipment billings (SEMI)
+
+**Sources:** [SRC-0639](https://www.seaj.or.jp/english/file/jan2026seajforecastforpress_e.pdf) [SRC-0640](https://www.seaj.or.jp/file/july2026seajforecastforpress_j.pdf)
+
 ### JEDEC
 
 **In plain words:** An industry group that writes the technical standards for memory chips like DDR and HBM.
@@ -1009,6 +1585,16 @@
 **Technically:** Standards organisation (founded 1958) developing open microelectronics standards, notably DRAM (DDR, LPDDR, HBM), flash, packaging and ESD.
 
 **Sources:** [SRC-0152](https://www.jedec.org/about-jedec)
+
+### Job deck
+
+**In plain words:** An instruction file telling the mask-writing machine where to put each pattern (chips, test structures, alignment marks) on the glass mask.
+
+**Technically:** Mask-tool placement/control file referencing fractured pattern files; standardised as MALY in SEMI P45, with proprietary variants such as MEBES JB and JEOL JDF.
+
+**Related:** Fracturing, OASIS.MASK, Mask data preparation
+
+**Sources:** [SRC-0486](https://store-us.semi.org/products/p04500-semi-p45-specification-for-job-deck-data-format-for-mask-tools) [SRC-0505](https://harbor.nippon-control-system.co.jp/ebv/en/docs/format) [SRC-0504](https://www.synopsys.com/content/dam/synopsys/silicon/datasheets/mdp-ds.pdf)
 
 ### Known good die
 
@@ -1020,6 +1606,34 @@
 
 **Sources:** [SRC-0187](https://www.semiconductors.org/wp-content/uploads/2018/06/0_2015-ITRS-2.0-Test-.pdf) [SRC-0195](https://www.imec-int.com/en/articles/chiplets-piecing-together-next-generation-chips-part-i)
 
+### KrF
+
+**In plain words:** Deep-ultraviolet lithography using 248-nanometre light from a krypton-fluoride laser.
+
+**Technically:** 248 nm excimer-laser lithography (ASML lists ~80 nm resolution); used for mid-critical layers, notably in memory.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
+### Large accelerated filer
+
+**In plain words:** A big US-listed company that must file its annual report fastest (within 60 days).
+
+**Technically:** SEC Rule 12b-2 filer category determining 10-K deadlines (60/75/90 days) and shown in EDGAR submissions metadata ('category').
+
+**Related:** Form 10-K
+
+**Sources:** [SRC-0754](https://www.sec.gov/files/form10-k.pdf) [SRC-0746](https://data.sec.gov/submissions/CIK0001046179.json)
+
+### Leadframe
+
+**In plain words:** A thin metal frame that holds a chip and provides its pins in many low-cost packages.
+
+**Technically:** Stamped or etched copper-alloy frame to which the die is attached and wire-bonded; a SEMI packaging-materials segment.
+
+**Related:** Wire bonding
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf)
+
 ### Leading edge
 
 **In plain words:** The newest and most advanced chip-making technology, used for the fastest chips.
@@ -1027,6 +1641,26 @@
 **Technically:** The most advanced process generations in volume production at a given time; SIA/BCG used 'below 10nm' for 2019.
 
 **Sources:** [SRC-0031](https://www.semiconductors.org/wp-content/uploads/2021/03/SIA-BCG_Global-Value-Chain_2-pager.pdf) [SRC-0070](https://www.usitc.gov/publications/332/working_papers/us_exposure_to_the_taiwanese_semiconductor_industry_11-21-2023_508.pdf)
+
+### LEAP
+
+**In plain words:** ASE's label for its most advanced packaging and related test services, mostly for AI chips.
+
+**Technically:** ASE management reporting category covering CoWoS-like 2.5D/3D and advanced test; ~75% assembly / 25% test in 2026; FY2026 guidance >US$3.5 bn.
+
+**Related:** CoWoS, OSAT
+
+**Sources:** [SRC-0541](https://media-aseholdco.todayir.com/20260730160934748430568_en.pdf) [SRC-0543](https://stockanalysis.com/quote/tpe/3711/transcripts/552136-q1-2026/)
+
+### LEF/DEF
+
+**In plain words:** Two text file formats that tell chip-layout software what the building blocks look like (LEF) and where everything has been placed and wired (DEF).
+
+**Technically:** Place-and-route interchange formats developed by Cadence and distributed by Si2 under Apache-2.0.
+
+**Related:** Place and route, PDK
+
+**Sources:** [SRC-0521](https://si2.org/lef-def-downloads/)
 
 ### Legacy semiconductor
 
@@ -1060,6 +1694,14 @@
 
 **Sources:** [SRC-0283](https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor) [SRC-0282](https://www.federalregister.gov/documents/full_text/text/2023/10/25/2023-23055.txt)
 
+### Lithography intensity
+
+**In plain words:** How much lithography (and spending on it) a chipmaker needs for each wafer it makes; it rises as chips get more advanced.
+
+**Technically:** ASML term for litho exposures or litho spend per wafer start; a driver in its 2030 scenarios.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
 ### Logic
 
 **In plain words:** Chips that do the 'thinking' or control work other than general-purpose processors, e.g. custom chips and graphics/AI processors in WSTS's grouping.
@@ -1088,6 +1730,16 @@
 
 **Sources:** [SRC-0094](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm) [SRC-0096](https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm) [SRC-0079](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm)
 
+### Long-term supply agreement deposit (LTSA)
+
+**In plain words:** Money a customer pays a chipmaker up front to guarantee supply, returned if it buys the promised amount.
+
+**Technically:** Microchip LTSA (3-5 years): upfront deposit plus minimum purchase commitments in exchange for assured supply; deposit returned if commitments met, otherwise retained and recognised as revenue.
+
+**Related:** Long-term agreement, Capacity reservation
+
+**Sources:** [SRC-0668](https://www.sec.gov/Archives/edgar/data/827054/000082705425000077/R9.htm)
+
 ### Lot
 
 **In plain words:** A batch of wafers (typically carried together in one container) that moves through the factory as a unit.
@@ -1098,6 +1750,26 @@
 
 **Sources:** [SRC-0170](https://www.tsmc.com/english/dedicatedFoundry/services/eFoundry) [SRC-0190](https://www.siemens.com/en-us/products/opcenter/execution/semiconductor/)
 
+### Market development funds (MDF)
+
+**In plain words:** Money a chip company pays partners to promote its products, which it counts as a reduction of its sales.
+
+**Technically:** Partner payments earmarked for market-segment development; NVIDIA accounts for MDFs and reseller rebates as reductions to revenue.
+
+**Related:** Rebate
+
+**Sources:** [SRC-0669](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/R10.htm)
+
+### Mask data preparation
+
+**In plain words:** The computer processing that turns a finished chip layout into the exact data a mask-writing machine needs.
+
+**Technically:** Post-tape-out flow of resolution enhancement (OPC, assist features), boolean/sizing operations, mask rule checking, mask process correction and fracturing into writer formats with job decks.
+
+**Related:** Fracturing, Optical proximity correction, Job deck
+
+**Sources:** [SRC-0503](https://static.sw.cdn.siemens.com/siemens-disw-assets/public/4vNFWwdwgqPhypErT9K3za/en-US/Siemens-SW-calibre-mdp-FS-83159-C1.pdf) [SRC-0504](https://www.synopsys.com/content/dam/synopsys/silicon/datasheets/mdp-ds.pdf)
+
 ### Mask set
 
 **In plain words:** The full collection of photomasks, one per patterned layer, needed to make a chip design.
@@ -1107,6 +1779,16 @@
 **Related:** Photomask, Tape-out
 
 **Sources:** [SRC-0183](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm)
+
+### Materials Market Data Subscription (MMDS)
+
+**In plain words:** SEMI's paid dataset that tracks how much money is spent on chipmaking materials, by type and region.
+
+**Technically:** SEMI subscription giving annual revenue with 10 years of history and a two-year forecast, quarterly updates, seven regions; public figures come only from SEMI press releases.
+
+**Related:** Semiconductor materials
+
+**Sources:** [SRC-0021](https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports) [SRC-0602](https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf)
 
 ### Memflation
 
@@ -1202,6 +1884,26 @@
 
 **Sources:** [SRC-0277](https://www.federalregister.gov/documents/full_text/text/2020/12/22/2020-28031.txt) [SRC-0297](https://www.federalregister.gov/api/v1/documents/2024-07004,2024-19633,2024-28267,2025-00636.json?fields[]=document_number&fields[]=citation&fields[]=publication_date&fields[]=effective_on&fields[]=abstract)
 
+### Mold compound
+
+**In plain words:** The hard plastic poured around a chip to protect it.
+
+**Technically:** Epoxy-based encapsulation material for transfer or compression moulding; SEMI packaging-materials segment; Resonac lists it as a back-end product.
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0612](https://www.resonac.com/sites/default/files/2026-02/e_shiryo2025q4.pdf)
+
+### Monthly revenue report (Taiwan)
+
+**In plain words:** Taiwan-listed companies must publish last month's sales by the 10th of each month, which gives an early look at chip demand.
+
+**Technically:** Monthly operating revenue (consolidated under IFRS) input into MOPS before the 10th of the following month under Securities and Exchange Act Art. 36; unaudited. Local-language name(s): 月營收.
+
+**Example:** TSMC reported NT$514.8bn for August 2026.
+
+**Related:** MOPS
+
+**Sources:** [SRC-0758](https://www.fsc.gov.tw/fckdowndoc?file=%2FInformation_Disclosure_20130716-1.pdf&flag=doc) [SRC-0763](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html)
+
 ### Moore's Law
 
 **In plain words:** The observation that the number of parts that fit on a chip doubles roughly every two years.
@@ -1210,6 +1912,34 @@
 
 **Sources:** [SRC-0036](https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/)
 
+### MOPS
+
+**In plain words:** Taiwan's official website where listed companies post their financial reports, monthly sales and important news.
+
+**Technically:** Market Observation Post System run by TWSE and TPEx under FSC supervision; English version e-MOPS. Local-language name(s): 公開資訊觀測站.
+
+**Related:** Monthly revenue report (Taiwan)
+
+**Sources:** [SRC-0765](https://emops.twse.com.tw/server-java/t58query) [SRC-0758](https://www.fsc.gov.tw/fckdowndoc?file=%2FInformation_Disclosure_20130716-1.pdf&flag=doc)
+
+### Multi-patterning
+
+**In plain words:** Printing one very fine layer in two or more exposure steps because a single exposure cannot make features that small.
+
+**Technically:** Splitting a layer's pattern across several litho-etch (or spacer) steps to beat a tool's single-exposure resolution; EUV and High-NA aim to replace some of these steps with one exposure.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) [SRC-0586](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reiterates-it-doesnt-need-high-na-euv-for-1-4nm-class-process-technology)
+
+### Multi-project wafer
+
+**In plain words:** A shared production run where many different chip designs are put on the same set of masks and wafers so each pays only part of the cost.
+
+**Technically:** Prototyping service combining multiple customer designs on a multi-project mask set (e.g. TSMC CyberShuttle, EUROPRACTICE MPW).
+
+**Related:** Tape-out, Mask set
+
+**Sources:** [SRC-0497](https://tsmc.com/english/dedicatedFoundry/services/cyberShuttle) [SRC-0523](https://europractice-ic.com/mpw-prototyping)
+
 ### NAND flash
 
 **In plain words:** Memory that keeps data without power, used in phones and SSDs.
@@ -1217,6 +1947,14 @@
 **Technically:** Non-volatile flash memory in NAND architecture; layer count (e.g. <128 layers) is used by US regulation to separate legacy from advanced NAND.
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf) [SRC-0019](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-II/subchapter-C/part-231/subpart-A)
+
+### Nanoimprint lithography
+
+**In plain words:** A way of making chip patterns by pressing a patterned stamp into a soft coating on the wafer, instead of printing with light.
+
+**Technically:** Jet-and-flash imprint of a template into resist, cured and released; Canon's FPA-1200NZ2C claims 14 nm minimum linewidth.
+
+**Sources:** [SRC-0576](https://global.canon/en/news/2024/20240926.html)
 
 ### Net billings
 
@@ -1266,6 +2004,26 @@
 
 **Sources:** [SRC-0180](https://store-us.semi.org/products/p03900-semi-p39-specification-for-oasis%C2%AE-open-artwork-system-interchange-standard)
 
+### OASIS.MASK
+
+**In plain words:** A stricter, simpler version of the OASIS chip-layout file format, made specifically so mask-making machines can read the pattern quickly.
+
+**Technically:** SEMI P44: a constrained subset of SEMI P39 OASIS defining the common input data format for mask tools (writers, inspection); current revision P44-1216 (reapproved 2024).
+
+**Related:** OASIS, GDSII, Job deck
+
+**Sources:** [SRC-0485](https://store-us.semi.org/products/p04400-semi-p44-specification-for-open-artwork-system-interchange-standard-oasis-%C2%AE-specific-to-mask-tools)
+
+### On-site gas supply
+
+**In plain words:** A gas company builds a plant next to the fab and pipes gas straight in under a long contract.
+
+**Technically:** Linde: on-site contracts are total-requirement contracts typically 10-20 years with minimum purchase and price escalation; merchant bulk contracts usually 3-7 years.
+
+**Related:** Electronic gases
+
+**Sources:** [SRC-0615](https://assets.linde.com/-/media/global/corporate/corporate/documents/investors/full-year-financial-reports/2025-annual-report-to-shareholders.pdf)
+
 ### Open market (broker channel)
 
 **In plain words:** Traders who buy and resell chips outside the chipmaker's official channel; useful in shortages but a counterfeit risk.
@@ -1273,6 +2031,34 @@
 **Technically:** Independent distributors, brokers and online component exchanges sourcing from diverse, non-OCM suppliers.
 
 **Sources:** [SRC-0221](https://www.semiconductors.org/wp-content/uploads/2018/01/SIA-Anti-Counterfeiting-Whitepaper.pdf)
+
+### Open-source PDK
+
+**In plain words:** A factory design kit published for free on the internet, so anyone can design a chip for that factory without signing a secrecy agreement.
+
+**Technically:** Foundry PDK released under an open licence (Apache 2.0), e.g. SKY130, GF180MCU, IHP SG13G2; all currently labelled preview/experimental.
+
+**Related:** PDK, Published (EAR 734.7)
+
+**Sources:** [SRC-0178](https://github.com/google/skywater-pdk) [SRC-0516](https://github.com/google/gf180mcu-pdk) [SRC-0517](https://github.com/IHP-GmbH/IHP-Open-PDK)
+
+### Optical column
+
+**In plain words:** The set of lenses or mirrors inside a lithography machine that shrinks the mask pattern and focuses it onto the wafer.
+
+**Technically:** The projection optics (and associated illumination) module of a lithography system; for ASML supplied solely by Carl Zeiss SMT.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
+### Optical proximity correction
+
+**In plain words:** Deliberately distorting the shapes on a mask so that, after light blurs them during printing, the wafer ends up with the shapes the designer wanted.
+
+**Technically:** Resolution enhancement technique that biases and adds features to mask geometries based on lithography models; run before fracture in mask data preparation.
+
+**Related:** Mask data preparation, Photolithography
+
+**Sources:** [SRC-0503](https://static.sw.cdn.siemens.com/siemens-disw-assets/public/4vNFWwdwgqPhypErT9K3za/en-US/Siemens-SW-calibre-mdp-FS-83159-C1.pdf)
 
 ### Optoelectronics
 
@@ -1306,6 +2092,38 @@
 
 **Sources:** [SRC-0123](https://home.treasury.gov/policy-issues/international/outbound-investment-program)
 
+### Over-time revenue recognition
+
+**In plain words:** The seller books revenue gradually while it does the work or while the customer uses the service, instead of all at once.
+
+**Technically:** Revenue recognised as a performance obligation is satisfied over a period - e.g. OSAT services and photomasks (custom output with no alternative use and a right to payment for work done), time-based EDA licences, service contracts and IP subscriptions.
+
+**Related:** Point-in-time revenue recognition, Recurring revenue
+
+**Sources:** [SRC-0679](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/R10.htm) [SRC-0678](https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/R9.htm) [SRC-0674](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R11.htm)
+
+### Overlay
+
+**In plain words:** How precisely each new layer of a chip lines up on top of the layers already printed.
+
+**Technically:** Layer-to-layer alignment error of patterned features, typically specified in nm (e.g. ~0.7 nm claimed for EXE:5200B).
+
+**Related:** Lithography, Wafers per hour
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) [SRC-0594](https://thelec.net/news/articleView.html?idxno=5864)
+
+### Overseas fab margin dilution
+
+**In plain words:** How much a chipmaker's overall profit margin drops because its new factories abroad cost more to run than its home factories.
+
+**Technically:** Percentage-point reduction in consolidated gross margin attributed by the company to ramping fabs outside its home base (TSMC: Arizona, Kumamoto, Dresden), reflecting higher cost, smaller scale and start-up depreciation.
+
+**Example:** TSMC guided 2-3% dilution in early years widening to 3-4% later.
+
+**Related:** Fab utilization, Foundry
+
+**Sources:** [SRC-0707](https://tickertrends.io/transcripts/TSM/Q3-earnings-transcript-2025) [SRC-0708](https://tickertrends.io/transcripts/TSM/Q4-earnings-transcript-2025)
+
 ### Package substrate
 
 **In plain words:** The small multilayer board a chip (or chips) sits on inside its package, connecting it to the circuit board.
@@ -1316,6 +2134,24 @@
 
 **Sources:** [SRC-0185](https://www.nist.gov/system/files/documents/2023/11/19/NAPMP-Vision-Paper-20231120.pdf) [SRC-0164](https://download.intel.com/newsroom/archive/2025/en-us-2023-09-18-intel-unveils-industryleading-glass-substrates-to-meet-demand-for-more-powerful-compute.pdf)
 
+### Packaging materials
+
+**In plain words:** Materials used to house, protect and connect a finished chip, such as substrates, lead frames, wires and plastic moulding.
+
+**Technically:** SEMI segment covering leadframes, substrates, bonding wire, die attach, mold compounds, encapsulants, ceramic packages and other; US$27.4bn in 2025.
+
+**Related:** Wafer fabrication materials, Package substrate
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0021](https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports)
+
+### Participant census
+
+**In plain words:** A complete count and list of all companies in an industry, not only the famous ones.
+
+**Technically:** Enumeration of every entity per role and country, combining official classification lists, filing-text searches, association directories and government lists, deduplicated by legal entity.
+
+**Related:** SIC code, GICS
+
 ### PDK
 
 **In plain words:** The 'rulebook and parts kit' a foundry gives designers so their designs can be manufactured on its process.
@@ -1325,6 +2161,16 @@
 **Related:** Design rules, EDA
 
 **Sources:** [SRC-0178](https://github.com/google/skywater-pdk)
+
+### Per-wafer pricing
+
+**In plain words:** A foundry charges a set price for each finished silicon wafer it makes to a customer's design, no matter how many working chips are on it.
+
+**Technically:** Foundry pricing basis in which volume-production revenue is the number of finished wafers shipped times a negotiated per-wafer price for the applicable design/process, adjusted by volume rebates and yield adjustments (GlobalFoundries 20-F).
+
+**Related:** Yield adjustment, Long-term agreement, Non-recurring engineering (NRE)
+
+**Sources:** [SRC-0660](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/R11.htm)
 
 ### Performance density
 
@@ -1366,6 +2212,16 @@
 
 **Sources:** [SRC-0159](https://www.asml.com/en/news/stories/2021/semiconductor-manufacturing-process-steps)
 
+### Photoresist ancillaries
+
+**In plain words:** The helper chemicals used with photoresist: developers, thinners, rinses, strippers and coatings.
+
+**Technically:** SEMI fab-materials segment separate from photoresist; includes developers, edge-bead removers, strippers and anti-reflective coatings. TECHCET separates 'ancillaries' and 'extensions' (hardmasks, ARCs).
+
+**Related:** Photoresist
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0621](https://www.semiconductor-digest.com/rising-wafer-starts-and-advanced-nodes-fuel-photolithography-materials-growth/) [SRC-0611](https://www.tok.co.jp/eng/products/semiconductor-pre)
+
 ### Place and route
 
 **In plain words:** Automatically deciding where every gate sits on the chip and how the wires connect them.
@@ -1383,6 +2239,16 @@
 **Technically:** Fabrication method (Hoerni, Fairchild, 1959) using a protective silicon-dioxide layer and diffusion through oxide windows so all components are made from one side of the wafer.
 
 **Sources:** [SRC-0038](https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/)
+
+### Point-in-time revenue recognition
+
+**In plain words:** The seller books the whole sale at one moment, usually when the goods are shipped or delivered.
+
+**Technically:** Under ASC 606 / IFRS 15, revenue recognised when control of a good transfers at a single point (shipment, delivery, acceptance or licence delivery). Used for wafers (TSMC, GF), chips, tools, spare parts and delivered IP licences.
+
+**Related:** Over-time revenue recognition
+
+**Sources:** [SRC-0660](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/R11.htm) [SRC-0680](https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/R10.htm) [SRC-0672](https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/R10.htm)
 
 ### Preliminary memorandum of terms (PMT)
 
@@ -1422,6 +2288,26 @@
 
 **Sources:** [SRC-0103](https://www.sec.gov/Archives/edgar/data/8858/000000885825000028/avt-20250628x10k.htm)
 
+### Principal vs agent (distribution)
+
+**In plain words:** Whether a distributor books the full selling price as its revenue (it owns the goods) or only its fee (it just arranges the sale).
+
+**Technically:** ASC 606 test: principal if it controls the goods (inventory risk, pricing discretion, fulfilment), recording gross revenue; agent if it arranges supply by another party, recording the net fee (Avnet, Arrow).
+
+**Related:** Authorized distributor
+
+**Sources:** [SRC-0694](https://www.sec.gov/Archives/edgar/data/8858/000110465926096346/R9.htm) [SRC-0695](https://www.sec.gov/Archives/edgar/data/7536/000110465926012765/R9.htm)
+
+### Process control
+
+**In plain words:** Machines that check wafers during manufacturing for defects and measure whether features have the right size, so problems are caught early.
+
+**Technically:** Wafer and reticle inspection, review and metrology tools plus analytics software; KLA is the leading supplier, with Applied Materials, ASML, Hitachi High-Tech, Onto and Lasertec as competitors.
+
+**Related:** Metrology
+
+**Sources:** [SRC-0647](https://www.sec.gov/Archives/edgar/data/319201/000031920125000024/klac-20250630.htm) [SRC-0649](https://d1io3yog0oux5.cloudfront.net/_480bab5adfc62db6ef1206ad85ae8e13/klatencor/db/1117/10585/letter_to_shareholders/KLA+Corporation+Q2CY25+Earnings+Letter+to+Shareholders.pdf)
+
 ### Process node
 
 **In plain words:** A generation name for a chip manufacturing technology (e.g. '3nm'); smaller usually means newer and denser, but the number is a label, not a measurement.
@@ -1429,6 +2315,34 @@
 **Technically:** Technology generation label; no longer corresponds to any specific physical dimension.
 
 **Sources:** [SRC-0027](https://spectrum.ieee.org/amp/the-status-of-moores-law-its-complicated-2650270098) [SRC-0024](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf)
+
+### Process of record (POR)
+
+**In plain words:** The specific machine and recipe a chipmaker officially chooses for one step in making a chip; once chosen it is rarely changed for that product.
+
+**Technically:** A qualified production process/tool selection for a given application and node; winning PORs drives equipment share because fabs generally keep qualified tools for that node.
+
+**Sources:** [SRC-0645](https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4presentations-e.pdf) [SRC-0643](https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/lrcx-20250629.htm)
+
+### Production-slot reservation (equipment)
+
+**In plain words:** A chipmaker pays a tool maker to hold a place in its production schedule for a machine it will receive later.
+
+**Technically:** ASML contract term giving ASML a right to payment for systems through reservation of a production slot and/or on delivery, with the balance on final acceptance; most contracts also require a down payment.
+
+**Related:** Down payment, Volume purchase agreement
+
+**Sources:** [SRC-0685](https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/R13.htm)
+
+### Published (EAR 734.7)
+
+**In plain words:** US export rules do not cover software or technical information that has been freely released to the public.
+
+**Technically:** 15 CFR 734.7: unclassified software/technology made available without restriction on further dissemination (incl. public internet posting) is not subject to the EAR, except certain encryption and firearm files.
+
+**Related:** Export Administration Regulations, Open-source PDK, Deemed export
+
+**Sources:** [SRC-0513](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.7)
 
 ### QFN
 
@@ -1468,6 +2382,44 @@
 
 **Sources:** [SRC-0318](https://www.govinfo.gov/content/pkg/FR-2024-10-23/html/2024-23857.htm)
 
+### Recurring revenue
+
+**In plain words:** Money a company expects to earn again and again from the same customers, such as subscriptions, support fees or royalties.
+
+**Technically:** Company-defined (non-GAAP) category. Cadence: revenue recognised over time plus short-term renewable software and committed-spend arrangements (80% in FY2025). PDF Solutions: scheduled items plus historically re-occurring volume items (94% in 2025). Definitions differ across companies.
+
+**Related:** Up-front revenue, Time-based licence
+
+**Sources:** [SRC-0674](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R11.htm) [SRC-0688](https://www.sec.gov/Archives/edgar/data/1120914/000143774926005366/R12.htm)
+
+### Redistribution layer
+
+**In plain words:** Thin layers of copper wiring built on top of a chip or wafer to reroute its connections to where they are needed; can replace a silicon interposer.
+
+**Technically:** Polymer-dielectric/copper metallisation layers patterned at wafer or panel level that fan connections in or out; used in fan-out packages and as organic 'RDL interposers' (e.g. CoWoS-R at ~2 µm L/S, Foveros-R).
+
+**Related:** Fan-out packaging, Interposer
+
+**Sources:** [SRC-0168](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) [SRC-0535](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/InFO.htm)
+
+### Reference flow
+
+**In plain words:** A tested, step-by-step recipe of which design software to use and how, so a chip comes out right on a particular factory's process.
+
+**Technically:** Foundry-validated sequence of EDA tools, versions and settings (e.g. TSMC Reference Flow, Samsung Foundry DM/SAFE-QEDA flows) implementing the foundry's design methodology for a node.
+
+**Related:** EDA tool certification, PDK, Signoff
+
+**Sources:** [SRC-0491](https://www.tsmc.com/english/dedicatedFoundry/oip/eda_alliance) [SRC-0490](https://semiconductor.samsung.com/foundry/safe/eda/)
+
+### Refurbished lithography system
+
+**In plain words:** An older lithography machine that is reconditioned and resold, often to makers of mature chips.
+
+**Technically:** Pre-owned scanner/stepper resold after refurbishment; reported separately by ASML (used systems) and Nikon (refurbished units).
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) [SRC-0571](https://nikon.com/company/ir/ir_library/result/pdf/2026/26_4qf_d_e.pdf)
+
 ### Region of sale (WSTS)
 
 **In plain words:** The region a chip sale is counted in: where the chips are shipped to the buyer, not where the seller is based or where the chip was made.
@@ -1478,6 +2430,26 @@
 
 **Sources:** [SRC-0225](https://semiconductors.org/wp-content/uploads/2025/01/Green-Book-v18_Sample.pdf)
 
+### Remaining performance obligations (RPO)
+
+**In plain words:** Signed business a company has not yet delivered and so has not yet counted as revenue.
+
+**Technically:** ASC 606 disclosure of the transaction price allocated to unsatisfied obligations; EDA and IP vendors usually exclude future sales-based royalties (Synopsys US$11.4bn; Arm US$2.07bn).
+
+**Related:** Backlog, Flexible Spending Account (EDA)
+
+**Sources:** [SRC-0675](https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/R14.htm) [SRC-0673](https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/R13.htm)
+
+### Reticle-size multiple
+
+**In plain words:** How large a package's interposer is compared with the biggest area a lithography tool can print in one shot (about 26 x 33 mm). '5.5x reticle' means 5.5 times that area.
+
+**Technically:** Interposer or package area expressed as multiples of the ~858 mm2 single-exposure field; above 1x the interposer must be stitched (silicon) or built as RDL/bridges. CoWoS-S ~3.3x; TSMC 5.5x in production 2026, 14x planned 2028.
+
+**Related:** Interposer, CoWoS
+
+**Sources:** [SRC-0168](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) [SRC-0534](https://pr.tsmc.com/english/news/3302)
+
 ### Royalty
 
 **In plain words:** A small payment made for each chip or device sold that uses someone else's technology.
@@ -1487,6 +2459,16 @@
 **Example:** Arm charges a royalty for every chip containing its products; Qualcomm charges a percentage of a device's wholesale price.
 
 **Sources:** [SRC-0084](https://investors.arm.com/static-files/219a3b28-f209-4d74-8bc6-f9e026d55a95) [SRC-0080](https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm)
+
+### Royalty buydown
+
+**In plain words:** A licensee pays a lump sum up front to reduce or replace future per-chip royalties.
+
+**Technically:** Arrangement in IP licensing (Arm) where prepaid or minimum royalty commitments are treated as fixed consideration and recognised as licensing revenue at a point in time.
+
+**Related:** Royalty, Licence fee
+
+**Sources:** [SRC-0672](https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/R10.htm)
 
 ### RTL
 
@@ -1507,6 +2489,26 @@
 **Related:** GDSII, Tape-out
 
 **Sources:** [SRC-0179](https://news.synopsys.com/2018-03-19-Synopsys-Introduces-Breakthrough-Fusion-Technology-to-Transform-the-RTL-to-GDSII-Flow)
+
+### S-1 method (Japan IPO)
+
+**In plain words:** A Japanese IPO route that lets a company file its offering document before the exchange approves the listing, to sound out investors earlier.
+
+**Technically:** Pre-approval securities registration statement (承認前届出書) introduced October 2023; Kioxia (Dec 2024) was the first IPO to use it. Local-language name(s): 承認前届出書.
+
+**Related:** EDINET
+
+**Sources:** [SRC-0778](https://www.amt-law.com/asset/pdf/bulletins10_pdf/241220.pdf)
+
+### Scanner
+
+**In plain words:** A lithography machine that prints a chip pattern by sweeping a slit of light across the mask and wafer at the same time, then stepping to the next spot.
+
+**Technically:** Step-and-scan exposure tool in which reticle and wafer stages move synchronously under a slit-shaped illumination field; standard for KrF, ArF, ArFi and EUV.
+
+**Related:** Stepper
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) [SRC-0588](https://www.trendforce.com/news/2025/12/26/news-chinas-smee-reportedly-wins-rmb-110m-lithography-tool-contract-amid-domestic-push/)
 
 ### SECS/GEM
 
@@ -1551,6 +2553,16 @@
 **Technically:** Semiconductor Manufacturing Technology consortium formed August 1987 with anticipated federal support of $100m/year.
 
 **Sources:** [SRC-0048](https://www.gao.gov/assets/rced-92-283.pdf)
+
+### SEMI P10
+
+**In plain words:** A standard electronic order form for photomasks, so a chip company's software can order masks from a mask shop without manual re-typing.
+
+**Technically:** SEMI specification of data structures (UTF-8/XML) for mask orders and returned mask results/qualification data; revision P10-1112 currently Inactive.
+
+**Related:** Job deck, Photomask
+
+**Sources:** [SRC-0487](https://store-us.semi.org/products/p01000-semi-p10-specification-of-data-structures-for-photomask-orders) [SRC-0506](https://www.photronics.com/services/on-line-data-services/)
 
 ### SEMI Standards
 
@@ -1610,6 +2622,26 @@
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
+### Served available market (SAM)
+
+**In plain words:** The part of a total market that a company's products can actually address.
+
+**Technically:** For equipment makers, the share of WFE spending in tool categories where the vendor offers products (e.g. Lam: low-30% of WFE in 2025).
+
+**Sources:** [SRC-0644](https://www.sec.gov/Archives/edgar/data/707549/000114036125036023/ny20050572x4_ars.pdf)
+
+### SIC code
+
+**In plain words:** A four-digit US government number that says what kind of business a company is in; the SEC still tags every filer with one.
+
+**Technically:** Standard Industrial Classification code; replaced by NAICS for US statistics in 1997 but retained by SEC EDGAR to describe filers and assign review offices.
+
+**Example:** NVIDIA is SIC 3674; Lam Research is SIC 3559.
+
+**Related:** NAICS, EDGAR
+
+**Sources:** [SRC-0737](https://www.sec.gov/search-filings/standard-industrial-classification-sic-code-list) [SRC-0739](https://www.census.gov/naics/?details=334413&input=334413&year=2022)
+
 ### Signoff
 
 **In plain words:** The final set of checks confirming a chip design meets timing, power and manufacturing rules before it is sent to be made.
@@ -1619,6 +2651,24 @@
 **Related:** Tape-out, Design rules
 
 **Sources:** [SRC-0179](https://news.synopsys.com/2018-03-19-Synopsys-Introduces-Breakthrough-Fusion-Technology-to-Transform-the-RTL-to-GDSII-Flow)
+
+### Silicon-on-insulator (SOI) wafer
+
+**In plain words:** A silicon wafer with a thin buried insulating layer, used for some fast or low-power chips.
+
+**Technically:** Engineered substrate with a buried oxide under a thin silicon device layer; a separate SEMI fab-materials segment from bulk silicon.
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0596](https://www.semi.org/en/semi-press-releases/2024-global-semiconductor-materials-market-posts-67.5-billion-dollars-in-revenue-semi-reports)
+
+### Silicon-proven IP
+
+**In plain words:** A ready-made chip building block that has actually been manufactured and tested on a given process, not just simulated.
+
+**Technically:** IP validated on test chips (typically via MPW) with characterisation reports; foundries assess and grade it (TSMC9000, Samsung QCP).
+
+**Related:** TSMC9000, Multi-project wafer
+
+**Sources:** [SRC-0492](https://www.tsmc.com/english/dedicatedFoundry/oip/ip_alliance) [SRC-0489](https://semiconductor.samsung.com/foundry/safe/ip)
 
 ### SoIC
 
@@ -1630,6 +2680,16 @@
 
 **Sources:** [SRC-0169](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/SoIC.htm)
 
+### SoW-X
+
+**In plain words:** TSMC's approach of building a whole system on a full wafer rather than cutting it into packages.
+
+**Technically:** Wafer-scale integration of logic and memory on a 300 mm wafer; TSMC's 40-reticle SoW-X expected 2029.
+
+**Related:** CoWoS, Reticle-size multiple
+
+**Sources:** [SRC-0534](https://pr.tsmc.com/english/news/3302)
+
 ### Spot price (memory)
 
 **In plain words:** The price of memory chips traded day to day between brokers, module makers and distributors outside long contracts; it reacts first when shortages or gluts appear.
@@ -1640,6 +2700,26 @@
 
 **Sources:** [SRC-0389](https://dramexchange.com/Service/Faqs) [SRC-0371](https://www.eetimes.com/?p=1133354)
 
+### Sputtering target
+
+**In plain words:** A block of very pure metal that a machine blasts with ions so that thin metal films land on the wafer.
+
+**Technically:** High-purity metal or alloy source for physical vapour deposition; a SEMI fab-materials segment ('Targets').
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0342](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf)
+
+### STAR Market
+
+**In plain words:** A Shanghai stock board for technology companies; it holds the largest group of listed Chinese chip companies.
+
+**Technically:** Sci-Tech Innovation Board of the Shanghai Stock Exchange, launched 13 June 2019; 588 companies and 119 IC companies as of June 2025. Local-language name(s): 科创板.
+
+**Example:** CXMT listed on the STAR Market in 2026.
+
+**Related:** A-share
+
+**Sources:** [SRC-0785](https://english.sse.com.cn/news/newsrelease/voice/c/c_20250616_10782033.shtml)
+
 ### STDF
 
 **In plain words:** A common file format for storing chip test results.
@@ -1649,6 +2729,26 @@
 **Related:** Automatic test equipment
 
 **Sources:** [SRC-0188](https://www.kanwoda.com/wp-content/uploads/2015/05/std-spec.pdf)
+
+### Stepper
+
+**In plain words:** An older, simpler kind of lithography machine that exposes one whole chip area at a time and then moves (steps) to the next.
+
+**Technically:** Step-and-repeat projection exposure tool exposing a full field at once; still common for i-line and packaging lithography.
+
+**Related:** Scanner
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) [SRC-0574](https://global.canon/en/ir/annual/canon-annual-report-2025.pdf)
+
+### Stock rotation
+
+**In plain words:** A right that lets a distributor send back slow-selling chips to the maker in exchange for others.
+
+**Technically:** Distributor right to return a portion of inventory for other products; treated by chipmakers (Microchip) as variable consideration estimated with the expected-value method.
+
+**Related:** Price protection, Franchised distribution agreement
+
+**Sources:** [SRC-0668](https://www.sec.gov/Archives/edgar/data/827054/000082705425000077/R9.htm)
 
 ### Strategic Customer Agreement
 
@@ -1730,6 +2830,16 @@
 
 **Sources:** [SRC-0077](https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf)
 
+### Thermo-compression bonding
+
+**In plain words:** Attaching a chip by pressing it down with a heated head so its tiny bumps melt and fuse, one die at a time.
+
+**Technically:** Die-level bonding with controlled force and temperature at the bond head, used for fine-pitch micro-bumps (HBM stacks, chip-to-substrate and chip-to-wafer in 2.5D). Needs bumps and underfill, unlike hybrid bonding.
+
+**Related:** Hybrid bonding, Bumping
+
+**Sources:** [SRC-0553](https://eps.ieee.org/wp-content/uploads/2026/03/EM_Hybrid-Bonding_Apr26.pdf) [SRC-0548](https://www.asmpt.com/site/assets/files/84504/e0522_press_release_2025_q4_results.pdf)
+
 ### Three-month moving average
 
 **In plain words:** A smoothing method: each month's figure is the average of that month and the two before it.
@@ -1755,6 +2865,18 @@
 **Technically:** EDA licence granting use for a defined term, often bundled with support as a subscription; revenue recognised over time or upfront depending on the arrangement.
 
 **Sources:** [SRC-0081](https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm) [SRC-0082](https://news.synopsys.com/2025-12-10-Synopsys-Posts-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year-2025)
+
+### Total cost of ownership (fab TCO)
+
+**In plain words:** Everything it costs to build a chip factory and run it for ten years, minus the money governments give back.
+
+**Technically:** In SIA/BCG usage: upfront capital expenditure (land, construction, equipment) plus ten years of cash operating expenses (labour, utilities, materials, taxes), minus government incentives.
+
+**Example:** SIA/BCG estimated the US 10-year TCO at about 30% above Taiwan, South Korea or Singapore.
+
+**Related:** Fab, Industrial policy
+
+**Sources:** [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) [SRC-0699](https://web-assets.bcg.com/pdf-src/prod-live/navigating-the-semiconductor-manufacturing-costs.pdf)
 
 ### Total processing performance (TPP)
 
@@ -1798,6 +2920,16 @@
 
 **Sources:** [SRC-0194](https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html)
 
+### TSMC9000
+
+**In plain words:** TSMC's quality-grading scheme for third-party chip building blocks, so customers can see how risky each one is before using it.
+
+**Technically:** TSMC library and IP assessment programme with pre-silicon, test-chip and silicon assessments; scores, known-issue labels and usage records shown on TSMC-Online; TSMC9000A adds automotive checks.
+
+**Related:** Silicon-proven IP
+
+**Sources:** [SRC-0492](https://www.tsmc.com/english/dedicatedFoundry/oip/ip_alliance)
+
 ### Turnkey design service
 
 **In plain words:** A company that takes a customer's chip idea and handles design, manufacturing, packaging and testing through to finished chips.
@@ -1815,6 +2947,26 @@
 **Related:** Chiplet
 
 **Sources:** [SRC-0175](https://www.uciexpress.org/)
+
+### Unreliable Entity List
+
+**In plain words:** China's blacklist of foreign companies it says harm China or cut off Chinese customers; listed firms can be barred from trading with or investing in China.
+
+**Technically:** List kept by an inter-ministerial working mechanism under MOFCOM Order 2020 No. 4; measures include bans on China-related import/export and investment, entry and work-permit restrictions, and fines; Chinese parties need approval to transact with listed entities. Chinese name: 不可靠实体清单.
+
+**Related:** Export control control list (China)
+
+**Sources:** [SRC-0437](https://www.gov.cn/zhengce/2020-09/19/content_5712450.htm) [SRC-0456](https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9b662990fa4a4d26ba3984ab5d826960.html)
+
+### Up-front revenue
+
+**In plain words:** Revenue a software or IP company books in full at the start of a deal, such as a hardware sale or a perpetual licence.
+
+**Technically:** Cadence's term for revenue recognised at a point in time, mainly hardware, individual IP licences and some software licences with a term over one year.
+
+**Related:** Recurring revenue
+
+**Sources:** [SRC-0674](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R11.htm)
 
 ### Upside sharing
 
@@ -1842,6 +2994,16 @@
 
 **Sources:** [SRC-0293](https://www.federalregister.gov/documents/full_text/text/2025/09/02/2025-16735.txt) [SRC-0294](https://media.bis.gov/press-release/department-commerce-closes-export-controls-loophole-foreign-owned-semiconductor-fabs-china)
 
+### Volume purchase agreement (equipment)
+
+**In plain words:** A multi-year framework deal in which a chipmaker agrees to buy a number of tools at negotiated discounts.
+
+**Technically:** ASML framework agreement covering up to five years with multiple performance obligations (systems, options, installation, warranties), discounts, free goods/credits; individual sales orders draw down on it. KLA also uses volume purchase agreements with credits and incentives.
+
+**Related:** Production-slot reservation (equipment)
+
+**Sources:** [SRC-0685](https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/R13.htm) [SRC-0682](https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/R10.htm)
+
 ### Voluntary export restraint
 
 **In plain words:** An agreement where an exporting country limits its own exports, usually under pressure, which tends to raise prices.
@@ -1867,6 +3029,26 @@
 **Related:** Wafer sort
 
 **Sources:** [SRC-0170](https://www.tsmc.com/english/dedicatedFoundry/services/eFoundry) [SRC-0189](https://www.pdf.com/semiconductor-manufacturing-data-101-an-introduction/)
+
+### Wafer fab equipment segment (SEMI definition)
+
+**In plain words:** The machines inside a chip factory that build circuits on the silicon wafer, such as printing, depositing, etching and measuring tools.
+
+**Technically:** SEMI segment comprising wafer processing equipment, mask/reticle equipment and fab facilities equipment; excludes test and assembly & packaging (back-end) equipment.
+
+**Related:** Equipment billings (SEMI), Back-end equipment
+
+**Sources:** [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports)
+
+### Wafer fabrication materials
+
+**In plain words:** Everything a fab uses up while building circuits on a wafer: the wafer itself, masks, light-sensitive coatings, gases, chemicals, metal targets and polishing slurries.
+
+**Technically:** SEMI segment covering silicon, SOI, photomasks, photoresist, photoresist ancillaries, gases, chemicals, sputtering targets and CMP; US$45.8bn in 2025 (SEMI MMDS).
+
+**Related:** Packaging materials, Semiconductor materials
+
+**Sources:** [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) [SRC-0021](https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports)
 
 ### Wafer map
 
@@ -1908,6 +3090,18 @@
 
 **Sources:** [SRC-0355](https://blocksandfiles.com/2022/11/16/micron-cuts-dram-nand-production/) [SRC-0358](https://www.kioxia.com/en-jp/about/news/2022/20220930-1.html)
 
+### Wafer starts per month (WSPM)
+
+**In plain words:** How many blank wafers a factory begins processing each month; the standard measure of fab size.
+
+**Technically:** Monthly count of wafers entering the fab process, usually stated in 300mm (12-inch) or 200mm-equivalent wafers; used to size fabs and compare capex per unit of capacity (e.g. capex per 1,000 wpm).
+
+**Example:** Tata-PSMC Dholera: 50,000 WSPM.
+
+**Related:** Wafer, Fab utilization
+
+**Sources:** [SRC-0715](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2010132) [SRC-0708](https://tickertrends.io/transcripts/TSM/Q4-earnings-transcript-2025)
+
 ### Wafer-level packaging
 
 **In plain words:** Packaging the chips while they are still on the wafer, so the finished package is barely bigger than the chip itself.
@@ -1918,6 +3112,14 @@
 
 **Sources:** [SRC-0201](https://cset.georgetown.edu/wp-content/uploads/CSET-Re-Shoring-Advanced-Semiconductor-Packaging.pdf) [SRC-0336](https://www.3dincites.com/2024/03/expanded-semiconductor-assembly-and-test-facility-database-tracks-osats-and-idms-in-670-facilities/)
 
+### Wafers per hour
+
+**In plain words:** How many silicon wafers a lithography machine can expose in one hour; the main measure of its productivity.
+
+**Technically:** Scanner throughput at a specified dose and field layout under the acceptance-test protocol (ATP); e.g. 220 wph NXE:3800E, 175 wph EXE:5200B.
+
+**Sources:** [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf)
+
 ### Wassenaar Arrangement
 
 **In plain words:** A club of 42 countries that agree on lists of sensitive technologies to control when exporting.
@@ -1925,6 +3127,14 @@
 **Technically:** Multilateral export control regime (since 1996) maintaining the Munitions List and the List of Dual-Use Goods and Technologies, implemented nationally by consensus.
 
 **Sources:** [SRC-0136](https://www.wassenaar.org/about-us/)
+
+### Wet chemicals
+
+**In plain words:** Ultra-clean acids, bases and solvents used to clean and etch wafers between steps.
+
+**Technically:** Ultra-high-purity (UHP) acids (HF, H2SO4, HNO3), bases and solvents plus formulated cleans and post-etch residue removers; TECHCET: US$5.44bn in 2025.
+
+**Sources:** [SRC-0620](https://semiconductor-digest.com/wet-chemicals-specialty-cleans-set-for-6-growth-in-2025) [SRC-0604](https://data.consilium.europa.eu/doc/document/ST-8799-2022-INIT/en/pdf)
 
 ### Wire bonding
 
@@ -1944,6 +3154,16 @@
 
 **Sources:** [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) [SRC-0005](https://www.wsts.org/61/OVERVIEW)
 
+### XBRL
+
+**In plain words:** A way of tagging each number in a financial report so computers can read it directly.
+
+**Technically:** eXtensible Business Reporting Language, XML-based; required by the SEC since 2009 (now mostly inline XBRL); facts tied to US-GAAP or IFRS taxonomies. Also used by EDINET and DART.
+
+**Related:** EDGAR, EDINET
+
+**Sources:** [SRC-0736](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) [SRC-0768](https://engopendart.fss.or.kr/intro/main.do)
+
 ### XPU
 
 **In plain words:** Broadcom's word for an AI chip it designs together with one big customer, just for that customer.
@@ -1961,6 +3181,16 @@
 **Related:** Die, Known good die
 
 **Sources:** [SRC-0163](https://newsroom.intel.com/tech101/explaining-common-chip-terms)
+
+### Yield adjustment
+
+**In plain words:** A credit a foundry gives back to a customer when fewer good chips come off the wafers than agreed.
+
+**Technically:** Variable consideration in foundry contracts, refundable via credit note, that reduces wafer revenue when yields fall below contractual levels; accrued against receivables.
+
+**Related:** Per-wafer pricing
+
+**Sources:** [SRC-0660](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/R11.htm)
 
 ### Yield management system
 

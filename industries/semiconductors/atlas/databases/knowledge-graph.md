@@ -216,6 +216,130 @@
 | Micron Technology, Inc. (CO-0007) | owns | Elpida Memory (CO-0024) | CLM-0121 |
 | Micron Technology, Inc. (CO-0007) | competes_with | SK hynix Inc. (CO-0006) | CLM-0555, CLM-0556 |
 | Samsung Electronics Co., Ltd. (CO-0008) | competes_with | SK hynix Inc. (CO-0006) | CLM-0554, CLM-0555 |
+| China Ministry of Commerce (MOFCOM) (ENT-0120) | restricts | Nexperia B.V. (CO-0025) | CLM-1433, CLM-1436 |
+| China Ministry of Commerce (MOFCOM) (ENT-0120) | restricts | TechInsights (ENT-0142) | CLM-1407 |
+| China Ministry of Commerce (MOFCOM) (ENT-0120) | restricts | Shin-Etsu Chemical Co., Ltd. (CO-0026) | CLM-1432 |
+| MOFCOM Trade Remedy and Investigation Bureau (ENT-0165) | part_of | China Ministry of Commerce (MOFCOM) (ENT-0120) | CLM-1421, CLM-1427 |
+| China Unreliable Entity List Working Mechanism (ENT-0163) | part_of | China Ministry of Commerce (MOFCOM) (ENT-0120) | CLM-1404 |
+| General Administration of Customs of China (GACC) (ENT-0162) | regulates | Gallium nitride (GaN) wafers (ENT-0073) | CLM-1376 |
+| China Ministry of Commerce (MOFCOM) (ENT-0120) | regulates | Analog IC (ENT-0043) | CLM-1421, CLM-1422 |
+| Foundry (category) (ENT-0012) | certifies_flow_for | EDA vendor (category) (ENT-0007) | CLM-1467, CLM-1486, CLM-1494, CLM-1490 |
+| Foundry (category) (ENT-0012) | certifies_flow_for | Semiconductor IP licensor (category) (ENT-0008) | CLM-1473, CLM-1488 |
+| Foundry (category) (ENT-0012) | sends_information_to | EDA vendor (category) (ENT-0007) | CLM-1467, CLM-1493, CLM-1495 |
+| Foundry (category) (ENT-0012) | sends_information_to | Semiconductor IP licensor (category) (ENT-0008) | CLM-1477, CLM-1488 |
+| Semiconductor IP licensor (category) (ENT-0008) | sends_information_to | Foundry (category) (ENT-0012) | CLM-1473 |
+| Photronics, Inc. (CO-0027) | provides_service_to | Fabless chip company (category) (ENT-0004) | CLM-1458, CLM-1459 |
+| SkyWater Technology (CO-0028) | licenses_to | Alphabet Inc. (CO-0010) | CLM-1520 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | EDA vendor (category) (ENT-0007) | CLM-1502, CLM-1504, CLM-1510 |
+| Si2 (Silicon Integration Initiative) (ENT-0175) | sets_standard_for | EDA vendor (category) (ENT-0007) | CLM-1533, CLM-1534 |
+| SEMI (ENT-0130) | sets_standard_for | Photomask maker (category) (ENT-0016) | CLM-1446, CLM-1448, CLM-1449 |
+| Photomask maker (category) (ENT-0016) | uses | Mask data preparation (MDP) software (ENT-0170) | CLM-1456, CLM-1464 |
+| Layout database (GDSII / OASIS) (ENT-0076) | part_of | Mask set (ENT-0077) | CLM-1459, CLM-1455 |
+| Intel Corporation (CO-0029) | produces | EMIB (Embedded Multi-die Interconnect Bridge) (ENT-0180) | CLM-1559 |
+| Intel Corporation (CO-0029) | produces | Foveros (ENT-0181) | CLM-1561 |
+| Intel Corporation (CO-0029) | competes_with | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-1574, CLM-1603 |
+| Intel Corporation (CO-0029) | partners_with | Amkor Technology (CO-0012) | CLM-1566 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | produces | 3D stacking and hybrid bonding (ENT-0069) | CLM-1555, CLM-1584 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | produces | Wafer-level packaging (fan-in and fan-out) (ENT-0157) | CLM-1558 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | buys_from | Amkor Technology (CO-0012) | CLM-1618 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | buys_from | ASE Technology Holding (CO-0011) | CLM-1597 |
+| Samsung Electronics Co., Ltd. (CO-0008) | produces | 2.5D interposer packaging (ENT-0068) | CLM-1567 |
+| Samsung Electronics Co., Ltd. (CO-0008) | produces | 3D stacking and hybrid bonding (ENT-0069) | CLM-1568 |
+| Siliconware Precision Industries Co., Ltd. (CO-0030) | part_of | ASE Technology Holding (CO-0011) | CLM-1598 |
+| Siliconware Precision Industries Co., Ltd. (CO-0030) | produces | 2.5D interposer packaging (ENT-0068) | CLM-1598, CLM-1596 |
+| ASE Technology Holding (CO-0011) | produces | 2.5D interposer packaging (ENT-0068) | CLM-1609, CLM-1605 |
+| Applied Materials, Inc. (CO-0035) | invests_in | BE Semiconductor Industries N.V. (CO-0031) | CLM-1573 |
+| Applied Materials, Inc. (CO-0035) | partners_with | BE Semiconductor Industries N.V. (CO-0031) | CLM-1573, CLM-1619 |
+| BE Semiconductor Industries N.V. (CO-0031) | enables | 3D stacking and hybrid bonding (ENT-0069) | CLM-1619, CLM-1622 |
+| ASMPT Limited (CO-0032) | enables | Thermo-compression bonding (TCB) (ENT-0183) | CLM-1624, CLM-1626 |
+| Hanmi Semiconductor Co., Ltd. (CO-0033) | competes_with | ASMPT Limited (CO-0032) | CLM-1627 |
+| TechInsights (ENT-0142) | measures | Thermo-compression bonding (TCB) (ENT-0183) | CLM-1627, CLM-1628 |
+| 2.5D interposer packaging (ENT-0068) | depends_on | Packaging-materials / IC-substrate supplier (category) (ENT-0025) | CLM-1585, CLM-1563, CLM-1604 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | produces | Panel-level 2.5D packaging (CoPoS and similar) (ENT-0182) | CLM-1599, CLM-1579 |
+| Rapidus Corporation (CO-0036) | produces | Panel-level 2.5D packaging (CoPoS and similar) (ENT-0182) | CLM-1633 |
+| Carl Zeiss SMT GmbH (CO-0038) | supplies | ASML Holding N.V. (CO-0037) | CLM-1665, CLM-1667, CLM-1669 |
+| ASML Holding N.V. (CO-0037) | depends_on | Carl Zeiss SMT GmbH (CO-0038) | CLM-1666, CLM-1665 |
+| ASML Holding N.V. (CO-0037) | invests_in | Carl Zeiss SMT GmbH (CO-0038) | CLM-1668, CLM-1672, CLM-1670 |
+| Carl Zeiss AG (CO-0039) | owns | Carl Zeiss SMT GmbH (CO-0038) | CLM-1668 |
+| ASML Holding N.V. (CO-0037) | owns | Cymer, LLC (CO-0041) | CLM-1686, CLM-1689 |
+| Cymer, LLC (CO-0041) | supplies | ASML Holding N.V. (CO-0037) | CLM-1689, CLM-1687 |
+| TRUMPF SE + Co. KG (CO-0040) | supplies | ASML Holding N.V. (CO-0037) | CLM-1683, CLM-1681 |
+| Gigaphoton Inc. (CO-0042) | competes_with | Cymer, LLC (CO-0041) | CLM-1692 |
+| Nikon Corporation (CO-0043) | competes_with | ASML Holding N.V. (CO-0037) | CLM-1748, CLM-1720 |
+| Canon Inc. (CO-0044) | competes_with | ASML Holding N.V. (CO-0037) | CLM-1748, CLM-1726 |
+| VDL Enabling Technologies Group (CO-0046) | supplies | ASML Holding N.V. (CO-0037) | CLM-1698 |
+| Prodrive Technologies (CO-0047) | supplies | ASML Holding N.V. (CO-0037) | CLM-1698 |
+| ASML Holding N.V. (CO-0037) | produces | EUV lithography (0.33 NA) (ENT-0063) | CLM-1641 |
+| ASML Holding N.V. (CO-0037) | produces | High-NA EUV lithography (0.55 NA) (ENT-0064) | CLM-1640 |
+| ASML Holding N.V. (CO-0037) | produces | ArF immersion lithography (ENT-0188) | CLM-1642 |
+| Nikon Corporation (CO-0043) | produces | ArF immersion lithography (ENT-0188) | CLM-1720 |
+| Canon Inc. (CO-0044) | produces | KrF lithography (ENT-0187) | CLM-1726 |
+| Canon Inc. (CO-0044) | produces | i-line lithography (ENT-0186) | CLM-1726 |
+| Canon Inc. (CO-0044) | produces | Nanoimprint lithography (ENT-0185) | CLM-1730 |
+| Canon Inc. (CO-0044) | supplies | Texas Institute for Electronics (ENT-0189) | CLM-1731 |
+| Shanghai Micro Electronics Equipment (Group) Co., Ltd. (CO-0045) | produces | DUV lithography (ENT-0062) | CLM-1740 |
+| ASML Holding N.V. (CO-0037) | supplies | Intel Corporation (CO-0029) | CLM-1708, CLM-1707 |
+| ASML Holding N.V. (CO-0037) | supplies | SK hynix Inc. (CO-0006) | CLM-1710 |
+| Intel Corporation (CO-0029) | uses | High-NA EUV lithography (0.55 NA) (ENT-0064) | CLM-1707 |
+| SK hynix Inc. (CO-0006) | uses | High-NA EUV lithography (0.55 NA) (ENT-0064) | CLM-1710 |
+| SK hynix Inc. (CO-0006) | uses | EUV lithography (0.33 NA) (ENT-0063) | CLM-1711 |
+| Micron Technology, Inc. (CO-0007) | uses | EUV lithography (0.33 NA) (ENT-0063) | CLM-1712 |
+| ASML Holding N.V. (CO-0037) | subject_to | Netherlands national export licence requirement for advanced semiconductor manufacturing equipment (REG-0025) | CLM-1657, CLM-1658 |
+| Netherlands Minister for Foreign Trade and Development (ENT-0118) | regulates | ASML Holding N.V. (CO-0037) | CLM-1657 |
+| SEMI (ENT-0130) | measures | Semiconductor materials supplier (category) (ENT-0021) | CLM-1752, CLM-1758, CLM-1785 |
+| TECHCET (ENT-0190) | measures | Semiconductor materials supplier (category) (ENT-0021) | CLM-1801, CLM-1804, CLM-1807 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | buys_from | Entegris, Inc. (CO-0050) | CLM-1830 |
+| JIC Capital (JIC PEFJ1 Limited Partnership) (ENT-0193) | owns | JSR Corporation (CO-0053) | CLM-1855 |
+| Japan Ministry of Economy, Trade and Industry (METI) (ENT-0119) | subsidizes | SUMCO Corporation (CO-0048) | CLM-1857 |
+| Entegris, Inc. (CO-0050) | competes_with | Merck KGaA (CO-0051) | CLM-1834 |
+| Entegris, Inc. (CO-0050) | competes_with | Linde plc (CO-0055) | CLM-1834 |
+| Entegris, Inc. (CO-0050) | competes_with | Air Liquide S.A. (CO-0056) | CLM-1834 |
+| Shin-Etsu Chemical Co., Ltd. (CO-0026) | competes_with | SUMCO Corporation (CO-0048) | CLM-1818, CLM-1822 |
+| Shin-Etsu Chemical Co., Ltd. (CO-0026) | competes_with | Siltronic AG (CO-0049) | CLM-1818 |
+| Tokyo Ohka Kogyo Co., Ltd. (CO-0054) | competes_with | JSR Corporation (CO-0053) | CLM-1823, CLM-1826 |
+| SEMI Electronic Materials Group (EMG) (ENT-0192) | part_of | SEMI (ENT-0130) | CLM-1861 |
+| Ajinomoto Co., Inc. (CO-0057) | supplies | Packaging-materials / IC-substrate supplier (category) (ENT-0025) | CLM-1856, CLM-1821 |
+| SEMI (ENT-0130) | measures | Semiconductor equipment maker (category) (ENT-0018) | CLM-1866, CLM-1867, CLM-1872 |
+| Semiconductor Equipment Association of Japan (SEAJ) (ENT-0131) | measures | Semiconductor equipment maker (category) (ENT-0018) | CLM-1867, CLM-1914, CLM-1915 |
+| Center for Security and Emerging Technology (CSET) / Emerging Technology Observatory (ENT-0195) | measures | Semiconductor equipment maker (category) (ENT-0018) | CLM-1949, CLM-1954 |
+| Lam Research Corporation (CO-0058) | competes_with | Applied Materials, Inc. (CO-0035) | CLM-1926 |
+| Lam Research Corporation (CO-0058) | competes_with | Tokyo Electron Limited (CO-0059) | CLM-1926 |
+| KLA Corporation (CO-0060) | competes_with | Applied Materials, Inc. (CO-0035) | CLM-1934 |
+| KLA Corporation (CO-0060) | competes_with | ASML Holding N.V. (CO-0037) | CLM-1934 |
+| Teradyne, Inc. (CO-0062) | competes_with | Advantest Corporation (CO-0061) | CLM-0514, CLM-1942 |
+| Advanced Micro-Fabrication Equipment Inc. China (CO-0064) | competes_with | Lam Research Corporation (CO-0058) | CLM-1956, CLM-1950 |
+| NAURA Technology Group Co., Ltd. (CO-0063) | competes_with | Applied Materials, Inc. (CO-0035) | CLM-1955, CLM-1950 |
+| Applied Materials, Inc. (CO-0035) | supplies | Foundry (category) (ENT-0012) | CLM-1924, CLM-0512 |
+| Applied Materials, Inc. (CO-0035) | supplies | Memory chip maker (category) (ENT-0003) | CLM-1924 |
+| Tokyo Electron Limited (CO-0059) | supplies | Memory chip maker (category) (ENT-0003) | CLM-1940 |
+| Advantest Corporation (CO-0061) | supplies | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-1942, CLM-0444 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Applied Materials, Inc. (CO-0035) | CLM-1925, CLM-0139 |
+| Chip company (category) (ENT-0001) | pays | Photomask maker (category) (ENT-0016) | CLM-2023, CLM-2019 |
+| Foundry (category) (ENT-0012) | buys_from | Wafer-fab (front-end) equipment maker (category) (ENT-0019) | CLM-2036, CLM-2035, CLM-2032, CLM-2029 |
+| Authorized (franchised) distributor (category) (ENT-0029) | buys_from | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-1986, CLM-1988 |
+| Semiconductor IP licensor (category) (ENT-0008) | licenses_to | Fabless chip company (category) (ENT-0004) | CLM-2003, CLM-2006 |
+| Integrated device manufacturer (IDM) (category) (ENT-0002) | licenses_to | Foundry (category) (ENT-0012) | CLM-2073 |
+| Manufacturing-software vendor (category) (ENT-0027) | provides_service_to | Foundry (category) (ENT-0012) | CLM-2041, CLM-2040 |
+| IDM foundry business (category) (ENT-0014) | supplies | Integrated device manufacturer (IDM) (category) (ENT-0002) | CLM-1980, CLM-1981 |
+| Design-service / ASIC house (category) (ENT-0009) | provides_service_to | System company designing its own chips (category) (ENT-0005) | CLM-2062 |
+| Fabless chip company (category) (ENT-0004) | pays | OSAT (outsourced assembly and test) (category) (ENT-0015) | CLM-2025, CLM-2026 |
+| Foundry (category) (ENT-0012) | pays | Silicon wafer / polysilicon supplier (category) (ENT-0022) | CLM-2053, CLM-2052 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | owns | TSMC Arizona Corporation (CO-0070) | CLM-2117 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | owns | Japan Advanced Semiconductor Manufacturing, Inc. (CO-0071) | CLM-2117, CLM-2123 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | owns | European Semiconductor Manufacturing Company (ESMC) GmbH (CO-0072) | CLM-2117 |
+| Japan Ministry of Economy, Trade and Industry (METI) (ENT-0119) | subsidizes | Japan Advanced Semiconductor Manufacturing, Inc. (CO-0071) | CLM-2124 |
+| India Semiconductor Mission (MeitY) (ENT-0125) | subsidizes | Tata Electronics Private Limited (CO-0069) | CLM-2138 |
+| CHIPS Program Office (US Commerce / NIST) (ENT-0109) | subsidizes | TSMC Arizona Corporation (CO-0070) | CLM-0171, CLM-2121 |
+| TSMC Arizona Corporation (CO-0070) | part_of | Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | CLM-2117 |
+| SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) (ENT-0200) | part_of | US Securities and Exchange Commission (SEC) (ENT-0113) | CLM-2151 |
+| EDINET (ENT-0207) | part_of | Financial Services Agency (Japan) (ENT-0208) | CLM-2197 |
+| DART (Data Analysis, Retrieval and Transfer System) (ENT-0205) | part_of | Financial Supervisory Service (Korea) (ENT-0206) | CLM-2193 |
+| Financial Supervisory Commission (Taiwan) (ENT-0203) | regulates | Market Observation Post System (MOPS) (ENT-0202) | CLM-2175 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | sends_information_to | Market Observation Post System (MOPS) (ENT-0202) | CLM-2181 |
+| Taiwan Semiconductor Manufacturing Company Limited (CO-0005) | sends_information_to | SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) (ENT-0200) | CLM-2164 |
+| NVIDIA Corporation (CO-0001) | sends_information_to | SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) (ENT-0200) | CLM-2155 |
+| China Securities Regulatory Commission (CSRC) (ENT-0209) | regulates | CNINFO (巨潮资讯网) (ENT-0210) | CLM-2207 |
+| Dutch Authority for the Financial Markets (AFM) (ENT-0218) | regulates | AFM Register of Financial Reporting (ENT-0217) | CLM-2226 |
 
 ## Entities
 
@@ -382,3 +506,60 @@
 | ENT-0159 | Development Bank of Japan | capital_provider | Government-backed Japanese bank that took preferred shares in Elpida in 2009 under the revised Industrial Revitalization Act. |
 | ENT-0160 | Bank of Korea | statistics_body | South Korea's central bank; its monthly export price index includes DRAM and flash memory components, one of the few official memory price series. |
 | ENT-0161 | Computer Systems Policy Project | industry_association | US computer makers' group (IBM, Tandem, HP and others) founded in 1989 to oppose antidumping measures that raised DRAM prices. |
+| ENT-0162 | General Administration of Customs of China (GACC) | export_control_authority | China's customs agency; co-issues mineral export-control announcements with MOFCOM and enforces licences at the border (no licence, no release). Chinese name: 海关总署. |
+| ENT-0163 | China Unreliable Entity List Working Mechanism | government_body | Inter-ministerial mechanism, with its office in MOFCOM, that investigates foreign entities and decides Unreliable Entity List listings and measures. Chinese name: 不可靠实体清单工作机制. |
+| ENT-0164 | Jiangsu Semiconductor Industry Association | industry_association | Provincial chip industry association that petitioned MOFCOM for the 2025 anti-dumping case on US analog chips. Chinese name: 江苏省半导体行业协会. |
+| ENT-0165 | MOFCOM Trade Remedy and Investigation Bureau | trade_remedy_authority | MOFCOM bureau that runs China's anti-dumping, anti-discrimination and trade-barrier investigations. Chinese name: 商务部贸易救济调查局、贸易救济局. |
+| ENT-0166 | SEMI P44 OASIS.MASK | technical_standard | SEMI standard defining a constrained OASIS subset used as the input format for mask writing and inspection tools. |
+| ENT-0167 | SEMI P45 MALY job deck format | technical_standard | SEMI standard defining a common job deck format (MALY) that tells mask tools how to place OASIS pattern files on a mask. |
+| ENT-0168 | SEMI P10 photomask order data structures | technical_standard | SEMI standard (now Inactive status) for machine-readable photomask orders sent by customers and mask results returned by mask shops. |
+| ENT-0169 | Mask job deck | design_artifact | A file that instructs a mask writer where and how to place each pattern file (die, test structures, marks) on a mask; formats include MALY, MEBES JB and JEOL JDF. |
+| ENT-0170 | Mask data preparation (MDP) software | information_system | Software that converts signed-off layout into mask-writer data: resolution enhancement/OPC, mask rule checks, fracturing and job decks (e.g. Siemens Calibre MDP, Synopsys MDP). |
+| ENT-0171 | TSMC Open Innovation Platform (OIP) | commercial_arrangement | TSMC's design-ecosystem programme (EDA, IP, Design Center, Value Chain Aggregator, Cloud and 3DFabric alliances) that certifies tools, assesses IP and gives partners early process access. |
+| ENT-0172 | TSMC9000 IP assessment programme | technical_standard | TSMC's minimum quality requirements and scoring for libraries and IP on its processes; scores and usage records are posted on TSMC-Online. |
+| ENT-0173 | Samsung Advanced Foundry Ecosystem (SAFE) | commercial_arrangement | Samsung Foundry's ecosystem programme of IP, EDA (SAFE-QEDA certification), design-service, cloud and multi-die alliances. |
+| ENT-0174 | Intel Foundry Accelerator Ecosystem Alliance | commercial_arrangement | Intel Foundry's ecosystem programme (IP, EDA, Design Services, Cloud, USMAG, Value Chain, Chiplet alliances) launched in 2022. |
+| ENT-0175 | Si2 (Silicon Integration Initiative) | standards_body | Not-for-profit EDA standards consortium that hosts OpenAccess, distributes LEF/DEF and publishes CMC compact device models. |
+| ENT-0176 | LEF/DEF (Library and Design Exchange Formats) | technical_standard | Text formats describing cell abstracts/technology (LEF) and placed-and-routed designs (DEF) for place-and-route tools; developed by Cadence, distributed by Si2. |
+| ENT-0177 | SkyWater SKY130 open-source PDK | design_artifact | Apache-2.0 open process design kit for SkyWater's 130 nm CMOS process, released by Google and SkyWater in 2020. |
+| ENT-0178 | GlobalFoundries GF180MCU open-source PDK | design_artifact | Apache-2.0 open PDK for GlobalFoundries' 0.18 um MCU process, released with Google (experimental preview). |
+| ENT-0179 | IHP SG13G2 open-source PDK | design_artifact | Apache-2.0 open PDK for IHP's 130 nm SiGe BiCMOS process, publicly funded in Germany (preview). |
+| ENT-0180 | EMIB (Embedded Multi-die Interconnect Bridge) | packaging_technology | Intel's 2.5D packaging that embeds small silicon bridges in the organic substrate to link neighbouring dies, instead of a full-size interposer; EMIB-T adds TSVs to the bridge. |
+| ENT-0181 | Foveros | packaging_technology | Intel's family of interposer and 3D die-stacking packages; Foveros Direct uses Cu-Cu hybrid bonding. |
+| ENT-0182 | Panel-level 2.5D packaging (CoPoS and similar) | packaging_technology | Building 2.5D interposers/RDL on large square panels (e.g. 310 mm or 600 mm) instead of 300 mm round wafers to fit more very large packages; in pilot lines at TSMC, ASE and Rapidus in 2026. |
+| ENT-0183 | Thermo-compression bonding (TCB) | process_step | Die-attach step that uses heat and pressure to join micro-bumps die by die; used for HBM DRAM stacking and fine-pitch chip-to-substrate and chip-to-wafer attach in 2.5D packages. |
+| ENT-0184 | CEA-Leti | research_organisation | French public microelectronics research institute (part of CEA) active in hybrid-bonding research. |
+| ENT-0185 | Nanoimprint lithography | lithography_technology | Patterning by pressing a mask carrying the circuit pattern into resist on the wafer like a stamp, instead of projecting light through optics; commercialised for chips by Canon (FPA-1200NZ2C). |
+| ENT-0186 | i-line lithography | lithography_technology | Lithography using 365 nm light from mercury-vapour lamps; used for larger features, power devices, sensors and packaging. Canon and Nikon sell most i-line units. |
+| ENT-0187 | KrF lithography | lithography_technology | Deep-UV lithography using 248 nm light from krypton-fluoride excimer lasers; mid-critical layers at mature nodes and in memory. |
+| ENT-0188 | ArF immersion lithography | lithography_technology | Deep-UV lithography at 193 nm (argon-fluoride lasers) with ultrapure water between lens and wafer to raise the numerical aperture; the workhorse for critical non-EUV layers and multi-patterning. |
+| ENT-0189 | Texas Institute for Electronics | research_organisation | Texas semiconductor consortium (founded 2021, supported by UT Austin) that received Canon's first shipped nanoimprint lithography system. |
+| ENT-0190 | TECHCET | market_research_firm | San Diego-based electronic-materials advisory firm publishing Critical Materials Reports (CMP, gases, wet chemicals, lithography); public press releases give segment sizes. |
+| ENT-0191 | Fuji Chimera Research Institute | market_research_firm | Japanese market research firm whose semiconductor-materials estimates TOK cites for photoresist shares. |
+| ENT-0192 | SEMI Electronic Materials Group (EMG) | industry_association | SEMI technology community of materials suppliers (substrates, polymers, metals, chemicals, gases) with chapters in America, Korea, Japan and Europe; the Silicon Manufacturers Group (SMG) sits inside it. |
+| ENT-0193 | JIC Capital (JIC PEFJ1 Limited Partnership) | capital_provider | Fund vehicle that acquired JSR via tender offer through JICC-02, Ltd. in April 2024. |
+| ENT-0194 | US International Trade Administration (Country Commercial Guides) | government_body | US Commerce Department agency whose Japan semiconductors guide summarises Japanese materials shares. |
+| ENT-0195 | Center for Security and Emerging Technology (CSET) / Emerging Technology Observatory | research_organisation | Georgetown University policy research centre whose open Supply Chain Explorer publishes country and firm market shares per chipmaking tool category, adapted mostly from TechInsights data. |
+| ENT-0196 | SEMI Total Semiconductor Equipment Forecast - OEM Perspective | market_statistic | Twice-yearly SEMI forecast of equipment sales by segment (WFE, test, A&P), WFE application and region, built from supplier input, WWSEMS and the World Fab Forecast. |
+| ENT-0197 | SEAJ Japanese-made semiconductor equipment sales statistics | market_statistic | SEAJ's fiscal-year series and January/July forecasts of sales by Japanese equipment makers worldwide and of sales into the Japanese market. |
+| ENT-0198 | Equipment volume purchase agreement | long_term_supply_agreement | Multi-year (up to five years at ASML) framework agreement between a tool maker and a chipmaker that sets discounts, credits and free goods; individual tool orders, often with down payments and slot reservations, are drawn against it. |
+| ENT-0199 | Volume-based manufacturing-software fee (Gainshare) | software_licence | Fab-software fee that scales with the customer's wafer manufacturing volumes or data transferred (PDF Solutions Gainshare, secureWISE data, Cimetrix runtime licences), alongside fixed licences and SaaS. |
+| ENT-0200 | SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) | information_system | The US SEC's public filing system holding 10-K, 10-Q, 8-K, 20-F, 6-K and other filings; free keyless JSON/XBRL APIs on data.sec.gov; companies tagged by SIC code. |
+| ENT-0201 | SIC 3674 Semiconductors and Related Devices | industry_classification | US Standard Industrial Classification code still used by SEC EDGAR to tag filers; covers semiconductor devices incl. solar cells and LEDs; many equipment, materials and EDA firms are coded elsewhere. |
+| ENT-0202 | Market Observation Post System (MOPS) | information_system | Taiwan's official disclosure platform run by TWSE and TPEx under FSC supervision; holds monthly revenue (due before the 10th), quarterly and annual reports and material information; English version e-MOPS. Local-language name(s): 公開資訊觀測站. |
+| ENT-0203 | Financial Supervisory Commission (Taiwan) | securities_disclosure_regulator | Taiwan's financial regulator; its Securities and Futures Bureau sets what public companies must file on MOPS (Securities and Exchange Act Art. 36). Local-language name(s): 金融監督管理委員會. |
+| ENT-0204 | TWSE/TPEx industry category 24: Semiconductor Industry | industry_classification | Official Taiwan exchange industry group for semiconductor companies, assigned on a 50% operating-income rule; 91 TWSE, 111 TPEx and 34 Emerging Stock Board stocks on 2026-10-01. Local-language name(s): 半導體業. |
+| ENT-0205 | DART (Data Analysis, Retrieval and Transfer System) | information_system | Korea's electronic disclosure system run by the Financial Supervisory Service; OpenDART API (key required) returns filings, XML originals, XBRL financials and company industry codes. Local-language name(s): 전자공시시스템. |
+| ENT-0206 | Financial Supervisory Service (Korea) | securities_disclosure_regulator | Korean financial supervisor that operates DART and OpenDART. Local-language name(s): 금융감독원. |
+| ENT-0207 | EDINET | information_system | Japan's FSA electronic disclosure system under the Financial Instruments and Exchange Act for annual and half-year securities reports and registration statements; API v2 needs a key; mostly Japanese. |
+| ENT-0208 | Financial Services Agency (Japan) | securities_disclosure_regulator | Japanese financial regulator that runs EDINET and sets periodic-report rules (quarterly securities reports abolished from April 2024). Local-language name(s): 金融庁. |
+| ENT-0209 | China Securities Regulatory Commission (CSRC) | securities_disclosure_regulator | Mainland China's securities regulator; sets disclosure deadlines, requires Chinese-language disclosure via appointed media, and supervises IPOs including STAR Market chip listings. Local-language name(s): 中国证监会. |
+| ENT-0210 | CNINFO (巨潮资讯网) | information_system | CSRC-designated information-disclosure website (www.cninfo.com.cn) carrying Chinese listed-company announcements and periodic reports; JavaScript-heavy. Local-language name(s): 巨潮资讯网. |
+| ENT-0211 | CAPCO listed-company industry statistical classification (2023) | industry_classification | China Association for Public Companies guideline (effective 2023-05-01) used by SSE for industry lists; 50% revenue rule; published half-yearly at major-class level only. Local-language name(s): 中国上市公司协会上市公司行业统计分类指引. |
+| ENT-0212 | HKEXnews | information_system | Hong Kong Exchanges and Clearing's disclosure website for listed-issuer announcements, annual reports, prospectuses and Disclosure of Interests notices (DION). Local-language name(s): 披露易. |
+| ENT-0213 | Hang Seng Industry Classification System (HSICS) | industry_classification | Hong Kong market classification with sector 7030 Semiconductors (703010 Semiconductors; 703020 Semiconductor Equipment & Materials). |
+| ENT-0214 | GICS Industry 453010 Semiconductors & Semiconductor Equipment | industry_classification | MSCI/S&P DJI Global Industry Classification Standard group for chip companies (45301020 Semiconductors; 45301010 Semiconductor Materials & Equipment); proprietary, licence-restricted. |
+| ENT-0215 | NSE Indices Industry Classification Structure | industry_classification | India's exchange classification (Macro-economic sector / Sector / Industry / Basic Industry); July 2023 version has no semiconductor category. |
+| ENT-0216 | TASE MAYA | information_system | Tel Aviv Stock Exchange disclosure site (since 2000; English since 2020) for filings of Israeli listed companies. |
+| ENT-0217 | AFM Register of Financial Reporting | information_system | Dutch AFM public register holding annual and semi-annual financial reports of companies listed on EU regulated markets in the Netherlands. |
+| ENT-0218 | Dutch Authority for the Financial Markets (AFM) | securities_disclosure_regulator | Netherlands securities regulator receiving listed companies' financial reports under the Wft. |

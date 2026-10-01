@@ -1,0 +1,13 @@
+{"subject_id": "ENT-0130", "predicate": "measures", "object_id": "ENT-0021", "claim_ids": ["@tax_fab", "@t24", "@r24"], "notes": "SEMI MMDS materials revenue by category and ship-to region."}
+{"subject_id": "@techcet", "predicate": "measures", "object_id": "ENT-0021", "claim_ids": ["@tc_cmp24", "@tc_gas25", "@tc_wet25"]}
+{"subject_id": "CO-0005", "predicate": "buys_from", "object_id": "@entegris", "claim_ids": ["@entg_tsmc"], "notes": "TSMC was 16% of Entegris 2025 net sales."}
+{"subject_id": "@jic", "predicate": "owns", "object_id": "@jsr", "claim_ids": ["@jsr_jic"]}
+{"subject_id": "ENT-0119", "predicate": "subsidizes", "object_id": "@sumco", "claim_ids": ["@meti_sumco"], "notes": "Approval of up to ¥75bn; not a disbursement record."}
+{"subject_id": "@entegris", "predicate": "competes_with", "object_id": "@merck", "claim_ids": ["@entg_comp"]}
+{"subject_id": "@entegris", "predicate": "competes_with", "object_id": "@linde", "claim_ids": ["@entg_comp"]}
+{"subject_id": "@entegris", "predicate": "competes_with", "object_id": "@airliquide", "claim_ids": ["@entg_comp"]}
+{"subject_id": "@shinetsu", "predicate": "competes_with", "object_id": "@sumco", "claim_ids": ["@swd_wafer", "@ita_wafer90"]}
+{"subject_id": "@shinetsu", "predicate": "competes_with", "object_id": "@siltronic", "claim_ids": ["@swd_wafer"]}
+{"subject_id": "@tok", "predicate": "competes_with", "object_id": "@jsr", "claim_ids": ["@ita_resist90", "@tok_share"]}
+{"subject_id": "@emg", "predicate": "part_of", "object_id": "ENT-0130", "claim_ids": ["@c_emg"]}
+{"subject_id": "@ajinomoto", "predicate": "supplies", "object_id": "ENT-0025", "claim_ids": ["@abf", "@swd_abf"], "notes": "ABF film is sold to substrate makers (packaging-materials suppliers)."}

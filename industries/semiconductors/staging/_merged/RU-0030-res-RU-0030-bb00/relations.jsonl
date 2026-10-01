@@ -1,0 +1,7 @@
+{"key": "r1", "subject_id": "ENT-0120", "predicate": "restricts", "object_id": "@nexperia", "claim_ids": ["@c_nex_ban", "@c_nex_exempt"], "notes": "Oct 2025 export prohibition on Nexperia China, eased by exemptions from 1 Nov 2025."}
+{"key": "r2", "subject_id": "ENT-0120", "predicate": "restricts", "object_id": "ENT-0142", "claim_ids": ["@c_uel_ti"], "notes": "Unreliable Entity List listing, 9 Oct 2025."}
+{"key": "r3", "subject_id": "ENT-0120", "predicate": "restricts", "object_id": "@shinetsu", "claim_ids": ["@c_dcs_prelim"], "notes": "Provisional anti-dumping deposit 99.2% on dichlorosilane from 8 Sep 2026."}
+{"key": "r4", "subject_id": "@trb", "predicate": "part_of", "object_id": "ENT-0120", "claim_ids": ["@c_ad_init", "@c_antidisc"]}
+{"key": "r5", "subject_id": "@uelwm", "predicate": "part_of", "object_id": "ENT-0120", "claim_ids": ["@c_uel_basis"], "notes": "Working mechanism office sits in MOFCOM (Provisions Art. 4)."}
+{"key": "r6", "subject_id": "@gacc", "predicate": "regulates", "object_id": "ENT-0073", "claim_ids": ["@c_gage_items"], "notes": "GaN is on the 2023 gallium control list; GACC releases goods only against a MOFCOM licence."}
+{"key": "r7", "subject_id": "ENT-0120", "predicate": "regulates", "object_id": "ENT-0043", "claim_ids": ["@c_ad_init", "@c_ad_scope"], "notes": "Anti-dumping case on US interface and gate-driver analog ICs."}

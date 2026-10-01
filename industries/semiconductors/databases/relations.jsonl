@@ -210,3 +210,127 @@
 {"claim_ids": ["CLM-0121"], "id": "REL-0210", "notes": "Micron sponsored Elpida's reorganisation and acquired it (2012-2013).", "object_id": "CO-0024", "predicate": "owns", "subject_id": "CO-0007"}
 {"claim_ids": ["CLM-0555", "CLM-0556"], "id": "REL-0211", "object_id": "CO-0006", "predicate": "competes_with", "subject_id": "CO-0007"}
 {"claim_ids": ["CLM-0554", "CLM-0555"], "id": "REL-0212", "object_id": "CO-0006", "predicate": "competes_with", "subject_id": "CO-0008"}
+{"claim_ids": ["CLM-1433", "CLM-1436"], "id": "REL-0213", "notes": "Oct 2025 export prohibition on Nexperia China, eased by exemptions from 1 Nov 2025.", "object_id": "CO-0025", "predicate": "restricts", "subject_id": "ENT-0120"}
+{"claim_ids": ["CLM-1407"], "id": "REL-0214", "notes": "Unreliable Entity List listing, 9 Oct 2025.", "object_id": "ENT-0142", "predicate": "restricts", "subject_id": "ENT-0120"}
+{"claim_ids": ["CLM-1432"], "id": "REL-0215", "notes": "Provisional anti-dumping deposit 99.2% on dichlorosilane from 8 Sep 2026.", "object_id": "CO-0026", "predicate": "restricts", "subject_id": "ENT-0120"}
+{"claim_ids": ["CLM-1421", "CLM-1427"], "id": "REL-0216", "object_id": "ENT-0120", "predicate": "part_of", "subject_id": "ENT-0165"}
+{"claim_ids": ["CLM-1404"], "id": "REL-0217", "notes": "Working mechanism office sits in MOFCOM (Provisions Art. 4).", "object_id": "ENT-0120", "predicate": "part_of", "subject_id": "ENT-0163"}
+{"claim_ids": ["CLM-1376"], "id": "REL-0218", "notes": "GaN is on the 2023 gallium control list; GACC releases goods only against a MOFCOM licence.", "object_id": "ENT-0073", "predicate": "regulates", "subject_id": "ENT-0162"}
+{"claim_ids": ["CLM-1421", "CLM-1422"], "id": "REL-0219", "notes": "Anti-dumping case on US interface and gate-driver analog ICs.", "object_id": "ENT-0043", "predicate": "regulates", "subject_id": "ENT-0120"}
+{"claim_ids": ["CLM-1467", "CLM-1486", "CLM-1494", "CLM-1490"], "id": "REL-0220", "object_id": "ENT-0007", "predicate": "certifies_flow_for", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-1473", "CLM-1488"], "id": "REL-0221", "object_id": "ENT-0008", "predicate": "certifies_flow_for", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-1467", "CLM-1493", "CLM-1495"], "id": "REL-0222", "notes": "Early process data / PDKs to EDA partners for tool co-optimisation.", "object_id": "ENT-0007", "predicate": "sends_information_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-1477", "CLM-1488"], "id": "REL-0223", "notes": "Technical data, libraries, PDKs/DKs to IP partners under NDA.", "object_id": "ENT-0008", "predicate": "sends_information_to", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-1473"], "id": "REL-0224", "notes": "IP assessment data and silicon reports for TSMC9000/QCP grading.", "object_id": "ENT-0012", "predicate": "sends_information_to", "subject_id": "ENT-0008"}
+{"claim_ids": ["CLM-1458", "CLM-1459"], "id": "REL-0225", "object_id": "ENT-0004", "predicate": "provides_service_to", "subject_id": "CO-0027"}
+{"claim_ids": ["CLM-1520"], "id": "REL-0226", "notes": "SkyWater licensed SKY130 process data to Google, which released the open PDK.", "object_id": "CO-0010", "predicate": "licenses_to", "subject_id": "CO-0028"}
+{"claim_ids": ["CLM-1502", "CLM-1504", "CLM-1510"], "id": "REL-0227", "object_id": "ENT-0007", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-1533", "CLM-1534"], "id": "REL-0228", "object_id": "ENT-0007", "predicate": "sets_standard_for", "subject_id": "ENT-0175"}
+{"claim_ids": ["CLM-1446", "CLM-1448", "CLM-1449"], "id": "REL-0229", "object_id": "ENT-0016", "predicate": "sets_standard_for", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-1456", "CLM-1464"], "id": "REL-0230", "object_id": "ENT-0170", "predicate": "uses", "subject_id": "ENT-0016"}
+{"claim_ids": ["CLM-1459", "CLM-1455"], "id": "REL-0231", "notes": "Layout data is converted into mask-writer data for each mask in the set.", "object_id": "ENT-0077", "predicate": "part_of", "subject_id": "ENT-0076"}
+{"claim_ids": ["CLM-1559"], "id": "REL-0232", "object_id": "ENT-0180", "predicate": "produces", "subject_id": "CO-0029"}
+{"claim_ids": ["CLM-1561"], "id": "REL-0233", "object_id": "ENT-0181", "predicate": "produces", "subject_id": "CO-0029"}
+{"claim_ids": ["CLM-1574", "CLM-1603"], "id": "REL-0234", "notes": "In 2.5D AI packaging (EMIB-T vs CoWoS).", "object_id": "CO-0005", "predicate": "competes_with", "subject_id": "CO-0029"}
+{"claim_ids": ["CLM-1566"], "id": "REL-0235", "object_id": "CO-0012", "predicate": "partners_with", "subject_id": "CO-0029"}
+{"claim_ids": ["CLM-1555", "CLM-1584"], "id": "REL-0236", "object_id": "ENT-0069", "predicate": "produces", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-1558"], "id": "REL-0237", "object_id": "ENT-0157", "predicate": "produces", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-1618"], "id": "REL-0238", "notes": "Turnkey packaging/test contracted from Amkor Arizona (MoU).", "object_id": "CO-0012", "predicate": "buys_from", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-1597"], "id": "REL-0239", "notes": "Reported CoW-step outsourcing; press report, unconfirmed.", "object_id": "CO-0011", "predicate": "buys_from", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-1567"], "id": "REL-0240", "object_id": "ENT-0068", "predicate": "produces", "subject_id": "CO-0008"}
+{"claim_ids": ["CLM-1568"], "id": "REL-0241", "object_id": "ENT-0069", "predicate": "produces", "subject_id": "CO-0008"}
+{"claim_ids": ["CLM-1598"], "id": "REL-0242", "object_id": "CO-0011", "predicate": "part_of", "subject_id": "CO-0030"}
+{"claim_ids": ["CLM-1598", "CLM-1596"], "id": "REL-0243", "object_id": "ENT-0068", "predicate": "produces", "subject_id": "CO-0030"}
+{"claim_ids": ["CLM-1609", "CLM-1605"], "id": "REL-0244", "object_id": "ENT-0068", "predicate": "produces", "subject_id": "CO-0011"}
+{"claim_ids": ["CLM-1573"], "id": "REL-0245", "object_id": "CO-0031", "predicate": "invests_in", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-1573", "CLM-1619"], "id": "REL-0246", "object_id": "CO-0031", "predicate": "partners_with", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-1619", "CLM-1622"], "id": "REL-0247", "object_id": "ENT-0069", "predicate": "enables", "subject_id": "CO-0031"}
+{"claim_ids": ["CLM-1624", "CLM-1626"], "id": "REL-0248", "object_id": "ENT-0183", "predicate": "enables", "subject_id": "CO-0032"}
+{"claim_ids": ["CLM-1627"], "id": "REL-0249", "notes": "HBM TC bonders.", "object_id": "CO-0032", "predicate": "competes_with", "subject_id": "CO-0033"}
+{"claim_ids": ["CLM-1627", "CLM-1628"], "id": "REL-0250", "object_id": "ENT-0183", "predicate": "measures", "subject_id": "ENT-0142"}
+{"claim_ids": ["CLM-1585", "CLM-1563", "CLM-1604"], "id": "REL-0251", "notes": "ABF/advanced substrates named as bottleneck by TSMC and Intel.", "object_id": "ENT-0025", "predicate": "depends_on", "subject_id": "ENT-0068"}
+{"claim_ids": ["CLM-1599", "CLM-1579"], "id": "REL-0252", "notes": "Pilot stage only.", "object_id": "ENT-0182", "predicate": "produces", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-1633"], "id": "REL-0253", "notes": "Pilot line, 600 mm RDL interposer panel prototype.", "object_id": "ENT-0182", "predicate": "produces", "subject_id": "CO-0036"}
+{"claim_ids": ["CLM-1665", "CLM-1667", "CLM-1669"], "id": "REL-0254", "notes": "Exclusive, sole optics supplier; ASML is its single customer for optical columns.", "object_id": "CO-0037", "predicate": "supplies", "subject_id": "CO-0038"}
+{"claim_ids": ["CLM-1666", "CLM-1665"], "id": "REL-0255", "notes": "ASML says it could not conduct its business without Zeiss optics.", "object_id": "CO-0038", "predicate": "depends_on", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1668", "CLM-1672", "CLM-1670"], "id": "REL-0256", "notes": "24.9% equity in the holding plus capex loans and prepayments.", "object_id": "CO-0038", "predicate": "invests_in", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1668"], "id": "REL-0257", "notes": "Ultimate parent of Carl Zeiss SMT Holding GmbH & Co. KG (ASML holds 24.9%).", "object_id": "CO-0038", "predicate": "owns", "subject_id": "CO-0039"}
+{"claim_ids": ["CLM-1686", "CLM-1689"], "id": "REL-0258", "notes": "Acquired 2013.", "object_id": "CO-0041", "predicate": "owns", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1689", "CLM-1687"], "id": "REL-0259", "notes": "DUV light sources; ASML EUV sources made in-house.", "object_id": "CO-0037", "predicate": "supplies", "subject_id": "CO-0041"}
+{"claim_ids": ["CLM-1683", "CLM-1681"], "id": "REL-0260", "notes": "CO2 drive laser for EUV sources.", "object_id": "CO-0037", "predicate": "supplies", "subject_id": "CO-0040"}
+{"claim_ids": ["CLM-1692"], "id": "REL-0261", "notes": "DUV excimer light sources; ~even shares (2022).", "object_id": "CO-0041", "predicate": "competes_with", "subject_id": "CO-0042"}
+{"claim_ids": ["CLM-1748", "CLM-1720"], "id": "REL-0262", "notes": "DUV only.", "object_id": "CO-0037", "predicate": "competes_with", "subject_id": "CO-0043"}
+{"claim_ids": ["CLM-1748", "CLM-1726"], "id": "REL-0263", "notes": "DUV (i-line, KrF) only.", "object_id": "CO-0037", "predicate": "competes_with", "subject_id": "CO-0044"}
+{"claim_ids": ["CLM-1698"], "id": "REL-0264", "notes": "Mechanical structures for EUV stages (press report).", "object_id": "CO-0037", "predicate": "supplies", "subject_id": "CO-0046"}
+{"claim_ids": ["CLM-1698"], "id": "REL-0265", "notes": "Linear motors/servo drives for EUV maglev stages (press report).", "object_id": "CO-0037", "predicate": "supplies", "subject_id": "CO-0047"}
+{"claim_ids": ["CLM-1641"], "id": "REL-0266", "object_id": "ENT-0063", "predicate": "produces", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1640"], "id": "REL-0267", "object_id": "ENT-0064", "predicate": "produces", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1642"], "id": "REL-0268", "object_id": "ENT-0188", "predicate": "produces", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1720"], "id": "REL-0269", "notes": "3 units FY2024/25, 0 in FY2025/26.", "object_id": "ENT-0188", "predicate": "produces", "subject_id": "CO-0043"}
+{"claim_ids": ["CLM-1726"], "id": "REL-0270", "object_id": "ENT-0187", "predicate": "produces", "subject_id": "CO-0044"}
+{"claim_ids": ["CLM-1726"], "id": "REL-0271", "object_id": "ENT-0186", "predicate": "produces", "subject_id": "CO-0044"}
+{"claim_ids": ["CLM-1730"], "id": "REL-0272", "object_id": "ENT-0185", "predicate": "produces", "subject_id": "CO-0044"}
+{"claim_ids": ["CLM-1731"], "id": "REL-0273", "object_id": "ENT-0189", "predicate": "supplies", "subject_id": "CO-0044"}
+{"claim_ids": ["CLM-1740"], "id": "REL-0274", "notes": "90 nm ArF and 110 nm KrF per press.", "object_id": "ENT-0062", "predicate": "produces", "subject_id": "CO-0045"}
+{"claim_ids": ["CLM-1708", "CLM-1707"], "id": "REL-0275", "notes": "High-NA EUV.", "object_id": "CO-0029", "predicate": "supplies", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1710"], "id": "REL-0276", "notes": "EXE:5200B at M16.", "object_id": "CO-0006", "predicate": "supplies", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1707"], "id": "REL-0277", "object_id": "ENT-0064", "predicate": "uses", "subject_id": "CO-0029"}
+{"claim_ids": ["CLM-1710"], "id": "REL-0278", "object_id": "ENT-0064", "predicate": "uses", "subject_id": "CO-0006"}
+{"claim_ids": ["CLM-1711"], "id": "REL-0279", "object_id": "ENT-0063", "predicate": "uses", "subject_id": "CO-0006"}
+{"claim_ids": ["CLM-1712"], "id": "REL-0280", "object_id": "ENT-0063", "predicate": "uses", "subject_id": "CO-0007"}
+{"claim_ids": ["CLM-1657", "CLM-1658"], "id": "REL-0281", "object_id": "REG-0025", "predicate": "subject_to", "subject_id": "CO-0037"}
+{"claim_ids": ["CLM-1657"], "id": "REL-0282", "notes": "Dutch export licences for EUV and specific DUV immersion systems.", "object_id": "CO-0037", "predicate": "regulates", "subject_id": "ENT-0118"}
+{"claim_ids": ["CLM-1752", "CLM-1758", "CLM-1785"], "id": "REL-0283", "notes": "SEMI MMDS materials revenue by category and ship-to region.", "object_id": "ENT-0021", "predicate": "measures", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-1801", "CLM-1804", "CLM-1807"], "id": "REL-0284", "object_id": "ENT-0021", "predicate": "measures", "subject_id": "ENT-0190"}
+{"claim_ids": ["CLM-1830"], "id": "REL-0285", "notes": "TSMC was 16% of Entegris 2025 net sales.", "object_id": "CO-0050", "predicate": "buys_from", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-1855"], "id": "REL-0286", "object_id": "CO-0053", "predicate": "owns", "subject_id": "ENT-0193"}
+{"claim_ids": ["CLM-1857"], "id": "REL-0287", "notes": "Approval of up to ¥75bn; not a disbursement record.", "object_id": "CO-0048", "predicate": "subsidizes", "subject_id": "ENT-0119"}
+{"claim_ids": ["CLM-1834"], "id": "REL-0288", "object_id": "CO-0051", "predicate": "competes_with", "subject_id": "CO-0050"}
+{"claim_ids": ["CLM-1834"], "id": "REL-0289", "object_id": "CO-0055", "predicate": "competes_with", "subject_id": "CO-0050"}
+{"claim_ids": ["CLM-1834"], "id": "REL-0290", "object_id": "CO-0056", "predicate": "competes_with", "subject_id": "CO-0050"}
+{"claim_ids": ["CLM-1818", "CLM-1822"], "id": "REL-0291", "object_id": "CO-0048", "predicate": "competes_with", "subject_id": "CO-0026"}
+{"claim_ids": ["CLM-1818"], "id": "REL-0292", "object_id": "CO-0049", "predicate": "competes_with", "subject_id": "CO-0026"}
+{"claim_ids": ["CLM-1823", "CLM-1826"], "id": "REL-0293", "object_id": "CO-0053", "predicate": "competes_with", "subject_id": "CO-0054"}
+{"claim_ids": ["CLM-1861"], "id": "REL-0294", "object_id": "ENT-0130", "predicate": "part_of", "subject_id": "ENT-0192"}
+{"claim_ids": ["CLM-1856", "CLM-1821"], "id": "REL-0295", "notes": "ABF film is sold to substrate makers (packaging-materials suppliers).", "object_id": "ENT-0025", "predicate": "supplies", "subject_id": "CO-0057"}
+{"claim_ids": ["CLM-1866", "CLM-1867", "CLM-1872"], "id": "REL-0296", "notes": "WWSEMS billings compiled jointly with SEAJ", "object_id": "ENT-0018", "predicate": "measures", "subject_id": "ENT-0130"}
+{"claim_ids": ["CLM-1867", "CLM-1914", "CLM-1915"], "id": "REL-0297", "notes": "SEAJ co-compiles WWSEMS and publishes Japanese-made equipment sales", "object_id": "ENT-0018", "predicate": "measures", "subject_id": "ENT-0131"}
+{"claim_ids": ["CLM-1949", "CLM-1954"], "id": "REL-0298", "object_id": "ENT-0018", "predicate": "measures", "subject_id": "ENT-0195"}
+{"claim_ids": ["CLM-1926"], "id": "REL-0299", "notes": "Dielectric/metal deposition and etch", "object_id": "CO-0035", "predicate": "competes_with", "subject_id": "CO-0058"}
+{"claim_ids": ["CLM-1926"], "id": "REL-0300", "notes": "Etch and wet clean", "object_id": "CO-0059", "predicate": "competes_with", "subject_id": "CO-0058"}
+{"claim_ids": ["CLM-1934"], "id": "REL-0301", "notes": "Process control", "object_id": "CO-0035", "predicate": "competes_with", "subject_id": "CO-0060"}
+{"claim_ids": ["CLM-1934"], "id": "REL-0302", "notes": "Process control / metrology", "object_id": "CO-0037", "predicate": "competes_with", "subject_id": "CO-0060"}
+{"claim_ids": ["CLM-0514", "CLM-1942"], "id": "REL-0303", "object_id": "CO-0061", "predicate": "competes_with", "subject_id": "CO-0062"}
+{"claim_ids": ["CLM-1956", "CLM-1950"], "id": "REL-0304", "notes": "Etch; AMEC's share is small globally", "object_id": "CO-0058", "predicate": "competes_with", "subject_id": "CO-0064"}
+{"claim_ids": ["CLM-1955", "CLM-1950"], "id": "REL-0305", "notes": "Deposition, etch, thermal, clean, mainly inside China", "object_id": "CO-0035", "predicate": "competes_with", "subject_id": "CO-0063"}
+{"claim_ids": ["CLM-1924", "CLM-0512"], "id": "REL-0306", "notes": "67% of Semiconductor Systems revenue foundry/logic/other in FY2025", "object_id": "ENT-0012", "predicate": "supplies", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-1924"], "id": "REL-0307", "notes": "33% of Semiconductor Systems revenue DRAM+NAND in FY2025", "object_id": "ENT-0003", "predicate": "supplies", "subject_id": "CO-0035"}
+{"claim_ids": ["CLM-1940"], "id": "REL-0308", "object_id": "ENT-0003", "predicate": "supplies", "subject_id": "CO-0059"}
+{"claim_ids": ["CLM-1942", "CLM-0444"], "id": "REL-0309", "notes": "Testers sold to OSATs, IDMs, foundries and fabless firms", "object_id": "ENT-0015", "predicate": "supplies", "subject_id": "CO-0061"}
+{"claim_ids": ["CLM-1925", "CLM-0139"], "id": "REL-0310", "notes": "US SME export controls on sales to China", "object_id": "CO-0035", "predicate": "restricts", "subject_id": "ENT-0108"}
+{"claim_ids": ["CLM-2023", "CLM-2019"], "id": "REL-0311", "notes": "IDMs, fabless firms and foundries buy custom mask sets at negotiated prices.", "object_id": "ENT-0016", "predicate": "pays", "subject_id": "ENT-0001"}
+{"claim_ids": ["CLM-2036", "CLM-2035", "CLM-2032", "CLM-2029"], "id": "REL-0312", "notes": "Tool purchases with down payments/slot reservations and acceptance-linked final payments.", "object_id": "ENT-0019", "predicate": "buys_from", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-1986", "CLM-1988"], "id": "REL-0313", "notes": "Distributors buy from IDMs; payment not contingent on resale (TI), with price concessions and stock rotation (Microchip).", "object_id": "ENT-0002", "predicate": "buys_from", "subject_id": "ENT-0029"}
+{"claim_ids": ["CLM-2003", "CLM-2006"], "id": "REL-0314", "notes": "IP licence plus per-chip royalties accrued on licensee shipments.", "object_id": "ENT-0004", "predicate": "licenses_to", "subject_id": "ENT-0008"}
+{"claim_ids": ["CLM-2073"], "id": "REL-0315", "notes": "IDM licenses embedded NVM process technology to foundries for fees and royalties.", "object_id": "ENT-0012", "predicate": "licenses_to", "subject_id": "ENT-0002"}
+{"claim_ids": ["CLM-2041", "CLM-2040"], "id": "REL-0316", "notes": "Fab analytics/software paid by licence, SaaS and wafer-volume-linked Gainshare.", "object_id": "ENT-0012", "predicate": "provides_service_to", "subject_id": "ENT-0027"}
+{"claim_ids": ["CLM-1980", "CLM-1981"], "id": "REL-0317", "notes": "IDM foundry unit sells wafers internally at approximated market prices.", "object_id": "ENT-0002", "predicate": "supplies", "subject_id": "ENT-0014"}
+{"claim_ids": ["CLM-2062"], "id": "REL-0318", "notes": "ASIC houses design and supply chips for system companies (NRE + turnkey).", "object_id": "ENT-0005", "predicate": "provides_service_to", "subject_id": "ENT-0009"}
+{"claim_ids": ["CLM-2025", "CLM-2026"], "id": "REL-0319", "notes": "Per-service negotiated fees, billed at completion of each step; some customer advances.", "object_id": "ENT-0015", "predicate": "pays", "subject_id": "ENT-0004"}
+{"claim_ids": ["CLM-2053", "CLM-2052"], "id": "REL-0320", "notes": "Wafer purchases under LTAs and spot, with prepayments (customer types not specified by Siltronic).", "object_id": "ENT-0022", "predicate": "pays", "subject_id": "ENT-0012"}
+{"claim_ids": ["CLM-2117"], "id": "REL-0321", "notes": "100% at end-2025.", "object_id": "CO-0070", "predicate": "owns", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-2117", "CLM-2123"], "id": "REL-0322", "notes": "73% per 2025 AR chart; 86.5% planned per Feb 2024 release (see contradiction).", "object_id": "CO-0071", "predicate": "owns", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-2117"], "id": "REL-0323", "notes": "70% at end-2025.", "object_id": "CO-0072", "predicate": "owns", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-2124"], "id": "REL-0324", "notes": "Up to ¥476bn (fab 1) + ¥732bn (fab 2).", "object_id": "CO-0071", "predicate": "subsidizes", "subject_id": "ENT-0119"}
+{"claim_ids": ["CLM-2138"], "id": "REL-0325", "notes": "50% pari-passu fiscal support for eligible costs; commitment, not disbursement.", "object_id": "CO-0069", "predicate": "subsidizes", "subject_id": "ENT-0125"}
+{"claim_ids": ["CLM-0171", "CLM-2121"], "id": "REL-0326", "object_id": "CO-0070", "predicate": "subsidizes", "subject_id": "ENT-0109"}
+{"claim_ids": ["CLM-2117"], "id": "REL-0327", "object_id": "CO-0005", "predicate": "part_of", "subject_id": "CO-0070"}
+{"claim_ids": ["CLM-2151"], "id": "REL-0328", "notes": "EDGAR is the SEC's filing system.", "object_id": "ENT-0113", "predicate": "part_of", "subject_id": "ENT-0200"}
+{"claim_ids": ["CLM-2197"], "id": "REL-0329", "object_id": "ENT-0208", "predicate": "part_of", "subject_id": "ENT-0207"}
+{"claim_ids": ["CLM-2193"], "id": "REL-0330", "object_id": "ENT-0206", "predicate": "part_of", "subject_id": "ENT-0205"}
+{"claim_ids": ["CLM-2175"], "id": "REL-0331", "notes": "FSC sets the MOPS filing obligations; platform run by TWSE/TPEx.", "object_id": "ENT-0202", "predicate": "regulates", "subject_id": "ENT-0203"}
+{"claim_ids": ["CLM-2181"], "id": "REL-0332", "object_id": "ENT-0202", "predicate": "sends_information_to", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-2164"], "id": "REL-0333", "object_id": "ENT-0200", "predicate": "sends_information_to", "subject_id": "CO-0005"}
+{"claim_ids": ["CLM-2155"], "id": "REL-0334", "object_id": "ENT-0200", "predicate": "sends_information_to", "subject_id": "CO-0001"}
+{"claim_ids": ["CLM-2207"], "id": "REL-0335", "notes": "CSRC designates the appointed disclosure media.", "object_id": "ENT-0210", "predicate": "regulates", "subject_id": "ENT-0209"}
+{"claim_ids": ["CLM-2226"], "id": "REL-0336", "object_id": "ENT-0217", "predicate": "regulates", "subject_id": "ENT-0218"}

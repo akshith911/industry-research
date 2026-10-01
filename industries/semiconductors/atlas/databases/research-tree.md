@@ -11,7 +11,7 @@
 | RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | dropped | RU-0001 | researcher_discovery |
 | RU-0006 | 1 | P1 | value_chain | EDA software market: segments, vendors, concentration and China's domestic EDA | queued | RU-0001 | researcher_discovery |
 | RU-0007 | 1 | P0 | value_chain | Back-end stage map: assembly and test market, OSAT vs in-house vs foundry, leaders and geography | researched | RU-0001 | researcher_discovery |
-| RU-0008 | 1 | P0 | segmentation | Segmentation: product taxonomy and segment sizes (WSTS classes, ASSP/ASIC/general-purpose), end-market shares and 2025-2026 price vs volume | queued | RU-0001, RU-0002 | researcher_discovery |
+| RU-0008 | 1 | P0 | segmentation | Segmentation: product taxonomy and segment sizes (WSTS classes, ASSP/ASIC/general-purpose), end-market shares and 2025-2026 price vs volume | researched | RU-0001, RU-0002 | researcher_discovery |
 | RU-0009 | 1 | P1 | definition | Definitions and classification: legal and statistical meanings of 'semiconductor', leading-edge/mature/advanced, and NAICS/ISIC/NACE/HS codes | queued | RU-0001 | researcher_discovery |
 | RU-0010 | 2 | P2 | adjacent | Boundary industries: displays, solar PV, passive components, PCBs and EMS | queued | RU-0001 | researcher_discovery |
 | RU-0011 | 1 | P1 | history | History: the disaggregation of the value chain (IDM to fabless/foundry/OSAT/IP), 1980-2025 | queued | RU-0001 | researcher_discovery |
@@ -33,19 +33,19 @@
 | RU-0027 | 1 | P1 | regulation | US tariffs on semiconductors (Section 232, 301, reciprocal) plus customs classification, rules of origin and the WTO ITA | queued | RU-0001, RU-0009 | researcher_discovery |
 | RU-0028 | 1 | P1 | regulation | EU Chips Act, Chips Act 2.0, IPCEI and member-state State aid (Germany, France, Italy, Netherlands, Ireland, Austria) | queued | RU-0001 | researcher_discovery |
 | RU-0029 | 2 | P1 | regulation | Allied export controls on chipmaking tools: Netherlands, Japan, South Korea, Wassenaar and plurilateral coordination | queued | RU-0025 | researcher_discovery |
-| RU-0030 | 1 | P0 | regulation | China's export controls and retaliation tools: Export Control Law, critical-mineral controls, Unreliable Entity List, anti-sanctions and trade remedies | queued | RU-0001 | researcher_discovery |
+| RU-0030 | 1 | P0 | regulation | China's export controls and retaliation tools: Export Control Law, critical-mineral controls, Unreliable Entity List, anti-sanctions and trade remedies | researched | RU-0001 | researcher_discovery |
 | RU-0031 | 2 | P1 | regulation | Japan semiconductor industrial policy and economic security: Post-5G fund, Rapidus support law, TSMC/JASM subsidies, Economic Security Promotion Act | queued | RU-0001 | researcher_discovery |
 | RU-0032 | 2 | P2 | regulation | Environmental, chemical and resource constraints on fabs: PFAS, F-gas, RoHS/REACH, water, power and emissions | queued | RU-0041 | researcher_discovery |
 | RU-0033 | 2 | P2 | regulation | Technical standards and de facto mandatory qualifications (SEMI, JEDEC, IEC TC47, AEC-Q, ISO 26262, IPC/JEDEC J-STD) | queued | RU-0001, RU-0035 | researcher_discovery |
-| RU-0034 | 1 | P0 | information_flows | Design enablement and design-data handoff: EDA, IP, PDKs, tape-out and mask data | queued |  | researcher_discovery |
+| RU-0034 | 1 | P0 | information_flows | Design enablement and design-data handoff: EDA, IP, PDKs, tape-out and mask data | researched |  | researcher_discovery |
 | RU-0035 | 1 | P1 | data | Manufacturing and test data systems and their vendors: MES, FDC/APC, SPC, yield management, AMHS and test data standards | queued |  | researcher_discovery |
-| RU-0036 | 1 | P0 | technology | Advanced packaging technology and capacity: 2.5D interposers (CoWoS-class), fan-out, 3D stacking and hybrid bonding | queued | RU-0001 | researcher_discovery |
-| RU-0037 | 1 | P0 | technology | Lithography tools and the EUV subsystem supply base: ASML, Zeiss, Cymer/Trumpf, Nikon/Canon, High-NA adoption | queued | RU-0001 | researcher_discovery |
+| RU-0036 | 1 | P0 | technology | Advanced packaging technology and capacity: 2.5D interposers (CoWoS-class), fan-out, 3D stacking and hybrid bonding | researched | RU-0001 | researcher_discovery |
+| RU-0037 | 1 | P0 | technology | Lithography tools and the EUV subsystem supply base: ASML, Zeiss, Cymer/Trumpf, Nikon/Canon, High-NA adoption | researched | RU-0001 | researcher_discovery |
 | RU-0038 | 1 | P1 | dynamics | Process technology roadmap and transitions: GAA, backside power, 3D DRAM/NAND, wide-bandgap (SiC/GaN) | queued |  | researcher_discovery |
 | RU-0039 | 1 | P1 | information_flows | Demand forecasting, allocation and supply-chain visibility between chip suppliers and customers | queued | RU-0001 | researcher_discovery |
 | RU-0040 | 2 | P1 | regulation | US government procurement and trusted-supply rules for chips: NDAA Section 5949, DMEA Trusted Foundry/Supplier, DFARS counterfeit rules, ITAR | queued | RU-0043 | researcher_discovery |
-| RU-0041 | 1 | P0 | value_chain | Materials segment map: SEMI fab and packaging materials categories, sizes, supplier concentration and production geography | queued | RU-0001 | researcher_discovery |
-| RU-0042 | 1 | P0 | value_chain | Equipment segment map: SEMI segments, sizes, billings by region, leading vendors per tool category | queued | RU-0001 | researcher_discovery |
+| RU-0041 | 1 | P0 | value_chain | Materials segment map: SEMI fab and packaging materials categories, sizes, supplier concentration and production geography | researched | RU-0001 | researcher_discovery |
+| RU-0042 | 1 | P0 | value_chain | Equipment segment map: SEMI segments, sizes, billings by region, leading vendors per tool category | researched | RU-0001 | researcher_discovery |
 | RU-0043 | 1 | P1 | value_chain | Distribution channel structure and enumeration: authorised distributors, catalogue houses, independent distributors and brokers, and the direct vs distribution split | queued | RU-0001 | researcher_discovery |
 | RU-0044 | 1 | P1 | technology | Advanced packaging, substrates and test: who does it (foundries vs OSATs) and where | dropped | RU-0001 | researcher_discovery |
 | RU-0045 | 2 | P1 | participants | Custom silicon: hyperscaler/OEM in-house chip design, ASIC design-service houses, their business model (NRE, turnkey) and relationship to foundries | queued | RU-0001, RU-0016, RU-0090 | researcher_discovery |
@@ -93,7 +93,7 @@
 | RU-0087 | 2 | P0 | money_flows | Foundry-customer money flows: IDM outsourcing to foundries, capacity reservation, prepayments and shortfall enforcement (2021-2026) | queued | RU-0003, RU-0017 | planner |
 | RU-0088 | 2 | P2 | business_models | Open-market brokers, grey market and counterfeit/recycled chips: shortage pricing, scale, entry points and consequences | queued | RU-0019, RU-0043 | planner |
 | RU-0089 | 2 | P2 | money_flows | Cross-border payment flows and where semiconductor profits are booked: trade data, re-exports, IP holding and tax structures | queued | RU-0009, RU-0047, RU-0080 | planner |
-| RU-0090 | 1 | P0 | business_models | Business-model catalogue: how each participant type earns revenue, what it sells and on what pricing unit | queued | RU-0001 | planner |
+| RU-0090 | 1 | P0 | business_models | Business-model catalogue: how each participant type earns revenue, what it sells and on what pricing unit | researched | RU-0001 | planner |
 | RU-0091 | 2 | P1 | business_models | Foundry 2.0 and IDM foundry businesses: internal transfer pricing, external customers and separation (Intel Foundry, Samsung Foundry) | queued | RU-0003, RU-0087 | planner |
 | RU-0092 | 2 | P1 | business_models | Custom-silicon and ASIC design-service business model: NRE, turnkey production and hyperscaler economics | dropped | RU-0045, RU-0016 | planner |
 | RU-0093 | 2 | P1 | business_models | Analog, power, MCU and discrete IDMs: business model (fab ownership, 300mm, long product lives, channel mix) and competition incl. Chinese entrants | queued | RU-0019, RU-0023, RU-0052, RU-0075, RU-0101 | planner |
@@ -101,7 +101,7 @@
 | RU-0095 | 2 | P2 | business_models | EDA commercial model: time-based licences, emulation hardware, cloud and token pricing, and customer concentration | dropped | RU-0006, RU-0034 | planner |
 | RU-0096 | 2 | P2 | business_models | Manufacturing-software, yield-analytics and automation vendors: how they sell to fabs and OSATs | queued | RU-0035 | planner |
 | RU-0097 | 3 | P2 | business_models | Chiplet and multi-die business models: who is the prime contractor, known-good-die liability and cost sharing | dropped | RU-0036, RU-0044, RU-0022 | planner |
-| RU-0098 | 1 | P0 | unit_economics | Fab cost model: capex and operating cost of a fab by node, product and region (US, Taiwan, Japan, Korea, China, Europe, India) | queued |  | planner |
+| RU-0098 | 1 | P0 | unit_economics | Fab cost model: capex and operating cost of a fab by node, product and region (US, Taiwan, Japan, Korea, China, Europe, India) | researched |  | planner |
 | RU-0099 | 2 | P1 | unit_economics | Chip cost stack: die cost per transistor, die size, yield, masks, design cost, packaging, test and royalties across nodes | queued | RU-0017, RU-0022, RU-0024, RU-0034, RU-0038, RU-0098 | planner |
 | RU-0100 | 2 | P2 | unit_economics | Photomask economics: mask-set cost by node, captive versus merchant mask shops, and who pays | dropped | RU-0034, RU-0037 | planner |
 | RU-0101 | 2 | P1 | unit_economics | Mature-node foundry economics and Chinese price competition (28nm and above) | queued | RU-0003, RU-0027, RU-0030, RU-0098 | planner |
@@ -229,7 +229,7 @@
 | RU-0223 | 2 | P1 | competition | Analog, power, microcontroller and discrete competition: shares, Chinese entrants and consolidation | dropped | RU-0093, RU-0075, RU-0184 | planner |
 | RU-0224 | 2 | P2 | competition | Other segment competition: FPGAs, image sensors, optoelectronics, MEMS and RF | dropped | RU-0076, RU-0077 | planner |
 | RU-0225 | 3 | P1 | competition | Sources of durable competitive advantage by segment: scale, process leadership, ecosystems, switching costs and what has overturned leaders | queued | RU-0003, RU-0006, RU-0007, RU-0042, RU-0054, RU-0076, RU-0093, RU-0140, RU-0219, RU-0220, RU-0221, RU-0222 | planner |
-| RU-0226 | 1 | P0 | participants | Participant census method and company disclosure systems (EDGAR, MOPS, DART, EDINET, HKEX, SSE/SZSE, etc.) | queued | RU-0001 | planner |
+| RU-0226 | 1 | P0 | participants | Participant census method and company disclosure systems (EDGAR, MOPS, DART, EDINET, HKEX, SSE/SZSE, etc.) | researched | RU-0001 | planner |
 | RU-0227 | 2 | P0 | participants | Enumerate chip companies: IDMs, memory makers, fabless firms and system companies designing chips, by country | queued | RU-0045, RU-0059, RU-0112, RU-0226 | planner |
 | RU-0228 | 2 | P1 | participants | Enumerate manufacturing-service providers: foundries, OSATs, photomask makers and independent test houses, by country | queued | RU-0003, RU-0007, RU-0061, RU-0063, RU-0226 | planner |
 | RU-0229 | 2 | P1 | participants | Enumerate equipment makers and manufacturing-software vendors, including sub-tier suppliers, by country | queued | RU-0035, RU-0042, RU-0050, RU-0226 | planner |
@@ -265,3 +265,22 @@
 | RU-0259 | 2 | P2 | geography | Americas back-end build-out: US CHIPS ITSI Fund partner countries (Costa Rica, Panama, Mexico) and US advanced packaging plants (Amkor Arizona, SK hynix Indiana, Intel New Mexico) | dropped | RU-0007 | researcher_discovery |
 | RU-0260 | 3 | P2 | value_chain | Memory channel and spot market: module makers, brokers and how memory price shocks reach device makers (2019-2026) | queued | RU-0018, RU-0220 | researcher_discovery |
 | RU-0261 | 2 | P1 | dynamics | Refresh time-sensitive wave-1 figures after the Q3 2026 reporting season: Micron FQ4 2026 actuals vs guidance, TSMC 2026 capex, and other claims marked outdated | queued | RU-0002, RU-0007, RU-0016, RU-0018, RU-0025 | gap_finder |
+| RU-0262 | 2 | P1 | segmentation | Semiconductor unit volumes and average selling prices by product class (WSTS units, 2015-2026) | queued | RU-0008 | researcher_discovery |
+| RU-0263 | 2 | P1 | data | China customs export series for chip-critical minerals 2022-2026 (Ga, Ge, Sb, graphite, rare earths and magnets) and licence approvals | queued | RU-0030 | researcher_discovery |
+| RU-0264 | 2 | P1 | regulation | China trade remedies and supply-chain security investigations against foreign chip inputs (dichlorosilane, analog ICs, trade-barrier and supply-chain security probes) | queued | RU-0030 | researcher_discovery |
+| RU-0265 | 2 | P2 | value_chain | Open-source silicon access: open PDKs, open EDA flows and MPW aggregators (SKY130, GF180, IHP, Tiny Tapeout, ChipFoundry, Europractice) and their viability after Efabless | queued | RU-0034 | researcher_discovery |
+| RU-0266 | 2 | P1 | technology | Mask data preparation and computational lithography: OPC/ILT software, mask writers, who performs MDP, and data formats (OASIS.MASK, MALY, MEBES, P10) | queued | RU-0034, RU-0061 | researcher_discovery |
+| RU-0267 | 3 | P1 | technology | Panel-level and glass-core advanced packaging: CoPoS, FOPLP, 310/515/600 mm panels, glass interposers/cores, players and timelines | queued | RU-0036 | researcher_discovery |
+| RU-0268 | 3 | P1 | competition | Intel Foundry advanced packaging as a merchant business: EMIB-T/Foveros customers, capacity (New Mexico, Malaysia, Arizona), Amkor partnership and substrate prepayments | queued | RU-0036 | researcher_discovery |
+| RU-0269 | 2 | P2 | technology | Packaging and back-end lithography: steppers, digital/maskless and panel-level lithography for advanced packaging (Canon, Nikon, ASML XT:260, others) | queued | RU-0037 | researcher_discovery |
+| RU-0270 | 2 | P1 | supply_chain_concentration | EUV sub-tier supply network beyond Zeiss and TRUMPF: tin-droplet generators, collectors, multilayer coatings, vacuum and mechatronics modules (VDL-ETG, Prodrive) and their single-source status | queued | RU-0037 | researcher_discovery |
+| RU-0271 | 2 | P2 | business_models | Fab-site gas and chemical services: total gas and chemical management, on-site plants and delivery systems (Merck MEGASYS, Linde, Air Liquide, others) | queued | RU-0041, RU-0065 | researcher_discovery |
+| RU-0272 | 2 | P2 | segmentation | Contamination-control and filtration suppliers (Entegris APS, Pall, Shin-Etsu Polymer, Gudeng): materials-adjacent segment outside SEMI's materials taxonomy | queued | RU-0041, RU-0042 | researcher_discovery |
+| RU-0273 | 2 | P1 | data | Reconcile equipment billings by region with vendor revenue by region and fiscal calendars (SEMI WWSEMS vs AMAT, Lam, TEL, KLA, ASML, Advantest) | queued | RU-0042 | researcher_discovery |
+| RU-0274 | 2 | P1 | competition | Back-end equipment segment detail: assembly & packaging tools (dicing, bonding, hybrid bonding, molding) and probers/handlers, vendors and shares | queued | RU-0042, RU-0063 | researcher_discovery |
+| RU-0275 | 2 | P1 | money_flows | Customer prepayments and deposits across the supply chain (foundry, OSAT, equipment, wafers, IDM LTSAs): balances, terms and refund rules 2021-2026 | queued | RU-0090 | researcher_discovery |
+| RU-0276 | 2 | P1 | unit_economics | Overseas fab P&L tracker: revenue, profit and depreciation of new-site fab subsidiaries (TSMC Arizona/JASM/ESMC/Nanjing, Samsung Austin/Taylor, SK hynix Wuxi, Micron Hiroshima) | queued | RU-0098 | researcher_discovery |
+| RU-0277 | 2 | P2 | unit_economics | Fab electricity and water tariffs by site: Taipower industrial rates, US utility special contracts (APS/SRP, Oncor, National Grid NY), Kyushu Electric, German industrial power, Gujarat | queued | RU-0098, RU-0032 | researcher_discovery |
+| RU-0278 | 2 | P1 | participants | Full EDGAR SIC census of semiconductor-related filers (SIC 3674, 3559, 3825, 3827, 3089, 7372, 5065) using declared bulk downloads | queued | RU-0226 | researcher_discovery |
+| RU-0279 | 2 | P1 | participants | Enumerate Korean and Japanese listed chip-supply-chain companies via OpenDART and EDINET APIs (industry codes, keys required) | queued | RU-0226 | researcher_discovery |
+| RU-0280 | 2 | P1 | participants | Enumerate mainland China listed and pre-IPO chip companies (STAR/ChiNext/main boards, CSRC IPO guidance filings, CAPCO classification) | queued | RU-0226 | researcher_discovery |

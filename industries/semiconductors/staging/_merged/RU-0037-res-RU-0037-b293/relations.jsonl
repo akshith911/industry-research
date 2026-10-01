@@ -1,0 +1,29 @@
+{"subject_id": "@zeisssmt", "predicate": "supplies", "object_id": "@asml", "claim_ids": ["@c_zeiss_sole", "@c_zeiss_sites", "@c_zeiss_purch"], "notes": "Exclusive, sole optics supplier; ASML is its single customer for optical columns."}
+{"subject_id": "@asml", "predicate": "depends_on", "object_id": "@zeisssmt", "claim_ids": ["@c_zeiss_cease", "@c_zeiss_sole"], "notes": "ASML says it could not conduct its business without Zeiss optics."}
+{"subject_id": "@asml", "predicate": "invests_in", "object_id": "@zeisssmt", "claim_ids": ["@c_zeiss_stake", "@c_zeiss_loans25", "@c_zeiss_fin"], "notes": "24.9% equity in the holding plus capex loans and prepayments."}
+{"subject_id": "@zeissag", "predicate": "owns", "object_id": "@zeisssmt", "claim_ids": ["@c_zeiss_stake"], "notes": "Ultimate parent of Carl Zeiss SMT Holding GmbH & Co. KG (ASML holds 24.9%)."}
+{"subject_id": "@asml", "predicate": "owns", "object_id": "@cymer", "claim_ids": ["@c_cymer_acq", "@c_cymer_now"], "notes": "Acquired 2013."}
+{"subject_id": "@cymer", "predicate": "supplies", "object_id": "@asml", "claim_ids": ["@c_cymer_now", "@c_cymer_arms"], "notes": "DUV light sources; ASML EUV sources made in-house."}
+{"subject_id": "@trumpf", "predicate": "supplies", "object_id": "@asml", "claim_ids": ["@c_trumpf_desc", "@c_trumpf_rev"], "notes": "CO2 drive laser for EUV sources."}
+{"subject_id": "@gigaphoton", "predicate": "competes_with", "object_id": "@cymer", "claim_ids": ["@c_giga_share"], "notes": "DUV excimer light sources; ~even shares (2022)."}
+{"subject_id": "@nikon", "predicate": "competes_with", "object_id": "@asml", "claim_ids": ["@c_competes", "@c_nikon25"], "notes": "DUV only."}
+{"subject_id": "@canon", "predicate": "competes_with", "object_id": "@asml", "claim_ids": ["@c_competes", "@c_canon25"], "notes": "DUV (i-line, KrF) only."}
+{"subject_id": "@vdl", "predicate": "supplies", "object_id": "@asml", "claim_ids": ["@c_vdl"], "notes": "Mechanical structures for EUV stages (press report)."}
+{"subject_id": "@prodrive", "predicate": "supplies", "object_id": "@asml", "claim_ids": ["@c_vdl"], "notes": "Linear motors/servo drives for EUV maglev stages (press report)."}
+{"subject_id": "@asml", "predicate": "produces", "object_id": "ENT-0063", "claim_ids": ["@c_nxe25"]}
+{"subject_id": "@asml", "predicate": "produces", "object_id": "ENT-0064", "claim_ids": ["@c_exe25"]}
+{"subject_id": "@asml", "predicate": "produces", "object_id": "@arfi", "claim_ids": ["@c_arfi25"]}
+{"subject_id": "@nikon", "predicate": "produces", "object_id": "@arfi", "claim_ids": ["@c_nikon25"], "notes": "3 units FY2024/25, 0 in FY2025/26."}
+{"subject_id": "@canon", "predicate": "produces", "object_id": "@krf", "claim_ids": ["@c_canon25"]}
+{"subject_id": "@canon", "predicate": "produces", "object_id": "@iline", "claim_ids": ["@c_canon25"]}
+{"subject_id": "@canon", "predicate": "produces", "object_id": "@nil", "claim_ids": ["@c_canon_nil"]}
+{"subject_id": "@canon", "predicate": "supplies", "object_id": "@tie", "claim_ids": ["@c_canon_tie"]}
+{"subject_id": "@smee", "predicate": "produces", "object_id": "ENT-0062", "claim_ids": ["@c_smee_90"], "notes": "90 nm ArF and 110 nm KrF per press."}
+{"subject_id": "@asml", "predicate": "supplies", "object_id": "@intel", "claim_ids": ["@c_intel_first", "@c_intel_hvm"], "notes": "High-NA EUV."}
+{"subject_id": "@asml", "predicate": "supplies", "object_id": "CO-0006", "claim_ids": ["@c_skh_hna"], "notes": "EXE:5200B at M16."}
+{"subject_id": "@intel", "predicate": "uses", "object_id": "ENT-0064", "claim_ids": ["@c_intel_hvm"]}
+{"subject_id": "CO-0006", "predicate": "uses", "object_id": "ENT-0064", "claim_ids": ["@c_skh_hna"]}
+{"subject_id": "CO-0006", "predicate": "uses", "object_id": "ENT-0063", "claim_ids": ["@c_skh_euv21"]}
+{"subject_id": "CO-0007", "predicate": "uses", "object_id": "ENT-0063", "claim_ids": ["@c_micron_euv"]}
+{"subject_id": "@asml", "predicate": "subject_to", "object_id": "REG-0025", "claim_ids": ["@c_licence", "@c_euctrl"]}
+{"subject_id": "ENT-0118", "predicate": "regulates", "object_id": "@asml", "claim_ids": ["@c_licence"], "notes": "Dutch export licences for EUV and specific DUV immersion systems."}

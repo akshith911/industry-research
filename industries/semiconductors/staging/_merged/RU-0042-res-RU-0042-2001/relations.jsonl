@@ -1,0 +1,15 @@
+{"subject_id": "ENT-0130", "predicate": "measures", "object_id": "ENT-0018", "claim_ids": ["@m_cats", "@m_coll", "@t21"], "notes": "WWSEMS billings compiled jointly with SEAJ"}
+{"subject_id": "ENT-0131", "predicate": "measures", "object_id": "ENT-0018", "claim_ids": ["@m_coll", "@jp_def", "@jp_fy25"], "notes": "SEAJ co-compiles WWSEMS and publishes Japanese-made equipment sales"}
+{"subject_id": "@cset", "predicate": "measures", "object_id": "ENT-0018", "claim_ids": ["@eto_cn25", "@eto_hq"]}
+{"subject_id": "@lam", "predicate": "competes_with", "object_id": "@amat", "claim_ids": ["@lam_comp"], "notes": "Dielectric/metal deposition and etch"}
+{"subject_id": "@lam", "predicate": "competes_with", "object_id": "@tel", "claim_ids": ["@lam_comp"], "notes": "Etch and wet clean"}
+{"subject_id": "@kla", "predicate": "competes_with", "object_id": "@amat", "claim_ids": ["@kla_comp"], "notes": "Process control"}
+{"subject_id": "@kla", "predicate": "competes_with", "object_id": "@asml", "claim_ids": ["@kla_comp"], "notes": "Process control / metrology"}
+{"subject_id": "@ter", "predicate": "competes_with", "object_id": "@adv", "claim_ids": ["CLM-0514", "@adv_share"]}
+{"subject_id": "@amec", "predicate": "competes_with", "object_id": "@lam", "claim_ids": ["@amec_rev", "@eto_cn_dep"], "notes": "Etch; AMEC's share is small globally"}
+{"subject_id": "@naura", "predicate": "competes_with", "object_id": "@amat", "claim_ids": ["@naura_rev", "@eto_cn_dep"], "notes": "Deposition, etch, thermal, clean, mainly inside China"}
+{"subject_id": "@amat", "predicate": "supplies", "object_id": "ENT-0012", "claim_ids": ["@amat_mix", "CLM-0512"], "notes": "67% of Semiconductor Systems revenue foundry/logic/other in FY2025"}
+{"subject_id": "@amat", "predicate": "supplies", "object_id": "ENT-0003", "claim_ids": ["@amat_mix"], "notes": "33% of Semiconductor Systems revenue DRAM+NAND in FY2025"}
+{"subject_id": "@tel", "predicate": "supplies", "object_id": "ENT-0003", "claim_ids": ["@tel_mix"]}
+{"subject_id": "@adv", "predicate": "supplies", "object_id": "ENT-0015", "claim_ids": ["@adv_share", "CLM-0444"], "notes": "Testers sold to OSATs, IDMs, foundries and fabless firms"}
+{"subject_id": "ENT-0108", "predicate": "restricts", "object_id": "@amat", "claim_ids": ["@amat_comp", "CLM-0139"], "notes": "US SME export controls on sales to China"}

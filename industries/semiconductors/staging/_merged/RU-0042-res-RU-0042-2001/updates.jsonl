@@ -1,0 +1,2 @@
+{"id": "ENT-0093", "set": {"aliases": ["WWSEMS", "Worldwide Semiconductor Equipment Market Statistics", "Worldwide SEMS Report"]}, "reason": "RU-0042: published name of the statistic (SEMI/SEAJ releases)"}
+{"id": "TRM-0024", "set": {"aliases": ["SME", "semiconductor equipment"]}, "reason": "RU-0042: SEMI defines WFE as wafer processing + mask/reticle + fab facilities only (excludes test and A&P), so 'WFE'/'wafer fab equipment' are not synonyms of all SME; see new term 'Wafer fab equipment segment (SEMI definition)' and SEMI 16 Dec 2025 release"}

@@ -1,0 +1,7 @@
+{"subject_id": "CO-0005", "predicate": "owns", "object_id": "@tsmcaz", "claim_ids": ["@tsmc_stakes_ar"], "notes": "100% at end-2025."}
+{"subject_id": "CO-0005", "predicate": "owns", "object_id": "@jasm", "claim_ids": ["@tsmc_stakes_ar", "@jasm_stakes"], "notes": "73% per 2025 AR chart; 86.5% planned per Feb 2024 release (see contradiction)."}
+{"subject_id": "CO-0005", "predicate": "owns", "object_id": "@esmc", "claim_ids": ["@tsmc_stakes_ar"], "notes": "70% at end-2025."}
+{"subject_id": "ENT-0119", "predicate": "subsidizes", "object_id": "@jasm", "claim_ids": ["@jasm_sub"], "notes": "Up to ¥476bn (fab 1) + ¥732bn (fab 2)."}
+{"subject_id": "ENT-0125", "predicate": "subsidizes", "object_id": "@tata", "claim_ids": ["@tata_fsa"], "notes": "50% pari-passu fiscal support for eligible costs; commitment, not disbursement."}
+{"subject_id": "ENT-0109", "predicate": "subsidizes", "object_id": "@tsmcaz", "claim_ids": ["CLM-0171", "@tsmcaz_capex"]}
+{"subject_id": "@tsmcaz", "predicate": "part_of", "object_id": "CO-0005", "claim_ids": ["@tsmc_stakes_ar"]}

@@ -533,3 +533,432 @@ CLM-1104 says no public estimate shows a large change in the outsourced share si
 **More defensible:** not determinable. The two ratios combine numerators and denominators from different publishers and years, so neither shows a real change in outsourcing. CLM-1104's absolute 'no large change' statement is too strong given CLM-1117.
 **Remaining uncertainty:** No single publisher gives a consistent time series of in-house against outsourced back-end value after 2019.
 
+## CON-0041: 2024 end-use shares: automotive vs consumer label mapping (open)
+
+CLM-0561 records automotive at 9.9% of 2024 demand (and CLM-0560's notes record consumer 33.0%, communications 12.7%); reading the SIA chart and Factbook pie directly shows automotive 12.7%, consumer 9.9%, communications 33.0%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0561 | Automotive accounted for 9.9% of global semiconductor demand in 2024 (SIA, from WSTS End Use Survey). | [SRC-0011](https://www.semiconductors.org/wp-content/uploads/2025/07/SIA-State-of-the-Industry-Report-2025.pdf) | low |
+| CLM-1343 | In 2024 automotive was 12.7% of global semiconductor demand, consumer 9.9%, industrial 8.4% and government 1.0% (WSTS End Use Survey via SIA). | [SRC-0011](https://www.semiconductors.org/wp-content/uploads/2025/07/SIA-State-of-the-Industry-Report-2025.pdf) [SRC-0010](https://www.semiconductors.org/wp-content/uploads/2025/05/2025-SIA-Factbook-FINAL-1.pdf) | low |
+
+**Possible reasons:** earlier extraction tool mis-mapped chart labels to values (documented in CLM-0073)
+**More defensible:** CLM-1343. Two SIA documents (SOI 2025 p.24 and Factbook 2025 p.8) agree when read from page images, and SIA SOI 2026 repeats 2024 as automotive 13%, consumer 10%.
+**Remaining uncertainty:** Values were read from chart images, not a data table.
+
+## CON-0042: Whether solar cells are inside the WSTS semiconductor market (open)
+
+CLM-0016 says this could not be established from the 2021 classification; the F6 definition explicitly includes solar cells.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0016 | Whether solar (photovoltaic) cells are included in the WSTS semiconductor market could not be established from the public 2021 WSTS Product Classification. |  | unknown |
+| CLM-1289 | The WSTS 2021 classification includes solar cells in optoelectronics, under 'Other Optoelectronics' (F6). | [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf) | low |
+
+**Possible reasons:** earlier search tool missed the text
+**More defensible:** CLM-1289. Verbatim text in Product Classification 2021, section 3.2 (F6).
+**Remaining uncertainty:** Whether newer editions (2023+) changed this was not checked (subscriber login).
+
+## CON-0043: 2025 memory market size across publishers (open)
+
+WSTS final US$230.0bn; SIA February 2026 release US$223.1bn; Gartner April 2026 US$216.3bn; Gartner August 2026 US$220.1bn.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0036 | Memory ICs were US$230.0 billion of the 2025 world semiconductor market, per WSTS. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
+| CLM-0294 | SIA reports memory sales of US$223.1 billion in 2025, up 34.8%. | [SRC-0007](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/) | low |
+| CLM-0702 | Gartner's April 2026 forecast release put 2025 worldwide semiconductor revenue at US$805.3 billion (memory US$216.3bn, non-memory US$589.0bn), up from its preliminary US$793 billion. | [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026) | low |
+| CLM-1334 | Gartner's August 2026 release puts 2025 memory revenue at US$220.1bn within a US$809.0bn total market. | [SRC-0429](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026) | low |
+
+**Possible reasons:** data vintage (SIA Feb release precedes WSTS final); Gartner counts vendor revenue from its own model, not WSTS member reports; treatment of module makers and captive sales
+**More defensible:** CLM-0036. WSTS final Blue Book actuals are the industry reference; Gartner is a modelled estimate.
+**Remaining uncertainty:** Size of definitional differences (e.g. module revenue) is not disclosed.
+
+## CON-0044: 2026 memory forecast: WSTS vs Gartner (open)
+
+WSTS (June 2026) forecasts memory at US$803.9bn; Gartner forecast US$633.3bn in April 2026 and US$837.3bn in August 2026.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0042 | WSTS forecast 2026 memory sales at US$803.9 billion, roughly 250% growth year over year, making memory more than half of the forecast 2026 market. | [SRC-0001](https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf) | low |
+| CLM-1333 | Gartner (August 2026) forecasts memory revenue of US$837.3bn in 2026 (54% of the market, up from 27% in 2025) and non-memory revenue of US$717.9bn, up 21.9% from US$589.0bn. | [SRC-0429](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026) | low |
+| CLM-0703 | In April 2026 Gartner forecast 2026 worldwide semiconductor revenue at US$1,320.2 billion (+64%), with memory at US$633.3 billion, and 2027 at US$1,554.5 billion. | [SRC-0236](https://gcom.pdo.aws.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026) | medium |
+
+**Possible reasons:** forecast vintage: memory prices kept rising through mid-2026; different base-year memory totals
+**More defensible:** not determinable. All are forecasts; the latest (Gartner August) is highest, which suggests the forecasts are chasing prices.
+**Remaining uncertainty:** Actual 2026 outcome unknown until WSTS final data in early 2027.
+
+## CON-0045: Did consumer-electronics chip sales grow in 2025? (open)
+
+SIA says consumer electronics sales grew in value in 2025; its own rounded shares (9.9% of US$630.5bn in 2024, 7% of US$795.6bn in 2025) imply a fall of about 11%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1347 | SIA states that communications, auto, consumer electronics, industrial and government chip sales all grew in value in 2025 but each lost share because of AI-driven growth. | [SRC-0421](https://www.semiconductors.org/wp-content/uploads/2026/07/SIA_2026_State-of-the-Semiconductor-Industry.pdf) | low |
+| CLM-1349 | Applying SIA's end-use shares to WSTS totals implies 2025 demand of about US$362bn for computers/AI (+64% on ~US$220bn), US$228bn communications (+10%), US$87bn automotive (+8%), US$56bn industrial (+5%), US$56bn consumer (about -11%) and US$7bn government (+14%). |  | low |
+
+**Possible reasons:** the 2025 share is rounded to a whole percent (needs at least 7.85% for growth); the 2024 base may have been revised in the 2025 End Use Survey
+**More defensible:** not determinable. Cannot be resolved without the unrounded End Use Survey values.
+**Remaining uncertainty:** Unrounded 2025 consumer share not public (survey costs US$350).
+
+## CON-0046: 2023 computer end-use share (open)
+
+Factbook 2024 and SIA's 2024 release give computer 25% of 2023 sales; the SOI 2024 table's US$140.0bn computer value is 26.6% of US$526.9bn (26.4% of the US$531.2bn table sum).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1341 | SIA's 2024 Factbook gives 2023 end-use shares of communications 32%, PC/computer 25%, automotive 17.0%, industrial 14.0%, consumer 11.0% and government 1.0%. | [SRC-0425](https://www.semiconductors.org/wp-content/uploads/2024/05/SIA-2024-Factbook.pdf) | low |
+| CLM-1340 | In 2023 communications took US$169.2bn of chip demand (-1.8%), computer US$140.0bn (-7.1%), automotive US$90.1bn (+15.0%), industrial US$72.1bn (-13.3%), consumer US$54.8bn (-31.9%) and government US$5.0bn (-45.0%); automotive was the only segment that grew. | [SRC-0422](https://www.semiconductors.org/wp-content/uploads/2024/10/SIA_2024_State-of-Industry-Report.pdf) | low |
+| CLM-0075 | In 2023 the PC/computer end market fell to 25% of semiconductor sales while communications' share rose 2 percentage points and automotive became the third-largest end market, per the WSTS End-Use Survey. | [SRC-0009](https://www.semiconductors.org/ai-auto-industrial-markets-spurred-rebound-in-chip-demand-during-second-half-of-2023/) | low |
+
+**Possible reasons:** rounding; End Use Survey total differs from Blue Book total; different survey vintages
+**More defensible:** not determinable. Differences are small (about 1.5 points); both come from SIA/WSTS.
+**Remaining uncertainty:** Which vintage SIA used in each document.
+
+## CON-0047: Did the November 2025 US-China arrangement remove China's critical-mineral controls? (open)
+
+The White House (Nov 2025) said Chinese general licences meant 'de facto removal' of controls imposed since 2023, but in May and September 2026 it still reported rare-earth and critical-mineral shortages (naming yttrium, scandium, neodymium, indium), and the April 2025 rare-earth controls and Feb 2025 indium controls were not suspended by China's November 2025 announcements.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1398 | The White House said in November 2025 that China would issue general licences for exports of rare earths, gallium, germanium, antimony and graphite for the benefit of US end users, calling this the de facto removal of controls imposed since 2023. | [SRC-0477](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/) | low |
+| CLM-1401 | In May 2026 the White House said China would address US concerns about shortages of rare earths and critical minerals including yttrium, scandium, neodymium and indium, and about restrictions on selling rare-earth production equipment and technology. | [SRC-0478](https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-secures-historic-deals-with-china-delivering-for-american-workers-farmers-and-industry) | low |
+| CLM-1402 | As of 25 September 2026 the White House said the US and China were still working on US concerns about rare-earth and critical-mineral shortages, aiming to return shipments to appropriate levels. | [SRC-0479](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/) | low |
+| CLM-1397 | The November 2025 suspension (Announcement 2025 No. 70) does not list the April 2025 rare-earth controls (Announcement 2025 No. 18), so those controls appear to remain in force. |  | low |
+
+**Possible reasons:** commitment vs implementation: general licences promised but no Chinese general-licence notice found; scope: suspensions covered the Oct 2025 package and the US-specific ban, not the April 2025 rare-earth or Feb 2025 indium controls; period: Nov 2025 statement vs 2026 observations
+**More defensible:** CLM-1397. The MOFCOM texts show which notices were suspended; the US fact sheets describe intentions and later outcomes.
+**Remaining uncertainty:** Whether MOFCOM issued general licences and how many, and actual 2026 shipment volumes (GACC data not retrieved).
+
+## CON-0048: Is the US-specific gallium/germanium measure a ban or a presumption of denial? (definitional)
+
+USGS says China 'banned all exports of germanium to the United States' in December 2024; the MOFCOM text says such exports will 'in principle not be licensed' (原则上不予许可).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1441 | USGS described Announcement 2024 No. 46 as China banning all germanium exports to the United States in December 2024. | [SRC-0482](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-germanium.pdf) | low |
+| CLM-1383 | MOFCOM Announcement 2024 No. 46 (3 December 2024) banned dual-use exports to US military users or uses and stated that gallium, germanium, antimony and superhard-material dual-use exports to the US would in principle not be licensed, with stricter end-user review for graphite. | [SRC-0444](https://www.mofcom.gov.cn/zwgk/zcfb/art/2024/art_3d5e990b43424e60828030f58a547b60.html) | low |
+
+**Possible reasons:** definition: presumption of denial vs absolute ban; translation/summarisation by USGS
+**More defensible:** CLM-1383. Primary legal text controls; in practice the effect may be close to a ban.
+**Remaining uncertainty:** Whether any licences for US-bound Ga/Ge were granted Dec 2024-Nov 2025.
+
+## CON-0049: Status of China's analog chip anti-dumping case (open)
+
+The White House said China would terminate anti-dumping investigations targeting US chip-supply-chain companies; MOFCOM's lists as of 1 Oct 2026 show no termination notice for the analog chip case, whose normal deadline (13 Sep 2026) has passed.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1399 | The White House said in November 2025 that China would end its investigations targeting US companies in the semiconductor supply chain, including antitrust, anti-monopoly and anti-dumping investigations. | [SRC-0477](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/) | low |
+| CLM-1425 | MOFCOM's trade remedy bureau issued questionnaires in the analog chip anti-dumping case in October 2025; no later milestone (preliminary ruling, extension or termination) appears in its trade remedy notice list or 2026 announcement list as viewed on 1 October 2026. | [SRC-0451](https://trb.mofcom.gov.cn/myjjdc/index.html) [SRC-0475](https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/index.html) | low |
+
+**Possible reasons:** termination may have been unpublished or published elsewhere; case may have been extended (to 13 Mar 2027) without a listed notice; US description may not cover this case
+**More defensible:** not determinable. Neither source settles current status.
+**Remaining uncertainty:** Current legal status of the case; whether provisional or final duties exist.
+
+## CON-0050: Number of EAR violations Cadence admitted in its BIS civil settlement (July 2025) (open)
+
+BIS's press release cites 56 violations for CSCC/NUDT sales plus two further violations from the Phytium contract transfer (58 named); DLA Piper's summary of the settlement says 61 violations.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1510 | In its BIS settlement Cadence admitted 56 EAR violations between September 2015 and September 2020 for EDA hardware, software and design technology worth US$45,305,317.41 sold to NUDT through the CSCC alias. | [SRC-0511](https://www.bis.gov/press-release/cadence-design-systems-pay-95-million-penalty-bis-unauthorized-exports-chinese-entities-tied-development) | low |
+| CLM-1548 | DLA Piper's summary of the Cadence resolution states that Cadence admitted 61 EAR violations in its civil settlement with BIS and agreed a US$95,312,000 civil penalty, half payable within 30 days and the rest suspended pending the DOJ fine. | [SRC-0512](https://www.jdsupra.com/legalnews/cadence-case-signals-doj-and-bis-1307328) | low |
+
+**Possible reasons:** population: BIS text also mentions 'other Entity List parties', which may add violations not itemised in the press release; definition: press release vs settlement agreement may count charges differently; error in secondary summary
+**More defensible:** CLM-1510. BIS is the tier-1 regulator source; DLA Piper is a tier-2 summary. However the BIS figure covers only the CSCC portion explicitly.
+**Remaining uncertainty:** The BIS final order / proposed charging letter PDF was not opened; it would give the definitive count.
+
+## CON-0051: How many EDA partners are in TSMC's OIP EDA Alliance (definitional)
+
+TSMC's 2021 blog and 2024 annual report both say 16 EDA partners; TSMC's EDA Alliance web page lists 11 partners as of 23 September 2026.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1469 | TSMC's 2024 annual report gives OIP participants as 16 EDA, 7 Cloud, 40 IP, 29 design center alliance and 8 value chain aggregator partners, plus 23 3DFabric Alliance partners. | [SRC-0496](https://investor.tsmc.com/static/annualReports/2024/english/ebook/files/basic-html/page113.html) | low |
+| CLM-1468 | TSMC's EDA Alliance listed 11 partners as of 23 September 2026: Cadence, iROC, Jedat, Keysight, Lorentz Solution, Primarius, Siemens EDA, Silvaco, SkillCAD, Synopsys and Zuken. | [SRC-0491](https://www.tsmc.com/english/dedicatedFoundry/oip/eda_alliance) | low |
+| CLM-1549 | TSMC's October 2021 blog gave OIP as 16 EDA, 6 Cloud, 37 IP, 21 DCA and 8 VCA partners. | [SRC-0495](https://tsmc.com/english/blog-article-20211025) | low |
+
+**Possible reasons:** period: 2021/2024 counts vs a 2026 list; partners may have left or been acquired (e.g. Ansys into Synopsys in 2025); definition: annual-report count may include partners not shown on the public list
+**More defensible:** not determinable. Different dates; the 2026 list is the most current but the two figures do not measure the same point in time.
+**Remaining uncertainty:** Which five partners dropped off, and whether TSMC's 2025 annual report gives a new count, was not checked.
+
+## CON-0052: TSMC CoWoS capacity expected at end-2026 (2026 vintage estimates) (open)
+
+2026-vintage estimates of TSMC's end-2026 CoWoS capacity range from 115,000 (April low end) to 140,000 wafers/month; Economic Daily News (Sept) uses ~130,000. UBS's 160,000 industry total with 40,000 at ASE+Amkor implies ~120,000 at TSMC.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1587 | Institutional investors cited by Commercial Times (August 2026) estimated TSMC's monthly CoWoS capacity at 140,000 wafers by end-2026 and 220,000 by end-2027. | [SRC-0559](https://www.trendforce.com/news/2026/08/12/news-ases-spil-breaks-ground-on-nearly-twd-100b-plant-in-douliu-to-boost-cowos-capacity-operations-set-for-2028/) | low |
+| CLM-1588 | Institutional investors cited by TechNews (April 2026) expected TSMC's CoWoS capacity to reach about 115,000-140,000 wafers per month by end-2026 and about 170,000 in 2027, concentrated in Tainan and Chiayi. | [SRC-0563](https://www.trendforce.com/news/2026/04/16/news-tsmc-says-cowos-offers-industrys-largest-reticle-size-packaging-amid-intel-emib-rivalry-copos-advances/) | low |
+| CLM-1589 | Economic Daily News (September 2026) reported that TSMC's CoWoS capacity could double from about 130,000 wafers per month at end-2026 to 260,000 at end-2028, centred on AP7 in Chiayi and the Arizona campus. | [SRC-0561](https://www.trendforce.com/news/2026/09/14/news-tsmc-reportedly-targets-22-2nm-16-3nm-capacity-boost-by-mid-2027-cowos-to-double-by-2028/) | low |
+| CLM-1264 | Institutional investors cited by Economic Daily News (June 2026) expected TSMC's monthly CoWoS capacity to reach 120,000-140,000 wafers in 2026, with OSAT partners adding 50,000-60,000 wafers so that total industry capacity approaches 200,000 wafers per month. | [SRC-0412](https://www.trendforce.com/news/?p=59316) | low |
+| CLM-1265 | Mydrivers (via TrendForce, August 2026) reported that TSMC's monthly CoWoS capacity is projected to rise from about 70,000 wafers in 2025 to 130,000-140,000 wafers by the end of 2026. | [SRC-0411](https://www.trendforce.com/news/2026/08/05/news-tsmc-reportedly-expands-outsourcing-of-key-cowos-front-end-step-to-osats-amid-rising-nvidia-asic-demand/) | low |
+| CLM-1591 | UBS (September 2026, as summarised by TechFlow) estimated industry CoWoS capacity at 160,000 wafers per month at end-2026 and raised its end-2027 forecast from 260,000 to 270,000. | [SRC-0565](https://www.techflowpost.com/en-US/article/34199) | low |
+
+**Possible reasons:** vintage: April vs August/September estimates; population: whether OSAT-outsourced CoW/oS capacity is counted in 'TSMC capacity'; definition: installed vs exit-rate capacity, and wafer-equivalent conversion for CoWoS-L/R; source: unnamed institutional investors; methods not disclosed
+**More defensible:** not determinable. All are anonymous sell-side or press estimates with no stated basis; TSMC discloses none (CLM-0799).
+**Remaining uncertainty:** Actual end-2026 TSMC CoWoS exit capacity; plausibly 120,000-140,000 wafers/month on a TSMC-only basis.
+
+## CON-0053: OSAT CoWoS-class capacity at end-2026 (definitional)
+
+UBS puts ASE and Amkor at 20,000 wafers/month each at end-2026 (40,000 total); EDN (June 2026) says OSAT partners add 50,000-60,000; Dec 2025 report put ASE alone at 20,000-25,000.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1593 | UBS estimated ASE's CoWoS-class capacity rising from 20,000 wafers per month at end-2026 to 70,000 at end-2027, while Amkor stays at about 20,000. | [SRC-0565](https://www.techflowpost.com/en-US/article/34199) | low |
+| CLM-1264 | Institutional investors cited by Economic Daily News (June 2026) expected TSMC's monthly CoWoS capacity to reach 120,000-140,000 wafers in 2026, with OSAT partners adding 50,000-60,000 wafers so that total industry capacity approaches 200,000 wafers per month. | [SRC-0412](https://www.trendforce.com/news/?p=59316) | low |
+| CLM-0798 | ASE was reported (December 2025) to be expanding CoWoS-class capacity to 20,000-25,000 wafers per month, more than tripling its output, as OSATs became a second source for TSMC-style advanced packaging. | [SRC-0263](https://www.trendforce.com/news/2025/12/08/news-tsmcs-cowos-l-s-reportedly-fully-booked-osat-partners-step-up-with-ases-cowop-in-focus) | low |
+
+**Possible reasons:** population: whether only full-process lines or also oS-only capacity are counted; vintage; EDN counts 'new capacity' added by OSATs, UBS reports installed totals
+**More defensible:** not determinable. Different bases (added vs installed; process steps counted) and no disclosed methods.
+**Remaining uncertainty:** OSAT share of CoWoS-class capacity on a consistent full-process basis.
+
+## CON-0054: When High-NA EUV enters high-volume manufacturing (definitional)
+
+ASML/imec (June 2024) expected High-NA HVM in 2025-2026; ZEISS SMT says series production starting 2025; ASML's 2025 annual report expects the EXE platform to start supporting HVM in 2027; ASML (July 2026) says Intel entered HVM on a subset of 18A layers.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1705 | In June 2024 ASML and imec expected High-NA EUV high-volume manufacturing in the 2025-2026 timeframe. | [SRC-0568](https://www.asml.com/en/news/press-releases/2024/asml-imec-opening-high-na-euv-lithography-lab) | low |
+| CLM-0393 | ASML expects its High-NA EXE platform to start supporting high-volume manufacturing in 2027. | [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) | low |
+| CLM-1749 | ZEISS SMT's High-NA page states that a chip manufacturer is planning to use High-NA EUV in series production starting in 2025. | [SRC-0579](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/high-na-euv-lithography.html) | low |
+| CLM-1707 | In July 2026 ASML reported that Intel Foundry had entered high-volume manufacturing of a subset of Core Ultra Series 3 (Panther Lake) processors using High-NA EUV on specific Intel 18A layers in Oregon, at yields matched to the NXE platform. | [SRC-0567](https://www.globenewswire.com/de/news-release/2026/07/15/3327453/0/en/high-na-euv-reaches-new-readiness-milestone-with-first-high-volume-logic-product.html) | low |
+
+**Possible reasons:** definition: 'HVM' for a few dual-qualified layers on an existing node vs a node designed around High-NA (Intel 14A); date of statement: expectations slipped between 2024 and early 2026; ZEISS page undated and may predate the slip
+**More defensible:** CLM-0393. The annual report is the most formal, audited-context statement; the July 2026 Intel milestone is a narrow use on layers also printable by NXE.
+**Remaining uncertainty:** Whether the first node built on High-NA (Intel 14A, or memory nodes at SK hynix/Samsung) reaches volume in 2027-2028.
+
+## CON-0055: TSMC's High-NA EUV adoption node (open)
+
+Korean press (via TrendForce) says TSMC will begin High-NA at 1.4 nm; TSMC's SVP says A14 needs no High-NA and TSMC's chairman says High-NA is owned for R&D but kept out of production on cost.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1750 | The JoongAng (via TrendForce, Oct 2025) reported that TSMC intends to use current EUV tools through the 2 nm node and begin incorporating High-NA EUV starting with its 1.4 nm process. | [SRC-0589](https://www.trendforce.com/news/2025/10/16/news-samsung-reportedly-purchasing-two-asml-high-na-euv-tools-for-mass-production-by-1h26) | low |
+| CLM-1714 | TSMC SVP Kevin Zhang said TSMC will use High-NA EUV only when it gives meaningful, measurable benefit and that its A14 node achieves its gains without High-NA. | [SRC-0586](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reiterates-it-doesnt-need-high-na-euv-for-1-4nm-class-process-technology) | low |
+| CLM-1715 | At its June 2026 shareholder meeting TSMC chairman C.C. Wei said TSMC has already purchased High-NA EUV tools for R&D and that the reason they are not yet in mass production is purely cost (as reported by TechNews via TrendForce). | [SRC-0587](https://www.trendforce.com/news/2026/06/04/news-tsmc-rejects-high-na-euv-investment-concerns-confirms-purchase-for-rd-use-flags-cost-driven-production-timing/) | low |
+
+**Possible reasons:** press inference vs on-record executive statements; A14 family variants (A13/A12) could change later; source quality: secondary report of a newspaper
+**More defensible:** CLM-1714. Direct quotes from TSMC executives on the record outweigh an unattributed press report.
+**Remaining uncertainty:** TSMC has not stated a node or year for High-NA production.
+
+## CON-0056: Price of one 0.33 NA EUV system (definitional)
+
+SIA/BCG (2021) cite about USD 150m; Reuters (2025) about USD 250m; ASML's 2025 NXE revenue implies about EUR 237m per system.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-0482 | A single EUV lithography machine can cost about USD 150 million (SIA/BCG, 2021). | [SRC-0199](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf) | low |
+| CLM-1751 | Reuters (Dec 2025) put the cost of ASML's EUV machines at around USD 250 million each. | [SRC-0591](https://www.taiwannews.com.tw/en/news/6267628) | low |
+| CLM-1649 | Implied average revenue per system recognized by ASML in 2025 was about EUR 289m per EXE, EUR 237m per NXE, EUR 79m per ArF immersion, EUR 13m per KrF and EUR 6m per i-line tool. | [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) | low |
+
+**Possible reasons:** period: NXE:3400C-era vs NXE:3800E-era; currency: USD vs EUR; population: list price vs average recognized revenue incl. options and used systems
+**More defensible:** CLM-1649. Derived from audited revenue and unit counts for the same year; still an average, not a price.
+**Remaining uncertainty:** ASML does not publish list prices; options and upgrades blur averages.
+
+## CON-0057: Japanese share of the global silicon wafer market (open)
+
+The same ITA guide says Shin-Etsu and SUMCO hold about 90% of the wafer market, but also cites Brookings giving Japan 53%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1822 | The US International Trade Administration says Shin-Etsu and SUMCO hold about 90% of the global silicon wafer market. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
+| CLM-1825 | The same ITA guide, citing Brookings (June 2024), gives Japan 53% of silicon wafers and 50% of photoresists. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
+
+**Possible reasons:** population: unclear whether by revenue, area (MSI) or 300 mm only; period: neither figure is dated; the 90% figure has no cited source
+**More defensible:** CLM-1825. The European Commission lists four large non-Japanese wafer makers (GlobalWafers, Siltronic, SK Siltron, Soitec) after Shin-Etsu and SUMCO, which is hard to reconcile with a 90% two-firm share; the 53% figure has an attributed source.
+**Remaining uncertainty:** No primary firm-level wafer share data was found (see CLM-0569); Brookings original not opened.
+
+## CON-0058: Japanese share of global photoresist supply (open)
+
+ITA (and USITC citing Japanese media, 2019) put Japanese firms at about 90% of photoresists; ITA citing Brookings (2024) puts Japan at 50%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1823 | The ITA says Japanese firms such as JSR and Tokyo Ohka Kogyo hold about 90% of the global photoresist market. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
+| CLM-1825 | The same ITA guide, citing Brookings (June 2024), gives Japan 53% of silicon wafers and 50% of photoresists. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
+| CLM-0137 | Japanese media cited by the USITC reported Japan produced about 90% of global photoresists and about 70% of hydrogen fluoride used for etching (circa 2019). | [SRC-0071](https://www.usitc.gov/publications/332/working_papers/the_south_korea-japan_trade_dispute_in_context_semiconductor_manufacturing_chemicals_and_concentrated_supply_chains.pdf) | low |
+
+**Possible reasons:** definition: firm-HQ share vs production-location share (Japanese firms produce resist in Korea, Taiwan, US); population: all resists vs advanced (ArF/EUV) resists; period: 2019 vs 2024
+**More defensible:** not determinable. The figures may count different things (firm nationality vs country of production); no source states its basis.
+**Remaining uncertainty:** Needs a dated research-firm split by supplier and plant location.
+
+## CON-0059: SEMI 2021 semiconductor materials revenue (resolved)
+
+SEMI first reported 2021 at US$64.3bn (March 2022) and later gave US$66.8bn (June 2023).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1761 | SEMI estimated global semiconductor materials revenue at US$64.3 billion in 2021 (as first reported). | [SRC-0599](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-tops-64-billion-in-2021-to-set-new-record-semi-reports-301504029.html) | low |
+| CLM-1798 | SEMI's June 2023 release restated 2021 materials revenue as US$66.8 billion (table US$66,776m), versus US$64.3 billion first reported in March 2022. | [SRC-0598](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-billion-in-2022-semi-reports-301847676.html) | low |
+
+**Possible reasons:** method: SEMI restates prior years as late or revised supplier data arrive ('2021 data reflects current updates')
+**More defensible:** CLM-1798. Later vintage explicitly flagged as updated.
+**Remaining uncertainty:** Segment-level restatements are not public; growth rates quoted in releases mix vintages.
+
+## CON-0060: SEMI 2020 semiconductor materials revenue (resolved)
+
+SEMI first reported 2020 at US$55.3bn (March 2021) and later gave US$55.5bn (March 2022).
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1762 | SEMI estimated global semiconductor materials revenue at US$55.3 billion in 2020 (as first reported). | [SRC-0600](https://www.semi.org/en/news-media-press/semi-press-releases/global-semiconductor-materials-market) | low |
+| CLM-1799 | SEMI's March 2022 release restated 2020 materials revenue as US$55.5 billion (table US$55,479m), versus US$55.3 billion first reported in March 2021. | [SRC-0599](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-tops-64-billion-in-2021-to-set-new-record-semi-reports-301504029.html) | low |
+
+**Possible reasons:** method: routine restatement of prior year
+**More defensible:** CLM-1799. Later vintage.
+**Remaining uncertainty:** Small (0.4%) revision; latest vintage for 2020 not public.
+
+## CON-0061: Number of SEMI materials segments (definitional)
+
+SEMI's public taxonomy lists 9 fab and 8 packaging categories; the MMDS sheet says 10 fab and 6 packaging segments.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1752 | SEMI classifies the materials used to pattern the wafer as 'Fab Materials': silicon, SOI, photomasks, photoresist, photoresist ancillaries, gases, chemicals, targets and CMP. | [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) | low |
+| CLM-1753 | SEMI's packaging-materials categories are leadframes, substrates, bonding wire, die attach, mold compounds, encapsulants, ceramic packages and other packaging materials. | [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) | low |
+| CLM-1754 | SEMI's MMDS product sheet says the dataset contains 10 wafer-fab materials segments and 6 packaging materials segments, by category and 'ship-to' market region. | [SRC-0602](https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf) | low |
+
+**Possible reasons:** definition: the sheet may split or merge categories differently (e.g. gases into bulk and specialty; mold compounds and encapsulants combined)
+**More defensible:** not determinable. Both are SEMI documents describing different products (taxonomy page vs MMDS deliverable).
+**Remaining uncertainty:** The MMDS segment list itself is behind the paywall.
+
+## CON-0062: SEMI Dec 2025 forecast of 2025 assembly & packaging equipment: US$6.0bn vs US$6.4bn (open)
+
+The semi.org copy of SEMI's 16 Dec 2025 release gives US$6.0bn; the PR Newswire distribution of the same release gives US$6.4bn, both at +19.6%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1910 | SEMI's 16 Dec 2025 release on semi.org states 2025 assembly & packaging equipment sales were projected to rise 19.6% to US$6.0 billion. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | low |
+| CLM-1911 | The PR Newswire distribution of the same 16 Dec 2025 SEMI release states 2025 assembly & packaging equipment was projected to rise 19.6% to US$6.4 billion. | [SRC-0631](https://tools.prnewswire.com/en-us/live/20823/release/20251216EN45080) | low |
+
+**Possible reasons:** transcription/edit: one version corrected after distribution; method: same growth rate implies only one base is consistent with 2024 actuals
+**More defensible:** CLM-1910. SEMI's July 2026 release implies 2025 A&P actual ≈ US$6.1bn (US$6.7bn after +9.6%), closer to 6.0 than 6.4.
+**Remaining uncertainty:** Which version SEMI considers official is not stated; 2025 actual A&P dollar value not published directly.
+
+## CON-0063: Size of 2025 semiconductor equipment market: US$133bn forecast vs US$135.1bn billings vs ~US$134.7bn segment sum (resolved)
+
+SEMI's Dec 2025 OEM forecast put 2025 total at US$133bn; WWSEMS billings for 2025 came in at US$135.1bn; WFE actual (US$116.9bn) plus implied back-end (~US$17.8bn) ≈ US$134.7bn.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1905 | In December 2025 SEMI forecast total OEM equipment sales of US$133 billion for 2025 (+13.7%), US$145bn for 2026 and US$156bn for 2027. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | low |
+| CLM-0057 | SEMI reported worldwide semiconductor manufacturing equipment sales of US$135.1 billion in 2025, up 15% from US$117.1 billion in 2024. | [SRC-0020](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) | low |
+| CLM-1898 | Back-end equipment was about US$18 billion in 2025 (test ~US$11.7bn, assembly & packaging ~US$6.1bn), about 13% of the US$135bn total; WFE was about 87%. |  | low |
+
+**Possible reasons:** period: forecast made before Q4 actuals; method: OEM-sales forecast vs member billings statistic; population: rounding of back-calculated back-end
+**More defensible:** CLM-0057. Billings are reported actuals; the US$133bn was a forecast.
+**Remaining uncertainty:** Whether SEMI's forecast basis and WWSEMS billings are defined identically is not stated.
+
+## CON-0064: 2024 WFE size: SEMI US$104bn vs KLA 'approximately US$100bn' (definitional)
+
+SEMI reports 2024 WFE at US$104bn; KLA describes 2024 WFE as approximately US$100bn.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1896 | SEMI put wafer fab equipment (WFE) sales at a record US$104 billion in 2024. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | low |
+| CLM-1933 | KLA estimated 2024 WFE at approximately US$100 billion and expected mid-single-digit growth in 2025. | [SRC-0649](https://d1io3yog0oux5.cloudfront.net/_480bab5adfc62db6ef1206ad85ae8e13/klatencor/db/1117/10585/letter_to_shareholders/KLA+Corporation+Q2CY25+Earnings+Letter+to+Shareholders.pdf) | low |
+
+**Possible reasons:** definition: KLA's WFE may exclude fab facilities or mask/reticle equipment, or China domestic vendors; rounding
+**More defensible:** not determinable. KLA does not disclose its WFE definition; SEMI's includes fab facilities and mask/reticle equipment.
+**Remaining uncertainty:** Vendor WFE definitions are not published.
+
+## CON-0065: Tokyo Electron share of coater/developers: 92% (Gartner CY2024) vs 100% EUV vs CSET 96% TEL+Screen (definitional)
+
+TEL cites 92% of all tracks (Gartner, CY2024), claims 100% of EUV tracks, while CSET (c.2021) gives 96% for TEL and Screen combined.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-1936 | Tokyo Electron reports a 92% world market share in coater/developers (photoresist processing tracks) in CY2024, citing Gartner data. | [SRC-0645](https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4presentations-e.pdf) | low |
+| CLM-1938 | Tokyo Electron estimates it holds a 100% share of coater/developers used with EUV lithography and first or second place in each of its product segments. | [SRC-0646](https://www.tel.com/ir/library/ar/pjsoh100000000rc-att/ir2025_chapter2_en.pdf) | low |
+| CLM-1953 | CSET's (c.2021-data) Explorer showed resist-processing tracks 96% supplied by Japan's Screen and Tokyo Electron, wet etch/clean 72% Screen and TEL, dielectric etch 60% TEL and 36% Lam, and conductor etch 84% Applied and Lam. | [SRC-0658](https://eto.tech/blog/five-key-facts-chokepoints-chip-supply-chain) | low |
+
+**Possible reasons:** population: all tracks vs EUV-only tracks; period: CY2024 vs c.2021; source: Gartner vs TechInsights-based CSET
+**More defensible:** not determinable. Figures measure different populations and years; all agree TEL dominates tracks.
+**Remaining uncertainty:** Screen's separate share not published in the sources read.
+
+## CON-0066: How much more it costs to make chips in the US than in Taiwan (definitional)
+
+SIA/BCG: US 10-year TCO ~25-30% above Taiwan; IC Knowledge: TSMC Arizona wafer cost 7% higher (17% with smaller scale); Morris Chang: 50% higher, later 'could be twice'; Lisa Su: Arizona chips 5-20% more; TSMC: 2-4 points of corporate gross-margin dilution.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2074 | SIA/BCG (2020) estimated that the 10-year total cost of ownership of a new fab in the US is about 30% higher than in Taiwan, South Korea or Singapore and 37% to 50% higher than in China. | [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) | low |
+| CLM-2075 | In the body of the 2020 SIA/BCG study, the TCO of a US-based fab is about 25% to 30% higher than an equivalent fab in Taiwan or Singapore across all three reference fab types, and roughly 50% higher than in China. | [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) | low |
+| CLM-2097 | IC Knowledge (2021) revised its estimate: after all country-to-country operating-cost differences, a TSMC wafer costs 7% more to make in Arizona than in Taiwan, rising to 17% because the Arizona fab (20,000 wpm) is smaller than Taiwan's 80,000-wpm phases. | [SRC-0704](https://semiwiki.com/semiconductor-manufacturers/tsmc/303594-tsmc-arizona-fab-cost-revisited) | low |
+| CLM-2094 | CRS (2020), citing one assessment, reported that wafers from TSMC's planned Arizona fab would be at least 7% more expensive to make than in Taiwan or China, attributing the gap to small capacity and higher construction, labour and utility costs. | [SRC-0702](https://www.everycrsreport.com/reports/R46581.html) | low |
+| CLM-2140 | TSMC founder Morris Chang said in April 2022 that chips made at TSMC's Oregon fab cost 50% more than those made in Taiwan, and that years of effort had not narrowed the gap much. | [SRC-0710](https://www.taipeitimes.com/News/biz/archives/2022/04/22/2003776996) | low |
+| CLM-2141 | Morris Chang said in March 2023 that his earlier estimate of US chipmaking costs 50% above Taiwan was an underestimate and that US costs could be twice Taiwan's. | [SRC-0711](https://www.taipeitimes.com/News/front/archives/2023/03/17/2003796242) | low |
+| CLM-2142 | AMD CEO Lisa Su said in July 2025 that chips from TSMC's Arizona fab would cost more than 5% but less than 20% more than those from Taiwan. | [SRC-0712](https://www.datacenterdynamics.com/en/news/amd-ceo-says-higher-cost-of-us-made-tsmc-chips-is-very-good-investment-to-ensure-supply-chain-resiliency) | low |
+| CLM-2107 | TSMC forecasts gross-margin dilution from ramping overseas fabs of 2% to 3% in the early stages of the next several years, widening to 3% to 4% in the later stages; it repeated this in January and April 2026. | [SRC-0707](https://tickertrends.io/transcripts/TSM/Q3-earnings-transcript-2025) [SRC-0708](https://tickertrends.io/transcripts/TSM/Q4-earnings-transcript-2025) [SRC-0709](https://www.trendforce.com/news/2026/04/16/news-tsmc-sees-2q-sales-up-10-qoq-to-40-2b-margins-rise-to-65-5-67-5-capex-at-top-end-of-52-56b/) | low |
+
+**Possible reasons:** definition: BCG measures TCO after incentives (40-70% of its gap is subsidies); IC Knowledge measures wafer COGS before incentives; population: Chang refers to a 1990s 200mm Oregon fab; IC Knowledge and Su refer to 5nm/4nm Arizona; scale: IC Knowledge attributes 10 of its 17 points to a 20k wpm fab vs 80k wpm Taiwan phases; metric: Su quotes customer price, TSMC quotes consolidated margin impact, not per-wafer cost; time: start-up costs (first fab, new workforce) vs steady state
+**More defensible:** not determinable. The figures measure different things (TCO incl. subsidies, wafer COGS, customer price, consolidated margin) for different fabs and years; once scope is stated most are not in direct conflict, but Chang's 'twice' has no method behind it.
+**Remaining uncertainty:** No method-disclosed estimate of TSMC Arizona's actual steady-state wafer cost vs Taiwan exists in public; TechInsights' 2025 model result is paywalled.
+
+## CON-0067: TSMC's equity stake in JASM (open)
+
+TSMC's February 2024 release planned ~86.5% TSMC ownership of JASM after the fab-2 investment; TSMC's 2025 annual report subsidiaries chart shows 73%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2123 | TSMC's February 2024 JASM announcement gave planned equity stakes of about 86.5% TSMC, 6.0% Sony Semiconductor Solutions, 5.5% DENSO and 2.0% Toyota. | [SRC-0719](https://pr.tsmc.com/english/news/3105) | low |
+| CLM-2117 | At end-2025 TSMC held 100% of TSMC Arizona, 73% of JASM and 70% of ESMC, per its 2025 annual report subsidiaries chart. | [SRC-0731](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch8.pdf) | low |
+
+**Possible reasons:** period: planned post-transaction stake (2024) vs actual at 31 Dec 2025; definition: direct vs effective shareholding or voting vs economic share; later capital injections by minority partners changed the split
+**More defensible:** CLM-2117. The annual report is a later audited-period disclosure; the press release states a plan subject to closing conditions.
+**Remaining uncertainty:** Why the stake differs (and who holds the remaining 27%) was not found in the opened sources.
+
+## CON-0068: What Morris Chang said about the US cost premium (definitional)
+
+Taipei Times (2022) reports Chang saying Oregon chips cost 50% more than Taiwan; TechInsights (2025) paraphrases Chang as saying it would cost TSMC '150% more' to build a new US fab.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2140 | TSMC founder Morris Chang said in April 2022 that chips made at TSMC's Oregon fab cost 50% more than those made in Taiwan, and that years of effort had not narrowed the gap much. | [SRC-0710](https://www.taipeitimes.com/News/biz/archives/2022/04/22/2003776996) | low |
+| CLM-2102 | TechInsights' Dan Hutcheson (2025) described a 150% cost level as a general rule of thumb for building the first fab at a new site with a new, unskilled workforce, and argued most published Arizona-versus-Taiwan cost comparisons overstated the gap. | [SRC-0705](https://techinsights.com/blog/chip-insider-tsmcs-true-cost-arizona-versus-taiwan) | low |
+
+**Possible reasons:** definition: '150%' as an index (Taiwan = 100) equals 50% more; TechInsights' wording conflates the two; population: chip operating cost (Oregon) vs cost to build a new fab
+**More defensible:** CLM-2140. The contemporaneous report quotes Chang directly with '50 percent more'; the later paraphrase is second-hand.
+**Remaining uncertainty:** The original Brookings interview transcript was not opened.
+
+## CON-0069: Japan's subsidy share for JASM vs its stated one-third rule (open)
+
+CSIS describes Japan subsidising up to one-third of capital costs for designated chips; DIGITIMES computes JASM's ¥1.208tn subsidy as about 40% of TSMC's >US$20bn investment.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2124 | Japan's METI minister said Japan would subsidise JASM's second Kumamoto fab by up to ¥732 billion, after up to ¥476 billion for the first fab, about ¥1.208 trillion in total (reported as about 40% of TSMC's >US$20bn investment). | [SRC-0720](https://digitimes.com/news/a20240226VL206/esg-jasm-kumamoto-fab-re100-semiconductors-tsmc.html) | low |
+| CLM-2125 | CSIS reported that Japan indicated it would subsidise up to one-third of capital costs for domestic and foreign makers of designated semiconductor devices, equipment and materials, with conditions attached. | [SRC-0721](https://www.csis.org/analysis/japan-seeks-revitalize-its-semiconductor-industry) | low |
+
+**Possible reasons:** definition: the one-third ceiling applies to a different programme (designated conventional devices) than the Post-5G fund used for JASM; currency/period: DIGITIMES mixes a JPY subsidy with a USD investment at an unstated exchange rate; population: 'investment' may exclude parts of eligible cost or include non-eligible items
+**More defensible:** not determinable. Not the same programme or the same denominator; METI primary documents were not reachable in this run.
+**Remaining uncertainty:** METI's official eligible-cost base for JASM fabs 1 and 2 and the subsidy share it implies.
+
+## CON-0070: Number of integrated-circuit companies on the SSE STAR Market (definitional)
+
+SSE (June 2025) counts 119 STAR IC companies; a 2026 news report counts 128.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2211 | As of June 2025 the SSE STAR Market had 119 integrated-circuit companies out of 588 listed companies, which the exchange describes as half of similar A-share companies, spanning chip design, wafer foundry and packaging/test. | [SRC-0785](https://english.sse.com.cn/news/newsrelease/voice/c/c_20250616_10782033.shtml) [SRC-0786](https://english.sse.com.cn/news/newsrelease/digest/c/c_20250619_10782404.shtml) | low |
+| CLM-2212 | A 2026 report counted 128 integrated-circuit firms on the STAR Market with 2025 forecast revenue of RMB 365.1 billion, 76 of them chip design (incl. IDM) companies. | [SRC-0787](https://www.itiger.com/hant/news/1120885940) | low |
+
+**Possible reasons:** period: June 2025 vs early 2026, with new IPOs (e.g. Moore Threads, MetaX) in between; definition: neither source publishes which firms count as 'integrated circuit'
+**More defensible:** not determinable. Different dates; both are reported counts without a published constituent list.
+**Remaining uncertainty:** No official STAR IC constituent list was found; the 128 source does not name its data origin.
+
+## CON-0071: How many TWSE-listed semiconductor companies exist (open)
+
+TWSE ISIN classification lists 91 TWSE semiconductor stocks on 2026-10-01, but the MOPS August 2026 monthly revenue table has 88 rows in the TWSE semiconductor section.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2184 | As of 1 October 2026 the TWSE ISIN database lists 91 TWSE-listed stocks in Industrial Group 24 'Semiconductor Industry'. | [SRC-0759](https://isin.twse.com.tw/isin/e_class_main.jsp?owncode=&stockname=&isincode=&market=1&issuetype=&industry_code=24&Page=1&chklike=Y) | low |
+| CLM-2180 | In August 2026 the TWSE-listed semiconductor industry (88 companies in the MOPS table) reported combined monthly revenue of NT$896.2 billion, up 60.66% year on year. | [SRC-0763](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html) | low |
+
+**Possible reasons:** period: listings or delistings between August reporting and 1 October; population: ISIN lists securities (could include issues not filing monthly revenue, e.g. newly listed or foreign 'KY' issuers reporting differently); method: our row counting of the MOPS text may miss rows with non-4-digit codes
+**More defensible:** CLM-2184. The ISIN list is the exchange's classification register; the MOPS table is a revenue report that can omit companies.
+**Remaining uncertainty:** Which three companies differ was not checked.
+

@@ -4,6 +4,30 @@
 
 Answers from interviews are recorded as claims of type `reported_claim`, never as verified public evidence.
 
+## Interview guide: ASE/Amkor/SPIL investor relations
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0043 | For CoWoS-L in 2026, which steps (CoW, oS, test) does TSMC do in-house versus at OSATs, and does your capacity figure count wafers that pass through only one step? | Capacity estimates by provider (TSMC 120-140k vs OSAT 20-60k) cannot be reconciled without knowing which steps are counted. | Provider statement or analyst model notes defining the counting basis. | open |
+
+## Interview guide: ASIC house finance or sales (Alchip, GUC, Broadcom/Marvell custom)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0053 | In a turnkey ASIC deal, how is the per-unit production price set relative to foundry wafer, packaging and test costs, and how are NRE milestones scheduled? | Margins swing with NRE mix; the turnkey markup is the main economics of custom silicon for hyperscalers. | Audited revenue notes of GUC/Alchip or contract excerpts | open |
+
+## Interview guide: ASML or Zeiss SMT supply-chain manager
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0045 | How many EUV optical columns and drive-laser systems can be built per year today, what limits ramp, and is a second drive-laser source qualified? | These set the ceiling on EUV scanner output; ASML states Zeiss capacity limits its production. | Supplier capacity statements, capex disclosures tied to unit capacity. | open |
+
+## Interview guide: Besi, ASMPT or Hanmi sales/IR staff
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0042 | What is the current order-to-delivery lead time and typical price range for a production hybrid bonder and a TC bonder, and has tool supply delayed any CoWoS/SoIC/HBM capacity? | Determines whether equipment or substrates/HBM are the binding constraint on AI packaging growth in 2027-2028. | Supplier statements of lead time/ASP or procurement records. | open |
+
 ## Interview guide: CHIPS Program Office / Investment Accelerator staff
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -28,11 +52,23 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0009 | What does an EDA licence bundle cost for a typical design team, over what term, and how is payment scheduled? | Sets the cost of entry for new chip designers. | Interview; EDA 10-K revenue-recognition notes. | open |
 
+## Interview guide: EDA vendor export-compliance lead
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0041 | When the May 2025 BIS letter arrived, what did your company actually switch off (licences, downloads, support), and did any customers not return after July? | Shows how quickly design access can be cut, and whether Chinese designers switched to domestic EDA. | Vendor or customer accounts; later 10-K/10-Q disclosures on China revenue impact. | open |
+
 ## Interview guide: EHS manager at a European fab
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0012 | Which PFAS and fluorinated gases does your process depend on, what derogations are you relying on, and what substitution timeline do you face? | Environmental chemical rules could raise costs or force process changes in etching/cleaning; public evidence was not obtained in this run. | ECHA RAC/SEAC opinions and participant statements on dependent uses and derogation periods. | open |
+
+## Interview guide: Gartner or TechInsights analysts
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0050 | What were the top-3 vendors and their shares in each major front-end tool category in 2025? | Chokepoint analysis needs firm-level shares; Gartner/TechInsights data are paywalled and only partially relayed by TEL and CSET. | Gartner 'Market Share: Semiconductor Wafer Fab Equipment, Worldwide, 2025' or TechInsights equivalent | open |
 
 ## Interview guide: HBM procurement leads at accelerator designers
 
@@ -52,6 +88,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0034 | What unit volumes are the approved Indian ATMP plants actually shipping in 2026, for which customers, and what share of approved capacity is that? | Approvals and capacity claims (e.g. 48 million chips/day) say little about real output; India's back-end-led strategy depends on customer qualification and volume. | Company disclosures of shipped units or ISM progress data by plant. | open |
 
+## Interview guide: Intel finance / investor relations
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0055 | What method (cost-plus, benchmark to TSMC per-wafer prices, node-specific) sets Intel Foundry's internal wafer prices, and how often is it reset? | Intel Foundry's reported US$10.3bn loss depends on transfer prices that are only 'intended to approximate market pricing'. | Intel investor-day material or 10-K segment methodology detail | open |
+
 ## Interview guide: Micron investor relations
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -70,11 +112,35 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0032 | Roughly what share of global packaging and test value is outsourced today, and how has that moved since 2019 once TSMC's CoWoS/InFO and memory makers' HBM stacking are counted? | Determines how large the addressable outsourced back end is and whether outsourcing is growing or being reversed by foundry advanced packaging (TSMC) and memory makers' in-house HBM stacking. | A consistent-basis estimate (same year, same definition) of OSAT revenue versus in-house back-end value, or a sourced split from a paid Yole/Gartner report summary. | open |
 
+## Interview guide: PDF Solutions customers' yield engineering leads
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0052 | How is a volume-based (Gainshare-type) software fee calculated - per wafer start, per good die, or share of measured yield improvement - and over what term? | PDF Solutions shows a volume-linked model; its rate basis (per wafer, share of yield gain) determines how software vendors share fab upside. | Contract term sheets or vendor investor-day disclosures | open |
+
+## Interview guide: SEMI Market Intelligence (EMDS subscribers)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0049 | What were WWSEMS billings by segment (wafer processing, other front-end, test, assembly & packaging) each year 2015-2025? | Needed for a segment-size time series; only growth rates are public. | WWSEMS annual tables or EMDS sample report | open |
+
 ## Interview guide: TSMC advanced packaging planners
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0024 | What was the effective CoWoS (all variants) output capacity per month at end-2024, end-2025 and planned end-2026, and what share came from OSAT partners? | CoWoS was the main AI accelerator bottleneck 2023-2026; public numbers are unofficial and vary by 15-20%. | A capacity figure from a TSMC or OSAT manager, or a customer allocation schedule | open |
+
+## Interview guide: TSMC investor relations
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0059 | What drives JASM's operating loss (utilisation, depreciation, start-up costs, pricing to shareholders) and how are METI subsidies booked in its P&L? | JASM lost NT$9.8bn net on NT$14.8bn revenue in 2025 despite subsidies, while TSMC Arizona was profitable; this is the clearest public signal of overseas fab economics. | JASM statutory accounts (kanpo), TSMC 20-F subsidiary notes, analyst reports | open |
+
+## Interview guide: TechInsights (G. Dan Hutcheson, Scotten Jones)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0058 | What is your current estimate of the per-wafer cost premium for TSMC N4/N3 in Arizona vs Taiwan, split into labour, utilities, construction/depreciation and scale effects? | The most methodical public estimates date from 2021 (IC Knowledge 7-17%); the 2025 TechInsights result is paywalled. | TechInsights Chip Insider edition or Strategic Cost and Price Model output | open |
 
 ## Interview guide: Treasury Office of Tax Analysis
 
@@ -143,6 +209,18 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0027 | Have your China fabs received BIS licences since January 2026, and do they allow spare parts, service and replacement tools of the same generation? | These fabs are a large share of global memory output; licence terms decide whether they can maintain or must slowly degrade. | Company 10-K/annual report disclosures; BIS statements | open |
 
+## Interview guide: fab cost-modelling engineer
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0046 | At 175-220 wph and current uptime, at what layer count or pitch does a single High-NA exposure become cheaper than 0.33 NA double patterning? | TSMC says cost is the only reason it defers High-NA; adoption pace hinges on this crossover. | Cost-of-ownership models presented at SPIE Advanced Lithography or by chipmakers. | open |
+
+## Interview guide: fab finance controllers at TSMC, Samsung, Intel, Micron, GlobalFoundries
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0056 | For a fab you have run, what share of wafer cost was depreciation, direct and indirect labour, electricity, water, materials and maintenance, and how did it differ between your US/Japan/Europe and Asian sites? | All public figures are models or single-component statements; a sourced cost model needs at least one real operator split per region. | Operator-provided cost split, or a paid TechInsights/IC Knowledge model output by country | open |
+
 ## Interview guide: fab logistics manager
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -154,6 +232,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0019 | When you add a second source for a process chemical or gas, what steps are involved and how many months does qualification take? | Explains why materials chokepoints persist and how hard supplier switching is. | Consistent qualification timelines from multiple fabs. | open |
+
+## Interview guide: fab procurement or materials manager
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0047 | For your top three chemical and gas categories, are they bought on consignment or VMI, under how long a contract, and is pricing indexed or fixed? | Decides switching costs, supplier pricing power and who holds inventory; no filing describes the fab side. | Consistent descriptions from two or more fabs or suppliers | open |
 
 ## Interview guide: fabless product/yield engineering manager
 
@@ -179,11 +263,23 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0006 | In recent LTAs, what prepayment amounts, volume commitments and shortfall penalties are typical, and how were they renegotiated in the 2023 downturn? | Determines who carries capacity and demand risk across the cycle. | Interview answers; contract-liability notes in filings. | open |
 
+## Interview guide: foundry customer procurement managers
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0061 | What price per 300 mm wafer did you pay at your main node in 2025-2026, and is this ever disclosed anywhere public? | Unit economics and dependency analysis need prices and customer names that filings give only as unnamed percentages. | Participant statements or contract excerpts | open |
+
 ## Interview guide: foundry design enablement / PDK manager
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0016 | What agreements and checks are needed before you receive a leading-edge PDK, and how is design data transferred and protected through tape-out and mask making? | Controls who can design for which process and is a key IP-protection and compliance flow. | Consistent practitioner accounts; foundry portal or legal documentation. | open |
+
+## Interview guide: foundry design-enablement / PDK manager
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0039 | Before your team received the N3/N2 (or SF2, 18A) PDK, what did you sign, what checks did the foundry run, and what does the licence forbid (sites, cloud, third parties)? | PDK terms decide who can design for which process and are the main IP-protection and export-control choke point in design enablement. | Consistent accounts from 2+ practitioners, or a redacted PDK licence agreement. | open |
 
 ## Interview guide: franchised distributor product-line manager
 
@@ -196,6 +292,18 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0011 | Were your CHIPS award terms renegotiated after 2025, and did the government seek equity, revenue share or other new conditions? | Determines whether US subsidies still function as grants or as state investment, shaping the economics of new fabs. | GAO-26-109121 confirms 14 awards amended Jan 2025-Apr 2026 (childcare removed, 2 equity deals incl. Intel, upside sharing removed for 2 projects); still needed: identity of the second equity/warrant awardee and per-award changes to milestones and amounts. | open |
+
+## Interview guide: lithography integration engineer at a leading-edge foundry
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0044 | For your N3/N2-class (or 1b/1c DRAM) flow, how many layers are exposed on EUV, how many with EUV double patterning, and which would move to High-NA? | Layer counts drive EUV tool demand per wafer start and the economics of High-NA vs 0.33 NA multi-patterning. | Process teardown reports or IEDM/VLSI papers giving mask counts by tool type. | open |
+
+## Interview guide: mask data preparation engineer at a mask shop
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0040 | After a customer's GDS/OASIS is accepted, who runs OPC and fracture, and what files (formats, job deck, P10 order) reach the mask writer? | Determines where the most sensitive design data sits after tape-out and which software/format standards matter commercially. | Practitioner description for at least one leading-edge and one mature node. | open |
 
 ## Interview guide: mask shop sales engineer
 
@@ -221,9 +329,39 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0020 | At leading-edge nodes, what share of masks are made in-house by the chipmaker versus bought from merchant mask shops? | Shows whether merchant mask shops are a viable independent segment or marginal at the leading edge. | Participant estimates cross-checked with mask-shop filings. | open |
 
+## Interview guide: photomask sales managers (Photronics, DNP, Toppan/Tekscend, Hoya)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0051 | When you buy a mask set, is it quoted per layer or per set, how do critical vs non-critical layers and rush delivery change the price, and do you commit a share of orders to one shop? | Photronics confirms negotiated, list-price-free pricing and share-of-orders understandings but no unit; mask cost is a key design-cost input. | Mask-shop price sheets or procurement interviews | open |
+
+## Interview guide: semiconductor equity research analysts
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0060 | When you build a list of all semiconductor companies, which identifier do you deduplicate on, and roughly what share of companies in each role is private and invisible in filings? | The census must avoid double counting TSMC/ASE-type cross-listings and must estimate how many private firms no filing system shows. | Vendor methodology documents or a described internal process | open |
+
 ## Interview guide: trade compliance manager at a Korean or Taiwanese SME maker
 
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0028 | Since December 2024, have you had to classify your tools against the SME FDP product scope and apply for US licences for Chinese customers? | Determines whether non-excluded allied tool makers are at a competitive disadvantage versus Japanese and Dutch firms. | Company disclosures; BIS advisory opinions; KSIA/SEMI statements | open |
+
+## Interview guide: utility key-account managers (APS/SRP, Kyushu Electric, SachsenEnergie, Oncor, Gujarat DISCOMs)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0057 | What is the effective all-in electricity price (per kWh) and contract structure for your fab, and how does it compare with Taiwan's industrial tariff? | Power is cited as up to 30% of opex and Taiwan tariffs rose 25-39% since 2024; site comparisons are unsourced. | Utility regulatory filings for special contracts; company sustainability reports with energy cost | open |
+
+## Interview guide: wafer supplier sales (Shin-Etsu, SUMCO, GlobalWafers, Siltronic, SK siltron)
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0054 | Are your 300mm wafer LTAs priced per wafer with fixed annual prices, and how large are prepayments relative to annual purchases? | Siltronic shows LTA vs non-LTA price divergence and prepayments but not the terms. | Wafer-maker annual report notes on contract liabilities and LTAs | open |
+
+## Interview guide: wafer supplier sales executive
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0048 | In your 300 mm wafer LTA, what is fixed (price, volume, mix), are there prepayments or take-or-pay clauses, and how were they renegotiated in 2023-2025? | SUMCO says LTAs fixed only total volume, forcing customers to take legacy wafers; the terms decide who bears downturn risk. | Contract descriptions from suppliers or fabs, or filings describing LTA prepayments | open |
 

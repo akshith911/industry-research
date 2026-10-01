@@ -1,0 +1,12 @@
+{"subject_id":"ENT-0012","predicate":"certifies_flow_for","object_id":"ENT-0007","claim_ids":["@c_tsmc_eda_access","@c_safe_qeda","@c_siemens_cert","@c_intel_early"]}
+{"subject_id":"ENT-0012","predicate":"certifies_flow_for","object_id":"ENT-0008","claim_ids":["@c_tsmc9000","@c_safe_ipflow"]}
+{"subject_id":"ENT-0012","predicate":"sends_information_to","object_id":"ENT-0007","claim_ids":["@c_tsmc_eda_access","@c_intel_pdk10","@c_cdns_pdk"],"notes":"Early process data / PDKs to EDA partners for tool co-optimisation."}
+{"subject_id":"ENT-0012","predicate":"sends_information_to","object_id":"ENT-0008","claim_ids":["@c_tsmc_ip_access","@c_safe_ipflow"],"notes":"Technical data, libraries, PDKs/DKs to IP partners under NDA."}
+{"subject_id":"ENT-0008","predicate":"sends_information_to","object_id":"ENT-0012","claim_ids":["@c_tsmc9000"],"notes":"IP assessment data and silicon reports for TSMC9000/QCP grading."}
+{"subject_id":"@co_photronics","predicate":"provides_service_to","object_id":"ENT-0004","claim_ids":["@c_phot_conf","@c_phot_flow"]}
+{"subject_id":"@co_skywater","predicate":"licenses_to","object_id":"CO-0010","claim_ids":["@c_sky_licensed"],"notes":"SkyWater licensed SKY130 process data to Google, which released the open PDK."}
+{"subject_id":"ENT-0108","predicate":"restricts","object_id":"ENT-0007","claim_ids":["@c_bis_letter_cdns","@c_snps_letter","@c_bis_56"]}
+{"subject_id":"@e_si2","predicate":"sets_standard_for","object_id":"ENT-0007","claim_ids":["@c_lefdef","@c_si2_oa"]}
+{"subject_id":"ENT-0130","predicate":"sets_standard_for","object_id":"ENT-0016","claim_ids":["@c_p44_def","@c_p45_def","@c_p10_def"]}
+{"subject_id":"ENT-0016","predicate":"uses","object_id":"@e_mdp","claim_ids":["@c_mdp_actors","@c_phot_cybermask"]}
+{"subject_id":"ENT-0076","predicate":"part_of","object_id":"ENT-0077","claim_ids":["@c_phot_flow","@c_mdp_steps"],"notes":"Layout data is converted into mask-writer data for each mask in the set."}

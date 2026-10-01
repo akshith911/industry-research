@@ -1,0 +1,22 @@
+{"subject_id": "@intel", "predicate": "produces", "object_id": "@emib", "claim_ids": ["@c_intel_emib"]}
+{"subject_id": "@intel", "predicate": "produces", "object_id": "@foveros", "claim_ids": ["@c_intel_foveros"]}
+{"subject_id": "@intel", "predicate": "competes_with", "object_id": "CO-0005", "claim_ids": ["@c_tsmc_tight", "@c_emib_reticle"], "notes": "In 2.5D AI packaging (EMIB-T vs CoWoS)."}
+{"subject_id": "@intel", "predicate": "partners_with", "object_id": "CO-0012", "claim_ids": ["@c_intel_dc25"]}
+{"subject_id": "CO-0005", "predicate": "produces", "object_id": "ENT-0069", "claim_ids": ["@c_sym_soic", "@c_soic_pitch"]}
+{"subject_id": "CO-0005", "predicate": "produces", "object_id": "ENT-0157", "claim_ids": ["@c_info_2016"]}
+{"subject_id": "CO-0005", "predicate": "buys_from", "object_id": "CO-0012", "claim_ids": ["@c_tsmc_amkor"], "notes": "Turnkey packaging/test contracted from Amkor Arizona (MoU)."}
+{"subject_id": "CO-0005", "predicate": "buys_from", "object_id": "CO-0011", "claim_ids": ["@c_cow_outs"], "notes": "Reported CoW-step outsourcing; press report, unconfirmed."}
+{"subject_id": "CO-0008", "predicate": "produces", "object_id": "ENT-0068", "claim_ids": ["@c_sam_icube"]}
+{"subject_id": "CO-0008", "predicate": "produces", "object_id": "ENT-0069", "claim_ids": ["@c_sam_xcube"]}
+{"subject_id": "@spil", "predicate": "part_of", "object_id": "CO-0011", "claim_ids": ["@c_spil_douliu"]}
+{"subject_id": "@spil", "predicate": "produces", "object_id": "ENT-0068", "claim_ids": ["@c_spil_douliu", "@c_tf_spill"]}
+{"subject_id": "CO-0011", "predicate": "produces", "object_id": "ENT-0068", "claim_ids": ["@c_ase_full", "@c_ase_leap"]}
+{"subject_id": "@amat", "predicate": "invests_in", "object_id": "@besi", "claim_ids": ["@c_amat_besi"]}
+{"subject_id": "@amat", "predicate": "partners_with", "object_id": "@besi", "claim_ids": ["@c_amat_besi", "@c_besi_hb"]}
+{"subject_id": "@besi", "predicate": "enables", "object_id": "ENT-0069", "claim_ids": ["@c_besi_hb", "@c_besi_h126"]}
+{"subject_id": "@asmpt", "predicate": "enables", "object_id": "@tcb", "claim_ids": ["@c_asmpt_ap", "@c_asmpt_pos"]}
+{"subject_id": "@hanmi", "predicate": "competes_with", "object_id": "@asmpt", "claim_ids": ["@c_hanmi_share"], "notes": "HBM TC bonders."}
+{"subject_id": "ENT-0142", "predicate": "measures", "object_id": "@tcb", "claim_ids": ["@c_hanmi_share", "@c_tcb_cagr"]}
+{"subject_id": "ENT-0068", "predicate": "depends_on", "object_id": "ENT-0025", "claim_ids": ["@c_tsmc_abf", "@c_intel_subst", "@c_intel_prepay"], "notes": "ABF/advanced substrates named as bottleneck by TSMC and Intel."}
+{"subject_id": "CO-0005", "predicate": "produces", "object_id": "@copos", "claim_ids": ["@c_copos_pilot", "@c_tsmc_panel"], "notes": "Pilot stage only."}
+{"subject_id": "@rapidus", "predicate": "produces", "object_id": "@copos", "claim_ids": ["@c_rapidus"], "notes": "Pilot line, 600 mm RDL interposer panel prototype."}

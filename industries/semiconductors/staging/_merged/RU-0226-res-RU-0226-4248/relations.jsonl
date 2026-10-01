@@ -1,0 +1,9 @@
+{"subject_id": "@edgar", "predicate": "part_of", "object_id": "ENT-0113", "claim_ids": ["@c_edgar_sic_meaning"], "notes": "EDGAR is the SEC's filing system."}
+{"subject_id": "@edinet", "predicate": "part_of", "object_id": "@fsa_jp", "claim_ids": ["@c_edinet_def"]}
+{"subject_id": "@dart", "predicate": "part_of", "object_id": "@fss_kr", "claim_ids": ["@c_dart_opendart"]}
+{"subject_id": "@fsc_tw", "predicate": "regulates", "object_id": "@mops", "claim_ids": ["@c_tw_monthly_rev"], "notes": "FSC sets the MOPS filing obligations; platform run by TWSE/TPEx."}
+{"subject_id": "CO-0005", "predicate": "sends_information_to", "object_id": "@mops", "claim_ids": ["@c_mops_aug26_tsmc"]}
+{"subject_id": "CO-0005", "predicate": "sends_information_to", "object_id": "@edgar", "claim_ids": ["@c_sic_arm_tsmc_intc"]}
+{"subject_id": "CO-0001", "predicate": "sends_information_to", "object_id": "@edgar", "claim_ids": ["@c_sic_nvda"]}
+{"subject_id": "@csrc", "predicate": "regulates", "object_id": "@cninfo", "claim_ids": ["@c_cninfo_designated"], "notes": "CSRC designates the appointed disclosure media."}
+{"subject_id": "@afm", "predicate": "regulates", "object_id": "@afm_reg", "claim_ids": ["@c_afm"]}

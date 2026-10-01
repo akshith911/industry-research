@@ -1,0 +1,21 @@
+{"subject_id": "@co_arrow", "predicate": "distributes", "object_id": "@co_ti", "claim_ids": ["@c_tilet_arrow"]}
+{"subject_id": "@co_macnica", "predicate": "distributes", "object_id": "@co_ti", "claim_ids": ["@c_tilet_arrow"]}
+{"subject_id": "@co_digikey", "predicate": "distributes", "object_id": "@co_ti", "claim_ids": ["@c_tilet_cat"]}
+{"subject_id": "@co_mouser", "predicate": "distributes", "object_id": "@co_ti", "claim_ids": ["@c_tilet_cat"]}
+{"subject_id": "@co_arrow", "predicate": "distributes", "object_id": "@co_mchp", "claim_ids": ["@c_mchp_arrow"]}
+{"subject_id": "@co_avnet", "predicate": "distributes", "object_id": "@co_nxp", "claim_ids": ["@c_nxp_avnet"]}
+{"subject_id": "@co_arrow", "predicate": "distributes", "object_id": "@co_nxp", "claim_ids": ["@c_nxp_avnet"]}
+{"subject_id": "@co_nexty", "predicate": "distributes", "object_id": "@co_nxp", "claim_ids": ["@c_nxp_avnet"]}
+{"subject_id": "@co_wt", "predicate": "distributes", "object_id": "@co_nxp", "claim_ids": ["@c_nxp_avnet"]}
+{"subject_id": "@co_wpg", "predicate": "distributes", "object_id": "@co_nxp", "claim_ids": ["@c_nxp_avnet"]}
+{"subject_id": "@co_wt", "predicate": "owns", "object_id": "@co_future", "claim_ids": ["@c_wt_future"]}
+{"subject_id": "@co_tti", "predicate": "owns", "object_id": "@co_mouser", "claim_ids": ["@c_ecia_glo24_types"], "notes": "ECIA consolidates Mouser in TTI"}
+{"subject_id": "@co_avnet", "predicate": "competes_with", "object_id": "@co_arrow", "claim_ids": ["@c_avt_comp"]}
+{"subject_id": "@co_avnet", "predicate": "competes_with", "object_id": "@co_wpg", "claim_ids": ["@c_avt_comp"]}
+{"subject_id": "@co_avnet", "predicate": "competes_with", "object_id": "@co_wt", "claim_ids": ["@c_avt_comp"]}
+{"subject_id": "@reg_7008", "predicate": "regulates", "object_id": "ENT-0030", "claim_ids": ["@c_dfars_cas"], "notes": "Contractor-approved supplier rules govern DoD purchases from the open market"}
+{"subject_id": "@ecia", "predicate": "measures", "object_id": "ENT-0029", "claim_ids": ["@c_ecia_am_total", "@c_ecia_ww_asia"]}
+{"subject_id": "@dmass_ent", "predicate": "measures", "object_id": "ENT-0060", "claim_ids": ["@c_dmass_2025"]}
+{"subject_id": "@sae_ent", "predicate": "sets_standard_for", "object_id": "ENT-0030", "claim_ids": ["@c_sae6081"]}
+{"subject_id": "@idea_ent", "predicate": "sets_standard_for", "object_id": "ENT-0030", "claim_ids": ["@c_idea_std"]}
+{"subject_id": "ENT-0108", "predicate": "restricts", "object_id": "@co_arrow", "claim_ids": ["@c_arw_entity"], "notes": "Oct-Nov 2025 Entity List listing of three Arrow China subsidiaries"}

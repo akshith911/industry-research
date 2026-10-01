@@ -334,3 +334,24 @@
 {"claim_ids": ["CLM-2155"], "id": "REL-0334", "object_id": "ENT-0200", "predicate": "sends_information_to", "subject_id": "CO-0001"}
 {"claim_ids": ["CLM-2207"], "id": "REL-0335", "notes": "CSRC designates the appointed disclosure media.", "object_id": "ENT-0210", "predicate": "regulates", "subject_id": "ENT-0209"}
 {"claim_ids": ["CLM-2226"], "id": "REL-0336", "object_id": "ENT-0217", "predicate": "regulates", "subject_id": "ENT-0218"}
+{"claim_ids": ["CLM-2383"], "id": "REL-0337", "object_id": "CO-0125", "predicate": "distributes", "subject_id": "CO-0076"}
+{"claim_ids": ["CLM-2383"], "id": "REL-0338", "object_id": "CO-0125", "predicate": "distributes", "subject_id": "CO-0080"}
+{"claim_ids": ["CLM-2384"], "id": "REL-0339", "object_id": "CO-0125", "predicate": "distributes", "subject_id": "CO-0086"}
+{"claim_ids": ["CLM-2384"], "id": "REL-0340", "object_id": "CO-0125", "predicate": "distributes", "subject_id": "CO-0123"}
+{"claim_ids": ["CLM-2385"], "id": "REL-0341", "object_id": "CO-0126", "predicate": "distributes", "subject_id": "CO-0076"}
+{"claim_ids": ["CLM-2391"], "id": "REL-0342", "object_id": "CO-0128", "predicate": "distributes", "subject_id": "CO-0075"}
+{"claim_ids": ["CLM-2391"], "id": "REL-0343", "object_id": "CO-0128", "predicate": "distributes", "subject_id": "CO-0076"}
+{"claim_ids": ["CLM-2391"], "id": "REL-0344", "object_id": "CO-0128", "predicate": "distributes", "subject_id": "CO-0082"}
+{"claim_ids": ["CLM-2391"], "id": "REL-0345", "object_id": "CO-0128", "predicate": "distributes", "subject_id": "CO-0074"}
+{"claim_ids": ["CLM-2391"], "id": "REL-0346", "object_id": "CO-0128", "predicate": "distributes", "subject_id": "CO-0073"}
+{"claim_ids": ["CLM-2427"], "id": "REL-0347", "object_id": "CO-0081", "predicate": "owns", "subject_id": "CO-0074"}
+{"claim_ids": ["CLM-2439"], "id": "REL-0348", "notes": "ECIA consolidates Mouser in TTI", "object_id": "CO-0123", "predicate": "owns", "subject_id": "CO-0077"}
+{"claim_ids": ["CLM-2421"], "id": "REL-0349", "object_id": "CO-0076", "predicate": "competes_with", "subject_id": "CO-0075"}
+{"claim_ids": ["CLM-2421"], "id": "REL-0350", "object_id": "CO-0073", "predicate": "competes_with", "subject_id": "CO-0075"}
+{"claim_ids": ["CLM-2421"], "id": "REL-0351", "object_id": "CO-0074", "predicate": "competes_with", "subject_id": "CO-0075"}
+{"claim_ids": ["CLM-2452"], "id": "REL-0352", "notes": "Contractor-approved supplier rules govern DoD purchases from the open market", "object_id": "ENT-0030", "predicate": "regulates", "subject_id": "REG-0074"}
+{"claim_ids": ["CLM-2441", "CLM-2433"], "id": "REL-0353", "object_id": "ENT-0029", "predicate": "measures", "subject_id": "ENT-0219"}
+{"claim_ids": ["CLM-2479"], "id": "REL-0354", "object_id": "ENT-0060", "predicate": "measures", "subject_id": "ENT-0220"}
+{"claim_ids": ["CLM-2477"], "id": "REL-0355", "object_id": "ENT-0030", "predicate": "sets_standard_for", "subject_id": "ENT-0224"}
+{"claim_ids": ["CLM-2476"], "id": "REL-0356", "object_id": "ENT-0030", "predicate": "sets_standard_for", "subject_id": "ENT-0221"}
+{"claim_ids": ["CLM-2415"], "id": "REL-0357", "notes": "Oct-Nov 2025 Entity List listing of three Arrow China subsidiaries", "object_id": "CO-0076", "predicate": "restricts", "subject_id": "ENT-0108"}

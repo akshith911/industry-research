@@ -102,6 +102,10 @@
 | CLM-2232 | The number of HKEX-listed companies in HSICS subsectors 703010/703020 was not found. | RU-0226 |
 | CLM-2233 | No official list or count of Indian listed semiconductor companies was found, and the NSE classification has no semiconductor category. | RU-0226 |
 | CLM-2239 | A Federal Register search found no BIS document mentioning 'electronic design automation' published between 1 May and 31 August 2025, consistent with the May 2025 EDA licence requirement not having been published as a rule. | RU-0034 |
+| CLM-2484 | No tier-1 or tier-2 public source was found that sizes the independent/broker (open-market) chip channel or counts its firms; the only figures found are vendor marketing (10-15% of ~US$160bn) and SIA's 2013 qualitative 'tens of thousands'. | RU-0043 |
+| CLM-2485 | Gartner publishes a paywalled 'Market Share: Semiconductor Distributors, Worldwide' report; its figures could not be read and are not used. | RU-0043 |
+| CLM-2486 | Infineon's numeric share of revenue through distribution could not be established: its FY2025 investor deck shows a channel pie chart without percentage labels, and the annual report gives no split. | RU-0043 |
+| CLM-2487 | Renesas does not disclose the share of its revenue sold through authorized sales agents/distributors in its 2025 financial report. | RU-0043 |
 
 ## Open questions from research units
 

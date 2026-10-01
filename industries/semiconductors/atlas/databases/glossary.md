@@ -222,6 +222,16 @@
 
 **Sources:** [SRC-0093](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html)
 
+### Authorized aftermarket distributor / manufacturer
+
+**In plain words:** A company the original chipmaker allows to keep selling, or even keep making, chips after the chipmaker itself has stopped.
+
+**Technically:** Per DFARS 252.246-7008, an organisation that fabricates a part under contract with, or with express written authority of, the original component manufacturer; SIA uses the term for firms that buy end-of-production stock and/or license reproduction (e.g. Rochester Electronics).
+
+**Related:** End-of-life notice, Authorized distributor
+
+**Sources:** [SRC-0955](https://www.ecfr.gov/current/title-48/chapter-2/subchapter-H/part-252/subpart-252.2/section-252.246-7008) [SRC-0221](https://www.semiconductors.org/wp-content/uploads/2018/01/SIA-Anti-Counterfeiting-Whitepaper.pdf) [SRC-0961](https://www.rocelec.com/about)
+
 ### Authorized distributor
 
 **In plain words:** A reseller officially appointed by a chipmaker to sell its chips.
@@ -231,6 +241,16 @@
 **Example:** Avnet
 
 **Sources:** [SRC-0221](https://www.semiconductors.org/wp-content/uploads/2018/01/SIA-Anti-Counterfeiting-Whitepaper.pdf) [SRC-0215](https://www.sec.gov/Archives/edgar/data/8858/000110465926096346/avt-20260627x10k.htm)
+
+### Authorized sales agent (Japan)
+
+**In plain words:** In Japan and nearby Asia, an independent trading company officially appointed to sell a chipmaker's products - Japan's version of an authorized distributor.
+
+**Technically:** Renesas' term for independent authorized resellers through which it sells the majority of its products in Japan and Asia; comparable to franchised distributors elsewhere (e.g. Marubun, Ryoyo Ryosan, Macnica).
+
+**Related:** Authorized distributor
+
+**Sources:** [SRC-0935](https://www.renesas.com/en/document/rep/financial-report-2025)
 
 ### Automatic test equipment
 
@@ -335,6 +355,16 @@
 **Related:** Long-term agreement, Take-or-pay
 
 **Sources:** [SRC-0660](https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/R11.htm)
+
+### Broadline distributor
+
+**In plain words:** A big distributor that sells parts from hundreds of chipmakers across almost every product type, to everyone from small firms to huge manufacturers.
+
+**Technically:** ECIA distributor type 1: authorized distributor carrying a broad line card across semiconductor and IP&E categories, typically with design-in engineering and supply-chain services (e.g. Arrow, Avnet, WPG, WT Microelectronics).
+
+**Related:** Authorized distributor, High-service distributor
+
+**Sources:** [SRC-0944](https://www.ecworld.ru/support/sst/pdfs/GLO_disti25.pdf)
 
 ### Bumping
 
@@ -556,6 +586,16 @@
 
 **Sources:** [SRC-0389](https://dramexchange.com/Service/Faqs) [SRC-0371](https://www.eetimes.com/?p=1133354) [SRC-0363](https://www.trendforce.com/news/2025/11/03/news-dram-quotes-reportedly-shift-to-monthly-as-samsung-largely-halts-contracts/)
 
+### Contractor-approved supplier
+
+**In plain words:** A non-official parts seller that a US defense contractor has checked and chosen to trust, taking responsibility itself if the parts turn out to be fake.
+
+**Technically:** DFARS 252.246-7008 term: a supplier without a contractual agreement with the original component manufacturer, identified as trustworthy by a contractor using established counterfeit-prevention standards; the contractor assumes responsibility for authenticity and its selection is subject to government audit.
+
+**Related:** Authorized distributor, Open market (broker channel)
+
+**Sources:** [SRC-0955](https://www.ecfr.gov/current/title-48/chapter-2/subchapter-H/part-252/subpart-252.2/section-252.246-7008)
+
 ### Conventional packaging
 
 **In plain words:** The older, labour-heavy, low-margin ways of packaging chips (mostly wire-bonded chips in plastic packages on metal frames), as opposed to advanced packaging.
@@ -575,6 +615,16 @@
 **Related:** CoWoS, Fan-out packaging
 
 **Sources:** [SRC-0564](https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/)
+
+### Counterfeit electronic part
+
+**In plain words:** A fake, copied, relabelled or used part sold as if it were a new genuine part from the real maker.
+
+**Technically:** DFARS 252.246-7007: an unlawful or unauthorized reproduction, substitution or alteration knowingly mismarked, misidentified or misrepresented as an authentic, unmodified part from the original manufacturer, including used parts sold as new and false grade, lot or date-code markings.
+
+**Related:** Suspect counterfeit electronic part, Open market (broker channel)
+
+**Sources:** [SRC-0956](https://acquisition.gov/dfars/252.246-7007-contractor-counterfeit-electronic-part-detection-and-avoidance-system.)
 
 ### Countervailing duty
 
@@ -700,6 +750,16 @@
 
 **Sources:** [SRC-0528](https://platform.chipfoundry.io/knowledge-base/article/understanding-export-compliance) [SRC-0507](https://s206.q4cdn.com/597110084/files/doc_financials/2025/ar/CDNS-FY-2025-Form-10-K.pdf)
 
+### Demand creation
+
+**In plain words:** Work a distributor's engineers do to get a chipmaker's part chosen for a customer's new product, which earns the distributor future sales of that part.
+
+**Technically:** Distributor field-application-engineering activity that results in registered design wins (designs and schematics specifying a supplier's components), which typically entitle the registering distributor to the resulting production business and supplier incentives.
+
+**Related:** Authorized distributor, Franchised distribution agreement
+
+**Sources:** [SRC-0920](https://www.sec.gov/Archives/edgar/data/7536/000110465926012765/arw-20251231x10k.htm) [SRC-0927](https://www.sec.gov/Archives/edgar/data/932787/000093278726000009/stm-20251231.htm)
+
 ### Deposition
 
 **In plain words:** Laying down an ultra-thin layer of material on the wafer.
@@ -785,6 +845,16 @@
 **Technically:** Inventory held in the distribution channel expressed in days of sell-through.
 
 **Sources:** [SRC-0102](https://ir.microchip.com/news-events/press-releases/detail/1309/microchip-technology-announces-financial-results-for-fourth-quarter-and-fiscal-year-2025)
+
+### Distribution total available market (DTAM)
+
+**In plain words:** The part of all component sales that goes through distributors rather than straight from the makers.
+
+**Technically:** ECIA/DMASS term for the value of electronic components sold through distribution in a region; DMASS says its members represent ~85-88% of European DTAM.
+
+**Related:** Distribution inventory days
+
+**Sources:** [SRC-0943](https://www.trustedparts.com/en/authorized-channel-insights/ecias-top-50-worldwide-authorized-distributors2026-report) [SRC-0949](https://www.dmass.com/press-releases?view=article&id=66:european-components-distribution-dmass-in-2025-navigating-challenges-building-strength&catid=8)
 
 ### DRAM
 
@@ -1340,6 +1410,16 @@
 
 **Sources:** [SRC-0793](https://www.msci.com/indexes/documents/methodology/1_MSCI_Global_Industry_Classification_Standard_GICS_Methodology_20250220.pdf) [SRC-0794](https://www.msci.com/downloads/documents/indexes/gics/annual-review-and-consultations/GICS_Structure_Change_Doc_31_March_2022.pdf)
 
+### GIDEP
+
+**In plain words:** A shared database where US and Canadian defense agencies and their suppliers warn each other about bad, fake or discontinued parts.
+
+**Technically:** Government-Industry Data Exchange Program: controlled information exchange of failure-experience reports (nonconformances, suspected counterfeits) and product information notices (product changes, diminishing manufacturing sources); DFARS 252.246-7007 requires reporting of counterfeit/suspect counterfeit parts to it.
+
+**Related:** Suspect counterfeit electronic part
+
+**Sources:** [SRC-0959](https://www.gidep.org/) [SRC-0956](https://acquisition.gov/dfars/252.246-7007-contractor-counterfeit-electronic-part-detection-and-avoidance-system.)
+
 ### GigaFab
 
 **In plain words:** A group of several chip factories built side by side so they can share buildings, power, water and staff.
@@ -1405,6 +1485,16 @@
 **Related:** EUV lithography, Numerical aperture
 
 **Sources:** [SRC-0156](https://www.asml.com/en/news/stories/2024/5-things-high-na-euv) [SRC-0155](https://www.asml.com/en/products/euv-lithography-systems)
+
+### High-service (catalogue) distributor
+
+**In plain words:** A distributor that keeps huge numbers of different parts in stock and ships small quantities quickly, usually ordered online, mainly to engineers building prototypes.
+
+**Technically:** ECIA distributor type 3 (High Service/E-Catalog): authorized distributor serving low-volume, high-mix demand through e-commerce with same-day shipping (e.g. DigiKey, Mouser, Farnell, RS, TME).
+
+**Related:** Broadline distributor, Authorized distributor
+
+**Sources:** [SRC-0944](https://www.ecworld.ru/support/sst/pdfs/GLO_disti25.pdf) [SRC-0215](https://www.sec.gov/Archives/edgar/data/8858/000110465926096346/avt-20260627x10k.htm)
 
 ### Historical Billings Report
 
@@ -2068,6 +2158,16 @@
 
 **Sources:** [SRC-0004](https://www.semiconductors.org/wp-content/uploads/2021/02/Product_Classification_2021.pdf)
 
+### Original component manufacturer (OCM)
+
+**In plain words:** The company that designed the part and owns the rights to it - the 'real' maker of a chip.
+
+**Technically:** DFARS 252.246-7007/7008: an organisation that designs and/or engineers a part and is entitled to any intellectual property rights to that part.
+
+**Related:** Authorized distributor
+
+**Sources:** [SRC-0955](https://www.ecfr.gov/current/title-48/chapter-2/subchapter-H/part-252/subpart-252.2/section-252.246-7008) [SRC-0958](https://media.bis.gov/media/documents/final-counterfeit-electronics-report2.pdf)
+
 ### OSAT
 
 **In plain words:** A company that packages and tests chips for other companies.
@@ -2630,6 +2730,16 @@
 
 **Sources:** [SRC-0644](https://www.sec.gov/Archives/edgar/data/707549/000114036125036023/ny20050572x4_ars.pdf)
 
+### Ship and debit
+
+**In plain words:** A deal where a chipmaker lets a distributor sell to a particular customer below the normal price and then pays the distributor back the difference.
+
+**Technically:** Distributor claim mechanism (credit/debit note) by which a supplier authorises a lower resale price for a specific customer or deal and reimburses the distributor's cost difference after the sale; treated as variable consideration (Infineon, onsemi filings).
+
+**Related:** Price protection, Stock rotation
+
+**Sources:** [SRC-0934](https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf) [SRC-0926](https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm)
+
 ### SIC code
 
 **In plain words:** A four-digit US government number that says what kind of business a company is in; the SEC still tags every filer with one.
@@ -2775,6 +2885,16 @@
 **Technically:** Management language for when CoWoS/leading-edge capacity matches customer demand; TSMC's stated expectation moved from end-2024 to 2025-2026 to beyond 2026.
 
 **Related:** CoWoS
+
+### Suspect counterfeit electronic part
+
+**In plain words:** A part that tests or inspection give good reason to doubt is genuine, even before it is proven fake.
+
+**Technically:** DFARS 252.246-7007: an electronic part for which credible evidence (including visual inspection or testing) provides reasonable doubt that it is authentic; must be quarantined and reported to GIDEP.
+
+**Related:** Counterfeit electronic part, GIDEP
+
+**Sources:** [SRC-0956](https://acquisition.gov/dfars/252.246-7007-contractor-counterfeit-electronic-part-detection-and-avoidance-system.) [SRC-0954](https://www.erai.com/erai_blog/3192/_2025_annual_report)
 
 ### System-level test
 

@@ -46,6 +46,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 |---|---|---|---|---|
 | INT-0036 | Roughly what percentage of DRAM bits shipped industry-wide go through the spot/channel market versus contracts, and has that changed since the 2025-26 shortage? | The only public figure (80-90% contract) dates from 2002; spot prices are widely quoted as if representative. | Analyst estimate with method, or supplier disclosure | open |
 
+## Interview guide: ECIA/DMASS analysts
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0063 | Of total chip sales, what share is invoiced to distributors versus direct OEM/EMS/ODM customers, and how does this differ for memory and processors? | Filings give 20-84% by company; the industry-wide share drives how dependent the industry is on distributors (CLM-0570). | ECIA DTAM vs TAM data or WSTS customer-type split | open |
+
 ## Interview guide: EDA vendor account executive
 
 | ID | Question | Why it matters | What would resolve it | Status |
@@ -81,6 +87,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0038 | When you agree next year's HBM supply, what is fixed (price per GB, volumes, product generation), when is it agreed, and what happens if qualification of a new generation slips? | HBM is sold on annual volume-price deals unlike commodity DRAM; the terms decide margin split between memory makers and accelerator vendors. | Company statements or contract descriptions | open |
+
+## Interview guide: IDEA or ERAI staff
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0062 | Roughly what was the value of semiconductors sold through independent distributors and brokers worldwide in 2025, and how many firms account for most of it? | The open market is where counterfeits enter and where shortage pricing is set, but no public source sizes it; only vendor blogs claim 10-15% of distribution. | Association survey or broker financial filings with semiconductor split | open |
 
 ## Interview guide: India Semiconductor Mission officials
 
@@ -190,6 +202,12 @@ Answers from interviews are recorded as claims of type `reported_claim`, never a
 | ID | Question | Why it matters | What would resolve it | Status |
 |---|---|---|---|---|
 | INT-0003 | Since 2022, has your company changed target inventory days for semiconductors, signed direct capacity agreements with foundries, or redesigned to multi-source chips? What remains in place today? | Determines whether the shortage was a one-off or a structural shift in who holds inventory and bargaining power. | Multiple practitioners describing current contract structures and inventory targets, ideally corroborated by company filings. | open |
+
+## Interview guide: executives of Chinese listed distributors
+
+| ID | Question | Why it matters | What would resolve it | Status |
+|---|---|---|---|---|
+| INT-0064 | Do Chinese distributors work under written franchise agreements with price protection and returns, or more as traders/agents with customer-specific deals? | About 62% of top-50 Asian distribution revenue is in China and 19 of the top 50 are Chinese; their contract model is not documented in English public sources. | Shenzhen/Shanghai exchange annual reports of listed distributors (e.g. Shannon Semi, Wuhan P&S, CECport) | open |
 
 ## Interview guide: export compliance lead at a leading-edge foundry
 

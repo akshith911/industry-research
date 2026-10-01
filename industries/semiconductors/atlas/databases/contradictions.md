@@ -1137,3 +1137,30 @@ The 2021 BCG/SIA report's body text says design is 65% of industry R&D and 53% o
 **More defensible:** CLM-2376. The exhibit figures add up to about 100% across all value-chain stages for both R&D and value added. The body-text figures would push the totals above 100%.
 **Remaining uncertainty:** BCG has not issued a correction. The 2024 SIA/BCG report does not restate the design share of value added.
 
+## CON-0085: Which year WPG Holdings' NT$999 billion revenue belongs to (open)
+
+WPG's January 2026 release gives full-year 2025 revenue of NT$999.12 bn; its corporate-facts page labels NT$999.11 bn as '2024 Sales'.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2423 | WPG Holdings reported full-year 2025 revenue of NT$999.12 billion and fourth-quarter revenue of NT$255.37 billion. | [SRC-0937](https://www.wpgholdings.com/news/detail/en/revenue/26000) | low |
+| CLM-2490 | WPG's corporate-facts web page lists '2024 Sales: NT$999.11 billion', about 5,000 employees and 69 offices. | [SRC-0939](https://www.wpgholdings.com/about/milestone/en) | low |
+
+**Possible reasons:** corporate page mislabels the year; rounding/restatement difference of NT$0.01 bn
+**More defensible:** CLM-2423. The dated revenue release explicitly calls NT$999.12 bn full-year 2025 and reports double-digit growth; ECIA's 2024 WPG figure (US$27.47 bn, about NT$880 bn at NT$32.05/US$) is consistent with 2024 being much lower.
+**Remaining uncertainty:** WPG's audited 2025 annual report (TWSE MOPS) was not opened.
+
+## CON-0086: Ranking of the world's largest electronic component distributors (definitional)
+
+ECIA ranks WPG, WT, Avnet and Arrow (components only) as the top four authorized distributors worldwide for 2024; Supply Chain Connect's 2025 list ranks Arrow #1, 'WPG Americas' #2, Avnet #3, Wesco #4, TTI #5 and includes brokers; WT called itself 'global top three' in 2024.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2436 | In ECIA's ranking of 2024 worldwide authorized-distributor revenue, WPG (US$27.47 bn), WT Microelectronics (US$26.05 bn), Avnet (US$22.48 bn) and Arrow components (US$19.98 bn) were the top four, together about 51% of the top-50 total. | [SRC-0944](https://www.ecworld.ru/support/sst/pdfs/GLO_disti25.pdf) | low |
+| CLM-2450 | Supply Chain Connect's 2025 Top 50 Global Electronics Distributors list mixes authorized distributors (Arrow #1, WPG Americas #2, Avnet #3) with independent/open-market firms such as Win Source (#13), Rochester (#17), Rand Technology, Chip 1 Exchange and Sourceability. | [SRC-0947](https://www.supplychainconnect.com/rankings-research/article/55290577/2025-top-50-global-electronics-distributors-list) | low |
+| CLM-2428 | After the Future deal WT Microelectronics described itself as a global top-three electronic components distributor partnering with over 400 suppliers and serving over 25,000 customers. | [SRC-0940](https://content.futureelectronics.com/news/wt-microelectronics-completes-acquisition-of-future-electronics) | low |
+
+**Possible reasons:** population: authorized-only (ECIA) vs mixed authorized and independent (SCC); Arrow counted with or without its ECS IT business; regional entity (WPG Americas) vs group (WPG Holdings); year (2024 data vs 2025 list); SCC methodology undisclosed
+**More defensible:** CLM-2436. ECIA states its population and method; SCC does not and mixes entity levels.
+**Remaining uncertainty:** No audited cross-company ranking exists; ECIA figures for private firms are partly estimates.
+

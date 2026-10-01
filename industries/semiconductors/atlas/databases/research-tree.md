@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|---|---|
 | RU-0001 | 0 | P0 | definition | Discovery: what is the semiconductor industry, who is in it, and how does it fit together | researched |  | user |
 | RU-0002 | 1 | P0 | market_size | Market size: sizing methodology (WSTS vs Gartner vs others) and the 1986-2026 global time series by product and region | researched | RU-0001 | researcher_discovery |
-| RU-0003 | 1 | P1 | competition | Foundry market: definitions (pure-play vs Foundry 2.0), size and shares | queued | RU-0001, RU-0002 | researcher_discovery |
+| RU-0003 | 1 | P1 | competition | Foundry market: definitions (pure-play vs Foundry 2.0), size and shares | in_progress | RU-0001, RU-0002 | researcher_discovery |
 | RU-0004 | 1 | P1 | value_chain | Semiconductor manufacturing equipment: segments, size and geography | dropped | RU-0001 | researcher_discovery |
 | RU-0005 | 1 | P2 | value_chain | Semiconductor materials: segments and suppliers | dropped | RU-0001 | researcher_discovery |
 | RU-0006 | 1 | P1 | value_chain | EDA software market: segments, vendors, concentration and China's domestic EDA | queued | RU-0001 | researcher_discovery |
@@ -14,7 +14,7 @@
 | RU-0008 | 1 | P0 | segmentation | Segmentation: product taxonomy and segment sizes (WSTS classes, ASSP/ASIC/general-purpose), end-market shares and 2025-2026 price vs volume | researched | RU-0001, RU-0002 | researcher_discovery |
 | RU-0009 | 1 | P1 | definition | Definitions and classification: legal and statistical meanings of 'semiconductor', leading-edge/mature/advanced, and NAICS/ISIC/NACE/HS codes | queued | RU-0001 | researcher_discovery |
 | RU-0010 | 2 | P2 | adjacent | Boundary industries: displays, solar PV, passive components, PCBs and EMS | queued | RU-0001 | researcher_discovery |
-| RU-0011 | 1 | P1 | history | History: the disaggregation of the value chain (IDM to fabless/foundry/OSAT/IP), 1980-2025 | queued | RU-0001 | researcher_discovery |
+| RU-0011 | 1 | P1 | history | History: the disaggregation of the value chain (IDM to fabless/foundry/OSAT/IP), 1980-2025 | in_progress | RU-0001 | researcher_discovery |
 | RU-0012 | 1 | P1 | dynamics | History: memory cycles and memory-maker consolidation (1970-2025) | dropped | RU-0001 | researcher_discovery |
 | RU-0013 | 1 | P0 | regulation | Policy: evolution of semiconductor export controls 2018-2026 (US, Netherlands, Japan, China countermeasures) | dropped | RU-0001 | researcher_discovery |
 | RU-0014 | 3 | P1 | regulation | Cross-country comparison of chip industrial policy: design, money committed vs disbursed, and effectiveness (did subsidies change where fabs are built and what they cost?) | queued | RU-0020, RU-0026, RU-0028, RU-0031, RU-0098, RU-0106, RU-0108, RU-0109, RU-0135, RU-0138, RU-0141, RU-0142, RU-0143, RU-0144 | researcher_discovery |
@@ -38,7 +38,7 @@
 | RU-0032 | 2 | P2 | regulation | Environmental, chemical and resource constraints on fabs: PFAS, F-gas, RoHS/REACH, water, power and emissions | queued | RU-0041 | researcher_discovery |
 | RU-0033 | 2 | P2 | regulation | Technical standards and de facto mandatory qualifications (SEMI, JEDEC, IEC TC47, AEC-Q, ISO 26262, IPC/JEDEC J-STD) | queued | RU-0001, RU-0035 | researcher_discovery |
 | RU-0034 | 1 | P0 | information_flows | Design enablement and design-data handoff: EDA, IP, PDKs, tape-out and mask data | researched |  | researcher_discovery |
-| RU-0035 | 1 | P1 | data | Manufacturing and test data systems and their vendors: MES, FDC/APC, SPC, yield management, AMHS and test data standards | queued |  | researcher_discovery |
+| RU-0035 | 1 | P1 | data | Manufacturing and test data systems and their vendors: MES, FDC/APC, SPC, yield management, AMHS and test data standards | in_progress |  | researcher_discovery |
 | RU-0036 | 1 | P0 | technology | Advanced packaging technology and capacity: 2.5D interposers (CoWoS-class), fan-out, 3D stacking and hybrid bonding | researched | RU-0001 | researcher_discovery |
 | RU-0037 | 1 | P0 | technology | Lithography tools and the EUV subsystem supply base: ASML, Zeiss, Cymer/Trumpf, Nikon/Canon, High-NA adoption | researched | RU-0001 | researcher_discovery |
 | RU-0038 | 1 | P1 | dynamics | Process technology roadmap and transitions: GAA, backside power, 3D DRAM/NAND, wide-bandgap (SiC/GaN) | queued |  | researcher_discovery |
@@ -46,11 +46,11 @@
 | RU-0040 | 2 | P1 | regulation | US government procurement and trusted-supply rules for chips: NDAA Section 5949, DMEA Trusted Foundry/Supplier, DFARS counterfeit rules, ITAR | queued | RU-0043 | researcher_discovery |
 | RU-0041 | 1 | P0 | value_chain | Materials segment map: SEMI fab and packaging materials categories, sizes, supplier concentration and production geography | researched | RU-0001 | researcher_discovery |
 | RU-0042 | 1 | P0 | value_chain | Equipment segment map: SEMI segments, sizes, billings by region, leading vendors per tool category | researched | RU-0001 | researcher_discovery |
-| RU-0043 | 1 | P1 | value_chain | Distribution channel structure and enumeration: authorised distributors, catalogue houses, independent distributors and brokers, and the direct vs distribution split | queued | RU-0001 | researcher_discovery |
+| RU-0043 | 1 | P1 | value_chain | Distribution channel structure and enumeration: authorised distributors, catalogue houses, independent distributors and brokers, and the direct vs distribution split | researched | RU-0001 | researcher_discovery |
 | RU-0044 | 1 | P1 | technology | Advanced packaging, substrates and test: who does it (foundries vs OSATs) and where | dropped | RU-0001 | researcher_discovery |
 | RU-0045 | 2 | P1 | participants | Custom silicon: hyperscaler/OEM in-house chip design, ASIC design-service houses, their business model (NRE, turnkey) and relationship to foundries | queued | RU-0001, RU-0016, RU-0090 | researcher_discovery |
 | RU-0046 | 2 | P2 | value_chain | Fab-support services: parts cleaning and coating, wafer reclaim and test wafers, used-equipment brokers and spare parts | dropped | RU-0042 | researcher_discovery |
-| RU-0047 | 1 | P1 | geography | Current value-added and capacity shares by stage and region (post-2022), reconciling SIA/BCG and CSET | queued | RU-0001, RU-0002 | researcher_discovery |
+| RU-0047 | 1 | P1 | geography | Current value-added and capacity shares by stage and region (post-2022), reconciling SIA/BCG and CSET | in_progress | RU-0001, RU-0002 | researcher_discovery |
 | RU-0048 | 1 | P0 | supply_chain_concentration | Chokepoint register: concentration metrics and the inventory of single-supplier and single-region points | queued | RU-0001, RU-0047 | planner |
 | RU-0049 | 2 | P0 | supply_chain_concentration | Critical minerals and inputs for chips: gallium, germanium, rare earths, tungsten, antimony, helium, neon, quartz, fluorspar; supply risk and exposure | queued | RU-0001, RU-0030, RU-0041 | planner |
 | RU-0050 | 2 | P1 | supply_chain_concentration | Equipment sub-tier supply base and fab-support services: optics, lasers, RF power, vacuum, ceramics, parts cleaning, wafer reclaim, used equipment and spares | queued | RU-0042 | planner |
@@ -284,3 +284,4 @@
 | RU-0278 | 2 | P1 | participants | Full EDGAR SIC census of semiconductor-related filers (SIC 3674, 3559, 3825, 3827, 3089, 7372, 5065) using declared bulk downloads | queued | RU-0226 | researcher_discovery |
 | RU-0279 | 2 | P1 | participants | Enumerate Korean and Japanese listed chip-supply-chain companies via OpenDART and EDINET APIs (industry codes, keys required) | queued | RU-0226 | researcher_discovery |
 | RU-0280 | 2 | P1 | participants | Enumerate mainland China listed and pre-IPO chip companies (STAR/ChiNext/main boards, CSRC IPO guidance filings, CAPCO classification) | queued | RU-0226 | researcher_discovery |
+| RU-0281 | 2 | P2 | participants | Chinese and Hong Kong chip distributors: listed firms, franchise terms, agency model and role in export-control leakage | queued | RU-0043 | researcher_discovery |

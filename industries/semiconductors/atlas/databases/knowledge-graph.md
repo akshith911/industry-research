@@ -340,6 +340,27 @@
 | NVIDIA Corporation (CO-0001) | sends_information_to | SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) (ENT-0200) | CLM-2155 |
 | China Securities Regulatory Commission (CSRC) (ENT-0209) | regulates | CNINFO (巨潮资讯网) (ENT-0210) | CLM-2207 |
 | Dutch Authority for the Financial Markets (AFM) (ENT-0218) | regulates | AFM Register of Financial Reporting (ENT-0217) | CLM-2226 |
+| Arrow Electronics, Inc. (CO-0076) | distributes | Texas Instruments Incorporated (CO-0125) | CLM-2383 |
+| Macnica Holdings, Inc. (CO-0080) | distributes | Texas Instruments Incorporated (CO-0125) | CLM-2383 |
+| DigiKey (CO-0086) | distributes | Texas Instruments Incorporated (CO-0125) | CLM-2384 |
+| Mouser Electronics, Inc. (CO-0123) | distributes | Texas Instruments Incorporated (CO-0125) | CLM-2384 |
+| Arrow Electronics, Inc. (CO-0076) | distributes | Microchip Technology Incorporated (CO-0126) | CLM-2385 |
+| Avnet, Inc. (CO-0075) | distributes | NXP Semiconductors N.V. (CO-0128) | CLM-2391 |
+| Arrow Electronics, Inc. (CO-0076) | distributes | NXP Semiconductors N.V. (CO-0128) | CLM-2391 |
+| Nexty Electronics (CO-0082) | distributes | NXP Semiconductors N.V. (CO-0128) | CLM-2391 |
+| WT Microelectronics Co., Ltd. (CO-0074) | distributes | NXP Semiconductors N.V. (CO-0128) | CLM-2391 |
+| WPG Holdings Limited (CO-0073) | distributes | NXP Semiconductors N.V. (CO-0128) | CLM-2391 |
+| WT Microelectronics Co., Ltd. (CO-0074) | owns | Future Electronics Inc. (CO-0081) | CLM-2427 |
+| TTI, Inc. (CO-0077) | owns | Mouser Electronics, Inc. (CO-0123) | CLM-2439 |
+| Avnet, Inc. (CO-0075) | competes_with | Arrow Electronics, Inc. (CO-0076) | CLM-2421 |
+| Avnet, Inc. (CO-0075) | competes_with | WPG Holdings Limited (CO-0073) | CLM-2421 |
+| Avnet, Inc. (CO-0075) | competes_with | WT Microelectronics Co., Ltd. (CO-0074) | CLM-2421 |
+| DFARS 252.246-7008 Sources of Electronic Parts (JAN 2023) (REG-0074) | regulates | Independent distributor / broker (category) (ENT-0030) | CLM-2452 |
+| Electronic Components Industry Association (ECIA) (ENT-0219) | measures | Authorized (franchised) distributor (category) (ENT-0029) | CLM-2441, CLM-2433 |
+| DMASS Europe e.V. (ENT-0220) | measures | Distribution (ENT-0060) | CLM-2479 |
+| SAE International (ENT-0224) | sets_standard_for | Independent distributor / broker (category) (ENT-0030) | CLM-2477 |
+| Independent Distributors of Electronics Association (IDEA) (ENT-0221) | sets_standard_for | Independent distributor / broker (category) (ENT-0030) | CLM-2476 |
+| US Bureau of Industry and Security (BIS) (ENT-0108) | restricts | Arrow Electronics, Inc. (CO-0076) | CLM-2415 |
 
 ## Entities
 
@@ -563,3 +584,12 @@
 | ENT-0216 | TASE MAYA | information_system | Tel Aviv Stock Exchange disclosure site (since 2000; English since 2020) for filings of Israeli listed companies. |
 | ENT-0217 | AFM Register of Financial Reporting | information_system | Dutch AFM public register holding annual and semi-annual financial reports of companies listed on EU regulated markets in the Netherlands. |
 | ENT-0218 | Dutch Authority for the Financial Markets (AFM) | securities_disclosure_regulator | Netherlands securities regulator receiving listed companies' financial reports under the Wft. |
+| ENT-0219 | Electronic Components Industry Association (ECIA) | industry_association | US-based association of electronic component manufacturers, manufacturer representatives and authorized distributors; publishes Top-50 authorized distributor rankings and runs TrustedParts.com. |
+| ENT-0220 | DMASS Europe e.V. | statistics_body | Berlin-based non-profit (founded 1989) of ~40 distributor and manufacturer members that collates quarterly European component-distribution resale (POS) statistics via auditor ISARTAX. |
+| ENT-0221 | Independent Distributors of Electronics Association (IDEA) | industry_association | Trade association of independent (open-market) electronic component distributors; publishes IDEA-STD-1010 inspection and IDEA-QMS-9090 quality standards and certifies inspectors. |
+| ENT-0222 | ERAI, Inc. | market_research_firm | Private US firm running a members' database of reported counterfeit/nonconforming electronic parts and high-risk suppliers; publishes an annual report on reported parts. |
+| ENT-0223 | Government-Industry Data Exchange Program (GIDEP) | government_body | US government information-exchange program (with Canadian participation) for failure experience, suspected counterfeit and product-change/DMSMS notices among agencies and contractors. |
+| ENT-0224 | SAE International | standards_body | Standards organisation that publishes the AS5553 and AS6081 counterfeit-parts avoidance standards (AS6081 for independent distributors). |
+| ENT-0225 | TrustedParts.com | information_system | ECIA-run search site aggregating price and stock of genuine parts from authorized distributors only; also hosts ECIA's distributor research reports. |
+| ENT-0226 | ECIA Top 50 Authorized Distributors rankings | market_statistic | Annual ECIA rankings of the top 50 authorized distributors in the Americas and worldwide (since 2021), by revenue, region, component category and end market; authorized distributors only, partly ECIA estimates. |
+| ENT-0227 | SAE AS6081A counterfeit-avoidance standard for independent distribution | technical_standard | SAE standard (current edition 21 April 2023) on counterfeit EEE parts avoidance, detection, mitigation and disposition for independent distributors. |

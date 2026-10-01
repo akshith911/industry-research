@@ -722,10 +722,10 @@ ASML/imec (June 2024) expected High-NA HVM in 2025-2026; ZEISS SMT says series p
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1705 | In June 2024 ASML and imec expected High-NA EUV high-volume manufacturing in the 2025-2026 timeframe. | [SRC-0568](https://www.asml.com/en/news/press-releases/2024/asml-imec-opening-high-na-euv-lithography-lab) | low |
+| CLM-1705 | In June 2024 ASML and imec expected High-NA EUV high-volume manufacturing in the 2025-2026 timeframe. | [SRC-0568](https://www.asml.com/en/news/press-releases/2024/asml-imec-opening-high-na-euv-lithography-lab) | medium |
 | CLM-0393 | ASML expects its High-NA EXE platform to start supporting high-volume manufacturing in 2027. | [SRC-0161](https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf) | low |
-| CLM-1749 | ZEISS SMT's High-NA page states that a chip manufacturer is planning to use High-NA EUV in series production starting in 2025. | [SRC-0579](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/high-na-euv-lithography.html) | low |
-| CLM-1707 | In July 2026 ASML reported that Intel Foundry had entered high-volume manufacturing of a subset of Core Ultra Series 3 (Panther Lake) processors using High-NA EUV on specific Intel 18A layers in Oregon, at yields matched to the NXE platform. | [SRC-0567](https://www.globenewswire.com/de/news-release/2026/07/15/3327453/0/en/high-na-euv-reaches-new-readiness-milestone-with-first-high-volume-logic-product.html) | low |
+| CLM-1749 | ZEISS SMT's High-NA page states that a chip manufacturer is planning to use High-NA EUV in series production starting in 2025. | [SRC-0579](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/high-na-euv-lithography.html) | medium |
+| CLM-1707 | In July 2026 ASML reported that Intel Foundry had entered high-volume manufacturing of a subset of Core Ultra Series 3 (Panther Lake) processors using High-NA EUV on specific Intel 18A layers in Oregon, at yields matched to the NXE platform. | [SRC-0567](https://www.globenewswire.com/de/news-release/2026/07/15/3327453/0/en/high-na-euv-reaches-new-readiness-milestone-with-first-high-volume-logic-product.html) | medium |
 
 **Possible reasons:** definition: 'HVM' for a few dual-qualified layers on an existing node vs a node designed around High-NA (Intel 14A); date of statement: expectations slipped between 2024 and early 2026; ZEISS page undated and may predate the slip
 **More defensible:** CLM-0393. The annual report is the most formal, audited-context statement; the July 2026 Intel milestone is a narrow use on layers also printable by NXE.
@@ -737,9 +737,9 @@ Korean press (via TrendForce) says TSMC will begin High-NA at 1.4 nm; TSMC's SVP
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1750 | The JoongAng (via TrendForce, Oct 2025) reported that TSMC intends to use current EUV tools through the 2 nm node and begin incorporating High-NA EUV starting with its 1.4 nm process. | [SRC-0589](https://www.trendforce.com/news/2025/10/16/news-samsung-reportedly-purchasing-two-asml-high-na-euv-tools-for-mass-production-by-1h26) | low |
-| CLM-1714 | TSMC SVP Kevin Zhang said TSMC will use High-NA EUV only when it gives meaningful, measurable benefit and that its A14 node achieves its gains without High-NA. | [SRC-0586](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reiterates-it-doesnt-need-high-na-euv-for-1-4nm-class-process-technology) | low |
-| CLM-1715 | At its June 2026 shareholder meeting TSMC chairman C.C. Wei said TSMC has already purchased High-NA EUV tools for R&D and that the reason they are not yet in mass production is purely cost (as reported by TechNews via TrendForce). | [SRC-0587](https://www.trendforce.com/news/2026/06/04/news-tsmc-rejects-high-na-euv-investment-concerns-confirms-purchase-for-rd-use-flags-cost-driven-production-timing/) | low |
+| CLM-1750 | The JoongAng (via TrendForce, Oct 2025) reported that TSMC intends to use current EUV tools through the 2 nm node and begin incorporating High-NA EUV starting with its 1.4 nm process. | [SRC-0589](https://www.trendforce.com/news/2025/10/16/news-samsung-reportedly-purchasing-two-asml-high-na-euv-tools-for-mass-production-by-1h26) | medium |
+| CLM-1714 | TSMC SVP Kevin Zhang said TSMC will use High-NA EUV only when it gives meaningful, measurable benefit and that its A14 node achieves its gains without High-NA. | [SRC-0586](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reiterates-it-doesnt-need-high-na-euv-for-1-4nm-class-process-technology) | medium |
+| CLM-1715 | At its June 2026 shareholder meeting TSMC chairman C.C. Wei said TSMC has already purchased High-NA EUV tools for R&D and that the reason they are not yet in mass production is purely cost (as reported by TechNews via TrendForce). | [SRC-0587](https://www.trendforce.com/news/2026/06/04/news-tsmc-rejects-high-na-euv-investment-concerns-confirms-purchase-for-rd-use-flags-cost-driven-production-timing/) | medium |
 
 **Possible reasons:** press inference vs on-record executive statements; A14 family variants (A13/A12) could change later; source quality: secondary report of a newspaper
 **More defensible:** CLM-1714. Direct quotes from TSMC executives on the record outweigh an unattributed press report.
@@ -765,8 +765,8 @@ The same ITA guide says Shin-Etsu and SUMCO hold about 90% of the wafer market, 
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1822 | The US International Trade Administration says Shin-Etsu and SUMCO hold about 90% of the global silicon wafer market. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
-| CLM-1825 | The same ITA guide, citing Brookings (June 2024), gives Japan 53% of silicon wafers and 50% of photoresists. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
+| CLM-1822 | The US International Trade Administration says Shin-Etsu and SUMCO hold about 90% of the global silicon wafer market. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | high |
+| CLM-1825 | The same ITA guide, citing Brookings (June 2024), gives Japan 53% of silicon wafers and 50% of photoresists. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | high |
 
 **Possible reasons:** population: unclear whether by revenue, area (MSI) or 300 mm only; period: neither figure is dated; the 90% figure has no cited source
 **More defensible:** CLM-1825. The European Commission lists four large non-Japanese wafer makers (GlobalWafers, Siltronic, SK Siltron, Soitec) after Shin-Etsu and SUMCO, which is hard to reconcile with a 90% two-firm share; the 53% figure has an attributed source.
@@ -778,8 +778,8 @@ ITA (and USITC citing Japanese media, 2019) put Japanese firms at about 90% of p
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1823 | The ITA says Japanese firms such as JSR and Tokyo Ohka Kogyo hold about 90% of the global photoresist market. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
-| CLM-1825 | The same ITA guide, citing Brookings (June 2024), gives Japan 53% of silicon wafers and 50% of photoresists. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | low |
+| CLM-1823 | The ITA says Japanese firms such as JSR and Tokyo Ohka Kogyo hold about 90% of the global photoresist market. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | high |
+| CLM-1825 | The same ITA guide, citing Brookings (June 2024), gives Japan 53% of silicon wafers and 50% of photoresists. | [SRC-0605](https://www.trade.gov/country-commercial-guides/japan-semiconductors) | high |
 | CLM-0137 | Japanese media cited by the USITC reported Japan produced about 90% of global photoresists and about 70% of hydrogen fluoride used for etching (circa 2019). | [SRC-0071](https://www.usitc.gov/publications/332/working_papers/the_south_korea-japan_trade_dispute_in_context_semiconductor_manufacturing_chemicals_and_concentrated_supply_chains.pdf) | low |
 
 **Possible reasons:** definition: firm-HQ share vs production-location share (Japanese firms produce resist in Korea, Taiwan, US); population: all resists vs advanced (ArF/EUV) resists; period: 2019 vs 2024
@@ -792,8 +792,8 @@ SEMI first reported 2021 at US$64.3bn (March 2022) and later gave US$66.8bn (Jun
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1761 | SEMI estimated global semiconductor materials revenue at US$64.3 billion in 2021 (as first reported). | [SRC-0599](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-tops-64-billion-in-2021-to-set-new-record-semi-reports-301504029.html) | low |
-| CLM-1798 | SEMI's June 2023 release restated 2021 materials revenue as US$66.8 billion (table US$66,776m), versus US$64.3 billion first reported in March 2022. | [SRC-0598](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-billion-in-2022-semi-reports-301847676.html) | low |
+| CLM-1761 | SEMI estimated global semiconductor materials revenue at US$64.3 billion in 2021 (as first reported). | [SRC-0599](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-tops-64-billion-in-2021-to-set-new-record-semi-reports-301504029.html) | high |
+| CLM-1798 | SEMI's June 2023 release restated 2021 materials revenue as US$66.8 billion (table US$66,776m), versus US$64.3 billion first reported in March 2022. | [SRC-0598](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-billion-in-2022-semi-reports-301847676.html) | high |
 
 **Possible reasons:** method: SEMI restates prior years as late or revised supplier data arrive ('2021 data reflects current updates')
 **More defensible:** CLM-1798. Later vintage explicitly flagged as updated.
@@ -805,8 +805,8 @@ SEMI first reported 2020 at US$55.3bn (March 2021) and later gave US$55.5bn (Mar
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1762 | SEMI estimated global semiconductor materials revenue at US$55.3 billion in 2020 (as first reported). | [SRC-0600](https://www.semi.org/en/news-media-press/semi-press-releases/global-semiconductor-materials-market) | low |
-| CLM-1799 | SEMI's March 2022 release restated 2020 materials revenue as US$55.5 billion (table US$55,479m), versus US$55.3 billion first reported in March 2021. | [SRC-0599](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-tops-64-billion-in-2021-to-set-new-record-semi-reports-301504029.html) | low |
+| CLM-1762 | SEMI estimated global semiconductor materials revenue at US$55.3 billion in 2020 (as first reported). | [SRC-0600](https://www.semi.org/en/news-media-press/semi-press-releases/global-semiconductor-materials-market) | high |
+| CLM-1799 | SEMI's March 2022 release restated 2020 materials revenue as US$55.5 billion (table US$55,479m), versus US$55.3 billion first reported in March 2021. | [SRC-0599](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-tops-64-billion-in-2021-to-set-new-record-semi-reports-301504029.html) | high |
 
 **Possible reasons:** method: routine restatement of prior year
 **More defensible:** CLM-1799. Later vintage.
@@ -818,9 +818,9 @@ SEMI's public taxonomy lists 9 fab and 8 packaging categories; the MMDS sheet sa
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1752 | SEMI classifies the materials used to pattern the wafer as 'Fab Materials': silicon, SOI, photomasks, photoresist, photoresist ancillaries, gases, chemicals, targets and CMP. | [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) | low |
-| CLM-1753 | SEMI's packaging-materials categories are leadframes, substrates, bonding wire, die attach, mold compounds, encapsulants, ceramic packages and other packaging materials. | [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) | low |
-| CLM-1754 | SEMI's MMDS product sheet says the dataset contains 10 wafer-fab materials segments and 6 packaging materials segments, by category and 'ship-to' market region. | [SRC-0602](https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf) | low |
+| CLM-1752 | SEMI classifies the materials used to pattern the wafer as 'Fab Materials': silicon, SOI, photomasks, photoresist, photoresist ancillaries, gases, chemicals, targets and CMP. | [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) | high |
+| CLM-1753 | SEMI's packaging-materials categories are leadframes, substrates, bonding wire, die attach, mold compounds, encapsulants, ceramic packages and other packaging materials. | [SRC-0601](https://prod8.semi.org/sea/products-services/market-data/materials) | high |
+| CLM-1754 | SEMI's MMDS product sheet says the dataset contains 10 wafer-fab materials segments and 6 packaging materials segments, by category and 'ship-to' market region. | [SRC-0602](https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf) | high |
 
 **Possible reasons:** definition: the sheet may split or merge categories differently (e.g. gases into bulk and specialty; mold compounds and encapsulants combined)
 **More defensible:** not determinable. Both are SEMI documents describing different products (taxonomy page vs MMDS deliverable).
@@ -832,8 +832,8 @@ The semi.org copy of SEMI's 16 Dec 2025 release gives US$6.0bn; the PR Newswire 
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1910 | SEMI's 16 Dec 2025 release on semi.org states 2025 assembly & packaging equipment sales were projected to rise 19.6% to US$6.0 billion. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | low |
-| CLM-1911 | The PR Newswire distribution of the same 16 Dec 2025 SEMI release states 2025 assembly & packaging equipment was projected to rise 19.6% to US$6.4 billion. | [SRC-0631](https://tools.prnewswire.com/en-us/live/20823/release/20251216EN45080) | low |
+| CLM-1910 | SEMI's 16 Dec 2025 release on semi.org states 2025 assembly & packaging equipment sales were projected to rise 19.6% to US$6.0 billion. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | high |
+| CLM-1911 | The PR Newswire distribution of the same 16 Dec 2025 SEMI release states 2025 assembly & packaging equipment was projected to rise 19.6% to US$6.4 billion. | [SRC-0631](https://tools.prnewswire.com/en-us/live/20823/release/20251216EN45080) | high |
 
 **Possible reasons:** transcription/edit: one version corrected after distribution; method: same growth rate implies only one base is consistent with 2024 actuals
 **More defensible:** CLM-1910. SEMI's July 2026 release implies 2025 A&P actual ≈ US$6.1bn (US$6.7bn after +9.6%), closer to 6.0 than 6.4.
@@ -845,7 +845,7 @@ SEMI's Dec 2025 OEM forecast put 2025 total at US$133bn; WWSEMS billings for 202
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1905 | In December 2025 SEMI forecast total OEM equipment sales of US$133 billion for 2025 (+13.7%), US$145bn for 2026 and US$156bn for 2027. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | low |
+| CLM-1905 | In December 2025 SEMI forecast total OEM equipment sales of US$133 billion for 2025 (+13.7%), US$145bn for 2026 and US$156bn for 2027. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | high |
 | CLM-0057 | SEMI reported worldwide semiconductor manufacturing equipment sales of US$135.1 billion in 2025, up 15% from US$117.1 billion in 2024. | [SRC-0020](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) | low |
 | CLM-1898 | Back-end equipment was about US$18 billion in 2025 (test ~US$11.7bn, assembly & packaging ~US$6.1bn), about 13% of the US$135bn total; WFE was about 87%. |  | low |
 
@@ -859,8 +859,8 @@ SEMI reports 2024 WFE at US$104bn; KLA describes 2024 WFE as approximately US$10
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1896 | SEMI put wafer fab equipment (WFE) sales at a record US$104 billion in 2024. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | low |
-| CLM-1933 | KLA estimated 2024 WFE at approximately US$100 billion and expected mid-single-digit growth in 2025. | [SRC-0649](https://d1io3yog0oux5.cloudfront.net/_480bab5adfc62db6ef1206ad85ae8e13/klatencor/db/1117/10585/letter_to_shareholders/KLA+Corporation+Q2CY25+Earnings+Letter+to+Shareholders.pdf) | low |
+| CLM-1896 | SEMI put wafer fab equipment (WFE) sales at a record US$104 billion in 2024. | [SRC-0630](https://semi.org/en/semi-press-release/global-semiconductor-equipment-sales-projected-to-reach-a-record-of-156-billion-dollars-in-2027-semi-reports) | high |
+| CLM-1933 | KLA estimated 2024 WFE at approximately US$100 billion and expected mid-single-digit growth in 2025. | [SRC-0649](https://d1io3yog0oux5.cloudfront.net/_480bab5adfc62db6ef1206ad85ae8e13/klatencor/db/1117/10585/letter_to_shareholders/KLA+Corporation+Q2CY25+Earnings+Letter+to+Shareholders.pdf) | medium |
 
 **Possible reasons:** definition: KLA's WFE may exclude fab facilities or mask/reticle equipment, or China domestic vendors; rounding
 **More defensible:** not determinable. KLA does not disclose its WFE definition; SEMI's includes fab facilities and mask/reticle equipment.
@@ -872,8 +872,8 @@ TEL cites 92% of all tracks (Gartner, CY2024), claims 100% of EUV tracks, while 
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-1936 | Tokyo Electron reports a 92% world market share in coater/developers (photoresist processing tracks) in CY2024, citing Gartner data. | [SRC-0645](https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4presentations-e.pdf) | low |
-| CLM-1938 | Tokyo Electron estimates it holds a 100% share of coater/developers used with EUV lithography and first or second place in each of its product segments. | [SRC-0646](https://www.tel.com/ir/library/ar/pjsoh100000000rc-att/ir2025_chapter2_en.pdf) | low |
+| CLM-1936 | Tokyo Electron reports a 92% world market share in coater/developers (photoresist processing tracks) in CY2024, citing Gartner data. | [SRC-0645](https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4presentations-e.pdf) | medium |
+| CLM-1938 | Tokyo Electron estimates it holds a 100% share of coater/developers used with EUV lithography and first or second place in each of its product segments. | [SRC-0646](https://www.tel.com/ir/library/ar/pjsoh100000000rc-att/ir2025_chapter2_en.pdf) | medium |
 | CLM-1953 | CSET's (c.2021-data) Explorer showed resist-processing tracks 96% supplied by Japan's Screen and Tokyo Electron, wet etch/clean 72% Screen and TEL, dielectric etch 60% TEL and 36% Lam, and conductor etch 84% Applied and Lam. | [SRC-0658](https://eto.tech/blog/five-key-facts-chokepoints-chip-supply-chain) | low |
 
 **Possible reasons:** population: all tracks vs EUV-only tracks; period: CY2024 vs c.2021; source: Gartner vs TechInsights-based CSET
@@ -886,14 +886,14 @@ SIA/BCG: US 10-year TCO ~25-30% above Taiwan; IC Knowledge: TSMC Arizona wafer c
 
 | Claim | Says | Sources | Confidence |
 |---|---|---|---|
-| CLM-2074 | SIA/BCG (2020) estimated that the 10-year total cost of ownership of a new fab in the US is about 30% higher than in Taiwan, South Korea or Singapore and 37% to 50% higher than in China. | [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) | low |
-| CLM-2075 | In the body of the 2020 SIA/BCG study, the TCO of a US-based fab is about 25% to 30% higher than an equivalent fab in Taiwan or Singapore across all three reference fab types, and roughly 50% higher than in China. | [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) | low |
-| CLM-2097 | IC Knowledge (2021) revised its estimate: after all country-to-country operating-cost differences, a TSMC wafer costs 7% more to make in Arizona than in Taiwan, rising to 17% because the Arizona fab (20,000 wpm) is smaller than Taiwan's 80,000-wpm phases. | [SRC-0704](https://semiwiki.com/semiconductor-manufacturers/tsmc/303594-tsmc-arizona-fab-cost-revisited) | low |
-| CLM-2094 | CRS (2020), citing one assessment, reported that wafers from TSMC's planned Arizona fab would be at least 7% more expensive to make than in Taiwan or China, attributing the gap to small capacity and higher construction, labour and utility costs. | [SRC-0702](https://www.everycrsreport.com/reports/R46581.html) | low |
+| CLM-2074 | SIA/BCG (2020) estimated that the 10-year total cost of ownership of a new fab in the US is about 30% higher than in Taiwan, South Korea or Singapore and 37% to 50% higher than in China. | [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) | medium |
+| CLM-2075 | In the body of the 2020 SIA/BCG study, the TCO of a US-based fab is about 25% to 30% higher than an equivalent fab in Taiwan or Singapore across all three reference fab types, and roughly 50% higher than in China. | [SRC-0698](https://web-assets.bcg.com/27/cf/9fa28eeb43649ef8674fe764726d/bcg-government-incentives-and-us-competitiveness-in-semiconductor-manufacturing-sep-2020.pdf) | medium |
+| CLM-2097 | IC Knowledge (2021) revised its estimate: after all country-to-country operating-cost differences, a TSMC wafer costs 7% more to make in Arizona than in Taiwan, rising to 17% because the Arizona fab (20,000 wpm) is smaller than Taiwan's 80,000-wpm phases. | [SRC-0704](https://semiwiki.com/semiconductor-manufacturers/tsmc/303594-tsmc-arizona-fab-cost-revisited) | medium |
+| CLM-2094 | CRS (2020), citing one assessment, reported that wafers from TSMC's planned Arizona fab would be at least 7% more expensive to make than in Taiwan or China, attributing the gap to small capacity and higher construction, labour and utility costs. | [SRC-0702](https://www.everycrsreport.com/reports/R46581.html) [SRC-0852](https://crsreports.congress.gov/product/pdf/R/R46581) | high |
 | CLM-2140 | TSMC founder Morris Chang said in April 2022 that chips made at TSMC's Oregon fab cost 50% more than those made in Taiwan, and that years of effort had not narrowed the gap much. | [SRC-0710](https://www.taipeitimes.com/News/biz/archives/2022/04/22/2003776996) | low |
 | CLM-2141 | Morris Chang said in March 2023 that his earlier estimate of US chipmaking costs 50% above Taiwan was an underestimate and that US costs could be twice Taiwan's. | [SRC-0711](https://www.taipeitimes.com/News/front/archives/2023/03/17/2003796242) | low |
 | CLM-2142 | AMD CEO Lisa Su said in July 2025 that chips from TSMC's Arizona fab would cost more than 5% but less than 20% more than those from Taiwan. | [SRC-0712](https://www.datacenterdynamics.com/en/news/amd-ceo-says-higher-cost-of-us-made-tsmc-chips-is-very-good-investment-to-ensure-supply-chain-resiliency) | low |
-| CLM-2107 | TSMC forecasts gross-margin dilution from ramping overseas fabs of 2% to 3% in the early stages of the next several years, widening to 3% to 4% in the later stages; it repeated this in January and April 2026. | [SRC-0707](https://tickertrends.io/transcripts/TSM/Q3-earnings-transcript-2025) [SRC-0708](https://tickertrends.io/transcripts/TSM/Q4-earnings-transcript-2025) [SRC-0709](https://www.trendforce.com/news/2026/04/16/news-tsmc-sees-2q-sales-up-10-qoq-to-40-2b-margins-rise-to-65-5-67-5-capex-at-top-end-of-52-56b/) | low |
+| CLM-2107 | TSMC forecasts gross-margin dilution from ramping overseas fabs of 2% to 3% in the early stages of the next several years, widening to 3% to 4% in the later stages; it repeated this in January and April 2026. | [SRC-0025](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf) [SRC-0849](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf) [SRC-0850](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/3cef85204275f94fd111485cfdf4adb3c0263c45/TSMC%201Q26%20Transcript.pdf) [SRC-0707](https://tickertrends.io/transcripts/TSM/Q3-earnings-transcript-2025) [SRC-0708](https://tickertrends.io/transcripts/TSM/Q4-earnings-transcript-2025) [SRC-0709](https://www.trendforce.com/news/2026/04/16/news-tsmc-sees-2q-sales-up-10-qoq-to-40-2b-margins-rise-to-65-5-67-5-capex-at-top-end-of-52-56b/) | medium |
 
 **Possible reasons:** definition: BCG measures TCO after incentives (40-70% of its gap is subsidies); IC Knowledge measures wafer COGS before incentives; population: Chang refers to a 1990s 200mm Oregon fab; IC Knowledge and Su refer to 5nm/4nm Arizona; scale: IC Knowledge attributes 10 of its 17 points to a 20k wpm fab vs 80k wpm Taiwan phases; metric: Su quotes customer price, TSMC quotes consolidated margin impact, not per-wafer cost; time: start-up costs (first fab, new workforce) vs steady state
 **More defensible:** not determinable. The figures measure different things (TCO incl. subsidies, wafer COGS, customer price, consolidated margin) for different fabs and years; once scope is stated most are not in direct conflict, but Chang's 'twice' has no method behind it.
@@ -1003,4 +1003,17 @@ Deloitte states gen-AI chips are 'roughly 0.2% of total volume'; dividing its ow
 **Possible reasons:** arithmetic: a percent/fraction slip (0.002% vs 0.2%); definition: Deloitte may mean a different denominator, e.g. wafers or a subset of chips, not stated; period: 2026 AI chips vs 2025 total units
 **More defensible:** CLM-2265. Both inputs come from the same document's endnotes; the quotient is unambiguous unless a different, undisclosed denominator was used.
 **Remaining uncertainty:** Deloitte does not state the denominator it used for 0.2%. Neither figure is a measured count: the 1.05 trillion units are an SIA estimate and the 20 million AI chips a rough wafer-based estimate.
+
+## CON-0075: Size of TSMC's Arizona vs Taiwan wafer-cost premium (open)
+
+IC Knowledge (2021) put TSMC's Arizona wafer cost 17% above Taiwan (7% country difference + 10% small-fab/clustering penalty); TechInsights (2025), using the successor of the same model, says less than 10%.
+
+| Claim | Says | Sources | Confidence |
+|---|---|---|---|
+| CLM-2097 | IC Knowledge (2021) revised its estimate: after all country-to-country operating-cost differences, a TSMC wafer costs 7% more to make in Arizona than in Taiwan, rising to 17% because the Arizona fab (20,000 wpm) is smaller than Taiwan's 80,000-wpm phases. | [SRC-0704](https://semiwiki.com/semiconductor-manufacturers/tsmc/303594-tsmc-arizona-fab-cost-revisited) | medium |
+| CLM-2302 | TechInsights' Dan Hutcheson (2025), citing the Strategic Cost and Price Model, said it costs TSMC less than 10% more to process a 300mm wafer in Arizona than the same wafer in Taiwan. | [SRC-0705](https://techinsights.com/blog/chip-insider-tsmcs-true-cost-arizona-versus-taiwan) | low |
+
+**Possible reasons:** period: 2021 model vs 2025 model with updated inputs; population: 2025 figure is for 'the same wafer', possibly excluding the fab-scale penalty that makes up 10 points of the 2021 17%; scale: Arizona site has since expanded beyond the initial 20,000 wpm plan, shrinking the scale penalty; method: 2025 public summary gives no breakdown
+**More defensible:** not determinable. The 2021 7% same-size figure and the 2025 <10% figure agree; the gap is the scale penalty, which the 2025 summary does not address.
+**Remaining uncertainty:** The full 2025 TechInsights analysis is paywalled; its fab-size assumptions are unknown.
 

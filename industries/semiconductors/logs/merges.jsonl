@@ -62,3 +62,13 @@
 {"added": {"claims": 2, "fact_checks": 34, "sources": 4}, "agent": "fc-W1R2-7ad5", "batch": "FC-W1R2-fc-W1R2-7ad5", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
 {"added": {"claims": 3, "fact_checks": 41, "sources": 1}, "agent": "fc-W1R2-bfd4", "batch": "FC-W1R2-fc-W1R2-bfd4", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
 {"added": {"claims": 2, "fact_checks": 36, "sources": 1}, "agent": "fc-W1R2-de9e", "batch": "FC-W1R2-fc-W1R2-de9e", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 4, "fact_checks": 34, "sources": 2, "updates": 1}, "agent": "fc-W1R2-07b2", "batch": "FC-W1R2-fc-W1R2-07b2", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"fact_checks": 45}, "agent": "fc-W1R2-0906", "batch": "FC-W1R2-fc-W1R2-0906", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 8, "fact_checks": 43, "sources": 6}, "agent": "fc-W1R2-126e", "batch": "FC-W1R2-fc-W1R2-126e", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 4, "fact_checks": 34, "sources": 5}, "agent": "fc-W1R2-129e", "batch": "FC-W1R2-fc-W1R2-129e", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 9, "fact_checks": 34, "sources": 1}, "agent": "fc-W1R2-1530", "batch": "FC-W1R2-fc-W1R2-1530", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"fact_checks": 44, "sources": 2, "updates": 5}, "agent": "fc-W1R2-823d", "batch": "FC-W1R2-fc-W1R2-823d", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"fact_checks": 45}, "agent": "fc-W1R2-a5f2", "batch": "FC-W1R2-fc-W1R2-a5f2", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 1, "fact_checks": 35, "updates": 2}, "agent": "fc-W1R2-b644", "batch": "FC-W1R2-fc-W1R2-b644", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 2, "fact_checks": 36, "sources": 1}, "agent": "fc-W1R2-be64", "batch": "FC-W1R2-fc-W1R2-be64", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}
+{"added": {"claims": 4, "contradictions": 1, "fact_checks": 35, "sources": 5, "updates": 8}, "agent": "fc-W1R2-eb23", "batch": "FC-W1R2-fc-W1R2-eb23", "date": "2026-10-01", "near_duplicate_claims": 0, "research_unit": null, "reused": {}}

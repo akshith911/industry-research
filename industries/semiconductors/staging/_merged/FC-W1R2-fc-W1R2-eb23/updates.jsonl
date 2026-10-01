@@ -1,0 +1,8 @@
+{"id": "CLM-2104", "set": {"source_ids": ["@s_1q25", "SRC-0706"]}}
+{"id": "CLM-2105", "set": {"source_ids": ["@s_1q25", "SRC-0706"]}}
+{"id": "CLM-2106", "set": {"source_ids": ["@s_3q25", "SRC-0707"]}}
+{"id": "CLM-2107", "set": {"source_ids": ["SRC-0025", "@s_3q25", "@s_1q26", "SRC-0707", "SRC-0708", "SRC-0709"], "evidence": "\"we continue to forecast the margin dilution from the ramp-up of overseas fabs in the next several years to be between 2% to 3% in the early stages and widen to 3% to 4% in the latter stages.\" (4Q25 call, 15 Jan 2026, TSMC IR transcript); repeated verbatim in substance on the 3Q25 (16 Oct 2025) and 1Q26 (16 Apr 2026) calls"}}
+{"id": "CLM-2108", "set": {"source_ids": ["SRC-0025", "@s_1q26", "SRC-0708"], "evidence": "\"the initial ramp-up of our two-nanometer technology will start to dilute our gross margin in the second half of the year, and we expect between 2% to 3% dilution for the full year of 2026.\" (4Q25 call, 15 Jan 2026, TSMC IR transcript); repeated on 1Q26 call (16 Apr 2026)"}}
+{"id": "CLM-2109", "set": {"source_ids": ["SRC-0025", "SRC-0708"], "evidence": "\"the CapEx dollar required to build 1k wafer-per-month capacity of N2 is substantially higher than 1k wafer-per-month capacity for N3. The CapEx-per-k cost for A14 will be even higher (added by company after the call).\" (4Q25 call, 15 Jan 2026, TSMC IR transcript, p. 4)"}}
+{"id": "CLM-2093", "set": {"source_ids": ["SRC-0702", "@s_crs"]}}
+{"id": "CLM-2094", "set": {"source_ids": ["SRC-0702", "@s_crs"]}}
